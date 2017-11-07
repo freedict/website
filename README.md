@@ -1,0 +1,1 @@
+There is no code here as of now. Please take a look at [this wiki article](https://github.com/freedict/fd-dictionaries/wiki/Website-migration-to-Lektor) in the main repository -- your comments and ideas are very welcome!
