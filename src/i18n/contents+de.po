@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-15 14:55+CET\n"
+"PO-Revision-Date: 2017-12-15 14:40+CET\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: http://localhost/dictionaries/
+#: (content/dictionaries/contents+en.lr:page.body)
+msgid "This is a table of the dictionaries:"
+msgstr "Dies ist eine Tabelle mit den Wörterbüchern:"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "And it does not contain a lot of information."
+msgstr "Und sie enthält nicht besonders viele Informationen."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "This is the new website of the FreeDict project."
+msgstr "Dies ist die neue Website des FreeDict-Projekts."
+
+#: http://localhost/dictionaries/
+#: (content/dictionaries/contents+en.lr:page.title)
+msgid "Dictionaries"
+msgstr "Wörterbücher"
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid "This website is under construction."
+msgstr "Diese Website befindet sich im Aufbau"
+
+#: http://localhost/ (content/contents+en.lr:page.title)
+msgid "Welcome to FreeDict!"
+msgstr "Willkommen bei FreeDict!"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.title)
+msgid "About this Website"
+msgstr "Über diese Website"

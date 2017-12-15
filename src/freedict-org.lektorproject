@@ -1,2 +1,15 @@
 [project]
 name = freedict-org
+
+[packages]
+lektor-i18n = 0.2
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.de]
+name = German
+url_prefix = /de/
+locale = de

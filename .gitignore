@@ -1,1 +1,5 @@
 src/build
+*+*.lr
+src/i18n/_compiled/
+*~
+
