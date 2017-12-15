@@ -1,6 +1,5 @@
 build/
-src/build/
-src/i18n/_compiled/
+i18n/_compiled/
 lighttpd.config
 *~
 *+*.lr

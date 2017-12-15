@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-15 15:02+CET\n"
+"POT-Creation-Date: 2017-12-15 22:02+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: http://localhost/dictionaries/ (content/dictionaries/contents+en.lr:page.body)
+#: http://localhost/dictionaries/
+#: (content/dictionaries/contents+en.lr:page.body)
 msgid "This is a table of the dictionaries:"
 msgstr ""
 
@@ -23,7 +24,8 @@ msgstr ""
 msgid "This is the new website of the FreeDict project."
 msgstr ""
 
-#: http://localhost/dictionaries/ (content/dictionaries/contents+en.lr:page.title)
+#: http://localhost/dictionaries/
+#: (content/dictionaries/contents+en.lr:page.title)
 msgid "Dictionaries"
 msgstr ""
 
@@ -38,4 +40,3 @@ msgstr ""
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About this Website"
 msgstr ""
-
