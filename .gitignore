@@ -4,3 +4,6 @@ src/i18n/_compiled/
 lighttpd.config
 *~
 *+*.lr
+*.swp
+*.swo
+*.swn
