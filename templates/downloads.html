@@ -1,0 +1,44 @@
+{% extends "page.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block htmlheader %}
+<script type="text/javascript">
+// Sets the display style of all currently selected dictionaries to BLOCK, and
+// all others to NONE.
+function showDictionaries(e) {
+    // Get the currently selected language from the SELECT object in the body
+    // (the function is called from there, with 'e' as the argument)
+    var selectedLang = e.options[e.selectedIndex].value;
+    // Query all elements that are marked with the dict-entry class name
+    var allEntries = document.querySelectorAll('.dict-entry');
+
+    // Counter + for-loop to go over all dictionary list entries in the document
+    var cnt;
+    for (cnt = 0; cnt < allEntries.length; cnt++) {
+        // Set display to block or none based on whether the element is marked
+        // with a class name dict-src-en, dict-src-de, ... depending on the
+        // selected language
+        if(allEntries[cnt].className.split(' ').includes("dict-src-" + selectedLang)) {
+            allEntries[cnt].style.display = "block";
+        } else {
+            allEntries[cnt].style.display = "none";
+        }
+    }
+
+}
+</script>
+{% endblock %}
+
+{% block body %}
+  <h2>{{ this.title }}</h2>
+{{ this.body }}
+
+{{ generate_download_section('mobile', alt) }}
+
+{% block after_mobile %}{{ this.after_mobile }}{% endblock %}
+
+{{ generate_download_section('desktop', alt) }}
+
+{% block after_desktop %} {{ this.after_desktop }} {% endblock %}
+
+{% endblock %}

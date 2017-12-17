@@ -1,0 +1,60 @@
+_model: downloads
+---
+title: Dictionary Downloads
+---
+body:
+
+FreeDict dictionaries are independent from a specific program and that means
+that you are free to pick whatever suits you best. Different applications
+understand different output formats (also known as platforms).
+
+Smartphones And Tablets
+-------------------
+
+We offer our dictionaries in the
+[slob format](https://github.com/itkach/slob/wiki/Dictionaries),
+an advanced format understood by the Aard2 dictionary program for Android. Just
+download
+[Aard2 from the playstore](https://play.google.com/store/apps/details?id=itkach.aard2&hl=en)
+or from
+[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).
+Finally, download one of our dictionaries below to your smartphone.
+
+Desktop Computers
+
+---
+after_mobile:
+
+Computers
+---------
+
+For desktop computers, you are free to choose between a variety of dictionary
+programs. The most popular and advanced is probably
+[GoldenDict](http:goldendict.org). It can read both
+Slob and Dictd, but Slob is advised, because it is the more advanced format.
+
+---
+after_desktop:
+
+Source and API
+--------------
+
+If you want to browse through our source, you have several options. We develop
+our dictionaries openly on
+[GitHub](https://github.com/freedict/fd-dictionaries). Get a copy with
+    $ git clone https://github.com/freedict/fd-dictionaries
+
+Automatically imported dictionaries are not present in this source tree, since
+they don't need versioning. The importers for those dictionaries is in the
+[tools](https://github.com/freedict/tools) repository, which is required for
+building anyway:
+
+    $ git clone https://github.com/freedict/tools
+
+Have a look at the
+[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO).
+
+If you are interested in the source files of *all* dictionaries, you can use the
+[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)
+to list all source releases.
+
