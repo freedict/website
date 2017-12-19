@@ -6,3 +6,4 @@ lighttpd.config
 *.swp
 *.swo
 *.swn
+iso-639-3.tab

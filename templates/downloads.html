@@ -12,11 +12,10 @@ function showDictionaries(e) {
     // Query all elements that are marked with the dict-entry class name
     var allEntries = document.querySelectorAll('.dict-entry');
 
-    // Counter + for-loop to go over all dictionary list entries in the document
     var cnt;
     for (cnt = 0; cnt < allEntries.length; cnt++) {
         // Set display to block or none based on whether the element is marked
-        // with a class name dict-src-en, dict-src-de, ... depending on the
+        // with a class name dict-src-eng, dict-src-deu, ... depending on the
         // selected language
         if(allEntries[cnt].className.split(' ').includes("dict-src-" + selectedLang)) {
             allEntries[cnt].style.display = "block";
@@ -24,7 +23,6 @@ function showDictionaries(e) {
             allEntries[cnt].style.display = "none";
         }
     }
-
 }
 </script>
 {% endblock %}
@@ -32,13 +30,13 @@ function showDictionaries(e) {
 {% block body %}
   <h2>{{ this.title }}</h2>
 {{ this.body }}
+{% endblock}
 
-{{ generate_download_section('mobile', alt) }}
+
+{{ generate_download_section('mobile') }}
 
 {% block after_mobile %}{{ this.after_mobile }}{% endblock %}
 
-{{ generate_download_section('desktop', alt) }}
+{{ generate_download_section('desktop') }}
 
 {% block after_desktop %} {{ this.after_desktop }} {% endblock %}
-
-{% endblock %}
