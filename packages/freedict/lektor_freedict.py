@@ -11,6 +11,16 @@ from lektor.context import get_ctx
 
 _ = None
 
+class HTML(object):
+    """A simple wrapper which instructs lektor to not escape HTML tags in the
+    resulting file."""
+    def __init__(self, html):
+        self.html = html
+
+    def __html__(self):
+        return self.html
+
+
 def load_json_api():
     """This function returns the JSON representation of the FreeDict API. It
     requires environment variable FREEDICT_TOOLS  to be set and a FreeDict
@@ -64,12 +74,12 @@ def mkpage(dictionaries, codes):
     languages = {l for k in dictionaries for l in k.split('-')}
     # ToDo: language names are not localised
     _ = lambda x: x
-    page = ['\n\n', _('Pick a language:'), ('\n\n<select onchange="'
+    page = ['\n\n<p><label>', _('Pick a language:'), ('\n\n<select onchange="'
         'showDictionaries(this);">\n<option value="none">'),
-        _('Select a language…</option>')]
+        _('No language selected…</option>')]
     page.append('\n'.join('<option value="%s">%s</option>' % (l, codes[l])
         for l in sorted(languages, key=lambda l: codes[l])))
-    page.append('</select>\n\n')
+    page.append('</select></label></p><hr/>\n\n<ul>')
 
     # ToDo: locale sorting
     for name, info in sorted(dictionaries.items()):
@@ -78,6 +88,7 @@ def mkpage(dictionaries, codes):
         page.append('dict-trg-%s" style="display: none">' % lg2)
         page.append('<a href="%s">%s - %s</a></li>\n' % (info['URL'], _(codes[lg1]),
             _(codes[lg2])))
+    page.append('\n</ul>\n')
     return ''.join(page)
 
 def generate_download_section(target):
@@ -105,7 +116,7 @@ def generate_download_section(target):
             raise ValueError("Dictionary %s without slob" % dictionary['name'])
         name = dictionary['name']
         dictionaries[name] = slob
-    return mkpage(dictionaries, codes)
+    return HTML(mkpage(dictionaries, codes))
 
 if __name__ == '__main__':
     generate_download_section('mobile')

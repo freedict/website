@@ -30,13 +30,12 @@ function showDictionaries(e) {
 {% block body %}
   <h2>{{ this.title }}</h2>
 {{ this.body }}
-{% endblock}
-
 
 {{ generate_download_section('mobile') }}
 
-{% block after_mobile %}{{ this.after_mobile }}{% endblock %}
+{{ this.after_mobile }}
 
 {{ generate_download_section('desktop') }}
 
 {% block after_desktop %} {{ this.after_desktop }} {% endblock %}
+{% endblock %}
