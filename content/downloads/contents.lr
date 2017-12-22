@@ -1,16 +1,19 @@
 _template: downloads.html
 ---
+_model: downloads.ini
+---
 title: Dictionary Downloads
 ---
 body:
 
-FreeDict dictionaries are independent from a specific program and that means
-that you are free to pick whatever suits you best. Different applications
-understand different output formats (also known as platforms).
+FreeDict dictionaries are stored in a generic file format which allows
+the conversion into other formats.  Different dictionary applications
+understand different output formats (also known as platforms) and we offer our
+dictionaries for as many platforms as possible.
 
 ## Smartphones And Tablets
 
-We offer our dictionaries in the
+We provide our dictionaries in the
 [slob format](https://github.com/itkach/slob/wiki/Dictionaries),
 an advanced format understood by the Aard2 dictionary program for Android. Just
 download
@@ -26,18 +29,24 @@ after_mobile:
 
 For desktop computers, you are free to choose between a variety of dictionary
 programs. The most popular and advanced is probably
-[GoldenDict](http:goldendict.org). It can read both
-Slob and Dictd, but Slob is advised, because it is the more advanced format.
+[GoldenDict](http:goldendict.org). It can read many formats, including the dictd
+format. Just download the archive below to your computer, unpack it and then
+select `import` from the menu within GoldenDict.
+
+**Hint on windows:** The archives are in the `.tar.xz` format. If you are unable
+to unpack this archive format, please download a program like
+[7-Zip](https://7-zip.org).
 
 ---
 after_desktop:
 
-Source and API
---------------
+### Source and API
 
 If you want to browse through our source, you have several options. We develop
 our dictionaries openly on
-[GitHub](https://github.com/freedict/fd-dictionaries). Get a copy with
+[GitHub](https://github.com/freedict/fd-dictionaries). You can get a fresh copy
+with
+
     $ git clone https://github.com/freedict/fd-dictionaries
 
 Automatically imported dictionaries are not present in this source tree, since
@@ -52,5 +61,5 @@ Have a look at the
 
 If you are interested in the source files of *all* dictionaries, you can use the
 [FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)
-to list all source releases.
+to retrieve information about _all_ source releases.
 
