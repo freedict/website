@@ -1,0 +1,56 @@
+title: FreeDict Community
+---
+body:
+
+# FreeDict Community
+
+The large number of dictionaries and the infrastructure around are only a part
+of FreeDict's story. Behind these, FreeDict is developed and run by enthusiasts
+with many different skill sets, including linguists, programmers or simply
+people with an affinity to languages. That means that no matter what your
+interests are, you are very welcome in the project.
+
+## Getting Started
+
+If you are new to our project, the following community resources are available:
+
+*   The IRC channel
+    [`#freedict`](https://webchat.oftc.net/?channels=freedict)
+    on the `OFTC` network is there to answer your questions in with any
+    complexity and without logging. If you do not know IRC, you
+    can try the [web chat](https://webchat.oftc.net/?channels=freedict).
+*   If you want to reach a broader range of users and developers, it is best to
+    subscribe to our [mailing list](https://www.freelists.org/list/freedict).
+    This list is very low traffic and full of people waiting to answer your
+    questions.
+*   If you do not speak English well enough, you may also try to ask in your
+    native language on the mailing list, there is a chance that somebody with
+    the according knowledge is around. Just be so kind to include
+    "Please translate my message from language XYZ" in the beginning of your
+    message, so that we can resort to a translation service, if nobody speaks
+    your language.
+
+You might also find help on our
+[FAQ site](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-FAQ).
+
+We are always looking for people with a different mothertongue than English. Our
+web site needs translation into as many languages as possible. This is not a lot
+of work and it doesn't change too often, so please
+[contact us](https://www.freelists.org/list/freedict)
+if you would like to help.
+
+## Development
+
+
+Development takes mostly place on [GitHub](https://github.com/freedict) and is
+split among several repositories. All the hand-written dictionaries are in the
+[fd-dictionaries](https://github.com/freedict/fd-dictionaries)
+repository, the tools are in the
+[the repository with the same name](https://github.com/freedict/tools).
+Any bugs or feature requests regarding dictionaries are managed on our
+[fd-dictionaries issue tracker](https://github.com/freedict/fd-dictionaries/issues), including those
+dictionaries which are *not* in the fd-dictionaries repository. All issues
+related to the development of tools for building and importing dictionaries
+should go to the
+[tools issue tracker](https://github.com/freedict/tools/issues).
+
