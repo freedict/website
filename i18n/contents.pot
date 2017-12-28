@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-22 10:48+CET\n"
+"POT-Creation-Date: 2017-12-25 14:08+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -13,118 +13,61 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
-msgid ""
-"[Aard2 from the playstore](https://play.google.com/store/apps/details?"
-"id=itkach.aard2&hl=en)"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid ""
-"an advanced format understood by the Aard2 dictionary program for Android. "
-"Just"
-msgstr ""
-
-#: http://localhost/ (content/contents+en.lr:page.body)
-msgid "This website is under construction."
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid ""
-"For desktop computers, you are free to choose between a variety of dictionary"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid ""
-"[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)"
-msgstr ""
-
-#: http://localhost/dictionaries/
-#: (content/dictionaries/contents+en.lr:page.body)
-msgid "This is a table of the dictionaries:"
-msgstr ""
-
-#: http://localhost/ (content/contents+en.lr:page.title)
-msgid "Welcome to FreeDict!"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid "We offer our dictionaries in the"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid "understand different output formats (also known as platforms)."
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid ""
-"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"HOWTO)."
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid "Finally, download one of our dictionaries below to your smartphone."
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid ""
-"FreeDict dictionaries are independent from a specific program and that means"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.title)
-msgid "Dictionary Downloads"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "## Computers"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "$ git clone https://github.com/freedict/tools"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
 msgid "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),"
 msgstr ""
 
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "Have a look at the"
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "of work and it doesn't change too often, so please"
 msgstr ""
 
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "$ git clone https://github.com/freedict/fd-dictionaries"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid "download"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "[GoldenDict](http:goldendict.org). It can read both"
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"related to the development of tools for building and importing dictionaries"
 msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "This is the new website of the FreeDict project."
+msgid "for more information."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "## Contact"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"We are happy to receive feedback, feature requests and we absolutely love"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "[community page](../community)"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "questions."
 msgstr ""
 
 #: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "programs. The most popular and advanced is probably"
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "to retrieve information about _all_ source releases."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"with many different skill sets, including linguists, programmers or simply"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "[`#freedict`](https://webchat.oftc.net/?channels=freedict)"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "This list is very low traffic and full of people waiting to answer your"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"[fd-dictionaries issue tracker](https://github.com/freedict/fd-dictionaries/"
+"issues), including those"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -133,28 +76,26 @@ msgid "our dictionaries openly on"
 msgstr ""
 
 #: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "Source and API"
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "## Computers"
 msgstr ""
 
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "building anyway:"
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "if you would like to help."
 msgstr ""
 
-#: http://localhost/dictionaries/
-#: (content/dictionaries/contents+en.lr:page.title)
-msgid "Dictionaries"
-msgstr ""
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.title)
-msgid "About this Website"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
-"they don't need versioning. The importers for those dictionaries is in the"
+"*   Truly free dictionaries: everybody is able to use, modify and "
+"redistribute"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "## Getting Started"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "[fd-dictionaries](https://github.com/freedict/fd-dictionaries)"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -163,19 +104,122 @@ msgid ""
 "[tools](https://github.com/freedict/tools) repository, which is required for"
 msgstr ""
 
+#: http://localhost/dictionaries/
+#: (content/dictionaries/contents+en.lr:page.body)
+msgid "This is a table of the dictionaries:"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"Nowadays, FreeDict is available for many platforms, including all major "
+"desktop"
+msgstr ""
+
 #: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "to list all source releases."
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
+"unable"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"\"Please translate my message from language XYZ\" in the beginning of your"
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
-msgid "or from"
+msgid "download"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2)."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "to unpack this archive format, please download a program like"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"of FreeDict's story. Behind these, FreeDict is developed and run by "
+"enthusiasts"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "[7-Zip](https://7-zip.org)."
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "-------------"
+msgid "with"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"[GitHub](https://github.com/freedict/fd-dictionaries). You can get a fresh "
+"copy"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "### Source and API"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "[the repository with the same name](https://github.com/freedict/tools)."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"they don't need versioning. The importers for those dictionaries is in the"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "[contact us](https://www.freelists.org/list/freedict)"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"When Michael Bunk took over the project in 2004, he opened the project to a"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "[tools issue tracker](https://github.com/freedict/tools/issues)."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "all dictionaries into the TEI format."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "## Smartphones And Tablets"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "select `import` from the menu within GoldenDict."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"native language on the mailing list, there is a chance that somebody with"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "FreeDict is a dictionary project with"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -186,29 +230,58 @@ msgid ""
 msgstr ""
 
 #: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "dictionaries for as many platforms as possible."
+msgstr ""
+
+#: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
 msgid ""
-"Slob and Dictd, but Slob is advised, because it is the more advanced format."
+"For desktop computers, you are free to choose between a variety of dictionary"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "can try the [web chat](https://webchat.oftc.net/?channels=freedict)."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "# FreeDict Community"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "the conversion into other formats.  Different dictionary applications"
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "[GitHub](https://github.com/freedict/fd-dictionaries). Get a copy with"
+msgid "Have a look at the"
 msgstr ""
 
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "And it does not contain a lot of information."
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
-msgid "## Smartphones And Tablets"
-msgstr ""
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.body)
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
-"that you are free to pick whatever suits you best. Different applications"
+"dictionaries which are *not* in the fd-dictionaries repository. All issues"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"web site needs translation into as many languages as possible. This is not a "
+"lot"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"We are always looking for people with a different mothertongue than English. "
+"Our"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "your language."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"people with an affinity to languages. That means that no matter what your"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -218,7 +291,289 @@ msgid ""
 "the"
 msgstr ""
 
+#: http://localhost/ (content/contents+en.lr:page.title)
+msgid "Welcome to FreeDict!"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"*   Dictionaries can be exported into a variety of output formats for mobile "
+"and"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"broader scope, allowing all kinds of dictionaries in the project and "
+"converted"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "complexity and without logging. If you do not know IRC, you"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"*   If you do not speak English well enough, you may also try to ask in your"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"[GoldenDict](http:goldendict.org). It can read many formats, including the "
+"dictd"
+msgstr ""
+
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
-msgid "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2)."
+msgid "or from"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"format. Just download the archive below to your computer, unpack it and then"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "programs. The most popular and advanced is probably"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "$ git clone https://github.com/freedict/tools"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "desktop dictionary programs."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "patches, Please have a look at our"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"*   Dictionaries are independent from a specific format and hence can be made"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"*   If you want to reach a broader range of users and developers, it is best "
+"to"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "# About FreeDict"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"The large number of dictionaries and the infrastructure around are only a "
+"part"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"and now offers both imported and hand-crafted dictionaries in various sizes. "
+"With the switch to TEI P5 in 2010, the project uses a"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"subscribe to our [mailing list](https://www.freelists.org/list/freedict)."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"understand different output formats (also known as platforms) and we offer "
+"our"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "$ git clone https://github.com/freedict/fd-dictionaries"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"This project was started in 2000 by Horst Eyermann. The first databases were"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"[Aard2 from the playstore](https://play.google.com/store/apps/details?"
+"id=itkach.aard2&hl=en)"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "scenario's, because it decouples from the actual output format."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"split among several repositories. All the hand-written dictionaries are in "
+"the"
+msgstr ""
+
+#: http://localhost/dictionaries/
+#: (content/dictionaries/contents+en.lr:page.title)
+msgid "Dictionaries"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "## Development"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"If you want to browse through our source, you have several options. We "
+"develop"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+"HOWTO)."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "Any bugs or feature requests regarding dictionaries are managed on our"
+msgstr ""
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid "This website is under construction."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.title)
+msgid "About FreeDict"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "repository, the tools are in the"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "be installed using `apt`."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"available for any purpose, either for end-users or scientific use cases."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.title)
+msgid "FreeDict Community"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"comprehensive standard to encode human speech. This format also allows for "
+"the usage of the dictionaries in yet unforeseen use case"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"message, so that we can resort to a translation service, if nobody speaks"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"derived from a project called Ergane which used to distribute free "
+"dictionaries."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "should go to the"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"an advanced format understood by the Aard2 dictionary program for Android. "
+"Just"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"If you are new to our project, the following community resources are "
+"available:"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"[FAQ site](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-FAQ)."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"operating systems and for Android. It is contained in Debian/Ubuntu as well, "
+"to"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "Finally, download one of our dictionaries below to your smartphone."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "We provide our dictionaries in the"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.title)
+msgid "Dictionary Downloads"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "the according knowledge is around. Just be so kind to include"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "FreeDict dictionaries are stored in a generic file format which allows"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"Development takes mostly place on [GitHub](https://github.com/freedict) and "
+"is"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "Since then, FreeDict has much evolved"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "## History"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "building anyway:"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "interests are, you are very welcome in the project."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "*   The IRC channel"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "our  dictionaries, given that the licencing terms are met."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "on the `OFTC` network is there to answer your questions in with any"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "You might also find help on our"
 msgstr ""

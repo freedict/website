@@ -9,10 +9,13 @@
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+          %}><a href="{{ '/'|url }}">Home</a></li>
         {% for href, title in [
-          ['/dictionaries', 'Dictionaries'],
-          ['/about', 'About']
+          ['/documentation', 'Documentation'],
+          ['/downloads', 'Downloads'],
+          ['/community', 'Community'],
+          ['/development', 'Development'],
+          ['/about', 'About us']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
@@ -20,9 +23,9 @@
       </ul>
     </nav>
   </header>
-  <div class="page">
+  <main class="page">
     {% block body %}{% endblock %}
-  </div>
+  </main>
   <footer>
     &copy; Copyright 2017 by The FreeDict Project.
   </footer>

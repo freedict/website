@@ -37,6 +37,34 @@ header nav ul li {
     padding: 0;
 }
 
-div.page {
+main.page {
     background: #f1fbfe;
 }
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text ! */
+    position: absolute;
+    z-index: 1;
+}
+
+// show text on mouse hover
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
