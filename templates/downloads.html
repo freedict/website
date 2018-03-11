@@ -5,12 +5,12 @@
 <script type="text/javascript">
 // Sets the display style of all currently selected dictionaries to BLOCK, and
 // all others to NONE.
-function showDictionaries(e) {
+function showDictionaries(e, platform) {
     // Get the currently selected language from the SELECT object in the body
     // (the function is called from there, with 'e' as the argument)
     var selectedLang = e.options[e.selectedIndex].value;
     // Query all elements that are marked with the dict-entry class name
-    var allEntries = document.querySelectorAll('.dict-entry');
+    var allEntries = document.querySelectorAll('.' + platform);
 
     var cnt;
     for (cnt = 0; cnt < allEntries.length; cnt++) {

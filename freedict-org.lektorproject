@@ -7,9 +7,9 @@ name = freedict-org
 [alternatives.en]
 name = English
 primary = yes
-locale = en_GB
+locale = en
 
 [alternatives.de]
 name = German
 url_prefix = /de/
-locale = de_DE
+locale = de
