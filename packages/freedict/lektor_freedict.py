@@ -1,3 +1,4 @@
+import collections
 import datetime
 import gettext
 import json
@@ -13,6 +14,7 @@ from lektor.context import get_ctx
 from lektor.pluginsystem import Plugin
 from lektor.utils import portable_popen
 
+#pylint: disable=too-few-public-methods
 class HTML():
     """A simple wrapper which instructs lektor to not escape HTML tags in the
     resulting file."""
@@ -111,32 +113,31 @@ def code2name(isotable, name):
 
 
 def mk_dropdown(dictionaries, codes, platform):
-    languages = {_(l) for k in dictionaries for l in k.split('-')}
+    languages = {l for k in dictionaries for l in k.split('-')}
+    languages = collections.OrderedDict(sorted(((l, _(codes[l]))
+        for l in languages), key=lambda x: _(x[1])))
     page = ['\n\n<p><label>', _('Pick a language:'), '\n\n<select onchange="'
         'showDictionaries(this, \'%s\');">\n<option value="none">' % platform,
         _('No language selected…'), '</option>']
-    page.append('\n'.join('<option value="%s">%s</option>' % (l, codes[l])
-        for l in sorted(languages, key=lambda l: codes[l])))
-    page.append('</select></label></p><hr/>\n\n<ul>')
+    page.append('\n'.join('<option value="%s">%s</option>' % (code, name)
+        for code, name in languages.items()))
+    page.append('</select></label></p><hr/>\n\n<p><ul>')
 
-    # sort dictionaries by local name
-    localised_names = {'%s - %s' % \
-             (_(codes[k.split('-')[0]]), _(codes[k.split('-')[1]])):
-             k for k in dictionaries}
-    for name, code in sorted(localised_names.items()):
-        lg1, lg2 = code.split('-')
-        page.append('\n<li class="dict-src-%s ' % lg1)
-        page.append('dict-trg-%s %s" style="display: none">' % (lg2, platform))
-        page.append('<a href="%s">%s</a></li>\n' % \
-                (dictionaries[code]['URL'], _(name)))
-    page.append('\n</ul>\n')
+    for abbr_name, dictionary in dictionaries.items():
+        lg1, lg2 = abbr_name.split('-')
+        name = '%s - %s' % (languages[lg1], languages[lg2])
+        page.append('\n<li style="list-style-type:circle; display: none" class="dict-src-%s ' % lg1)
+        page.append('dict-trg-%s %s">' % (lg2, platform))
+        page.append('<a href="%s">%s, ' % (dictionary['url'], name))
+        page.append(_('version {version} with {headwords} headwords').format(
+                version=dictionary['edition'], headwords=dictionary['headwords']))
+        page.append('</a></li>\n')
+    page.append('\n</ul></p>\n')
     return ''.join(page)
 
-def generate_download_section(target):
-    """Target can be either 'mobile' or 'desktop'."""
-    if not target in ('mobile', 'desktop'):
-        raise ValueError("Expected either mobile or desktop as target, got " + \
-                repr(target))
+def setup_gettext():
+    """Retreive locale from lektor settings and install the _ function to do its
+    work."""
     ctx = get_ctx()
     try:
         translator = gettext.translation("contents",
@@ -146,7 +147,16 @@ def generate_download_section(target):
         print("No locale found, assuming English.")
         translator = gettext.translation("contents",
             os.path.join('i18n', '_compiled'), languages=['en'], fallback = True)
+        translator.install()
 
+
+def generate_download_section(target):
+    """Target can be either 'mobile' or 'desktop'."""
+    if not target in ('mobile', 'desktop'):
+        raise ValueError("Expected either mobile or desktop as target, got " + \
+                repr(target))
+
+    setup_gettext()
     json_api = load_json_api()
     codes = load_iso_table()
     dictionaries = {}
@@ -154,12 +164,13 @@ def generate_download_section(target):
     for dictionary in json_api:
         try:
             url = next(r for r in dictionary['releases'] if r['platform'] ==
-                    platform)
+                    platform)['URL']
         except StopIteration:
             raise ValueError("Dictionary %s without release for %s" % (
                 dictionary['name'], platform))
         name = dictionary['name']
-        dictionaries[name] = url
+        dictionaries[name] = {'url': url, 'edition': dictionary['edition'],
+                'headwords': dictionary['headwords']}
     return HTML(mk_dropdown(dictionaries, codes, target))
 
 if __name__ == '__main__':
