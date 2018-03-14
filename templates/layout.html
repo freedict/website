@@ -27,6 +27,16 @@
     {% block body %}{% endblock %}
   </main>
   <footer>
-    &copy; Copyright 2017 by The FreeDict Project.
+    <p>{{ _('View this site in other languages:') }}
+      {% set alts = {} %}
+      {% for lang in config.values['ALTERNATIVES'].values()|map(attribute='name') %}
+        {% set short, name = lang.items()|first %}
+        {% if alts.update({name: short}) %} {% endif %}
+      {% endfor %}
+      {% for name, code in alts|dictsort %}
+      <a href="/{{ code }}">{{ name }}</a>
+      {% endfor %}
+    </p>
+    <p>&copy; Copyright 2018 by The FreeDict Project.</p>
   </footer>
 </body>
