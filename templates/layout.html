@@ -1,42 +1,46 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — freedict-org</title>
-{% block htmlheader %}{% endblock %}
-<body>
-  <header>
-    <h1>freedict-org</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Home</a></li>
-        {% for href, title in [
-          ['/documentation', 'Documentation'],
-          ['/downloads', 'Downloads'],
-          ['/community', 'Community'],
-          ['/development', 'Development'],
-          ['/about', 'About us']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-  <main class="page">
-    {% block body %}{% endblock %}
-  </main>
-  <footer>
-    <p>{{ _('View this site in other languages:') }}
-      {% set alts = {} %}
-      {% for lang in config.values['ALTERNATIVES'].values()|map(attribute='name') %}
-        {% set short, name = lang.items()|first %}
-        {% if alts.update({name: short}) %} {% endif %}
-      {% endfor %}
-      {% for name, code in alts|dictsort %}
-      <a href="/{{ code }}">{{ name }}</a>
-      {% endfor %}
-    </p>
-    <p>&copy; Copyright 2018 by The FreeDict Project.</p>
-  </footer>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+    <title>{% block title %}Welcome{% endblock %} — freedict-org</title>
+    {% block htmlheader %}{% endblock %}
+  </head>
+  <body>
+    <header>
+      <h1>freedict-org</h1>
+      <nav>
+        <ul class="nav navbar-nav">
+          <li{% if this._path == '/' %} class="active"{% endif
+                                        %}><a href="{{ '/'|url }}">Home</a></li>
+          {% for href, title in [
+                  ['/documentation', 'Documentation'],
+                  ['/downloads', 'Downloads'],
+                  ['/community', 'Community'],
+                  ['/development', 'Development'],
+                  ['/about', 'About us'] ] -%}
+            <li{% if this.is_child_of(href) %} class="active"{% endif -%}>
+              <a href="{{ href|url }}">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <main class="page">
+      {% block body %}{% endblock %}
+    </main>
+    <footer>
+      <p>{{ _('View this site in other languages:') -}}
+        {%- set alts = {} -%}
+        {% for lang in config.values['ALTERNATIVES'].values() -%}
+        {% set name = lang['name'].items()|first|last -%}
+        {% set prefix = '/' if lang['url_prefix'] == None else lang['url_prefix'] -%}
+        {% if alts.update({name: prefix}) %} {% endif -%}
+        {%- endfor %}
+        {% for name, url_prefix in alts|dictsort -%}
+        <a href="{{ url_prefix }}">{{ name }}</a>
+        {% endfor -%}
+      </p>
+      <p>&copy; Copyright 2018 by The FreeDict Project.</p>
+    </footer>
+  </body>
+</html>
