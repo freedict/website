@@ -38,9 +38,9 @@
         {%- endfor %}
         {% for name, url_prefix in alts|dictsort -%}
         <a href="{{ url_prefix }}">{{ name }}</a>
-        {% endfor -%}
+        {%- endfor %}
       </p>
-      <p>&copy; Copyright 2018 by The FreeDict Project.</p>
+      <p>&copy; Copyright {{ get_year() }} by The FreeDict Project.</p>
     </footer>
   </body>
 </html>

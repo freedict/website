@@ -1,18 +1,16 @@
 import collections
 import datetime
 import gettext
-import json
 import os
 import re
-import subprocess
-import sys
 import tempfile
 import time
-import urllib.request
 
 from lektor.context import get_ctx
 from lektor.pluginsystem import Plugin
 from lektor.utils import portable_popen
+
+from resources import load_json_api, load_iso_table
 
 #pylint: disable=too-few-public-methods
 class HTML():
@@ -23,25 +21,6 @@ class HTML():
 
     def __html__(self):
         return self.html
-
-
-def load_json_api():
-    """This function returns the JSON representation of the FreeDict API. It
-    requires environment variable FREEDICT_TOOLS  to be set and a FreeDict
-    configuration with a valid API output path, try
-    `make -C $FREEDICT_TOOLS api-path`
-    as a test."""
-    if not 'FREEDICT_TOOLS' in os.environ:
-        raise OSError('The environment variable has to be set.')
-    proc = subprocess.Popen(['make', '--no-print-directory', '-C',
-        os.environ['FREEDICT_TOOLS'], 'api-path'], stdout=subprocess.PIPE)
-    ret = proc.wait()
-    if ret:
-        raise OSError(("Failed to execute `make -C $FREEDICT_TOOLS api-path`, "
-            "process exited with error code %d") % ret)
-    path = os.path.join(proc.communicate()[0].decode(sys.getdefaultencoding()),
-        'freedict-database.json')
-    return json.load(open(path))
 
 
 class FreedictPlugin(Plugin):
@@ -63,8 +42,10 @@ class FreedictPlugin(Plugin):
 
     #pylint: disable=unused-argument
     def on_setup_env(self, **extra):
-        self.env.jinja_env.globals.update(generate_download_section=
-                generate_download_section)
+        # add all functions which should be visible from the jinja2 templates
+        self.env.jinja_env.globals.update(
+                get_year = get_year,
+                generate_download_section = generate_download_section)
         # craft temporary POT file with languages
         now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
         now += '+%s'%(time.tzname[0])
@@ -95,24 +76,24 @@ class FreedictPlugin(Plugin):
                     'UTF-8', plugin_pot.name], stdout=f).wait()
 
 
-def load_iso_table():
-    if not os.path.exists('iso-639-3.tab'):
-        with urllib.request.urlopen('http://www-01.sil.org/iso639-3/iso-639-3.tab') as u:
-            with open('iso-639-3.tab', 'wb') as f:
-                f.write(u.read())
-    with open('iso-639-3.tab', encoding='UTF-8') as f:
-        codes = {}
-        strip_paren = lambda x: re.sub(r'(.*?)\s*\(.*\)$', r'\1', x).strip()
-        for line in f.read().split('\n'):
-            codes[line.split('\t')[0]] = strip_paren(line.split('\t')[-2])
-        return codes
-
-def code2name(isotable, name):
-    lg1, lg2 = name.split('-')
-    return '%s - %s' % (isotable[lg1], isotable[lg2])
+def setup_gettext():
+    """Retrieve locale from lektor settings and install the _ function to do its
+    work."""
+    ctx = get_ctx()
+    try:
+        translator = gettext.translation("contents",
+            os.path.join('i18n', '_compiled'), languages=[ctx.locale], fallback = True)
+        translator.install()
+    except AttributeError:
+        print("No locale found, assuming English.")
+        translator = gettext.translation("contents",
+            os.path.join('i18n', '_compiled'), languages=['en'], fallback = True)
+        translator.install()
 
 
 def mk_dropdown(dictionaries, codes, platform):
+    """This function generates the drop-down menu on the downloads page to
+    select the available languages."""
     languages = {l for k in dictionaries for l in k.split('-')}
     languages = collections.OrderedDict(sorted(((l, _(codes[l]))
         for l in languages), key=lambda x: _(x[1])))
@@ -134,21 +115,6 @@ def mk_dropdown(dictionaries, codes, platform):
         page.append('</a></li>\n')
     page.append('\n</ul></p>\n')
     return ''.join(page)
-
-def setup_gettext():
-    """Retreive locale from lektor settings and install the _ function to do its
-    work."""
-    ctx = get_ctx()
-    try:
-        translator = gettext.translation("contents",
-            os.path.join('i18n', '_compiled'), languages=[ctx.locale], fallback = True)
-        translator.install()
-    except AttributeError:
-        print("No locale found, assuming English.")
-        translator = gettext.translation("contents",
-            os.path.join('i18n', '_compiled'), languages=['en'], fallback = True)
-        translator.install()
-
 
 def generate_download_section(target):
     """Target can be either 'mobile' or 'desktop'."""
@@ -173,6 +139,5 @@ def generate_download_section(target):
                 'headwords': dictionary['headwords']}
     return HTML(mk_dropdown(dictionaries, codes, target))
 
-if __name__ == '__main__':
-    generate_download_section('mobile')
-
+def get_year():
+    return str(datetime.datetime.now().year)
