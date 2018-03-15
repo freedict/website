@@ -1,5 +1,7 @@
 build/
 i18n/_compiled/
+i18n/contents.pot
+i18n/plugin.pot
 lighttpd.config
 *~
 *+*.lr
