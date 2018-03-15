@@ -29,7 +29,7 @@
       {% block body %}{% endblock %}
     </main>
     <footer>
-      <p>{{ _('View this site in other languages:') -}}
+      <p>{{ _('View this site in in another language:') -}}
         {%- set alts = {} -%}
         {% for lang in config.values['ALTERNATIVES'].values() -%}
         {% set name = lang['name'].items()|first|last -%}

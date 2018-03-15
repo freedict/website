@@ -2,7 +2,7 @@ title: About FreeDict
 ---
 body:
 
-# About FreeDict
+### About FreeDict
 
 FreeDict is a dictionary project with
 
@@ -13,25 +13,23 @@ FreeDict is a dictionary project with
 *   Dictionaries are independent from a specific format and hence can be made
     available for any purpose, either for end-users or scientific use cases.
 
-## History
+#### History
 
 This project was started in 2000 by Horst Eyermann. The first databases were
 derived from a project called Ergane which used to distribute free dictionaries.
 When Michael Bunk took over the project in 2004, he opened the project to a
 broader scope, allowing all kinds of dictionaries in the project and converted
-all dictionaries into the TEI format.
+all dictionaries into the TEI format. He both imported new dictionaries and wrote other dictionaries by hand himself.
 
 Since then, FreeDict has much evolved
-and now offers both imported and hand-crafted dictionaries in various sizes. With the switch to TEI P5 in 2010, the project uses a
-comprehensive standard to encode human speech. This format also allows for the usage of the dictionaries in yet unforeseen use case
-scenario's, because it decouples from the actual output format.
+and now offers both imported and hand-crafted dictionaries in various sizes.
 
-Nowadays, FreeDict is available for many platforms, including all major desktop
-operating systems and for Android. It is contained in Debian/Ubuntu as well, to
-be installed using `apt`.
+With the switch to TEI P5 in 2010, the project uses a
+comprehensive standard to encode human speech. This format also allows for the
+usage of the dictionaries in yet unforeseen use case scenario's, because it
+decouples from the actual output format.
 
-
-## Contact
+#### Contact
 
 We are happy to receive feedback, feature requests and we absolutely love
 patches, Please have a look at our

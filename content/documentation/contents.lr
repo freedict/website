@@ -1,0 +1,66 @@
+title: Documentation
+---
+body:
+
+Most of the documentation can be found in the
+[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is mostly an
+overview over the available resources.
+A good starting point is the section on [frequently asked questions](FreeDict-FAQ.md).
+If you only need help on installing a program to use our dictionaries, the
+[downloads page](downloads) should help you getting started. If you are stuck at
+any point, you might want to [ask for help](community).
+
+### Building dictionaries
+
+To develop an importer or to build a dictionary from source, it is necessary
+that you get a fresh copy of the
+[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:
+
+    $ git clone https://github.com/freedict/tools
+
+The README details the installation in more detail and the building  process is
+detailled in the
+[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-%E2%80%93-FreeDict-Build-System).
+In summary you need
+Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the output
+format). If you are on windows, we do advise that you take
+a look at the [Msys2 project](https://www.msys2.org/).
+
+Once the tools directory is in place, you should set the environment variable
+`FREEDICT_TOOLS` to its absolute path.\
+**Note:** Due to limitations in Make, we do not support paths with whitespace.
+
+As son as all this has been set up, you can build a dictionary by changing to
+its directory and type `make`.
+
+### Creating And Importing Dictionaries
+
+A lengthy introduction into FreeDict internals, including documentation on how
+to format and process dictionaries can be found in the
+[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO).
+
+Most of the dictionaries have not been written by hand, but where important from
+other free sources. The
+[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-Centre)
+gives an overview about which dictionaries have been imported with which program
+and is a good starting point for new importers.
+
+### API
+
+Static information about our dictionaries can be retrieved over a CORS-enabled
+API, both in XML and JSON format. It can be used to retrieve download links and
+other meta information useful for embedding them into a dictionary program. The
+URLs are
+    http://freedict.org/freedict-database.xml
+    http://freedict.org/freedict-database.json
+
+The individual fields are documented
+[here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API).
+
+### New Dictionary Output Formats
+
+We are always trying to reach more users by exporting into more output formats
+and our limiting factor is solely the number of contributors. There is a
+[list of clients](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients)
+and ideally we would support them all, one day.
+
