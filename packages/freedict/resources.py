@@ -2,12 +2,14 @@
 generating information on the freedict.org web site."""
 
 import collections
+import datetime
 import json
 import os
 import re
 import subprocess
 import sys
 import urllib
+import yaml
 
 def load_json_api():
     """This function returns the JSON representation of the FreeDict API. It
@@ -42,4 +44,18 @@ def load_iso_table():
         for line in f.read().split('\n'):
             codes[line.split('\t')[0]] = strip_paren(line.split('\t')[-2])
         return codes
+
+def load_changelog():
+    """This function returns a simple mapping from datetime object to (textual)
+    changelog entry."""
+    # we assume to be in the lektor project root
+    if not os.path.exists('Changelog'):
+        return {}
+    with open('Changelog') as f:
+        # order entries, convert datetime.date to datetime.datetime
+        d2d = lambda d: datetime.datetime(year=d.year, month=d.month, day=d.day)
+        return collections.OrderedDict(sorted(((d2d(k), v)
+            for k,v in yaml.load(f).items()), reverse=True))
+
+
 

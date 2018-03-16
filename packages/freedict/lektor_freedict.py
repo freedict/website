@@ -3,6 +3,7 @@ import datetime
 import gettext
 import os
 import re
+import shlex
 import tempfile
 import time
 
@@ -67,9 +68,12 @@ class FreedictPlugin(Plugin):
         lang_pot.write(''.join(pot).encode('UTF-8'))
         lang_pot.flush()
         plugin_pot = tempfile.NamedTemporaryFile(suffix='pot')
+        directory = os.path.dirname(os.path.abspath(__file__))
+        pyfiles = (shlex.quote(os.path.join(directory, f))
+                for f in os.listdir(directory) if f.endswith('.py'))
         xgettext = portable_popen(['xgettext', '-L', 'Python',
-            '--from-code=UTF-8', os.path.relpath(__file__), '-o',
-            plugin_pot.name])
+            '--from-code=UTF-8', '-o', plugin_pot.name,
+            ' '.join(pyfiles)])
         xgettext.wait()
         with open(os.path.join('i18n', 'plugins.pot'), 'wb') as f:
             portable_popen(['msgcat', "--use-first", lang_pot.name, '-t',
