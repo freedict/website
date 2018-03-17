@@ -2,9 +2,11 @@ import collections
 from datetime import datetime, timedelta
 import itertools
 import json
+import os
+import pickle
 import urllib.request
 
-from resources import load_changelog, load_iso_table, load_json_api
+import common
 
 NEWS_TIMESPAN = 30 # news from last 30 days
 
@@ -12,7 +14,7 @@ def get_releases(timespan):
     """Return all releases made in the given timedelta."""
     releases = {}
     now = datetime.now()
-    for dictionary in load_json_api():
+    for dictionary in common.load_json_api():
         name = dictionary['name']
         for release in dictionary['releases']:
             date = datetime.strptime(release['date'], '%Y-%m-%d')
@@ -88,7 +90,7 @@ def format_news(news):
         return '' # no news, no news section; please don't let this happen :)
 
     # load localised language names
-    languages = {id: _(name) for id, name in load_iso_table().items()}
+    languages = {id: _(name) for id, name in common.load_iso_table().items()}
     def trans_name(name):
         lg1, lg2 = name.split('-') # ISO 639-3 xxx-yyy naming
         return '%s - %s' % (languages[lg1], languages[lg2])
@@ -116,26 +118,42 @@ def format_news(news):
     page.extend(format_latest_changes({k: v
             for k,v in news.items() if k not in ('releases', 'changelog')}))
     page.append('\n</ul>\n</p>\n')
-    return ''.join(page)
+    return common.HTML(''.join(page))
 
 def generate_news_section():
-    get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
-    timespan = timedelta(days=NEWS_TIMESPAN)
-    recent_enough = lambda x: get_date(x) > (datetime.now() -timespan)
+    """Retrieve news from multiple sources and generate a news section. If the
+    environment variable DEBUG, databags/news.json is loaded, if it exists.
+    Otherwise the file is retrieved and stored for subsequent debugging. If no
+    internet access is present and no databags/news.json file exists, the news
+    section will be empty."""
+    news = None
+    common.setup_gettext() # make localisation work
+    if 'DEBUG' in os.environ:
+        if not os.path.exists('databags/news.pickle'):
+            return '' # no databag present, pretend empty news section
+        news = pickle.load(open('databags/news.pickle', 'rb'), encoding='UTF-8')
+    else: # load fresh data
+        get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
+        timespan = timedelta(days=NEWS_TIMESPAN)
+        recent_enough = lambda x: get_date(x) > (datetime.now() -timespan)
 
-    news = {'releases': get_releases(timespan)}
-    # load github events
-    for repo in github_request('/orgs/freedict/repos'):
-        for type, changes in get_events_for_repo(repo['name']).items():
-            recent_changes = [ch for ch in changes if recent_enough(ch)]
-            if recent_changes:
-                if not repo['name'] in news:
-                    news[repo['name']] = {}
-                news[repo['name']][type] = recent_changes
-    # load changelog entries from the last year
-    news['changelog'] = {date: entry
-            for date, entry in load_changelog().items()
-            if (datetime.now() - date) < timedelta(days=365)}
+        news = {'releases': get_releases(timespan)}
+        # load github events
+        for repo in github_request('/orgs/freedict/repos'):
+            for type, changes in get_events_for_repo(repo['name']).items():
+                recent_changes = [ch for ch in changes if recent_enough(ch)]
+                if recent_changes:
+                    if not repo['name'] in news:
+                        news[repo['name']] = {}
+                    news[repo['name']][type] = recent_changes
+        # load changelog entries from the last year
+        news['changelog'] = {date: entry
+                for date, entry in common.load_changelog().items()
+                if (datetime.now() - date) < timedelta(days=365)}
+        if not os.path.exists('databags'):
+            os.mkdir('databags')
+        with open('databags/news.pickle', 'wb') as f:
+            pickle.dump(news, f)
     return format_news(news)
 
 

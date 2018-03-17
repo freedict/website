@@ -1,15 +1,18 @@
-"""Tis module contains functions to load external resources, required for
-generating information on the freedict.org web site."""
+"""Tis module contains common functions and classes to load external resources
+or to interact with them."""
 
 import collections
 import datetime
 import json
+import gettext
 import os
 import re
 import subprocess
 import sys
 import urllib
 import yaml
+
+from lektor.context import get_ctx
 
 def load_json_api():
     """This function returns the JSON representation of the FreeDict API. It
@@ -56,6 +59,31 @@ def load_changelog():
         d2d = lambda d: datetime.datetime(year=d.year, month=d.month, day=d.day)
         return collections.OrderedDict(sorted(((d2d(k), v)
             for k,v in yaml.load(f).items()), reverse=True))
+
+
+def setup_gettext():
+    """Retrieve locale from lektor settings and install the _ function to do its
+    work."""
+    ctx = get_ctx()
+    try:
+        translator = gettext.translation("contents",
+            os.path.join('i18n', '_compiled'), languages=[ctx.locale], fallback = True)
+        translator.install()
+    except AttributeError:
+        print("No locale found, assuming English.")
+        translator = gettext.translation("contents",
+            os.path.join('i18n', '_compiled'), languages=['en'], fallback = True)
+        translator.install()
+
+
+class HTML():
+    """A simple wrapper which instructs lektor to not escape HTML tags in the
+    resulting file."""
+    def __init__(self, html):
+        self.html = html
+
+    def __html__(self):
+        return self.html
 
 
 

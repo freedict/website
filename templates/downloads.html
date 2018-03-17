@@ -28,8 +28,7 @@ function showDictionaries(e, platform) {
 {% endblock %}
 
 {% block body %}
-  <h2>{{ this.title }}</h2>
-{{ this.body }}
+  {{ super() }}
 
 {{ generate_download_section('mobile') }}
 

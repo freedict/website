@@ -1,28 +1,17 @@
 import collections
 import datetime
-import gettext
 import os
 import re
 import tempfile
 import time
 
-from lektor.context import get_ctx
 from lektor.pluginsystem import Plugin
 from lektor.utils import portable_popen
 
-from resources import load_json_api, load_iso_table
+import news
+from common import HTML, load_json_api, load_iso_table, setup_gettext
 
 #pylint: disable=too-few-public-methods
-class HTML():
-    """A simple wrapper which instructs lektor to not escape HTML tags in the
-    resulting file."""
-    def __init__(self, html):
-        self.html = html
-
-    def __html__(self):
-        return self.html
-
-
 class FreedictPlugin(Plugin):
     name = 'freedict'
     description = 'FreeDict page generator functionality'
@@ -45,7 +34,8 @@ class FreedictPlugin(Plugin):
         # add all functions which should be visible from the jinja2 templates
         self.env.jinja_env.globals.update(
                 get_year = get_year,
-                generate_download_section = generate_download_section)
+                generate_download_section = generate_download_section,
+                generate_news_section=news.generate_news_section)
         # craft temporary POT file with languages
         now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
         now += '+%s'%(time.tzname[0])
@@ -80,21 +70,6 @@ class FreedictPlugin(Plugin):
         with open(os.path.join('i18n', 'plugins.pot'), 'wb') as f:
             portable_popen(['msgcat', "--use-first", lang_pot.name, '-t',
                     'UTF-8', plugin_pot.name], stdout=f).wait()
-
-
-def setup_gettext():
-    """Retrieve locale from lektor settings and install the _ function to do its
-    work."""
-    ctx = get_ctx()
-    try:
-        translator = gettext.translation("contents",
-            os.path.join('i18n', '_compiled'), languages=[ctx.locale], fallback = True)
-        translator.install()
-    except AttributeError:
-        print("No locale found, assuming English.")
-        translator = gettext.translation("contents",
-            os.path.join('i18n', '_compiled'), languages=['en'], fallback = True)
-        translator.install()
 
 
 def mk_dropdown(dictionaries, codes, platform):

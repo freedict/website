@@ -1,3 +1,6 @@
+_template: frontpage.html
+---
+---
 title: FreeDict
 ---
 body:
@@ -21,6 +24,3 @@ you can travel abroad without the fear that your provider will make you pay a
 lot just for a few dictionary lookups and with the certainty that you can
 translate whatever you want without a network connection.
 
-## News
-
-ToDo: plugin
