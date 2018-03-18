@@ -3,6 +3,7 @@ build/
 databags/news.pickle
 i18n/_compiled/
 i18n/contents.pot
+i18n/plugins.pot
 i18n/plugin.pot
 iso-639-3.tab
 lighttpd.config
