@@ -1,0 +1,9 @@
+# This is a changelog file for the website. While it is YAML, only two things
+# are supported: a new entry starts with date in the format "%Y-%m-%d:", followed
+# by multiple indented lines with no additional formatting.
+# Files with a hash character are ignored.
+2018-03-19:
+  Finally, there is a first early draft of the brand-new FreeDict website
+  online. It is still bare-bones and not translated. We would appreciate if you
+  could send us feedback. Especially layouting is far from settled yet, so your
+  CSS skills are very welcome.
