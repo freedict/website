@@ -86,7 +86,7 @@ def format_latest_changes(repos):
 
 def format_news(news):
     """Format the entries gathered in the generate_news_section function."""
-    if len(news) == 1 and not news['releases']:
+    if len(news) == 2 and not news['releases']:
         return '' # no news, no news section; please don't let this happen :)
 
     # load localised language names

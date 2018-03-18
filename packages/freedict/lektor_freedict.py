@@ -35,6 +35,7 @@ class FreedictPlugin(Plugin):
         self.env.jinja_env.globals.update(
                 get_year = get_year,
                 generate_download_section = generate_download_section,
+                generate_maintainer_overview = generate_maintainer_overview,
                 generate_news_section=news.generate_news_section)
         # craft temporary POT file with languages
         now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
@@ -122,3 +123,25 @@ def generate_download_section(target):
 
 def get_year():
     return str(datetime.datetime.now().year)
+
+def generate_maintainer_overview():
+    """Generate a maintainer section for the community page."""
+    setup_gettext()
+    maint2dicts = {}
+    languages = {id: _(name) for id, name in load_iso_table().items()}
+    def trans_name(name):
+        lg1, lg2 = name.split('-') # ISO 639-3 xxx-yyy naming
+        return '%s - %s' % (languages[lg1], languages[lg2])
+
+    for dictionary in load_json_api():
+        if "maintainerName" not in dictionary or 'no maint' in \
+                dictionary['maintainerName']:
+            continue
+        name = dictionary['maintainerName']
+        if not name in maint2dicts:
+            maint2dicts[name] = []
+        maint2dicts[name].append(trans_name(dictionary['name']))
+    return collections.OrderedDict(sorted(maint2dicts.items()))
+
+if __name__ == '__main__':
+    print(generate_maintainer_overview())

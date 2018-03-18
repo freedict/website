@@ -1,3 +1,5 @@
+_template: community.html
+---
 title: FreeDict Community
 ---
 body:
@@ -53,8 +55,8 @@ should go to the
 [tools issue tracker](https://github.com/freedict/tools/issues).
 
 #### I'm Not A Developer
-#
-#Great, we cannot wait for your contribution!
+
+Great, we cannot wait for your contribution!
 We are always looking for people with a different mothertongue than English. Our
 web site needs translation into as many languages as possible. This is not a lot
 of work and it doesn't change too often, so please
@@ -64,3 +66,4 @@ if you would like to help.
 Recommending free and open dictionaries from the web is also very helpful to our
 project, because we simply can't now them all. If in doubt, have a look at the
 [GitHub issue tracker](https://github.com/freedict/fd-dictionaries/issues).
+

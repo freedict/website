@@ -1,0 +1,23 @@
+{% extends "page.html" %}
+
+{% block body %}
+  {{ super() }}
+
+    <h3>{{ _('Active Dictionary Maintainers') }}</h3>
+
+    <p>
+      <table>
+        <thead><tr>
+          <th class="absorbing-column"><strong>{{ _('Dictionary Maintainer') }}</strong></th>
+          <th><strong>{{ _('Dictionaries') }}</strong></th></tr>
+        </thead>
+        <tbody>
+          {% for clearname, dicts in generate_maintainer_overview().items() -%}
+          <tr><td>{{ clearname }}</td>
+            <td>{{ ', '.join(dicts) }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </p>
+    {% endfor %}
+{% endblock %}
