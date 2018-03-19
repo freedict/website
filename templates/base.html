@@ -34,11 +34,15 @@
         {% for lang in config.values['ALTERNATIVES'].values() -%}
         {% set name = lang['name'].items()|first|last -%}
         {% set prefix = '/' if lang['url_prefix'] == None else lang['url_prefix'] -%}
-        {% if alts.update({name: prefix}) %} {% endif -%}
+        {% set norm_prf = prefix.strip('/') %}
+        {% if (not norm_prf and this._alt != "en") or
+                (norm_prf and norm_prf != this._alt) %}
+          {% if alts.update({name: prefix}) %} {% endif -%}
+        {% endif %}
         {%- endfor %}
         {% for name, url_prefix in alts|dictsort -%}
-        <a href="{{ url_prefix }}">{{ name }}</a>
-        {%- endfor %}
+        <a href="{{ url_prefix }}">{{ name }}</a> 
+        {% endfor %}
       </p>
       <p>&copy; Copyright {{ get_year() }} by The FreeDict Project.</p>
     </footer>

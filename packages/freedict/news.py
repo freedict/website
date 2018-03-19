@@ -69,8 +69,8 @@ def format_latest_changes(repos):
             if 'GollumEvent' in val)
     if all(x == 0 for x in (wiki, issues, commit_sum)):
         return []
-    chunks = ['<li>', _('Work in the last {days} days:\n<ul>\n') \
-            .format(days=NEWS_TIMESPAN), '\n']
+    chunks = ['<li>', _('Work in the last {days} days:') \
+            .format(days=NEWS_TIMESPAN), '\n<ul>\n\n']
     if commit_sum:
         chunks += ['<li>', _('{num} commits in').format(num=commit_sum), ' ',
                 ', '.join('<a href="https://github.com/freedict/%s">%s</a>' \

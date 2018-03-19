@@ -88,10 +88,10 @@ def mk_dropdown(dictionaries, codes, platform):
 
     for abbr_name, dictionary in dictionaries.items():
         lg1, lg2 = abbr_name.split('-')
-        name = '%s - %s' % (languages[lg1], languages[lg2])
         page.append('\n<li style="list-style-type:circle; display: none" class="dict-src-%s ' % lg1)
         page.append('dict-trg-%s %s">' % (lg2, platform))
-        page.append('<a href="%s">%s, ' % (dictionary['url'], name))
+        page.append('<a href="%s">%s, ' % (dictionary['url'],
+                dictionary['localised_name']))
         page.append(_('version {version} with {headwords} headwords').format(
                 version=dictionary['edition'], headwords=dictionary['headwords']))
         page.append('</a></li>\n')
@@ -108,6 +108,8 @@ def generate_download_section(target):
     json_api = load_json_api()
     codes = load_iso_table()
     dictionaries = {}
+    trans_name = lambda n: '%s - %s' % (_(codes[n.split('-')[0]]),
+            _(codes[n.split('-')[1]]))
     platform = ('slob' if target == 'mobile' else 'dictd')
     for dictionary in json_api:
         try:
@@ -118,7 +120,11 @@ def generate_download_section(target):
                 dictionary['name'], platform))
         name = dictionary['name']
         dictionaries[name] = {'url': url, 'edition': dictionary['edition'],
-                'headwords': dictionary['headwords']}
+                'headwords': dictionary['headwords'],
+                'localised_name': trans_name(name)}
+    # sort dictionaries with locale-specific naming
+    dictionaries = collections.OrderedDict(sorted(dictionaries.items(),
+            key=lambda entry: entry[1]['localised_name']))
     return HTML(mk_dropdown(dictionaries, codes, target))
 
 def get_year():
