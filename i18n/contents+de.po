@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-19 11:59+CET\n"
+"POT-Creation-Date: 2018-03-21 11:44+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -511,172 +511,12 @@ msgid "Dictionaries"
 msgstr ""
 
 #: iso-639-3.tab (no:lineno)
-msgid "Sanskrit"
-msgstr "Sanskrit"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Northern Kurdish"
-msgstr "Nordkurdisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "German"
-msgstr "Deutsch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Dutch"
-msgstr "Niederländisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Breton"
-msgstr "Bretonisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Serbian"
-msgstr "Serbisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Turkish"
-msgstr "Türkisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Occitan"
-msgstr "Okzitanisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Slovak"
-msgstr "Slowakisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Norwegian Nynorsk"
-msgstr "Norwegisch (Nynorsk)"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Lithuanian"
-msgstr "Litauisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Italian"
-msgstr "Italienisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Danish"
-msgstr "Dänisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Scottish Gaelic"
-msgstr "Gälisch (Schottisch)"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Swedish"
-msgstr "Schwedisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Irish"
-msgstr "Irisch"
-
-#: iso-639-3.tab (no:lineno)
 msgid "Norwegian Bokmål"
 msgstr "Norwegisch Bokmål"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Asturian"
-msgstr "Asturisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "French"
-msgstr "Französisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Bulgarian"
-msgstr "Bulgarisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Spanish"
-msgstr "Spanisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Russian"
-msgstr "Russisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Welsh"
-msgstr "Walisisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Polish"
-msgstr "Polnisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Esperanto"
-msgstr "Esperanto"
-
-#: iso-639-3.tab (no:lineno)
-msgid "English"
-msgstr "Englisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Catalan"
-msgstr "Katalanisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Hindi"
-msgstr "Hindi"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Modern Greek"
-msgstr "Griechisch (modern)"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Hungarian"
-msgstr "Ungarisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Macedonian"
-msgstr "Mazedonisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Khasi"
-msgstr "Khasi"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Latin"
-msgstr "Lateinisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Portuguese"
-msgstr "Portugiesisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Czech"
-msgstr "Tschechisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Croatian"
-msgstr "Kroatisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Romany"
-msgstr "Romani"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Finnish"
-msgstr "Finnisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Icelandic"
-msgstr "Isländisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Central Kurdish"
-msgstr "Zentralkurdisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Arabic"
-msgstr "Arabisch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Swahili"
-msgstr "Swahili"
+msgid "Kurdish"
+msgstr "Kurdisch"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Afrikaans"
@@ -687,8 +527,168 @@ msgid "Japanese"
 msgstr "Japanisch"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Kurdish"
-msgstr "Kurdisch"
+msgid "Modern Greek"
+msgstr "Griechisch (modern)"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Breton"
+msgstr "Bretonisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Swahili"
+msgstr "Swahili"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Northern Kurdish"
+msgstr "Nordkurdisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Central Kurdish"
+msgstr "Zentralkurdisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Catalan"
+msgstr "Katalanisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Norwegian Nynorsk"
+msgstr "Norwegisch (Nynorsk)"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Latin"
+msgstr "Lateinisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Scottish Gaelic"
+msgstr "Gälisch (Schottisch)"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Icelandic"
+msgstr "Isländisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Asturian"
+msgstr "Asturisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Slovak"
+msgstr "Slowakisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Dutch"
+msgstr "Niederländisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Hungarian"
+msgstr "Ungarisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Bulgarian"
+msgstr "Bulgarisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Danish"
+msgstr "Dänisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Lithuanian"
+msgstr "Litauisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Hindi"
+msgstr "Hindi"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Czech"
+msgstr "Tschechisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Russian"
+msgstr "Russisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Polish"
+msgstr "Polnisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Finnish"
+msgstr "Finnisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "German"
+msgstr "Deutsch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "French"
+msgstr "Französisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Khasi"
+msgstr "Khasi"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "English"
+msgstr "Englisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Italian"
+msgstr "Italienisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Welsh"
+msgstr "Walisisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Macedonian"
+msgstr "Mazedonisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Serbian"
+msgstr "Serbisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Occitan"
+msgstr "Okzitanisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Romany"
+msgstr "Romani"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Irish"
+msgstr "Irisch"
 
 #: packages/freedict/news.py:72
 #, python-brace-format
