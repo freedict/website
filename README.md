@@ -13,6 +13,19 @@ This website generator depends on the following:
 -   Python >= 3.4
 -   gettext utilities
 -   pybabel
+-   a fresh version of the FreeDict API
+    -   if you want (and can) build yourself, check out
+        <https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API>.
+    -   If you are only interested in improving the website, here's what you
+        need to do:
+        -   Clone <https://github.com/freedict/tools> (if not done already) and
+            set the environment variable `FREEDICT_TOOLS` to point to this
+            directory.
+        -   Initalise a configuration like explained on
+            <https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-%E2%80%93-FreeDict-Build-System>,
+            most important is the `api_output_path`
+        -   Fetch <https://freedict.org/freedict-database.json> and save it to
+            the directory configured above.
 
 Invoking lektor build does require a internet connection to fetch items for the
 "news" section. Setting the environment variable DEBUG (to any value) prevents
