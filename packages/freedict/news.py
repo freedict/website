@@ -4,7 +4,7 @@ import itertools
 import json
 import os
 import pickle
-import urllib.request
+import urllib
 
 import common
 
@@ -28,8 +28,10 @@ def get_releases(timespan):
 
 def github_request(path):
     """Make a GitHub API request and return aJSON object."""
-    with urllib.request.urlopen("http://api.github.com/{}".format(
-            path.lstrip('/'))) as f:
+    url = "https://api.github.com/{}".format( path.lstrip('/'))
+    request_headers = {'User-Agent': 'freedict'}
+    request = urllib.request.Request(url, headers=request_headers)
+    with urllib.request.urlopen(request) as f:
         return json.loads(f.read().decode('UTF-8'))
 
 def get_events_for_repo(repo):
