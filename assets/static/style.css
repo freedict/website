@@ -1,28 +1,13 @@
 body {
     font-family: 'Verdana', sans-serif;
-    margin: 50px 25px;
+    background: #F5F4EF;
 }
 
-a {
-    color: #2a99b6;
-}
-
-a:hover {
-    color: #33bbdf;
-}
-
-header, footer, div.page {
+h1, nav, footer, main {
     width: 760px;
     margin: 0 auto;
-    background: #daeef3;
-    padding: 20px 30px;
-}
-
-header h1 {
-    color: #169bbd;
-    margin: 0;
-    font-weight: normal;
-    font-size: 42px;
+    padding: 12px 30px;
+    border-radius: 8px;
 }
 
 header nav ul {
@@ -30,53 +15,38 @@ header nav ul {
     margin: 0;
     padding: 0;
 }
-
 header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
 }
 
-main.page {
-    background: #f1fbfe;
+nav {
+    background: black;
+    margin-bottom: 30px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;    
 }
 
-
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+main {
+    background-color: white;
+}
+footer {
+    background-color: white;
+    margin-top: 20px;    
 }
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    /* Position the tooltip text ! */
-    position: absolute;
-    z-index: 1;
-}
-
-// show text on mouse hover
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
 
 table {
     table-layout: auto;
     border-collapse: collapse;
     width: 100%;
 }
-//table td {
-//    border: 1px solid #ccc;
-//}
 table .absorbing-column {
     width: 100%;
 }
-
