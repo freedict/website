@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 11:44+CET\n"
+"POT-Creation-Date: 2018-03-25 12:12+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -713,172 +713,136 @@ msgid "Dictionaries"
 msgstr "Dictionaries"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Norwegian Bokmål"
-msgstr "Norwegian Bokmål"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Kurdish"
-msgstr "Kurdish"
-
-#: iso-639-3.tab (no:lineno)
 msgid "Afrikaans"
 msgstr "Afrikaans"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Japanese"
-msgstr "Japanese"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Modern Greek"
-msgstr "Modern Greek"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Breton"
-msgstr "Breton"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Swahili"
-msgstr "Swahili"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Northern Kurdish"
-msgstr "Northern Kurdish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Swedish"
-msgstr "Swedish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Central Kurdish"
-msgstr "Central Kurdish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Catalan"
-msgstr "Catalan"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Norwegian Nynorsk"
-msgstr "Norwegian Nynorsk"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Latin"
-msgstr "Latin"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Scottish Gaelic"
-msgstr "Scottish Gaelic"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Icelandic"
-msgstr "Icelandic"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Asturian"
-msgstr "Asturian"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Turkish"
-msgstr "Turkish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Slovak"
-msgstr "Slovak"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Dutch"
-msgstr "Dutch"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Hungarian"
-msgstr "Hungarian"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Esperanto"
-msgstr "Esperanto"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Bulgarian"
-msgstr "Bulgarian"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Danish"
-msgstr "Danish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Spanish"
-msgstr "Spanish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Sanskrit"
-msgstr "Sanskrit"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Lithuanian"
-msgstr "Lithuanian"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Hindi"
-msgstr "Hindi"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Czech"
-msgstr "Czech"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Russian"
-msgstr "Russian"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Polish"
-msgstr "Polish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Finnish"
-msgstr "Finnish"
-
-#: iso-639-3.tab (no:lineno)
-msgid "German"
-msgstr "German"
-
-#: iso-639-3.tab (no:lineno)
-msgid "French"
-msgstr "French"
-
-#: iso-639-3.tab (no:lineno)
-msgid "Khasi"
-msgstr "Khasi"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Arabic"
 msgstr "Arabic"
 
 #: iso-639-3.tab (no:lineno)
-msgid "English"
-msgstr "English"
+msgid "Asturian"
+msgstr "Asturian"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Italian"
-msgstr "Italian"
+msgid "Breton"
+msgstr "Breton"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Catalan"
+msgstr "Catalan"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Central Kurdish"
+msgstr "Central Kurdish"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Croatian"
 msgstr "Croatian"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Welsh"
-msgstr "Welsh"
+msgid "Czech"
+msgstr "Czech"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Danish"
+msgstr "Danish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Dutch"
+msgstr "Dutch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "English"
+msgstr "English"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Finnish"
+msgstr "Finnish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "French"
+msgstr "French"
+
+#: iso-639-3.tab (no:lineno)
+msgid "German"
+msgstr "German"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Hindi"
+msgstr "Hindi"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Irish"
+msgstr "Irish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Italian"
+msgstr "Italian"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Japanese"
+msgstr "Japanese"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Khasi"
+msgstr "Khasi"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Kurdish"
+msgstr "Kurdish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Latin"
+msgstr "Latin"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Lithuanian"
+msgstr "Lithuanian"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Macedonian"
 msgstr "Macedonian"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Serbian"
-msgstr "Serbian"
+msgid "Modern Greek"
+msgstr "Modern Greek"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Northern Kurdish"
+msgstr "Northern Kurdish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Norwegian Bokmål"
+msgstr "Norwegian Bokmål"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Norwegian Nynorsk"
+msgstr "Norwegian Nynorsk"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Occitan"
 msgstr "Occitan"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Polish"
+msgstr "Polish"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Portuguese"
@@ -889,43 +853,79 @@ msgid "Romany"
 msgstr "Romany"
 
 #: iso-639-3.tab (no:lineno)
-msgid "Irish"
-msgstr "Irish"
+msgid "Russian"
+msgstr "Russian"
 
-#: packages/freedict/news.py:72
+#: iso-639-3.tab (no:lineno)
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Scottish Gaelic"
+msgstr "Scottish Gaelic"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Serbian"
+msgstr "Serbian"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Slovak"
+msgstr "Slovak"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Spanish"
+msgstr "Spanish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Swahili"
+msgstr "Swahili"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Swedish"
+msgstr "Swedish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Turkish"
+msgstr "Turkish"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Welsh"
+msgstr "Welsh"
+
+#: packages/freedict/news.py:74
 #, python-brace-format
 msgid "Work in the last {days} days:"
 msgstr ""
 
-#: packages/freedict/news.py:75
+#: packages/freedict/news.py:77
 #, python-brace-format
 msgid "{num} commits in"
 msgstr "{num} commits in"
 
-#: packages/freedict/news.py:80
+#: packages/freedict/news.py:82
 #, python-brace-format
 msgid "{num} issues edits"
 msgstr "{num} issues edits"
 
-#: packages/freedict/news.py:82
+#: packages/freedict/news.py:84
 #, python-brace-format
 msgid "{num} wiki changes"
 msgstr "{num} wiki changes"
 
-#: packages/freedict/news.py:98
+#: packages/freedict/news.py:100
 msgid "What's Happening"
 msgstr "What's Happening"
 
-#: packages/freedict/news.py:107
+#: packages/freedict/news.py:109
 msgid "One new release:"
 msgstr "One new release:"
 
-#: packages/freedict/news.py:109
+#: packages/freedict/news.py:111
 #, python-brace-format
 msgid "{num_releases} new releases:"
 msgstr "{num_releases} new releases:"
 
-#: packages/freedict/news.py:116
+#: packages/freedict/news.py:118
 msgid "and more"
 msgstr "and more"
 

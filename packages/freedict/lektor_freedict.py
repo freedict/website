@@ -49,7 +49,7 @@ class FreedictPlugin(Plugin):
                 "Language: LANGUAGE\\n"
                 "MIME-Version: 1.0\\n"\n"Content-Type: text/plain; charset=UTF-8\\n"
                 "Content-Transfer-Encoding: 8bit\\n"\n""".format(now))]
-        for lang in self.get_used_languages():
+        for lang in sorted(self.get_used_languages()):
             pot.append('\n#: iso-639-3.tab (no:lineno)\n')
             pot.append('msgid "{}"\nmsgstr ""\n'.format(lang))
         if not os.path.exists("i18n"):
