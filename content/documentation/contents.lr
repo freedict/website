@@ -1,3 +1,5 @@
+_template: documentation.html
+---
 title: Documentation
 ---
 body:
@@ -8,42 +10,44 @@ overview over the available resources.
 A good starting point is the section on [frequently asked questions](FreeDict-FAQ.md).
 If you only need help on installing a program to use our dictionaries, the
 [downloads page](downloads) should help you getting started. If you are stuck at
-any point, you might want to [ask for help](community).
+any point, you might want to [ask for help](../community).
 
-### Building dictionaries
+### Getting Started
 
-To develop an importer or to build a dictionary from source, it is necessary
-that you get a fresh copy of the
-[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:
+FreeDict assumes a minimal set of software to be installed. The
+[README of the tools repository](https://github.com/freedict/tools)
+gives a short introduction on how to set things up.
 
-    $ git clone https://github.com/freedict/tools
-
-The README details the installation in more detail and the building  process is
-detailled in the
-[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-%E2%80%93-FreeDict-Build-System).
-In summary you need
-Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the output
-format). If you are on windows, we do advise that you take
-a look at the [Msys2 project](https://www.msys2.org/).
-
-Once the tools directory is in place, you should set the environment variable
-`FREEDICT_TOOLS` to its absolute path.\
-**Note:** Due to limitations in Make, we do not support paths with whitespace.
-
-As son as all this has been set up, you can build a dictionary by changing to
+As soon as everything is set up, you can build a dictionary by changing to
 its directory and type `make`.
 
 ### Creating And Importing Dictionaries
 
+#### Writing Dictionaries By Hand
+
 A lengthy introduction into FreeDict internals, including documentation on how
 to format and process dictionaries can be found in the
 [FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO).
+
+There is no common method for writing dictionaries. Sometimes people use a
+XML-capable editor and enter all words by hand, others might use some simplified
+format and use a transformation to the TEI format. Either way is fine and
+depends on your preferences and skills. If unsure, it is best to ask on the
+[mailing list](https://www.freelists.org/list/freedict).
+
+#### Importing Dictionaries
 
 Most of the dictionaries have not been written by hand, but where important from
 other free sources. The
 [import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-Centre)
 gives an overview about which dictionaries have been imported with which program
 and is a good starting point for new importers.
+
+Please note that the
+[fd-dictionaries](https://github.com/freedict/fd-dictionaries) repository does
+not contain all dictionaries. Those automatically imported from another source
+are kept outside of the version control system, because it is enough to have a
+reproducible importer script.
 
 ### API
 

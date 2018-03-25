@@ -21,7 +21,7 @@ This website generator depends on the following:
         -   Clone <https://github.com/freedict/tools> (if not done already) and
             set the environment variable `FREEDICT_TOOLS` to point to this
             directory.
-        -   Initalise a configuration like explained on
+        -   Initialise a configuration like explained on
             <https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-%E2%80%93-FreeDict-Build-System>,
             most important is the `api_output_path`
         -   Fetch <https://freedict.org/freedict-database.json> and save it to
@@ -30,6 +30,6 @@ This website generator depends on the following:
 Invoking lektor build does require a internet connection to fetch items for the
 "news" section. Setting the environment variable DEBUG (to any value) prevents
 this. Building with a network connection, a file databags/news.pickle will be
-created. Subsequent DEBUG runs will make use of this file, avoiding 403 by the
+created. Subsequent (DEBUG) runs will make use of this file, avoiding 403 by the
 GitHub API.
 

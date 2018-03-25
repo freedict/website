@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-25 12:12+CET\n"
+"POT-Creation-Date: 2018-03-25 20:37+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -75,91 +75,29 @@ msgid ""
 "If you only need help on installing a program to use our dictionaries, the\n"
 "[downloads page](downloads) should help you getting started. If you are "
 "stuck at\n"
-"any point, you might want to [ask for help](community)."
+"any point, you might want to [ask for help](../community)."
 msgstr ""
-"Most of the documentation can be found in the\n"
-"[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
-"mostly an\n"
-"overview over the available resources.\n"
-"A good starting point is the section on [frequently asked questions]"
-"(FreeDict-FAQ.md).\n"
-"If you only need help on installing a program to use our dictionaries, the\n"
-"[downloads page](downloads) should help you getting started. If you are "
-"stuck at\n"
-"any point, you might want to [ask for help](community)."
 
 #: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "### Building dictionaries"
-msgstr "### Building dictionaries"
+#: (content/documentation/contents+en.lr:page.body) http://localhost/community/
+#: (content/community/contents+en.lr:page.body)
+msgid "### Getting Started"
+msgstr "### Getting Started"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"To develop an importer or to build a dictionary from source, it is "
-"necessary\n"
-"that you get a fresh copy of the\n"
-"[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:"
+"FreeDict assumes a minimal set of software to be installed. The\n"
+"[README of the tools repository](https://github.com/freedict/tools)\n"
+"gives a short introduction on how to set things up."
 msgstr ""
-"To develop an importer or to build a dictionary from source, it is "
-"necessary\n"
-"that you get a fresh copy of the\n"
-"[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body) http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "    $ git clone https://github.com/freedict/tools"
-msgstr "    $ git clone https://github.com/freedict/tools"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"The README details the installation in more detail and the building  process "
-"is\n"
-"detailled in the\n"
-"[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-"
-"%E2%80%93-FreeDict-Build-System).\n"
-"In summary you need\n"
-"Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the "
-"output\n"
-"format). If you are on windows, we do advise that you take\n"
-"a look at the [Msys2 project](https://www.msys2.org/)."
-msgstr ""
-"The README details the installation in more detail and the building  process "
-"is\n"
-"detailled in the\n"
-"[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-"
-"%E2%80%93-FreeDict-Build-System).\n"
-"In summary you need\n"
-"Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the "
-"output\n"
-"format). If you are on windows, we do advise that you take\n"
-"a look at the [Msys2 project](https://www.msys2.org/)."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"Once the tools directory is in place, you should set the environment "
-"variable\n"
-"`FREEDICT_TOOLS` to its absolute path.\\n**Note:** Due to limitations in "
-"Make, we do not support paths with whitespace."
-msgstr ""
-"Once the tools directory is in place, you should set the environment "
-"variable\n"
-"`FREEDICT_TOOLS` to its absolute path.\\n**Note:** Due to limitations in "
-"Make, we do not support paths with whitespace."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"As son as all this has been set up, you can build a dictionary by changing "
-"to\n"
+"As soon as everything is set up, you can build a dictionary by changing to\n"
 "its directory and type `make`."
 msgstr ""
-"As son as all this has been set up, you can build a dictionary by changing "
-"to\n"
-"its directory and type `make`."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -168,6 +106,11 @@ msgstr "### Creating And Importing Dictionaries"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
+msgid "#### Writing Dictionaries By Hand"
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
 msgid ""
 "A lengthy introduction into FreeDict internals, including documentation on "
 "how\n"
@@ -180,6 +123,22 @@ msgstr ""
 "to format and process dictionaries can be found in the\n"
 "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
 "HOWTO)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"There is no common method for writing dictionaries. Sometimes people use a\n"
+"XML-capable editor and enter all words by hand, others might use some "
+"simplified\n"
+"format and use a transformation to the TEI format. Either way is fine and\n"
+"depends on your preferences and skills. If unsure, it is best to ask on the\n"
+"[mailing list](https://www.freelists.org/list/freedict)."
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "#### Importing Dictionaries"
+msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -201,6 +160,19 @@ msgstr ""
 "gives an overview about which dictionaries have been imported with which "
 "program\n"
 "and is a good starting point for new importers."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Please note that the\n"
+"[fd-dictionaries](https://github.com/freedict/fd-dictionaries) repository "
+"does\n"
+"not contain all dictionaries. Those automatically imported from another "
+"source\n"
+"are kept outside of the version control system, because it is enough to have "
+"a\n"
+"reproducible importer script."
+msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -380,10 +352,6 @@ msgstr ""
 "people with an affinity to languages.  The diversity is our strength."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "### Getting Started"
-msgstr "### Getting Started"
-
-#: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
 "If you are new to our project, the following community resources are "
 "available:"
@@ -529,13 +497,27 @@ msgid ""
 "our\n"
 "project, because we simply can't now them all. If in doubt, have a look at "
 "the\n"
-"[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/issues).\n"
+"[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/issues)."
 msgstr ""
-"Recommending free and open dictionaries from the web is also very helpful to "
-"our\n"
-"project, because we simply can't now them all. If in doubt, have a look at "
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "### Active Dictionary Maintainers"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"Dictionary maintainers are the great persons behind a dictionary who keep it "
+"up\n"
+"to date and who take care of updating it with the improvements sent in by "
 "the\n"
-"[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/issues).\n"
+"community. A more in-depth explanation can be found at the\n"
+"[dedicated wiki page](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Maintainers)."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "Below is a list of the active dictionary maintainers:"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.title)
@@ -672,6 +654,11 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "    $ git clone https://github.com/freedict/tools"
+msgstr "    $ git clone https://github.com/freedict/tools"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid ""
 "Have a look at the\n"
 "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
@@ -696,19 +683,15 @@ msgstr ""
 "API)\n"
 "to retrieve information about _all_ source releases.\n"
 
-#: templates/base.html:32
+#: templates/base.html:31
 msgid "View this site in in another language:"
 msgstr "View this site in in another language:"
 
-#: templates/community.html:6
-msgid "Active Dictionary Maintainers"
-msgstr "Active Dictionary Maintainers"
-
-#: templates/community.html:11
+#: templates/community.html:10
 msgid "Dictionary Maintainer"
 msgstr "Dictionary Maintainer"
 
-#: templates/community.html:12
+#: templates/community.html:11
 msgid "Dictionaries"
 msgstr "Dictionaries"
 
@@ -941,6 +924,106 @@ msgstr "No language selected…"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#~ msgid ""
+#~ "Recommending free and open dictionaries from the web is also very helpful "
+#~ "to our\n"
+#~ "project, because we simply can't now them all. If in doubt, have a look "
+#~ "at the\n"
+#~ "[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/"
+#~ "issues).\n"
+#~ msgstr ""
+#~ "Recommending free and open dictionaries from the web is also very helpful "
+#~ "to our\n"
+#~ "project, because we simply can't now them all. If in doubt, have a look "
+#~ "at the\n"
+#~ "[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/"
+#~ "issues).\n"
+
+#~ msgid "Active Dictionary Maintainers"
+#~ msgstr "Active Dictionary Maintainers"
+
+#~ msgid ""
+#~ "Most of the documentation can be found in the\n"
+#~ "[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
+#~ "mostly an\n"
+#~ "overview over the available resources.\n"
+#~ "A good starting point is the section on [frequently asked questions]"
+#~ "(FreeDict-FAQ.md).\n"
+#~ "If you only need help on installing a program to use our dictionaries, "
+#~ "the\n"
+#~ "[downloads page](downloads) should help you getting started. If you are "
+#~ "stuck at\n"
+#~ "any point, you might want to [ask for help](community)."
+#~ msgstr ""
+#~ "Most of the documentation can be found in the\n"
+#~ "[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
+#~ "mostly an\n"
+#~ "overview over the available resources.\n"
+#~ "A good starting point is the section on [frequently asked questions]"
+#~ "(FreeDict-FAQ.md).\n"
+#~ "If you only need help on installing a program to use our dictionaries, "
+#~ "the\n"
+#~ "[downloads page](downloads) should help you getting started. If you are "
+#~ "stuck at\n"
+#~ "any point, you might want to [ask for help](community)."
+
+#~ msgid "### Building dictionaries"
+#~ msgstr "### Building dictionaries"
+
+#~ msgid ""
+#~ "To develop an importer or to build a dictionary from source, it is "
+#~ "necessary\n"
+#~ "that you get a fresh copy of the\n"
+#~ "[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:"
+#~ msgstr ""
+#~ "To develop an importer or to build a dictionary from source, it is "
+#~ "necessary\n"
+#~ "that you get a fresh copy of the\n"
+#~ "[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:"
+
+#~ msgid ""
+#~ "The README details the installation in more detail and the building  "
+#~ "process is\n"
+#~ "detailled in the\n"
+#~ "[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-"
+#~ "%E2%80%93-FreeDict-Build-System).\n"
+#~ "In summary you need\n"
+#~ "Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the "
+#~ "output\n"
+#~ "format). If you are on windows, we do advise that you take\n"
+#~ "a look at the [Msys2 project](https://www.msys2.org/)."
+#~ msgstr ""
+#~ "The README details the installation in more detail and the building  "
+#~ "process is\n"
+#~ "detailled in the\n"
+#~ "[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-"
+#~ "%E2%80%93-FreeDict-Build-System).\n"
+#~ "In summary you need\n"
+#~ "Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the "
+#~ "output\n"
+#~ "format). If you are on windows, we do advise that you take\n"
+#~ "a look at the [Msys2 project](https://www.msys2.org/)."
+
+#~ msgid ""
+#~ "Once the tools directory is in place, you should set the environment "
+#~ "variable\n"
+#~ "`FREEDICT_TOOLS` to its absolute path.\\n**Note:** Due to limitations in "
+#~ "Make, we do not support paths with whitespace."
+#~ msgstr ""
+#~ "Once the tools directory is in place, you should set the environment "
+#~ "variable\n"
+#~ "`FREEDICT_TOOLS` to its absolute path.\\n**Note:** Due to limitations in "
+#~ "Make, we do not support paths with whitespace."
+
+#~ msgid ""
+#~ "As son as all this has been set up, you can build a dictionary by "
+#~ "changing to\n"
+#~ "its directory and type `make`."
+#~ msgstr ""
+#~ "As son as all this has been set up, you can build a dictionary by "
+#~ "changing to\n"
+#~ "its directory and type `make`."
 
 #~ msgid ""
 #~ "The FreeDict project strives to be the most comprehensive source of truly "
