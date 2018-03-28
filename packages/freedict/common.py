@@ -7,8 +7,6 @@ import json
 import gettext
 import os
 import re
-import subprocess
-import sys
 import urllib
 import yaml
 
@@ -16,21 +14,15 @@ from lektor.context import get_ctx
 
 def load_json_api():
     """This function returns the JSON representation of the FreeDict API. It
-    requires the environment variable FREEDICT_TOOLS  to be set and a FreeDict
-    configuration with a valid API output path, try
-    `make -C $FREEDICT_TOOLS api-path`
-    as a test."""
-    if not 'FREEDICT_TOOLS' in os.environ:
-        raise OSError('The environment variable has to be set.')
-    proc = subprocess.Popen(['make', '--no-print-directory', '-C',
-        os.environ['FREEDICT_TOOLS'], 'api-path'], stdout=subprocess.PIPE)
-    ret = proc.wait()
-    if ret:
-        raise OSError(("Failed to execute `make -C $FREEDICT_TOOLS api-path`, "
-            "process exited with error code %d") % ret)
-    path = os.path.join(proc.communicate()[0].decode(sys.getdefaultencoding()),
-        'freedict-database.json')
-    return json.load(open(path))
+    requires the a freedict.jsonin the top-level of this project. Have a look at
+    `make api` from the FreeDict tools or fetch a copy from
+    https://freedict.org/freedict-database.json."""
+    try:
+        return json.load(open('freedict-database.json'))
+    except FileNotFoundError:
+        raise FileNotFoundError(("Couldn't find a freedict-database.json in "
+                "the top level of this project. Please have a look at the "
+                "README how to get one."))
 
 
 def load_iso_table():
