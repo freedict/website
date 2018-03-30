@@ -1,6 +1,7 @@
 *~
 build/
 databags/news.pickle
+freedict-database.json
 i18n/_compiled/
 i18n/contents.pot
 i18n/plugins.pot

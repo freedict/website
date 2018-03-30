@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-25 20:37+CET\n"
+"POT-Creation-Date: 2018-03-29 17:40+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -14,18 +14,18 @@ msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.title)
 msgid "FreeDict"
-msgstr ""
+msgstr "FreeDict"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid "### Free Dictionaries, Free Knowledge"
-msgstr ""
+msgstr "### Freie Wörterbücher, freies Wissen"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid ""
 "The FreeDict project strives to be the most comprehensive source of truly "
 "free\n"
-"bilingual dictionaries. They are not just free of charge, but also they give "
-"you the right\n"
+"bilingual dictionaries. They are not just free of charge, but they give you "
+"the right\n"
 "to study, change and modify them, as long as you guarantee others these "
 "freedoms,\n"
 "too.\n"
@@ -35,10 +35,17 @@ msgid ""
 "to\n"
 "[become a part of FreeDict](community)."
 msgstr ""
+"Das FreeDict-Projekt hat sich das Ziel gesetzt, die umfassenste Sammlung "
+"wirklich freier zweisprachiger Wörterbücher zu sein. Diese sind nicht nur "
+"kostenfrei, sondern geben Ihnen das Recht diese zu studieren, zu verändern "
+"oder zu kopieren, solange Sie Anderen diese Rechte ebenfalls gewähren. Das "
+"Projekt entstand [im Jahr 2000](about) und bietet mittlerweile mehr als 93 "
+"Wörterbücher in über 45 Sprachen und wächst dank seiner Mitglieder "
+"kontinuierlich. Auch Sie können [ein Teil von Freedict](community) werden."
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid "### Use Wherever You Want"
-msgstr ""
+msgstr "### Immer und überall verwenden"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid ""
@@ -47,14 +54,20 @@ msgid ""
 "and all the lookups are offline. This means that\n"
 "you can travel abroad without the fear that your provider will make you pay "
 "a\n"
-"lot just for a few dictionary lookups and with the certainty that you can\n"
-"translate whatever you want without a network connection.\n"
+"lot just for a few dictionary lookups. You will even be independent from a\n"
+"network connection.\n"
 msgstr ""
+"**Unsere Wörterbücher sind flexibel:** Sie können sie sowohl "
+"[auf ihrem Rechner oder Ihrem Smartphone](downloads)\n"
+"nutzen und das Nachschlagen ist offline. Das heißt, dass Sie ins Ausland "
+"reisen können, ohne die Angst im Hinterkopf, dass Ihr Provider Ihnen eine "
+"horrende Rechnung schickt, nur weil Sie ein paar Wörter nachgeschlagen haben. "
+"Nicht einmal fehlendes Netz kann Sie abhalten.\n"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.title)
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -70,12 +83,20 @@ msgid ""
 "stuck at\n"
 "any point, you might want to [ask for help](../community)."
 msgstr ""
+"Der Großteil der Dokumentation befindet sich im "
+"[wiki](https://github.com/freedict/fd-dictionaries/wiki).\n"
+"Diese Seite dient als Überblick über die verfügbaren Ressourcen. "
+"Ein guter Start sind unsere "
+"[häufig gestellte Fragen (englisch)](FreeDict-FAQ.md).\n"
+"Wenn Sie nur Hilfe beim Installieren der Wörterbücher brauchen, sollte die "
+"[Seite der Downloads](downloads) weiterhelfen. Wenn Sie an irgendeinem Punkt "
+"nicht weiter wissen, können Sie [uns einfach fragen](community)."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body) http://localhost/community/
 #: (content/community/contents+en.lr:page.body)
 msgid "### Getting Started"
-msgstr ""
+msgstr "### Einführung"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -95,12 +116,12 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid "### Creating And Importing Dictionaries"
-msgstr ""
+msgstr "### Erstellen und Importieren von Wörterbüchern"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid "#### Writing Dictionaries By Hand"
-msgstr ""
+msgstr "#### Wörterbücher selbst schreiben"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -126,7 +147,7 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid "#### Importing Dictionaries"
-msgstr ""
+msgstr "#### Wörterbücher importieren"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -157,7 +178,7 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid "### API"
-msgstr ""
+msgstr "### API"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -514,7 +535,7 @@ msgid ""
 "the\n"
 "[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
 "API)\n"
-"to retrieve information about _all_ source releases.\n"
+"to retrieve information about the sources and where to get them.\n"
 msgstr ""
 
 #: templates/base.html:31
