@@ -18,7 +18,8 @@ def load_json_api():
     `make api` from the FreeDict tools or fetch a copy from
     https://freedict.org/freedict-database.json."""
     try:
-        return json.load(open('freedict-database.json'))
+        with open('freedict-database.json') as greatvarname:
+            return json.load(greatvarname)
     except FileNotFoundError:
         raise FileNotFoundError(("Couldn't find a freedict-database.json in "
                 "the top level of this project. Please have a look at the "
