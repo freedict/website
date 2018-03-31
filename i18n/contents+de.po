@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-29 17:40+CET\n"
+"POT-Creation-Date: 2018-03-31 18:05+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -57,12 +57,12 @@ msgid ""
 "lot just for a few dictionary lookups. You will even be independent from a\n"
 "network connection.\n"
 msgstr ""
-"**Unsere Wörterbücher sind flexibel:** Sie können sie sowohl "
-"[auf ihrem Rechner oder Ihrem Smartphone](downloads)\n"
+"**Unsere Wörterbücher sind flexibel:** Sie können sie sowohl [auf ihrem "
+"Rechner oder Ihrem Smartphone](downloads)\n"
 "nutzen und das Nachschlagen ist offline. Das heißt, dass Sie ins Ausland "
 "reisen können, ohne die Angst im Hinterkopf, dass Ihr Provider Ihnen eine "
-"horrende Rechnung schickt, nur weil Sie ein paar Wörter nachgeschlagen haben. "
-"Nicht einmal fehlendes Netz kann Sie abhalten.\n"
+"horrende Rechnung schickt, nur weil Sie ein paar Wörter nachgeschlagen "
+"haben. Sie sind sogar unabhängig von einer Internetverbindung.\n"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.title)
@@ -83,11 +83,10 @@ msgid ""
 "stuck at\n"
 "any point, you might want to [ask for help](../community)."
 msgstr ""
-"Der Großteil der Dokumentation befindet sich im "
-"[wiki](https://github.com/freedict/fd-dictionaries/wiki).\n"
-"Diese Seite dient als Überblick über die verfügbaren Ressourcen. "
-"Ein guter Start sind unsere "
-"[häufig gestellte Fragen (englisch)](FreeDict-FAQ.md).\n"
+"Der Großteil der Dokumentation befindet sich im [wiki](https://github.com/"
+"freedict/fd-dictionaries/wiki).\n"
+"Diese Seite dient als Überblick über die verfügbaren Ressourcen. Ein guter "
+"Start sind unsere [häufig gestellte Fragen (englisch)](FreeDict-FAQ.md).\n"
 "Wenn Sie nur Hilfe beim Installieren der Wörterbücher brauchen, sollte die "
 "[Seite der Downloads](downloads) weiterhelfen. Wenn Sie an irgendeinem Punkt "
 "nicht weiter wissen, können Sie [uns einfach fragen](community)."
@@ -101,16 +100,28 @@ msgstr "### Einführung"
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"FreeDict assumes a minimal set of software to be installed. The\n"
+"The FreeDict tools assume a minimal set of software to be installed. The\n"
 "[README of the tools repository](https://github.com/freedict/tools)\n"
 "gives a short introduction on how to set things up."
 msgstr ""
+"Die Werkzeuge von FreeDict setzen eine Grundausstattung an Software voraus."
+"Die [README-Datei des Tools-Repositoriums (englisch)](https://github.com/"
+"freedict/tools) geben eine kurze Einführung zur Einrichtung."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
 "As soon as everything is set up, you can build a dictionary by changing to\n"
-"its directory and type `make`."
+"its directory and type `make`, so for instance:"
+msgstr ""
+"Sobald alles installiert ist, können Sie ein Wörterbuch bauen, indem Sie in "
+"dessen Verzeichnis wechseln, beispielsweise:"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"    cd dan-eng\n"
+"    make"
 msgstr ""
 
 #: http://localhost/documentation/
@@ -126,23 +137,34 @@ msgstr "#### Wörterbücher selbst schreiben"
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"A lengthy introduction into FreeDict internals, including documentation on "
+"An in-depth introduction into FreeDict internals, including documentation on "
 "how\n"
 "to format and process dictionaries can be found in the\n"
 "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
 "HOWTO)."
 msgstr ""
+"Eine sehr ausführliche Einführung in das Innenleben von FreeDict, inklusive "
+"Informationen über die Konvertierung und Verarbeitung von Wörterbüchern, "
+"kann im [FreeDict HOWTO (Englisch)](https://github.com/freedict/fd-"
+"dictionaries/wiki/FreeDict-HOWTO) gefunden werden."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"There is no common method for writing dictionaries. Sometimes people use a\n"
+"We do not offer a general-purpose way to edit dictionaries.  Sometimes "
+"people use a\n"
 "XML-capable editor and enter all words by hand, others might use some "
 "simplified\n"
 "format and use a transformation to the TEI format. Either way is fine and\n"
 "depends on your preferences and skills. If unsure, it is best to ask on the\n"
 "[mailing list](https://www.freelists.org/list/freedict)."
 msgstr ""
+"Wir bieten keine allgemeingültige Methode, um Wörterbücher zu bearbeiten. "
+"Einige Mitglieder nutzen einen XML-fähigen Editor und geben die Wörter per "
+"Hand ein. Andere nutzen ein vereinfachtes Format, welches dann in das TEI-"
+"Format übersetzt wird. Jeder der Ansätze führt zum Ziel und hängt von Ihren "
+"Fähigkeiten und Erfahrungen ab. Wenn Sie sich unsicher sind, fragen Sie "
+"einfach auf der [Mailingliste](https://www.freelists.org/list/freedict) nach."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -152,7 +174,7 @@ msgstr "#### Wörterbücher importieren"
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"Most of the dictionaries have not been written by hand, but where important "
+"Most of the dictionaries have not been written by hand, but where imported "
 "from\n"
 "other free sources. The\n"
 "[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-"
@@ -161,6 +183,11 @@ msgid ""
 "program\n"
 "and is a good starting point for new importers."
 msgstr ""
+"Die meisten Wörterbücher wurden nicht von Hand geschrieben, sondern aus "
+"anderen freien Quellen importiert. Das [Import Centre (English)](https://"
+"github.com/freedict/fd-dictionaries/wiki/Import-Centre)gibt einen Üblick "
+"über die importierten Wörterbücher und deren Importer und ist ein guter "
+"Ausgangspunkt für neue Importer."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -174,6 +201,10 @@ msgid ""
 "a\n"
 "reproducible importer script."
 msgstr ""
+"Bitte beachten Sie, dass das [fd-dictionaries-Repositorium](https://github."
+"com/freedict/fd-dictionaries) nicht alle verfügbaren Wörterbücher enthält. "
+"Automatisch importierte Wörterbücher werden außerhalb der Versionskontrolle "
+"abgelegt, da ein reproduzierbares Importerskript ausreicht."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -183,13 +214,22 @@ msgstr "### API"
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"Static information about our dictionaries can be retrieved over a CORS-"
+"Meta information about our dictionaries can be retrieved over a CORS-"
 "enabled\n"
 "API, both in XML and JSON format. It can be used to retrieve download links "
 "and\n"
 "other meta information useful for embedding them into a dictionary program. "
 "The\n"
-"URLs are\n"
+"URLs are"
+msgstr ""
+"Die Kopfdaten der Wörterbücher kann über eine CORS-fähige API abgerufen "
+"werden, in den formaten XML and JSON. Diese können genutzt werden, um Links "
+"zu den Downloads zu extrahieren oder andere Kopfdaten, damit sie in ein "
+"Wörterbuchprogramm eingebettet werden könne. Die URLs sind:"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
 "    http://freedict.org/freedict-database.xml\n"
 "    http://freedict.org/freedict-database.json"
 msgstr ""
@@ -200,6 +240,8 @@ msgid ""
 "The individual fields are documented\n"
 "[here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
+"Die jeweiligen Felder werden [hier (in Englisch]((https://github.com/"
+"freedict/fd-dictionaries/wiki/FreeDict-API) dokumentiert."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -549,6 +591,10 @@ msgstr "Betreuer des Wörterbuchs"
 #: templates/community.html:11
 msgid "Dictionaries"
 msgstr ""
+
+#: templates/documentation.html:3
+msgid "Table Of Contents"
+msgstr "Inhaltsverzeichnis"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Afrikaans"

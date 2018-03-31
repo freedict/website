@@ -14,22 +14,25 @@ any point, you might want to [ask for help](../community).
 
 ### Getting Started
 
-FreeDict assumes a minimal set of software to be installed. The
+The FreeDict tools assume a minimal set of software to be installed. The
 [README of the tools repository](https://github.com/freedict/tools)
 gives a short introduction on how to set things up.
 
 As soon as everything is set up, you can build a dictionary by changing to
-its directory and type `make`.
+its directory and type `make`, so for instance:
+
+    cd dan-eng
+    make
 
 ### Creating And Importing Dictionaries
 
 #### Writing Dictionaries By Hand
 
-A lengthy introduction into FreeDict internals, including documentation on how
+An in-depth introduction into FreeDict internals, including documentation on how
 to format and process dictionaries can be found in the
 [FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO).
 
-There is no common method for writing dictionaries. Sometimes people use a
+We do not offer a general-purpose way to edit dictionaries.  Sometimes people use a
 XML-capable editor and enter all words by hand, others might use some simplified
 format and use a transformation to the TEI format. Either way is fine and
 depends on your preferences and skills. If unsure, it is best to ask on the
@@ -37,7 +40,7 @@ depends on your preferences and skills. If unsure, it is best to ask on the
 
 #### Importing Dictionaries
 
-Most of the dictionaries have not been written by hand, but where important from
+Most of the dictionaries have not been written by hand, but where imported from
 other free sources. The
 [import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-Centre)
 gives an overview about which dictionaries have been imported with which program
@@ -51,10 +54,11 @@ reproducible importer script.
 
 ### API
 
-Static information about our dictionaries can be retrieved over a CORS-enabled
+Meta information about our dictionaries can be retrieved over a CORS-enabled
 API, both in XML and JSON format. It can be used to retrieve download links and
 other meta information useful for embedding them into a dictionary program. The
 URLs are
+
     http://freedict.org/freedict-database.xml
     http://freedict.org/freedict-database.json
 

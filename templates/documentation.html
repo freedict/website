@@ -1,6 +1,6 @@
 {% extends "page.html" %}
 {% block body %}
-<h2>Table Of Contents</h4>
+<h2>{{ _("Table Of Contents") }}</h2>
 <ul class="toc">
     {% for item in this.body.toc recursive %}
       <li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%
