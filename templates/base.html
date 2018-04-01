@@ -32,15 +32,16 @@
         {%- set alts = {} -%}
         {% for lang in config.values['ALTERNATIVES'].values() -%}
         {% set name = lang['name'].items()|first|last -%}
-        {% set prefix = '/' if lang['url_prefix'] == None else lang['url_prefix'] -%}
-        {% set norm_prf = prefix.strip('/') %}
+        {% set prefix = '' if lang['url_prefix'] == None else lang['url_prefix'] -%}
+        {% set norm_prf = prefix.rstrip('/') -%}
         {% if (not norm_prf and this._alt != "en") or
-                (norm_prf and norm_prf != this._alt) %}
-          {% if alts.update({name: prefix}) %} {% endif -%}
-        {% endif %}
+                (norm_prf and not norm_prf.endswith(this._alt)) -%}
+          {# unelegant way of updating a dict from jinja -#}
+          {%- if alts.update({name: norm_prf}) %} {% endif -%}
+        {%- endif -%}
         {%- endfor %}
         {% for name, url_prefix in alts|dictsort -%}
-        <a href="{{ url_prefix }}">{{ name }}</a> 
+        <a href="{{ url_prefix }}{{ this.path }}">{{ name }}</a> 
         {% endfor %}
       </p>
       <p>&copy; Copyright {{ get_year() }} by The FreeDict Project.</p>

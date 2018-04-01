@@ -133,7 +133,8 @@ def generate_news_section():
     if 'DEBUG' in os.environ:
         if not os.path.exists('databags/news.pickle'):
             return '' # no databag present, pretend empty news section
-        news = pickle.load(open('databags/news.pickle', 'rb'), encoding='UTF-8')
+        with open('databags/news.pickle', 'rb') as goodname:
+            news = pickle.load(goodname)
     else: # load fresh data
         get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
         timespan = timedelta(days=NEWS_TIMESPAN)
