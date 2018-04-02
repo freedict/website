@@ -11,7 +11,7 @@ the conversion into other formats.  Different dictionary applications
 understand different output formats (also known as platforms) and we offer our
 dictionaries for as many platforms as possible.
 
-## Smartphones And Tablets
+### Smartphones And Tablets
 
 We provide our dictionaries in the
 [slob format](https://github.com/itkach/slob/wiki/Dictionaries),
@@ -25,10 +25,12 @@ Finally, download one of our dictionaries below to your smartphone.
 ---
 after_mobile:
 
-## Computers
+### Computers
 
 For desktop computers, you are free to choose between a variety of dictionary
-programs. The most popular and advanced is probably
+programs, a selection of clients can be found on our
+[wiki page](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients).
+The most advanced is probably
 [GoldenDict](http:goldendict.org). It can read many formats, including the dictd
 format. Just download the archive below to your computer, unpack it and then
 select `import` from the menu within GoldenDict.
@@ -40,26 +42,37 @@ to unpack this archive format, please download a program like
 ---
 after_desktop:
 
-### Source and API
+### Source
 
 If you want to browse through our source, you have several options. We develop
 our dictionaries openly on
-[GitHub](https://github.com/freedict/fd-dictionaries). You can get a fresh copy
-with
+[GitHub](https://github.com/freedict/fd-dictionaries). Our tools and most of our
+dictionaries are there.
 
     $ git clone https://github.com/freedict/fd-dictionaries
+
 
 Automatically imported dictionaries are not present in this source tree, since
 they don't need versioning. The importers for those dictionaries is in the
 [tools](https://github.com/freedict/tools) repository, which is required for
-building anyway:
+building anyway.
 
-    $ git clone https://github.com/freedict/tools
+The latest release of each dictionaries' source can be retrieved below:
 
-Have a look at the
-[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO).
+---
+after_source:
 
-If you are interested in the source files of *all* dictionaries, you can use the
-[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)
-to retrieve information about the sources and where to get them.
+### API
+
+The API allows for retrieval of meta information of each dictionary, as well as
+direct download links for the target formats (AKA platforms) and their source.
+This can be helpful for app developers or distributors.
+
+The endpoints are
+
+<https://freedict.org/freedict-database.xml>\
+<https://freedict.org/freedict-database.json>
+
+Documentation of the API fields is
+[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API).
 

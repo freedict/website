@@ -8,12 +8,17 @@ Most of the documentation can be found in the
 [wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is mostly an
 overview over the available resources.
 A good starting point is the section on [frequently asked questions](FreeDict-FAQ.md).
-If you only need help on installing a program to use our dictionaries, the
-[downloads page](downloads) should help you getting started. If you are stuck at
-any point, you might want to [ask for help](../community).
+
+Our dictionaries, its sources and recommendations for programs to use them can be
+found on the
+[downloads page](downloads).
+If you are stuck at any point, you might want to [ask for help](../community).
 
 ### Getting Started
 
+All of the sources are hosted on [GitHub](https://github.com/freedict). Scripts
+and utilities are contained in the
+[tools repository](https://github.com/freedict/tools) of which you need a copy.
 The FreeDict tools assume a minimal set of software to be installed. The
 [README of the tools repository](https://github.com/freedict/tools)
 gives a short introduction on how to set things up.

@@ -15,9 +15,12 @@ function showDictionaries(e, platform) {
     var cnt;
     for (cnt = 0; cnt < allEntries.length; cnt++) {
         // Set display to block or none based on whether the element is marked
-        // with a class name dict-src-eng, dict-src-deu, ... depending on the
+        // with a class name dict-(src|trg)-eng, dict-(src|trg)-deu, ... depending on the
         // selected language
-        if(allEntries[cnt].className.split(' ').includes("dict-src-" + selectedLang)) {
+        var clname = allEntries[cnt].className.split(' ');
+        if(clname.includes("dict-src-" + selectedLang) ||
+                clname.includes("dict-trg-" + selectedLang)) {
+
             allEntries[cnt].style.display = "block";
         } else {
             allEntries[cnt].style.display = "none";
@@ -28,6 +31,18 @@ function showDictionaries(e, platform) {
 {% endblock %}
 
 {% block body %}
+<h2>{{ _("Table Of Contents") }}</h2>
+{# TOC needs to be built manually, since plugin doesn't know our additional
+   blocks #}
+<h2>{{ _("Table Of Contents") }}</h2>
+<ul class="toc">
+    {% for item in this.body.toc + this.after_mobile.toc + this.after_desktop.toc + this.after_source.toc recursive %}
+      <li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%
+             if item.children %}<ul>{{ loop(item.children) }}</ul>{% endif
+             %}</li>
+      {% endfor %}
+</ul>
+
   {{ super() }}
 
 {{ generate_download_section('mobile') }}
@@ -37,4 +52,8 @@ function showDictionaries(e, platform) {
 {{ generate_download_section('desktop') }}
 
 {% block after_desktop %} {{ this.after_desktop }} {% endblock %}
+
+{{ generate_download_section('source') }}
+
+{% block after_source %} {{ this.after_source }} {% endblock %}
 {% endblock %}

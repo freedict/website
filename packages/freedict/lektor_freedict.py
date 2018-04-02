@@ -100,7 +100,8 @@ def mk_dropdown(dictionaries, codes, platform):
 
 def generate_download_section(target):
     """Target can be either 'mobile' or 'desktop'."""
-    if not target in ('mobile', 'desktop'):
+    platforms = {'mobile': 'slob', 'desktop': 'dictd', 'source': 'src'}
+    if not target in platforms:
         raise ValueError("Expected either mobile or desktop as target, got " + \
                 repr(target))
 
@@ -110,14 +111,13 @@ def generate_download_section(target):
     dictionaries = {}
     trans_name = lambda n: '%s - %s' % (_(codes[n.split('-')[0]]),
             _(codes[n.split('-')[1]]))
-    platform = ('slob' if target == 'mobile' else 'dictd')
     for dictionary in json_api:
         try:
             url = next(r for r in dictionary['releases'] if r['platform'] ==
-                    platform)['URL']
+                    platforms[target])['URL']
         except StopIteration:
             raise ValueError("Dictionary %s without release for %s" % (
-                dictionary['name'], platform))
+                dictionary['name'], platforms[target]))
         name = dictionary['name']
         dictionaries[name] = {'url': url, 'edition': dictionary['edition'],
                 'headwords': dictionary['headwords'],

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-01 17:50+CET\n"
+"POT-Creation-Date: 2018-04-02 13:58+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -64,11 +64,18 @@ msgid ""
 "mostly an\n"
 "overview over the available resources.\n"
 "A good starting point is the section on [frequently asked questions]"
-"(FreeDict-FAQ.md).\n"
-"If you only need help on installing a program to use our dictionaries, the\n"
-"[downloads page](downloads) should help you getting started. If you are "
-"stuck at\n"
-"any point, you might want to [ask for help](../community)."
+"(FreeDict-FAQ.md)."
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Our dictionaries, its sources and recommendations for programs to use them "
+"can be\n"
+"found on the\n"
+"[downloads page](downloads).\n"
+"If you are stuck at any point, you might want to [ask for help](../"
+"community)."
 msgstr ""
 
 #: http://localhost/documentation/
@@ -80,6 +87,11 @@ msgstr "### Getting Started"
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
+"All of the sources are hosted on [GitHub](https://github.com/freedict). "
+"Scripts\n"
+"and utilities are contained in the\n"
+"[tools repository](https://github.com/freedict/tools) of which you need a "
+"copy.\n"
 "The FreeDict tools assume a minimal set of software to be installed. The\n"
 "[README of the tools repository](https://github.com/freedict/tools)\n"
 "gives a short introduction on how to set things up."
@@ -163,7 +175,8 @@ msgid ""
 msgstr ""
 
 #: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
+#: (content/documentation/contents+en.lr:page.body) http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
 msgid "### API"
 msgstr "### API"
 
@@ -525,8 +538,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
-msgid "## Smartphones And Tablets"
-msgstr "## Smartphones And Tablets"
+msgid "### Smartphones And Tablets"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -555,29 +568,24 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "## Computers"
-msgstr "## Computers"
+msgid "### Computers"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
 msgid ""
 "For desktop computers, you are free to choose between a variety of "
 "dictionary\n"
-"programs. The most popular and advanced is probably\n"
+"programs, a selection of clients can be found on our\n"
+"[wiki page](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-"
+"Clients).\n"
+"The most advanced is probably\n"
 "[GoldenDict](http:goldendict.org). It can read many formats, including the "
 "dictd\n"
 "format. Just download the archive below to your computer, unpack it and "
 "then\n"
 "select `import` from the menu within GoldenDict."
 msgstr ""
-"For desktop computers, you are free to choose between a variety of "
-"dictionary\n"
-"programs. The most popular and advanced is probably\n"
-"[GoldenDict](http:goldendict.org). It can read many formats, including the "
-"dictd\n"
-"format. Just download the archive below to your computer, unpack it and "
-"then\n"
-"select `import` from the menu within GoldenDict."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -594,8 +602,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "### Source and API"
-msgstr "### Source and API"
+msgid "### Source"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -603,16 +611,10 @@ msgid ""
 "If you want to browse through our source, you have several options. We "
 "develop\n"
 "our dictionaries openly on\n"
-"[GitHub](https://github.com/freedict/fd-dictionaries). You can get a fresh "
-"copy\n"
-"with"
+"[GitHub](https://github.com/freedict/fd-dictionaries). Our tools and most of "
+"our\n"
+"dictionaries are there."
 msgstr ""
-"If you want to browse through our source, you have several options. We "
-"develop\n"
-"our dictionaries openly on\n"
-"[GitHub](https://github.com/freedict/fd-dictionaries). You can get a fresh "
-"copy\n"
-"with"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -627,39 +629,43 @@ msgid ""
 "they don't need versioning. The importers for those dictionaries is in the\n"
 "[tools](https://github.com/freedict/tools) repository, which is required "
 "for\n"
-"building anyway:"
+"building anyway."
 msgstr ""
-"Automatically imported dictionaries are not present in this source tree, "
-"since\n"
-"they don't need versioning. The importers for those dictionaries is in the\n"
-"[tools](https://github.com/freedict/tools) repository, which is required "
-"for\n"
-"building anyway:"
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "    $ git clone https://github.com/freedict/tools"
-msgstr "    $ git clone https://github.com/freedict/tools"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid ""
-"Have a look at the\n"
-"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"HOWTO)."
+"The latest release of each dictionaries' source can be retrieved below:\n"
 msgstr ""
-"Have a look at the\n"
-"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"HOWTO)."
 
 #: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
+#: (content/downloads/contents+en.lr:downloads.after_source)
 msgid ""
-"If you are interested in the source files of *all* dictionaries, you can use "
-"the\n"
-"[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"API)\n"
-"to retrieve information about the sources and where to get them.\n"
+"The API allows for retrieval of meta information of each dictionary, as well "
+"as\n"
+"direct download links for the target formats (AKA platforms) and their "
+"source.\n"
+"This can be helpful for app developers or distributors."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid "The endpoints are"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid ""
+"<https://freedict.org/freedict-database.xml>\\n<https://freedict.org/"
+"freedict-database.json>"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid ""
+"Documentation of the API fields is\n"
+"[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+"API).\n"
 msgstr ""
 
 #: templates/base.html:31
@@ -674,7 +680,8 @@ msgstr "Dictionary Maintainer"
 msgid "Dictionaries"
 msgstr "Dictionaries"
 
-#: templates/documentation.html:3
+#: templates/documentation.html:3 templates/downloads.html:34
+#: templates/downloads.html:37
 msgid "Table Of Contents"
 msgstr ""
 
@@ -911,6 +918,78 @@ msgstr "No language selected…"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#~ msgid "## Smartphones And Tablets"
+#~ msgstr "## Smartphones And Tablets"
+
+#~ msgid "## Computers"
+#~ msgstr "## Computers"
+
+#~ msgid ""
+#~ "For desktop computers, you are free to choose between a variety of "
+#~ "dictionary\n"
+#~ "programs. The most popular and advanced is probably\n"
+#~ "[GoldenDict](http:goldendict.org). It can read many formats, including "
+#~ "the dictd\n"
+#~ "format. Just download the archive below to your computer, unpack it and "
+#~ "then\n"
+#~ "select `import` from the menu within GoldenDict."
+#~ msgstr ""
+#~ "For desktop computers, you are free to choose between a variety of "
+#~ "dictionary\n"
+#~ "programs. The most popular and advanced is probably\n"
+#~ "[GoldenDict](http:goldendict.org). It can read many formats, including "
+#~ "the dictd\n"
+#~ "format. Just download the archive below to your computer, unpack it and "
+#~ "then\n"
+#~ "select `import` from the menu within GoldenDict."
+
+#~ msgid "### Source and API"
+#~ msgstr "### Source and API"
+
+#~ msgid ""
+#~ "If you want to browse through our source, you have several options. We "
+#~ "develop\n"
+#~ "our dictionaries openly on\n"
+#~ "[GitHub](https://github.com/freedict/fd-dictionaries). You can get a "
+#~ "fresh copy\n"
+#~ "with"
+#~ msgstr ""
+#~ "If you want to browse through our source, you have several options. We "
+#~ "develop\n"
+#~ "our dictionaries openly on\n"
+#~ "[GitHub](https://github.com/freedict/fd-dictionaries). You can get a "
+#~ "fresh copy\n"
+#~ "with"
+
+#~ msgid ""
+#~ "Automatically imported dictionaries are not present in this source tree, "
+#~ "since\n"
+#~ "they don't need versioning. The importers for those dictionaries is in "
+#~ "the\n"
+#~ "[tools](https://github.com/freedict/tools) repository, which is required "
+#~ "for\n"
+#~ "building anyway:"
+#~ msgstr ""
+#~ "Automatically imported dictionaries are not present in this source tree, "
+#~ "since\n"
+#~ "they don't need versioning. The importers for those dictionaries is in "
+#~ "the\n"
+#~ "[tools](https://github.com/freedict/tools) repository, which is required "
+#~ "for\n"
+#~ "building anyway:"
+
+#~ msgid "    $ git clone https://github.com/freedict/tools"
+#~ msgstr "    $ git clone https://github.com/freedict/tools"
+
+#~ msgid ""
+#~ "Have a look at the\n"
+#~ "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "FreeDict-HOWTO)."
+#~ msgstr ""
+#~ "Have a look at the\n"
+#~ "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "FreeDict-HOWTO)."
 
 #~ msgid ""
 #~ "Static information about our dictionaries can be retrieved over a CORS-"
