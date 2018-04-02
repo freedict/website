@@ -88,8 +88,8 @@ def mk_dropdown(dictionaries, codes, platform):
 
     for abbr_name, dictionary in dictionaries.items():
         lg1, lg2 = abbr_name.split('-')
-        page.append('\n<li style="list-style-type:circle; display: none" class="dict-src-%s ' % lg1)
-        page.append('dict-trg-%s %s">' % (lg2, platform))
+        page.append('\n<li style="list-style-type:circle" class="dict-src-%s ' % lg1)
+        page.append('dict-trg-%s %s downloaditem">' % (lg2, platform))
         page.append('<a href="%s">%s, ' % (dictionary['url'],
                 dictionary['localised_name']))
         page.append(_('version {version} with {headwords} headwords').format(

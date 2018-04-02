@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-02 13:58+CET\n"
+"POT-Creation-Date: 2018-04-02 23:30+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -611,10 +611,20 @@ msgstr "Betreuer des Wörterbuchs"
 msgid "Dictionaries"
 msgstr "Wörterbücher"
 
-#: templates/documentation.html:3 templates/downloads.html:34
-#: templates/downloads.html:37
+#: templates/documentation.html:3 templates/downloads.html:35
+#: templates/downloads.html:38
 msgid "Table Of Contents"
 msgstr "Inhaltsverzeichnis"
+
+#: templates/downloads.html:31
+msgid ""
+"This page uses JavaScript to nicely format the list of downloads.  You will "
+"instead see a lengthy list, since your browser has JavaScript disabled or "
+"doesn't include support for it."
+msgstr ""
+"Diese Seite nutzt JavaScript um die Downloads ansprechend zu formatieren. Sie "
+"werden daher eine überlange Liste sehen, da ihr Browser JavaScript "
+"deaktiviert hat oder kein JavaScript unterstützt."
 
 #: iso-639-3.tab (no:lineno)
 msgid "Afrikaans"

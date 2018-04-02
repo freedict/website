@@ -28,6 +28,7 @@ function showDictionaries(e, platform) {
     }
 }
 </script>
+<noscript>{{ _("This page uses JavaScript to nicely format the list of downloads.  You will instead see a lengthy list, since your browser has JavaScript disabled or doesn't include support for it.") }}</noscript>
 {% endblock %}
 
 {% block body %}
@@ -56,4 +57,13 @@ function showDictionaries(e, platform) {
 {{ generate_download_section('source') }}
 
 {% block after_source %} {{ this.after_source }} {% endblock %}
+<script>
+// Query all elements that are marked with the dict-entry class name and set to
+// invisible
+var allEntries = document.querySelectorAll('.downloaditem')
+var cnt;
+for (cnt = 0; cnt < allEntries.length; cnt++) {
+  allEntries[cnt].style.display = "none";
+}
+</script>
 {% endblock %}
