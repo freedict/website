@@ -33,9 +33,6 @@ function showDictionaries(e, platform) {
 
 {% block body %}
 <h2>{{ _("Table Of Contents") }}</h2>
-{# TOC needs to be built manually, since plugin doesn't know our additional
-   blocks #}
-<h2>{{ _("Table Of Contents") }}</h2>
 <ul class="toc">
     {% for item in this.body.toc + this.after_mobile.toc + this.after_desktop.toc + this.after_source.toc recursive %}
       <li><a href="#{{ item.anchor }}">{{ item.title }}</a>{%

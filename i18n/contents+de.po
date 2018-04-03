@@ -120,6 +120,12 @@ msgid ""
 "[README of the tools repository](https://github.com/freedict/tools)\n"
 "gives a short introduction on how to set things up."
 msgstr ""
+"Alle Quellen werden auf [GitHub](https://github.com/freedict) gehostet. "
+"Alle Werkzeuge befinden sich im [Tools-Repositorium]"
+"(https://github.com/freedict/tools), von dem Sie eine Kopie benötigen. "
+"Die Werkzeuge setzen einige Software voraus, die "
+"[englische README-Datei des Repositoriums](https://github.com/freedict/tools) "
+"gibt eine kurze Einführung zur Einrichtung."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
