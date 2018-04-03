@@ -11,30 +11,13 @@ Fork Button
 It would be great to have a fork button on the top of the page, see
 <https://rust-lang.org>.
 
+Quality Assurance
+-----------------
 
-Navigation Bar
---------------
+The question arises whether this duplicates GitHub infrastructure, but on the
+other hand, we have inactive maintainers, etc. and we should be able to get an
+overview about important matters at a glance.
 
-Inspiration: <https://www.getlektor.com/docs/templates/navigation/>.
-
-Mandatory items: Documentation Downloads Community Development
-
-Preferred is a layout with subnavigation points over one with all possible items
-in the navigation bar.
-
-Downloads Page
---------------
-
-Group languages like this:
-
-    Afrikaans:
-    * with _English_: afr-eng (0.1), eng-afr (0.2)
-    * with _German_: afr-deu (x.x)
-
-Currently it's a plain list, but the sorting would need javascript magic.
-
-What's more:
-
-*   display dictionary size
-*   hovering over a link should give additional dictionary info: size
-
+-   which languages of the website have translated alternatives and how many
+    percent
+-   last action of dictionary maintainer
