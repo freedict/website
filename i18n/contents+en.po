@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-02 23:30+CET\n"
+"POT-Creation-Date: 2018-04-03 10:57+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -63,8 +63,9 @@ msgid ""
 "[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
 "mostly an\n"
 "overview over the available resources.\n"
-"A good starting point is the section on [frequently asked questions]"
-"(FreeDict-FAQ.md)."
+"A good starting point is the section on\n"
+"[frequently asked questions](https://github.com/freedict/fd-dictionaries/"
+"wiki/FreeDict-FAQ)."
 msgstr ""
 
 #: http://localhost/documentation/
@@ -589,16 +590,36 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid ""
-"**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
-"unable\n"
-"to unpack this archive format, please download a program like\n"
-"[7-Zip](https://7-zip.org).\n"
+msgid "#### GNU/Linux"
 msgstr ""
-"**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
-"unable\n"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"If you are running a Debian/Ubuntu derivative or Arch, the FreeDict\n"
+"packages are already available via your package manager.\n"
+"If not, use the downloads below."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "#### Windows"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"The archives are in the `.tar.xz` format. If you are unable\n"
 "to unpack this archive format, please download a program like\n"
-"[7-Zip](https://7-zip.org).\n"
+"[7-Zip](https://7-zip.org). After this, you will find the `.index` and\n"
+"`.dict.dz` files required for the import in your favourite dictionary "
+"program."
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "#### Dictionary Downloads\n"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -925,6 +946,17 @@ msgstr "No language selected…"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#~ msgid ""
+#~ "**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
+#~ "unable\n"
+#~ "to unpack this archive format, please download a program like\n"
+#~ "[7-Zip](https://7-zip.org).\n"
+#~ msgstr ""
+#~ "**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
+#~ "unable\n"
+#~ "to unpack this archive format, please download a program like\n"
+#~ "[7-Zip](https://7-zip.org).\n"
 
 #~ msgid "## Smartphones And Tablets"
 #~ msgstr "## Smartphones And Tablets"

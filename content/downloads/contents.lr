@@ -35,9 +35,20 @@ The most advanced is probably
 format. Just download the archive below to your computer, unpack it and then
 select `import` from the menu within GoldenDict.
 
-**Hint on windows:** The archives are in the `.tar.xz` format. If you are unable
+#### GNU/Linux
+
+If you are running a Debian/Ubuntu derivative or Arch, the FreeDict
+packages are already available via your package manager.
+If not, use the downloads below.
+
+#### Windows
+
+The archives are in the `.tar.xz` format. If you are unable
 to unpack this archive format, please download a program like
-[7-Zip](https://7-zip.org).
+[7-Zip](https://7-zip.org). After this, you will find the `.index` and
+`.dict.dz` files required for the import in your favourite dictionary program.
+
+#### Dictionary Downloads
 
 ---
 after_desktop:
