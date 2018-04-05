@@ -81,7 +81,7 @@ This can be helpful for app developers or distributors.
 
 The endpoints are
 
-<https://freedict.org/freedict-database.xml>\
+<https://freedict.org/freedict-database.xml>  
 <https://freedict.org/freedict-database.json>
 
 Documentation of the API fields is

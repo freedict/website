@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-03 10:57+CET\n"
+"POT-Creation-Date: 2018-04-05 16:18+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -80,12 +80,11 @@ msgid ""
 "[frequently asked questions](https://github.com/freedict/fd-dictionaries/"
 "wiki/FreeDict-FAQ)."
 msgstr ""
-"Ein Großteil der Dokumentation befindet sich im "
-"[wiki (Englisch)](https://github.com/freedict/fd-dictionaries/wiki). "
-"Diese Seite dient vorrangig als Übersicht über verfügbare Ressourcen. Ein "
-"guter Ausgangspunkt ist unsere "
-"[englische Liste häufig gestellter Fragen]"
-"(https://github.com/freedict/fd-dictionaries/wiki/FreeDict-FAQ)."
+"Ein Großteil der Dokumentation befindet sich im [wiki (Englisch)](https://"
+"github.com/freedict/fd-dictionaries/wiki). Diese Seite dient vorrangig als "
+"Übersicht über verfügbare Ressourcen. Ein guter Ausgangspunkt ist unsere "
+"[englische Liste häufig gestellter Fragen](https://github.com/freedict/fd-"
+"dictionaries/wiki/FreeDict-FAQ)."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -99,8 +98,8 @@ msgid ""
 msgstr ""
 "Unsere Wörterbücher, deren Quellen und Empfehlungen für Wörterbuchprogramme "
 "finden Sie auf der [Downloadseite](downloads).\n"
-"Falls Sie an einem Punkt nicht weiter wissen, können Sie einfach "
-"[bei uns nachfragen](../community)."
+"Falls Sie an einem Punkt nicht weiter wissen, können Sie einfach [bei uns "
+"nachfragen](../community)."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body) http://localhost/community/
@@ -120,12 +119,11 @@ msgid ""
 "[README of the tools repository](https://github.com/freedict/tools)\n"
 "gives a short introduction on how to set things up."
 msgstr ""
-"Alle Quellen werden auf [GitHub](https://github.com/freedict) gehostet. "
-"Alle Werkzeuge befinden sich im [Tools-Repositorium]"
-"(https://github.com/freedict/tools), von dem Sie eine Kopie benötigen. "
-"Die Werkzeuge setzen einige Software voraus, die "
-"[englische README-Datei des Repositoriums](https://github.com/freedict/tools) "
-"gibt eine kurze Einführung zur Einrichtung."
+"Alle Quellen werden auf [GitHub](https://github.com/freedict) gehostet. Alle "
+"Werkzeuge befinden sich im [Tools-Repositorium](https://github.com/freedict/"
+"tools), von dem Sie eine Kopie benötigen. Die Werkzeuge setzen einige "
+"Software voraus, die [englische README-Datei des Repositoriums](https://"
+"github.com/freedict/tools) gibt eine kurze Einführung zur Einrichtung."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -242,10 +240,10 @@ msgid ""
 "The\n"
 "URLs are"
 msgstr ""
-"Die Kopfdaten der Wörterbücher kann über eine CORS-fähige API abgerufen "
-"werden, in den formaten XML and JSON. Diese können genutzt werden, um Links "
-"zu den Downloads zu extrahieren oder andere Kopfdaten, damit sie in ein "
-"Wörterbuchprogramm eingebettet werden könne. Die URLs sind:"
+"Die Kopfdaten der Wörterbücher können über eine CORS-fähige API abgerufen "
+"werden, sowohl im JSON-, als auch im XML-Format. Diese können genutzt "
+"werden, um Links zu den Downloads zu extrahieren oder andere Kopfdaten, "
+"damit sie in ein Wörterbuchprogramm eingebettet werden könne. Die URLs sind:"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -278,10 +276,16 @@ msgid ""
 "Dictionary-Clients)\n"
 "and ideally we would support them all, one day.\n"
 msgstr ""
+"Wir versuchen immer neue Nutzer zu erreichen, indem wir in weitere "
+"Ausgabeformate exportieren und der begrenzende Faktor ist lediglich die Anzahl"
+" der Beitragenden. Es gibt eine "
+"[Liste von Programmen (Englisch)](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients), "
+"welche wir idealerweise eines Tages alle unterstützen."
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About FreeDict"
-msgstr ""
+msgstr "Über FreeDict"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "### About FreeDict"
@@ -289,7 +293,7 @@ msgstr "### Über FreeDict"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "FreeDict is a dictionary project with"
-msgstr ""
+msgstr "FreeDict ist ein Wörterbuchprojekt mit"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
@@ -628,8 +632,8 @@ msgstr "Die Endpunkte sind"
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_source)
 msgid ""
-"<https://freedict.org/freedict-database.xml>\\n<https://freedict.org/"
-"freedict-database.json>"
+"<https://freedict.org/freedict-database.xml>  \n"
+"<https://freedict.org/freedict-database.json>"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -653,7 +657,6 @@ msgid "Dictionaries"
 msgstr "Wörterbücher"
 
 #: templates/documentation.html:3 templates/downloads.html:35
-#: templates/downloads.html:38
 msgid "Table Of Contents"
 msgstr "Inhaltsverzeichnis"
 
@@ -851,40 +854,40 @@ msgstr "Walisisch"
 msgid "Wolof"
 msgstr ""
 
-#: packages/freedict/news.py:74
+#: packages/freedict/news.py:75
 #, python-brace-format
 msgid "Work in the last {days} days:"
 msgstr "Arbeit der letzten{days} Tage:"
 
-#: packages/freedict/news.py:77
+#: packages/freedict/news.py:78
 #, python-brace-format
 msgid "{num} commits in"
 msgstr "{num} Commits in"
 
-#: packages/freedict/news.py:82
+#: packages/freedict/news.py:83
 #, python-brace-format
 msgid "{num} issues edits"
 msgstr "{num} Issues geändert"
 
-#: packages/freedict/news.py:84
+#: packages/freedict/news.py:85
 #, python-brace-format
 msgid "{num} wiki changes"
 msgstr "{num} Änderungen im Wiki"
 
-#: packages/freedict/news.py:100
+#: packages/freedict/news.py:101
 msgid "What's Happening"
 msgstr "Was tut sich"
 
-#: packages/freedict/news.py:109
+#: packages/freedict/news.py:110
 msgid "One new release:"
 msgstr "Eine neue Veröffentlichung:"
 
-#: packages/freedict/news.py:111
+#: packages/freedict/news.py:112
 #, python-brace-format
 msgid "{num_releases} new releases:"
 msgstr "{num_releases} neue Veröffentlichungen:"
 
-#: packages/freedict/news.py:118
+#: packages/freedict/news.py:119
 msgid "and more"
 msgstr "und weitere"
 

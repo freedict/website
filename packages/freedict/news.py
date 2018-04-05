@@ -9,6 +9,7 @@ import urllib
 import common
 
 NEWS_TIMESPAN = 30 # news from last 30 days
+DB_PICKLED = 'databags/news.pickle'
 
 def get_releases(timespan):
     """Return all releases made in the given timedelta."""
@@ -122,15 +123,23 @@ def format_news(news):
     page.append('\n</ul>\n</p>\n')
     return common.HTML(''.join(page))
 
+def file_current_enough(path):
+    """Check whether the given file has been touched less than a minute ago."""
+    last_modified = datetime.fromtimestamp(os.path.getmtime(path))
+    return last_modified  > (datetime.now() - timedelta(minutes=1))
+
 def generate_news_section():
     """Retrieve news from multiple sources and generate a news section. If the
-    environment variable DEBUG, databags/news.json is loaded, if it exists.
+    environment variable DEBUG, databags/news.pickle is loaded, if it exists.
     Otherwise the file is retrieved and stored for subsequent debugging. If no
-    internet access is present and no databags/news.json file exists, the news
+    internet access is present and no databags/news.pickle file exists, the news
     section will be empty."""
     news = None
     common.setup_gettext() # make localisation work
-    if 'DEBUG' in os.environ:
+    if file_current_enough(DB_PICKLED):
+        with open('databags/news.pickle', 'rb') as goodname:
+            news = pickle.load(goodname)
+    elif 'DEBUG' in os.environ:
         if not os.path.exists('databags/news.pickle'):
             return '' # no databag present, pretend empty news section
         with open('databags/news.pickle', 'rb') as goodname:
@@ -138,7 +147,7 @@ def generate_news_section():
     else: # load fresh data
         get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
         timespan = timedelta(days=NEWS_TIMESPAN)
-        recent_enough = lambda x: get_date(x) > (datetime.now() -timespan)
+        recent_enough = lambda x: get_date(x) > (datetime.now() - timespan)
 
         news = {'releases': get_releases(timespan)}
         # load github events
