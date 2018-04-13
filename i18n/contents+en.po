@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-05 16:18+CET\n"
+"POT-Creation-Date: 2018-04-13 14:44+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -314,20 +314,23 @@ msgstr ""
 "decouples from the actual output format."
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"In 2016, FreeDict moved from SourceForge to [Github](https://github.com/"
+"freedict). This makes the project more visible and eases collaborative "
+"development considerably."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "#### Contact"
 msgstr "#### Contact"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
 "We are happy to receive feedback, feature requests and we absolutely love\n"
-"patches, Please have a look at our\n"
+"patches. Please have a look at our\n"
 "[community page](../community)\n"
 "for more information."
 msgstr ""
-"We are happy to receive feedback, feature requests and we absolutely love\n"
-"patches, Please have a look at our\n"
-"[community page](../community)\n"
-"for more information."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.title)
 msgid "FreeDict Community"
@@ -335,47 +338,32 @@ msgstr "FreeDict Community"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
-"The large number of dictionaries and the infrastructure around are only a "
-"part\n"
-"of FreeDict's story. Behind these, FreeDict is developed and run by "
-"enthusiasts\n"
-"with many different skill sets, including linguists, programmers or simply\n"
-"people with an affinity to languages.  The diversity is our strength."
+"FreeDict is more than a large number of dictionaries, tools and "
+"infrastructure.\n"
+"It consists of a community of enthusiasts with many different skill sets,\n"
+"including linguists, programmers or simply people with an affinity to "
+"languages.\n"
+"The diversity is our strength."
 msgstr ""
-"The large number of dictionaries and the infrastructure around are only a "
-"part\n"
-"of FreeDict's story. Behind these, FreeDict is developed and run by "
-"enthusiasts\n"
-"with many different skill sets, including linguists, programmers or simply\n"
-"people with an affinity to languages.  The diversity is our strength."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid ""
-"If you are new to our project, the following community resources are "
-"available:"
+msgid "Let's get in touch:"
 msgstr ""
-"If you are new to our project, the following community resources are "
-"available:"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
 "*   The IRC channel\n"
 "    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
-"    on the `OFTC` network is there to answer your questions in with any\n"
-"    complexity and without logging. If you do not know IRC, you\n"
-"    can try the [web chat](https://webchat.oftc.net/?channels=freedict). It "
-"is\n"
-"    the right place to ask questions if you don't want to post to a mailing\n"
-"    list."
+"    on the `OFTC` network lets you get in touch with us in real-time. You "
+"can\n"
+"    ask any questions in any complexity and without logging. If you do not "
+"know\n"
+"    IRC, you\n"
+"    can try the [web chat](https://webchat.oftc.net/?channels=freedict). "
+"This\n"
+"    channel is the right place to ask questions if you are hesitant to post "
+"to a public mailing list."
 msgstr ""
-"*   The IRC channel\n"
-"    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
-"    on the `OFTC` network is there to answer your questions in with any\n"
-"    complexity and without logging. If you do not know IRC, you\n"
-"    can try the [web chat](https://webchat.oftc.net/?channels=freedict). It "
-"is\n"
-"    the right place to ask questions if you don't want to post to a mailing\n"
-"    list."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -436,21 +424,13 @@ msgid ""
 "split among several repositories. All the hand-written dictionaries are in "
 "the\n"
 "[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
-"repository, the tools are in the\n"
-"[the repository with the same name](https://github.com/freedict/tools).\n"
-"Any bugs or feature requests regarding dictionaries are managed on our"
+"repository and the tools are in the\n"
+"[the repository with the same name](https://github.com/freedict/tools)."
 msgstr ""
-"Development takes mostly place on [GitHub](https://github.com/freedict) and "
-"is\n"
-"split among several repositories. All the hand-written dictionaries are in "
-"the\n"
-"[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
-"repository, the tools are in the\n"
-"[the repository with the same name](https://github.com/freedict/tools).\n"
-"Any bugs or feature requests regarding dictionaries are managed on our"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
+"Bugs and feature requests regarding dictionaries are managed on our\n"
 "[fd-dictionaries issue tracker](https://github.com/freedict/fd-dictionaries/"
 "issues), including those\n"
 "dictionaries which are *not* in the fd-dictionaries repository. All issues\n"
@@ -458,12 +438,6 @@ msgid ""
 "should go to the\n"
 "[tools issue tracker](https://github.com/freedict/tools/issues)."
 msgstr ""
-"[fd-dictionaries issue tracker](https://github.com/freedict/fd-dictionaries/"
-"issues), including those\n"
-"dictionaries which are *not* in the fd-dictionaries repository. All issues\n"
-"related to the development of tools for building and importing dictionaries\n"
-"should go to the\n"
-"[tools issue tracker](https://github.com/freedict/tools/issues)."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "#### I'm Not A Developer"
@@ -471,31 +445,52 @@ msgstr "#### I'm Not A Developer"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
-"Great, we cannot wait for your contribution!\n"
-"We are always looking for people with a different mothertongue than English. "
-"Our\n"
-"web site needs translation into as many languages as possible. This is not a "
-"lot\n"
+"Great, we cannot wait for your contribution! We are happy to assist with "
+"any\n"
+"technical question you might have and are happy to mentor you in the process "
+"of\n"
+"learning how to work in our project.\\nYou can also make a great difference "
+"if you recommend us to your friends!"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "##### Website Translations"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"We are always looking for people  who are able to translate our website. As "
+"a\n"
+"dictionary project, we want to reach as many people as possible, hence our\n"
+"website needs many translations.\n"
+"This is not a lot\n"
 "of work and it doesn't change too often, so please\n"
 "[contact us](https://www.freelists.org/list/freedict)\n"
 "if you would like to help."
 msgstr ""
-"Great, we cannot wait for your contribution!\n"
-"We are always looking for people with a different mothertongue than English. "
-"Our\n"
-"web site needs translation into as many languages as possible. This is not a "
-"lot\n"
-"of work and it doesn't change too often, so please\n"
-"[contact us](https://www.freelists.org/list/freedict)\n"
-"if you would like to help."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "##### Improving Dictionaries"
+msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
-"Recommending free and open dictionaries from the web is also very helpful to "
-"our\n"
-"project, because we simply can't now them all. If in doubt, have a look at "
-"the\n"
-"[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/issues)."
+"It is very helpful if you report errors in our dictionaries to us. You can\n"
+"report them either on\n"
+"[GitHub](https://github.com/freedict/fd-dictionaries) or on our mailing list."
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "##### Artwork"
+msgstr ""
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"If you have the rare gift of being able to design a website theme, logos,\n"
+"stickers or whatever comes to mind, then we would be very excited to get to "
+"know\n"
+"you. Please be so kind and write to us on the\n"
+"[mailing list](https://www.freelists.org/list/freedict)."
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -689,21 +684,46 @@ msgid ""
 "API).\n"
 msgstr ""
 
+#: templates/base.html:15
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:18
+msgid "Downloads"
+msgstr ""
+
+#: templates/base.html:19
+msgid "Community"
+msgstr ""
+
+#: templates/base.html:20
+msgid "About us"
+msgstr ""
+
 #: templates/base.html:31
 msgid "View this site in in another language:"
 msgstr "View this site in in another language:"
 
-#: templates/community.html:10
+#: templates/base.html:53
+msgid "Website Translations"
+msgstr ""
+
+#: templates/base.html:54
+msgid "Help translating this website!"
+msgstr ""
+
+#: templates/community.html:4 templates/documentation.html:3
+#: templates/downloads.html:35
+msgid "Table Of Contents"
+msgstr ""
+
+#: templates/community.html:20
 msgid "Dictionary Maintainer"
 msgstr "Dictionary Maintainer"
 
-#: templates/community.html:11
+#: templates/community.html:21
 msgid "Dictionaries"
 msgstr "Dictionaries"
-
-#: templates/documentation.html:3 templates/downloads.html:35
-msgid "Table Of Contents"
-msgstr ""
 
 #: templates/downloads.html:31
 msgid ""
@@ -933,18 +953,133 @@ msgstr "{num_releases} new releases:"
 msgid "and more"
 msgstr "and more"
 
-#: packages/freedict/lektor_freedict.py:82
+#: packages/freedict/lektor_freedict.py:84
 msgid "Pick a language:"
 msgstr "Pick a language:"
 
-#: packages/freedict/lektor_freedict.py:84
+#: packages/freedict/lektor_freedict.py:86
 msgid "No language selected…"
 msgstr "No language selected…"
 
-#: packages/freedict/lektor_freedict.py:95
+#: packages/freedict/lektor_freedict.py:97
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#~ msgid ""
+#~ "Development takes mostly place on [GitHub](https://github.com/freedict) "
+#~ "and is\n"
+#~ "split among several repositories. All the hand-written dictionaries are "
+#~ "in the\n"
+#~ "[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+#~ "repository, the tools are in the\n"
+#~ "[the repository with the same name](https://github.com/freedict/tools).\n"
+#~ "Any bugs or feature requests regarding dictionaries are managed on our"
+#~ msgstr ""
+#~ "Development takes mostly place on [GitHub](https://github.com/freedict) "
+#~ "and is\n"
+#~ "split among several repositories. All the hand-written dictionaries are "
+#~ "in the\n"
+#~ "[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+#~ "repository, the tools are in the\n"
+#~ "[the repository with the same name](https://github.com/freedict/tools).\n"
+#~ "Any bugs or feature requests regarding dictionaries are managed on our"
+
+#~ msgid ""
+#~ "[fd-dictionaries issue tracker](https://github.com/freedict/fd-"
+#~ "dictionaries/issues), including those\n"
+#~ "dictionaries which are *not* in the fd-dictionaries repository. All "
+#~ "issues\n"
+#~ "related to the development of tools for building and importing "
+#~ "dictionaries\n"
+#~ "should go to the\n"
+#~ "[tools issue tracker](https://github.com/freedict/tools/issues)."
+#~ msgstr ""
+#~ "[fd-dictionaries issue tracker](https://github.com/freedict/fd-"
+#~ "dictionaries/issues), including those\n"
+#~ "dictionaries which are *not* in the fd-dictionaries repository. All "
+#~ "issues\n"
+#~ "related to the development of tools for building and importing "
+#~ "dictionaries\n"
+#~ "should go to the\n"
+#~ "[tools issue tracker](https://github.com/freedict/tools/issues)."
+
+#~ msgid ""
+#~ "Great, we cannot wait for your contribution!\n"
+#~ "We are always looking for people with a different mothertongue than "
+#~ "English. Our\n"
+#~ "web site needs translation into as many languages as possible. This is "
+#~ "not a lot\n"
+#~ "of work and it doesn't change too often, so please\n"
+#~ "[contact us](https://www.freelists.org/list/freedict)\n"
+#~ "if you would like to help."
+#~ msgstr ""
+#~ "Great, we cannot wait for your contribution!\n"
+#~ "We are always looking for people with a different mothertongue than "
+#~ "English. Our\n"
+#~ "web site needs translation into as many languages as possible. This is "
+#~ "not a lot\n"
+#~ "of work and it doesn't change too often, so please\n"
+#~ "[contact us](https://www.freelists.org/list/freedict)\n"
+#~ "if you would like to help."
+
+#~ msgid ""
+#~ "If you are new to our project, the following community resources are "
+#~ "available:"
+#~ msgstr ""
+#~ "If you are new to our project, the following community resources are "
+#~ "available:"
+
+#~ msgid ""
+#~ "*   The IRC channel\n"
+#~ "    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
+#~ "    on the `OFTC` network is there to answer your questions in with any\n"
+#~ "    complexity and without logging. If you do not know IRC, you\n"
+#~ "    can try the [web chat](https://webchat.oftc.net/?channels=freedict). "
+#~ "It is\n"
+#~ "    the right place to ask questions if you don't want to post to a "
+#~ "mailing\n"
+#~ "    list."
+#~ msgstr ""
+#~ "*   The IRC channel\n"
+#~ "    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
+#~ "    on the `OFTC` network is there to answer your questions in with any\n"
+#~ "    complexity and without logging. If you do not know IRC, you\n"
+#~ "    can try the [web chat](https://webchat.oftc.net/?channels=freedict). "
+#~ "It is\n"
+#~ "    the right place to ask questions if you don't want to post to a "
+#~ "mailing\n"
+#~ "    list."
+
+#~ msgid ""
+#~ "We are happy to receive feedback, feature requests and we absolutely "
+#~ "love\n"
+#~ "patches, Please have a look at our\n"
+#~ "[community page](../community)\n"
+#~ "for more information."
+#~ msgstr ""
+#~ "We are happy to receive feedback, feature requests and we absolutely "
+#~ "love\n"
+#~ "patches, Please have a look at our\n"
+#~ "[community page](../community)\n"
+#~ "for more information."
+
+#~ msgid ""
+#~ "The large number of dictionaries and the infrastructure around are only a "
+#~ "part\n"
+#~ "of FreeDict's story. Behind these, FreeDict is developed and run by "
+#~ "enthusiasts\n"
+#~ "with many different skill sets, including linguists, programmers or "
+#~ "simply\n"
+#~ "people with an affinity to languages.  The diversity is our strength."
+#~ msgstr ""
+#~ "The large number of dictionaries and the infrastructure around are only a "
+#~ "part\n"
+#~ "of FreeDict's story. Behind these, FreeDict is developed and run by "
+#~ "enthusiasts\n"
+#~ "with many different skill sets, including linguists, programmers or "
+#~ "simply\n"
+#~ "people with an affinity to languages.  The diversity is our strength."
 
 #~ msgid ""
 #~ "**Hint on windows:** The archives are in the `.tar.xz` format. If you are "

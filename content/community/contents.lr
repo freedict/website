@@ -4,22 +4,22 @@ title: FreeDict Community
 ---
 body:
 
-The large number of dictionaries and the infrastructure around are only a part
-of FreeDict's story. Behind these, FreeDict is developed and run by enthusiasts
-with many different skill sets, including linguists, programmers or simply
-people with an affinity to languages.  The diversity is our strength.
+FreeDict is more than a large number of dictionaries, tools and infrastructure.
+It consists of a community of enthusiasts with many different skill sets,
+including linguists, programmers or simply people with an affinity to languages.
+The diversity is our strength.
 
 ### Getting Started
 
-If you are new to our project, the following community resources are available:
+Let's get in touch:
 
 *   The IRC channel
     [`#freedict`](https://webchat.oftc.net/?channels=freedict)
-    on the `OFTC` network is there to answer your questions in with any
-    complexity and without logging. If you do not know IRC, you
-    can try the [web chat](https://webchat.oftc.net/?channels=freedict). It is
-    the right place to ask questions if you don't want to post to a mailing
-    list.
+    on the `OFTC` network lets you get in touch with us in real-time. You can
+    ask any questions in any complexity and without logging. If you do not know
+    IRC, you
+    can try the [web chat](https://webchat.oftc.net/?channels=freedict). This
+    channel is the right place to ask questions if you are hesitant to post to a public mailing list.
 
 *   If you want to reach a broader range of users and developers, it
     is best to subscribe to our
@@ -44,10 +44,10 @@ You might also want to take a look at our
 Development takes mostly place on [GitHub](https://github.com/freedict) and is
 split among several repositories. All the hand-written dictionaries are in the
 [fd-dictionaries](https://github.com/freedict/fd-dictionaries)
-repository, the tools are in the
+repository and the tools are in the
 [the repository with the same name](https://github.com/freedict/tools).
-Any bugs or feature requests regarding dictionaries are managed on our
 
+Bugs and feature requests regarding dictionaries are managed on our
 [fd-dictionaries issue tracker](https://github.com/freedict/fd-dictionaries/issues), including those
 dictionaries which are *not* in the fd-dictionaries repository. All issues
 related to the development of tools for building and importing dictionaries
@@ -56,16 +56,33 @@ should go to the
 
 #### I'm Not A Developer
 
-Great, we cannot wait for your contribution!
-We are always looking for people with a different mothertongue than English. Our
-web site needs translation into as many languages as possible. This is not a lot
+Great, we cannot wait for your contribution! We are happy to assist with any
+technical question you might have and are happy to mentor you in the process of
+learning how to work in our project.\
+You can also make a great difference if you recommend us to your friends!
+
+##### Website Translations
+
+We are always looking for people  who are able to translate our website. As a
+dictionary project, we want to reach as many people as possible, hence our
+website needs many translations.
+This is not a lot
 of work and it doesn't change too often, so please
 [contact us](https://www.freelists.org/list/freedict)
 if you would like to help.
 
-Recommending free and open dictionaries from the web is also very helpful to our
-project, because we simply can't now them all. If in doubt, have a look at the
-[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/issues).
+##### Improving Dictionaries
+
+It is very helpful if you report errors in our dictionaries to us. You can
+report them either on
+[GitHub](https://github.com/freedict/fd-dictionaries) or on our mailing list.
+
+##### Artwork
+
+If you have the rare gift of being able to design a website theme, logos,
+stickers or whatever comes to mind, then we would be very excited to get to know
+you. Please be so kind and write to us on the
+[mailing list](https://www.freelists.org/list/freedict).
 
 ### Active Dictionary Maintainers
 

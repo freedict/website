@@ -29,9 +29,11 @@ comprehensive standard to encode human speech. This format also allows for the
 usage of the dictionaries in yet unforeseen use case scenario's, because it
 decouples from the actual output format.
 
+In 2016, FreeDict moved from SourceForge to [Github](https://github.com/freedict). This makes the project more visible and eases collaborative development considerably.
+
 #### Contact
 
 We are happy to receive feedback, feature requests and we absolutely love
-patches, Please have a look at our
+patches. Please have a look at our
 [community page](../community)
 for more information.

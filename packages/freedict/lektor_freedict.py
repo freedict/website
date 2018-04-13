@@ -6,7 +6,7 @@ import tempfile
 import time
 
 from lektor.pluginsystem import Plugin
-from lektor.utils import portable_popen
+from lektor.utils import portable_popen, slugify
 
 import news
 from common import HTML, load_json_api, load_iso_table, setup_gettext
@@ -36,7 +36,9 @@ class FreedictPlugin(Plugin):
                 get_year = get_year,
                 generate_download_section = generate_download_section,
                 generate_maintainer_overview = generate_maintainer_overview,
-                generate_news_section=news.generate_news_section)
+                generate_news_section=news.generate_news_section,
+                # for the slug generation
+                slugify=slugify)
         # craft temporary POT file with languages
         now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
         now += '+%s'%(time.tzname[0])

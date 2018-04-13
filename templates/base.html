@@ -12,12 +12,12 @@
       <nav>
         <ul class="nav navbar-nav">
           <li{% if this._path == '/' %} class="active"{% endif
-                                        %}><a href="{{ '/'|url }}">Home</a></li>
+                                        %}><a href="{{ '/'|url }}">{{ _("Home") }}</a></li>
           {% for href, title in [
-                  ['/documentation', 'Documentation'],
-                  ['/downloads', 'Downloads'],
-                  ['/community', 'Community'],
-                  ['/about', 'About us'] ] -%}
+                  ['/documentation', _('Documentation')],
+                  ['/downloads', _('Downloads')],
+                  ['/community', _('Community')],
+                  ['/about', _('About us')] ] -%}
             <li{% if this.is_child_of(href) %} class="active"{% endif -%}>
               <a href="{{ href|url }}">{{ title }}</a></li>
           {% endfor %}
@@ -42,7 +42,17 @@
         {%- endfor %}
         {% for name, url_prefix in alts|dictsort -%}
         <a href="{{ url_prefix }}{{ this.path }}">{{ name }}</a> 
+        <br>
         {% endfor %}
+        {# use / for English locale and /alt for the others #}
+        {% set prefix = '/' if alt == 'en' else '/%s/' % this.alt -%}
+        {# The heading passed to slugify has to exactly match the heading from
+          contents/community/. The lektor-headings-anchor plugin uses slugify
+          for the anchors. #}
+        <div class="help-translation"><a 
+          href="{{ prefix }}community/index.html#{{ slugify(_('Website Translations')) }}">
+                {{ _('Help translating this website!') }}</a>
+        </div>
       </p>
       <p>&copy; Copyright {{ get_year() }} by The FreeDict Project.</p>
     </footer>
