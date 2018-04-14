@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 13:56+CET\n"
+"POT-Creation-Date: 2018-04-14 17:45+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,7 +17,9 @@ msgid "Home"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid "### Free Dictionaries, Free Knowledge"
+msgid ""
+"Free Dictionaries, Free Knowledge\n"
+"--------------------------------"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
@@ -37,18 +39,37 @@ msgid ""
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid "### Use Wherever You Want"
-msgstr "### Use Wherever You Want"
+msgid ""
+"Use Wherever You Want\n"
+"--------------------"
+msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid ""
-"**Our dictionaries are flexible:** you can use them both\n"
+"FreeDict dictionaries offer you the greatest deal of flexibility possible:\n"
+"you can use them both\n"
 "[on your computer or on your mobile phone](downloads)\n"
 "and all the lookups are offline. This means that\n"
 "you can travel abroad without the fear that your provider will make you pay "
 "a\n"
 "lot just for a few dictionary lookups. You will even be independent from a\n"
 "network connection."
+msgstr ""
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid ""
+"Use For Any Purpose\n"
+"-----------------"
+msgstr ""
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid ""
+"Our data is useful for a wide range of applications which is made possible\n"
+"through the use of the generic\n"
+"[TEI XML format](https://en.wikipedia.org/wiki/Text_Encoding_Initiative).\n"
+"This allows us to\n"
+"export our data into any format and for any purpose, be it an\n"
+"electronic/paper dictionary or a spell checker."
 msgstr ""
 
 #: http://localhost/documentation/
@@ -82,8 +103,8 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body) http://localhost/community/
 #: (content/community/contents+en.lr:page.body)
-msgid "### Getting Started"
-msgstr "### Getting Started"
+msgid "## Getting Started"
+msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -108,18 +129,18 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"cd dan-eng\n"
+"    cd dan-eng\n"
 "    make"
 msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
-msgid "### Creating And Importing Dictionaries"
-msgstr "### Creating And Importing Dictionaries"
+msgid "## Creating And Importing Dictionaries"
+msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
-msgid "#### Writing Dictionaries By Hand"
+msgid "### Writing Dictionaries By Hand"
 msgstr ""
 
 #: http://localhost/documentation/
@@ -146,7 +167,7 @@ msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
-msgid "#### Importing Dictionaries"
+msgid "### Importing Dictionaries"
 msgstr ""
 
 #: http://localhost/documentation/
@@ -178,8 +199,8 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body) http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_source)
-msgid "### API"
-msgstr "### API"
+msgid "## API"
+msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -196,8 +217,8 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"http://freedict.org/freedict-database.xml\n"
-"    http://freedict.org/freedict-database.json"
+"    https://freedict.org/freedict-database.xml\n"
+"    https://freedict.org/freedict-database.json"
 msgstr ""
 
 #: http://localhost/documentation/
@@ -211,8 +232,8 @@ msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
-msgid "### New Dictionary Output Formats"
-msgstr "### New Dictionary Output Formats"
+msgid "## New Dictionary Output Formats"
+msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -226,12 +247,8 @@ msgid ""
 msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
-msgid "About FreeDict"
-msgstr "About FreeDict"
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "### About FreeDict"
-msgstr "### About FreeDict"
+msgid "About Us"
+msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "FreeDict is a dictionary project with"
@@ -260,8 +277,8 @@ msgstr ""
 "    available for any purpose, either for end-users or scientific use cases."
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "#### History"
-msgstr "#### History"
+msgid "### History"
+msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
@@ -315,8 +332,8 @@ msgid ""
 msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "#### Contact"
-msgstr "#### Contact"
+msgid "### Contact"
+msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
@@ -404,12 +421,12 @@ msgid ""
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "### Development"
-msgstr "### Development"
+msgid "## Development"
+msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "#### Technical"
-msgstr "#### Technical"
+msgid "### Technical"
+msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -434,8 +451,8 @@ msgid ""
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "#### I'm Not A Developer"
-msgstr "#### I'm Not A Developer"
+msgid "### I'm Not A Developer"
+msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -448,7 +465,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "##### Website Translations"
+msgid "#### Website Translations"
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -464,7 +481,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "##### Improving Dictionaries"
+msgid "#### Improving Dictionaries"
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -475,7 +492,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "##### Artwork"
+msgid "#### Artwork"
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -488,7 +505,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
-msgid "### Active Dictionary Maintainers"
+msgid "## Active Dictionary Maintainers"
 msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -522,8 +539,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
-msgid "### Smartphones And Tablets"
-msgstr ""
+msgid "## Smartphones And Tablets"
+msgstr "## Smartphones And Tablets"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -542,8 +559,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "### Computers"
-msgstr ""
+msgid "## Computers"
+msgstr "## Computers"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -563,7 +580,7 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "#### GNU/Linux"
+msgid "### GNU/Linux"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -576,7 +593,7 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "#### Windows"
+msgid "### Windows"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -591,12 +608,12 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "#### Dictionary Downloads"
+msgid "### Dictionary Downloads"
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "### Source"
+msgid "## Source"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -612,8 +629,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "$ git clone https://github.com/freedict/fd-dictionaries"
-msgstr ""
+msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
+msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -934,6 +951,42 @@ msgstr "No language selected…"
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
 
+#~ msgid "### Use Wherever You Want"
+#~ msgstr "### Use Wherever You Want"
+
+#~ msgid "### Getting Started"
+#~ msgstr "### Getting Started"
+
+#~ msgid "### Creating And Importing Dictionaries"
+#~ msgstr "### Creating And Importing Dictionaries"
+
+#~ msgid "### API"
+#~ msgstr "### API"
+
+#~ msgid "### New Dictionary Output Formats"
+#~ msgstr "### New Dictionary Output Formats"
+
+#~ msgid "About FreeDict"
+#~ msgstr "About FreeDict"
+
+#~ msgid "### About FreeDict"
+#~ msgstr "### About FreeDict"
+
+#~ msgid "#### History"
+#~ msgstr "#### History"
+
+#~ msgid "#### Contact"
+#~ msgstr "#### Contact"
+
+#~ msgid "### Development"
+#~ msgstr "### Development"
+
+#~ msgid "#### Technical"
+#~ msgstr "#### Technical"
+
+#~ msgid "#### I'm Not A Developer"
+#~ msgstr "#### I'm Not A Developer"
+
 #~ msgid "FreeDict"
 #~ msgstr "FreeDict"
 
@@ -951,9 +1004,6 @@ msgstr "version {version} with {headwords} headwords"
 #~ "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
 #~ "Dictionary-Clients)\n"
 #~ "and ideally we would support them all, one day.\n"
-
-#~ msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
-#~ msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
 
 #~ msgid ""
 #~ "We provide our dictionaries in the\n"
@@ -1119,12 +1169,6 @@ msgstr "version {version} with {headwords} headwords"
 #~ "unable\n"
 #~ "to unpack this archive format, please download a program like\n"
 #~ "[7-Zip](https://7-zip.org).\n"
-
-#~ msgid "## Smartphones And Tablets"
-#~ msgstr "## Smartphones And Tablets"
-
-#~ msgid "## Computers"
-#~ msgstr "## Computers"
 
 #~ msgid ""
 #~ "For desktop computers, you are free to choose between a variety of "

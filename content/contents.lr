@@ -1,11 +1,13 @@
 _template: frontpage.html
+p
 ---
 ---
 title: Home
 ---
 body:
 
-### Free Dictionaries, Free Knowledge
+Free Dictionaries, Free Knowledge
+---------------------------------
 
 The FreeDict project strives to be the most comprehensive source of truly free
 bilingual dictionaries. They are not just free of charge, but they give you the right
@@ -15,12 +17,23 @@ too.
 about 45 languages and thanks to its members, grows continuously. Learn how to
 [become a part of FreeDict](community).
 
-### Use Wherever You Want
+Use Wherever You Want
+---------------------
 
-**Our dictionaries are flexible:** you can use them both
+FreeDict dictionaries offer you the greatest deal of flexibility possible:
+you can use them both
 [on your computer or on your mobile phone](downloads)
 and all the lookups are offline. This means that
 you can travel abroad without the fear that your provider will make you pay a
 lot just for a few dictionary lookups. You will even be independent from a
 network connection.
 
+Use For Any Purpose
+------------------
+
+Our data is useful for a wide range of applications which is made possible
+through the use of the generic
+[TEI XML format](https://en.wikipedia.org/wiki/Text_Encoding_Initiative).
+This allows us to
+export our data into any format and for any purpose, be it an
+electronic/paper dictionary or a spell checker.

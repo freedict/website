@@ -15,7 +15,7 @@ found on the
 [downloads page](downloads).
 If you are stuck at any point, you might want to [ask for help](../community).
 
-### Getting Started
+## Getting Started
 
 All of the sources are hosted on [GitHub](https://github.com/freedict). Scripts
 and utilities are contained in the
@@ -30,9 +30,9 @@ its directory and type `make`, so for instance:
     cd dan-eng
     make
 
-### Creating And Importing Dictionaries
+## Creating And Importing Dictionaries
 
-#### Writing Dictionaries By Hand
+### Writing Dictionaries By Hand
 
 An in-depth introduction into FreeDict internals, including documentation on how
 to format and process dictionaries can be found in the
@@ -44,7 +44,7 @@ format and use a transformation to the TEI format. Either way is fine and
 depends on your preferences and skills. If unsure, it is best to ask on the
 [mailing list](https://www.freelists.org/list/freedict).
 
-#### Importing Dictionaries
+### Importing Dictionaries
 
 Most of the dictionaries have not been written by hand, but where imported from
 other free sources. The
@@ -58,20 +58,20 @@ not contain all dictionaries. Those automatically imported from another source
 are kept outside of the version control system, because it is enough to have a
 reproducible importer script.
 
-### API
+## API
 
 Meta information about our dictionaries can be retrieved over a CORS-enabled
 API, both in XML and JSON format. It can be used to retrieve download links and
 other meta information useful for embedding them into a dictionary program. The
 URLs are
 
-    http://freedict.org/freedict-database.xml
-    http://freedict.org/freedict-database.json
+    https://freedict.org/freedict-database.xml
+    https://freedict.org/freedict-database.json
 
 The individual fields are documented
 [here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API).
 
-### New Dictionary Output Formats
+## New Dictionary Output Formats
 
 We are always trying to reach more users by exporting into more output formats
 and our limiting factor is solely the number of contributors. There is a

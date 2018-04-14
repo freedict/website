@@ -1,8 +1,6 @@
-title: About FreeDict
+title: About Us
 ---
 body:
-
-### About FreeDict
 
 FreeDict is a dictionary project with
 
@@ -13,7 +11,7 @@ FreeDict is a dictionary project with
 *   Dictionaries are independent from a specific format and hence can be made
     available for any purpose, either for end-users or scientific use cases.
 
-#### History
+### History
 
 This project was started in 2000 by Horst Eyermann. The first databases were
 derived from a project called Ergane which used to distribute free dictionaries.
@@ -31,7 +29,7 @@ decouples from the actual output format.
 
 In 2016, FreeDict moved from SourceForge to [Github](https://github.com/freedict). This makes the project more visible and eases collaborative development considerably.
 
-#### Contact
+### Contact
 
 We are happy to receive feedback, feature requests and we absolutely love
 patches. Please have a look at our
