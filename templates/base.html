@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-    <title>{% block title %}Welcome{% endblock %} — freedict-org</title>
+    <title>{% block title %}Welcome{% endblock %}</title>
     {% block htmlheader %}{% endblock %}
   </head>
   <body>
     <header>
-      <h1>freedict-org</h1>
+      <h1>FreeDict</h1>
       <nav>
         <ul class="nav navbar-nav">
-          <li{% if this._path == '/' %} class="active"{% endif
-                                        %}><a href="{{ '/'|url }}">{{ _("Home") }}</a></li>
+          <li{% if this._path == '/' %} class="active"{% endif %}>
+            <a href="{{ '/'|url }}">{{ _("Home") }}</a></li>
           {% for href, title in [
                   ['/documentation', _('Documentation')],
                   ['/downloads', _('Downloads')],

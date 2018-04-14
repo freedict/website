@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 11:28+CET\n"
+"POT-Creation-Date: 2018-04-14 13:56+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: http://localhost/ (content/contents+en.lr:page.title)
-msgid "FreeDict"
-msgstr "FreeDict"
+msgid "Home"
+msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid "### Free Dictionaries, Free Knowledge"
@@ -660,10 +660,6 @@ msgid ""
 "[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
 
-#: templates/base.html:15
-msgid "Home"
-msgstr ""
-
 #: templates/base.html:19
 msgid "Community"
 msgstr ""
@@ -937,6 +933,9 @@ msgstr "No language selected…"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#~ msgid "FreeDict"
+#~ msgstr "FreeDict"
 
 #~ msgid ""
 #~ "We are always trying to reach more users by exporting into more output "

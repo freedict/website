@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 11:28+CET\n"
+"POT-Creation-Date: 2018-04-14 13:56+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: http://localhost/ (content/contents+en.lr:page.title)
-msgid "FreeDict"
-msgstr "FreeDict"
+msgid "Home"
+msgstr "Startseite"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid "### Free Dictionaries, Free Knowledge"
@@ -63,7 +63,6 @@ msgstr ""
 "reisen können, ohne die Angst im Hinterkopf, dass Ihr Provider Ihnen eine "
 "horrende Rechnung schickt, nur weil Sie ein paar Wörter nachgeschlagen "
 "haben. Sie sind sogar unabhängig von einer Internetverbindung."
-
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.title)
@@ -507,14 +506,11 @@ msgid ""
 msgstr ""
 "Fehlerberichte und Verbesserungsvorschläge für Wörterbücher werden auf "
 "unserem [fd-dictionaries Fehler-Tracker in Englisch](https://github.com/"
-"freedict/fd-dictionaries/"
-"issues) verwaltet, **inklusive jener**, die nicht im "
-"fd-dictionaries-Repositorium enthalten sind."
-"Alle Probleme die mit den Werkzeugen und dem Import von Wörterbüchern "
-"zusammenhängen,  sollten im "
-"[Fehler-Tracker des Tools-Repositoriums (in Englisch)]"
-"(https://github.com/freedict/tools/issues) "
-"gemeldet werden."
+"freedict/fd-dictionaries/issues) verwaltet, **inklusive jener**, die nicht "
+"im fd-dictionaries-Repositorium enthalten sind.Alle Probleme die mit den "
+"Werkzeugen und dem Import von Wörterbüchern zusammenhängen,  sollten im "
+"[Fehler-Tracker des Tools-Repositoriums (in Englisch)](https://github.com/"
+"freedict/tools/issues) gemeldet werden."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "#### I'm Not A Developer"
@@ -655,8 +651,8 @@ msgstr ""
 "Laden Sie einfach [Aard2 aus dem Playstore](https://play.google.com/store/"
 "apps/details?id=itkach.aard2&hl=de)\n"
 "bzw. von [F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
-"Anschließend brauchen sie nur noch eines der unten verfügbaren "
-"Wörterbücher auf ihr Gerät zu laden."
+"Anschließend brauchen sie nur noch eines der unten verfügbaren Wörterbücher "
+"auf ihr Gerät zu laden."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -682,11 +678,10 @@ msgstr ""
 "Programmen wählen; eine Auswahl von Programmen finden Sie auf unserer "
 "[englischen Wikiseite](https://github.com/freedict/fd-dictionaries/wiki/"
 "Dictionary-Clients) gefunden werden.\n"
-"Der fortschrittlichste ist wahrscheinlich "
-"[GoldenDict](http:goldendict.org), welcher viele Formate lesen kann, "
-"inklusive dem Dictd-Format. Laden Sie einfach eines der unten stehenden "
-"Archive, entpacken es und wählen Sie dann \"importieren\" innerhalb "
-"GoldenDicts."
+"Der fortschrittlichste ist wahrscheinlich [GoldenDict](http:goldendict.org), "
+"welcher viele Formate lesen kann, inklusive dem Dictd-Format. Laden Sie "
+"einfach eines der unten stehenden Archive, entpacken es und wählen Sie dann "
+"\"importieren\" innerhalb GoldenDicts."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -719,9 +714,9 @@ msgid ""
 "program."
 msgstr ""
 "Die Archive liegen im .tar.xz-Format vor. Wenn Sie dies nicht entpacken "
-"können, laden Sie bitte ein Programm wie "
-"[7-Zip](https://7-zip.org). Danach finden Sie die Dateien `.index` und "
-"`.dict.dz`, welche für den Import in Ihre bevorzugte Anwendung nötig sind."
+"können, laden Sie bitte ein Programm wie [7-Zip](https://7-zip.org). Danach "
+"finden Sie die Dateien `.index` und `.dict.dz`, welche für den Import in "
+"Ihre bevorzugte Anwendung nötig sind."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -793,10 +788,6 @@ msgid ""
 "Documentation of the API fields is\n"
 "[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
-
-#: templates/base.html:15
-msgid "Home"
-msgstr "Startseite"
 
 #: templates/base.html:19
 msgid "Community"
@@ -1075,3 +1066,5 @@ msgstr "Keine Sprache ausgewählt"
 msgid "version {version} with {headwords} headwords"
 msgstr "Version {version} mit {headwords} Einträgen"
 
+#~ msgid "FreeDict"
+#~ msgstr "FreeDict"
