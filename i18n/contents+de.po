@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 14:45+CET\n"
+"POT-Creation-Date: 2018-04-14 11:28+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -55,14 +55,15 @@ msgid ""
 "you can travel abroad without the fear that your provider will make you pay "
 "a\n"
 "lot just for a few dictionary lookups. You will even be independent from a\n"
-"network connection.\n"
+"network connection."
 msgstr ""
 "**Unsere Wörterbücher sind flexibel:** Sie können sie sowohl [auf ihrem "
 "Rechner oder Ihrem Smartphone](downloads)\n"
 "nutzen und das Nachschlagen ist offline. Das heißt, dass Sie ins Ausland "
 "reisen können, ohne die Angst im Hinterkopf, dass Ihr Provider Ihnen eine "
 "horrende Rechnung schickt, nur weil Sie ein paar Wörter nachgeschlagen "
-"haben. Sie sind sogar unabhängig von einer Internetverbindung.\n"
+"haben. Sie sind sogar unabhängig von einer Internetverbindung."
+
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.title)
@@ -137,7 +138,7 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"    cd dan-eng\n"
+"cd dan-eng\n"
 "    make"
 msgstr ""
 
@@ -248,7 +249,7 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"    http://freedict.org/freedict-database.xml\n"
+"http://freedict.org/freedict-database.xml\n"
 "    http://freedict.org/freedict-database.json"
 msgstr ""
 
@@ -274,13 +275,13 @@ msgid ""
 "and our limiting factor is solely the number of contributors. There is a\n"
 "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
 "Dictionary-Clients)\n"
-"and ideally we would support them all, one day.\n"
+"and ideally we would support them all, one day."
 msgstr ""
 "Wir versuchen immer neue Nutzer zu erreichen, indem wir in weitere "
 "Ausgabeformate exportieren und der begrenzende Faktor ist lediglich die "
 "Anzahl der Beitragenden. Es gibt eine [Liste von Programmen (Englisch)]"
 "(https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients), "
-"welche wir idealerweise eines Tages alle unterstützen.\n"
+"welche wir idealerweise eines Tages alle unterstützen."
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About FreeDict"
@@ -504,6 +505,16 @@ msgid ""
 "should go to the\n"
 "[tools issue tracker](https://github.com/freedict/tools/issues)."
 msgstr ""
+"Fehlerberichte und Verbesserungsvorschläge für Wörterbücher werden auf "
+"unserem [fd-dictionaries Fehler-Tracker in Englisch](https://github.com/"
+"freedict/fd-dictionaries/"
+"issues) verwaltet, **inklusive jener**, die nicht im "
+"fd-dictionaries-Repositorium enthalten sind."
+"Alle Probleme die mit den Werkzeugen und dem Import von Wörterbüchern "
+"zusammenhängen,  sollten im "
+"[Fehler-Tracker des Tools-Repositoriums (in Englisch)]"
+"(https://github.com/freedict/tools/issues) "
+"gemeldet werden."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "#### I'm Not A Developer"
@@ -571,6 +582,10 @@ msgid ""
 "you. Please be so kind and write to us on the\n"
 "[mailing list](https://www.freelists.org/list/freedict)."
 msgstr ""
+"Wenn Sie die seltene Gabe besitzen, Themen für Webseiten, Logos, Sticker "
+"oder anderes zu kreieren, würden wir uns sehr freuen, Sie kennenzulernen. "
+"Bitte schreiben Sie uns auf der [Mailingliste](https://www.freelists.org/"
+"list/freedict)."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "### Active Dictionary Maintainers"
@@ -578,33 +593,42 @@ msgstr "### Aktive Wörterbuchbetreuer"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
-"Dictionary maintainers are the great persons behind a dictionary who keep it "
-"up\n"
-"to date and who take care of updating it with the improvements sent in by "
-"the\n"
+"Dictionary maintainers are the hardworking persons behind a dictionary who "
+"keep it up\n"
+"to date and who take care of including the improvements sent in by the\n"
 "community. A more in-depth explanation can be found at the\n"
 "[dedicated wiki page](https://github.com/freedict/fd-dictionaries/wiki/"
 "Dictionary-Maintainers)."
 msgstr ""
+"Wörterbuchbetreuer sind die fleißigen Menschen hinter einem Wörterbuch, "
+"welche es aktuell halten und Änderungsvorschläge der Gemeinschaft "
+"integrieren. Eine ausführlichere Erklärung findet sich auf der "
+"entsprechenden [englischen Wiki-Seite](https://github.com/freedict/fd-"
+"dictionaries/wiki/Dictionary-Maintainers)."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "Below is a list of the active dictionary maintainers:"
-msgstr ""
+msgstr "Nachfolgend eine Liste aller aktiven Wörterbuchbetreuer:"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.title)
-msgid "Dictionary Downloads"
-msgstr ""
+msgid "Downloads"
+msgstr "Downloads"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
 msgid ""
 "FreeDict dictionaries are stored in a generic file format which allows\n"
-"the conversion into other formats.  Different dictionary applications\n"
-"understand different output formats (also known as platforms) and we offer "
-"our\n"
-"dictionaries for as many platforms as possible."
+"to target different dictionary applications, also referred to as platforms.\n"
+"The advantage of this approach is that the dictionary data can be used for "
+"any\n"
+"application and that you can pick what suits you best."
 msgstr ""
+"Wörterbücher von FreeDict werden in einem generischen Format gespeichert, "
+"was es erlaubt, verschiedene Wörterbuchanwendungen, auch als Plattform "
+"bezeichnet, zu unterstützen. Der vorteil dieses Ansatzes ist, dass die "
+"Wörterbuchdaten für jegliche Anwendung verwendet werden kann und Sie können "
+"wählen, was Ihnen am Besten passt."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -614,7 +638,7 @@ msgstr "### Smartphone und Tablets"
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
 msgid ""
-"We provide our dictionaries in the\n"
+"For smartphones and tablets, our dictionaries are available in the\n"
 "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
 "an advanced format understood by the Aard2 dictionary program for Android. "
 "Just\n"
@@ -623,8 +647,16 @@ msgid ""
 "id=itkach.aard2&hl=en)\n"
 "or from\n"
 "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
-"Finally, download one of our dictionaries below to your smartphone.\n"
+"Finally, download one of our dictionaries below to your smartphone."
 msgstr ""
+"Für Smartphones und Tablets sind unsere Wörterbücher im [Slob-Format "
+"(Englisch)](https://github.com/itkach/slob/wiki/Dictionaries) verfügbar, "
+"einem fortschrittlichen Format u.a. verwendet von Aard2 für Android.\n"
+"Laden Sie einfach [Aard2 aus dem Playstore](https://play.google.com/store/"
+"apps/details?id=itkach.aard2&hl=de)\n"
+"bzw. von [F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+"Anschließend brauchen sie nur noch eines der unten verfügbaren "
+"Wörterbücher auf ihr Gerät zu laden."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -646,11 +678,20 @@ msgid ""
 "then\n"
 "select `import` from the menu within GoldenDict."
 msgstr ""
+"Für einen stationären Rechner können Sie aus einer größeren Auswahl von "
+"Programmen wählen; eine Auswahl von Programmen finden Sie auf unserer "
+"[englischen Wikiseite](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients) gefunden werden.\n"
+"Der fortschrittlichste ist wahrscheinlich "
+"[GoldenDict](http:goldendict.org), welcher viele Formate lesen kann, "
+"inklusive dem Dictd-Format. Laden Sie einfach eines der unten stehenden "
+"Archive, entpacken es und wählen Sie dann \"importieren\" innerhalb "
+"GoldenDicts."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
 msgid "#### GNU/Linux"
-msgstr ""
+msgstr "#### GNU/Linux"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -659,11 +700,14 @@ msgid ""
 "packages are already available via your package manager.\n"
 "If not, use the downloads below."
 msgstr ""
+"Falls Sie eine Debian/Ubuntu-Derivative oder Arch verwenden, so sind die "
+"FreeDict-Pakete bereits in Ihrem Paketmanager verfügbar. Falls nicht, können "
+"Sie die unten aufgeführten Downloads verwenden."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
 msgid "#### Windows"
-msgstr ""
+msgstr "#### Windows"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -674,11 +718,15 @@ msgid ""
 "`.dict.dz` files required for the import in your favourite dictionary "
 "program."
 msgstr ""
+"Die Archive liegen im .tar.xz-Format vor. Wenn Sie dies nicht entpacken "
+"können, laden Sie bitte ein Programm wie "
+"[7-Zip](https://7-zip.org). Danach finden Sie die Dateien `.index` und "
+"`.dict.dz`, welche für den Import in Ihre bevorzugte Anwendung nötig sind."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "#### Dictionary Downloads\n"
-msgstr ""
+msgid "#### Dictionary Downloads"
+msgstr "#### Wörterbuchdownloads"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -698,7 +746,7 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
+msgid "$ git clone https://github.com/freedict/fd-dictionaries"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -714,8 +762,7 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid ""
-"The latest release of each dictionaries' source can be retrieved below:\n"
+msgid "The latest release of each dictionaries' source can be retrieved below:"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -744,25 +791,20 @@ msgstr ""
 #: (content/downloads/contents+en.lr:downloads.after_source)
 msgid ""
 "Documentation of the API fields is\n"
-"[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"API).\n"
+"[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
 
 #: templates/base.html:15
 msgid "Home"
-msgstr ""
-
-#: templates/base.html:18
-msgid "Downloads"
-msgstr ""
+msgstr "Startseite"
 
 #: templates/base.html:19
 msgid "Community"
-msgstr ""
+msgstr "Community"
 
 #: templates/base.html:20
 msgid "About us"
-msgstr ""
+msgstr "Über uns"
 
 #: templates/base.html:31
 msgid "View this site in in another language:"
@@ -770,7 +812,7 @@ msgstr "Zeige diese Webseite in einer anderen Sprache:"
 
 #: templates/base.html:53
 msgid "Website Translations"
-msgstr ""
+msgstr "Übersetzungen dieser Seite"
 
 #: templates/base.html:54
 msgid "Help translating this website!"
@@ -783,7 +825,7 @@ msgstr "Inhaltsverzeichnis"
 
 #: templates/community.html:20
 msgid "Dictionary Maintainer"
-msgstr "Betreuer des Wörterbuchs"
+msgstr "Wörterbuchbetreuer"
 
 #: templates/community.html:21
 msgid "Dictionaries"
@@ -1033,34 +1075,3 @@ msgstr "Keine Sprache ausgewählt"
 msgid "version {version} with {headwords} headwords"
 msgstr "Version {version} mit {headwords} Einträgen"
 
-#~ msgid ""
-#~ "Most of the documentation can be found in the\n"
-#~ "[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
-#~ "mostly an\n"
-#~ "overview over the available resources.\n"
-#~ "A good starting point is the section on [frequently asked questions]"
-#~ "(FreeDict-FAQ.md).\n"
-#~ "If you only need help on installing a program to use our dictionaries, "
-#~ "the\n"
-#~ "[downloads page](downloads) should help you getting started. If you are "
-#~ "stuck at\n"
-#~ "any point, you might want to [ask for help](../community)."
-#~ msgstr ""
-#~ "Der Großteil der Dokumentation befindet sich im [wiki](https://github.com/"
-#~ "freedict/fd-dictionaries/wiki).\n"
-#~ "Diese Seite dient als Überblick über die verfügbaren Ressourcen. Ein "
-#~ "guter Start sind unsere [häufig gestellte Fragen (englisch)](FreeDict-FAQ."
-#~ "md).\n"
-#~ "Wenn Sie nur Hilfe beim Installieren der Wörterbücher brauchen, sollte "
-#~ "die [Seite der Downloads](downloads) weiterhelfen. Wenn Sie an "
-#~ "irgendeinem Punkt nicht weiter wissen, können Sie [uns einfach fragen]"
-#~ "(community)."
-
-#~ msgid ""
-#~ "The FreeDict tools assume a minimal set of software to be installed. The\n"
-#~ "[README of the tools repository](https://github.com/freedict/tools)\n"
-#~ "gives a short introduction on how to set things up."
-#~ msgstr ""
-#~ "Die Werkzeuge von FreeDict setzen eine Grundausstattung an Software "
-#~ "voraus.Die [README-Datei des Tools-Repositoriums (englisch)](https://"
-#~ "github.com/freedict/tools) geben eine kurze Einführung zur Einrichtung."

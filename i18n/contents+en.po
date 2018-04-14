@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-13 14:44+CET\n"
+"POT-Creation-Date: 2018-04-14 11:28+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -48,7 +48,7 @@ msgid ""
 "you can travel abroad without the fear that your provider will make you pay "
 "a\n"
 "lot just for a few dictionary lookups. You will even be independent from a\n"
-"network connection.\n"
+"network connection."
 msgstr ""
 
 #: http://localhost/documentation/
@@ -108,7 +108,7 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"    cd dan-eng\n"
+"cd dan-eng\n"
 "    make"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"    http://freedict.org/freedict-database.xml\n"
+"http://freedict.org/freedict-database.xml\n"
 "    http://freedict.org/freedict-database.json"
 msgstr ""
 
@@ -222,14 +222,8 @@ msgid ""
 "and our limiting factor is solely the number of contributors. There is a\n"
 "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
 "Dictionary-Clients)\n"
-"and ideally we would support them all, one day.\n"
+"and ideally we would support them all, one day."
 msgstr ""
-"We are always trying to reach more users by exporting into more output "
-"formats\n"
-"and our limiting factor is solely the number of contributors. There is a\n"
-"[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
-"Dictionary-Clients)\n"
-"and ideally we would support them all, one day.\n"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About FreeDict"
@@ -499,10 +493,9 @@ msgstr ""
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
-"Dictionary maintainers are the great persons behind a dictionary who keep it "
-"up\n"
-"to date and who take care of updating it with the improvements sent in by "
-"the\n"
+"Dictionary maintainers are the hardworking persons behind a dictionary who "
+"keep it up\n"
+"to date and who take care of including the improvements sent in by the\n"
 "community. A more in-depth explanation can be found at the\n"
 "[dedicated wiki page](https://github.com/freedict/fd-dictionaries/wiki/"
 "Dictionary-Maintainers)."
@@ -514,23 +507,18 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.title)
-msgid "Dictionary Downloads"
-msgstr "Dictionary Downloads"
+msgid "Downloads"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
 msgid ""
 "FreeDict dictionaries are stored in a generic file format which allows\n"
-"the conversion into other formats.  Different dictionary applications\n"
-"understand different output formats (also known as platforms) and we offer "
-"our\n"
-"dictionaries for as many platforms as possible."
+"to target different dictionary applications, also referred to as platforms.\n"
+"The advantage of this approach is that the dictionary data can be used for "
+"any\n"
+"application and that you can pick what suits you best."
 msgstr ""
-"FreeDict dictionaries are stored in a generic file format which allows\n"
-"the conversion into other formats.  Different dictionary applications\n"
-"understand different output formats (also known as platforms) and we offer "
-"our\n"
-"dictionaries for as many platforms as possible."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -540,7 +528,7 @@ msgstr ""
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
 msgid ""
-"We provide our dictionaries in the\n"
+"For smartphones and tablets, our dictionaries are available in the\n"
 "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
 "an advanced format understood by the Aard2 dictionary program for Android. "
 "Just\n"
@@ -549,18 +537,8 @@ msgid ""
 "id=itkach.aard2&hl=en)\n"
 "or from\n"
 "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
-"Finally, download one of our dictionaries below to your smartphone.\n"
+"Finally, download one of our dictionaries below to your smartphone."
 msgstr ""
-"We provide our dictionaries in the\n"
-"[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
-"an advanced format understood by the Aard2 dictionary program for Android. "
-"Just\n"
-"download\n"
-"[Aard2 from the playstore](https://play.google.com/store/apps/details?"
-"id=itkach.aard2&hl=en)\n"
-"or from\n"
-"[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
-"Finally, download one of our dictionaries below to your smartphone.\n"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -613,7 +591,7 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "#### Dictionary Downloads\n"
+msgid "#### Dictionary Downloads"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -634,8 +612,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
-msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
+msgid "$ git clone https://github.com/freedict/fd-dictionaries"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -650,8 +628,7 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid ""
-"The latest release of each dictionaries' source can be retrieved below:\n"
+msgid "The latest release of each dictionaries' source can be retrieved below:"
 msgstr ""
 
 #: http://localhost/downloads/
@@ -680,16 +657,11 @@ msgstr ""
 #: (content/downloads/contents+en.lr:downloads.after_source)
 msgid ""
 "Documentation of the API fields is\n"
-"[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"API).\n"
+"[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
 
 #: templates/base.html:15
 msgid "Home"
-msgstr ""
-
-#: templates/base.html:18
-msgid "Downloads"
 msgstr ""
 
 #: templates/base.html:19
@@ -965,6 +937,63 @@ msgstr "No language selected…"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#~ msgid ""
+#~ "We are always trying to reach more users by exporting into more output "
+#~ "formats\n"
+#~ "and our limiting factor is solely the number of contributors. There is a\n"
+#~ "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "Dictionary-Clients)\n"
+#~ "and ideally we would support them all, one day.\n"
+#~ msgstr ""
+#~ "We are always trying to reach more users by exporting into more output "
+#~ "formats\n"
+#~ "and our limiting factor is solely the number of contributors. There is a\n"
+#~ "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "Dictionary-Clients)\n"
+#~ "and ideally we would support them all, one day.\n"
+
+#~ msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
+#~ msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
+
+#~ msgid ""
+#~ "We provide our dictionaries in the\n"
+#~ "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
+#~ "an advanced format understood by the Aard2 dictionary program for "
+#~ "Android. Just\n"
+#~ "download\n"
+#~ "[Aard2 from the playstore](https://play.google.com/store/apps/details?"
+#~ "id=itkach.aard2&hl=en)\n"
+#~ "or from\n"
+#~ "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+#~ "Finally, download one of our dictionaries below to your smartphone.\n"
+#~ msgstr ""
+#~ "We provide our dictionaries in the\n"
+#~ "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
+#~ "an advanced format understood by the Aard2 dictionary program for "
+#~ "Android. Just\n"
+#~ "download\n"
+#~ "[Aard2 from the playstore](https://play.google.com/store/apps/details?"
+#~ "id=itkach.aard2&hl=en)\n"
+#~ "or from\n"
+#~ "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+#~ "Finally, download one of our dictionaries below to your smartphone.\n"
+
+#~ msgid ""
+#~ "FreeDict dictionaries are stored in a generic file format which allows\n"
+#~ "the conversion into other formats.  Different dictionary applications\n"
+#~ "understand different output formats (also known as platforms) and we "
+#~ "offer our\n"
+#~ "dictionaries for as many platforms as possible."
+#~ msgstr ""
+#~ "FreeDict dictionaries are stored in a generic file format which allows\n"
+#~ "the conversion into other formats.  Different dictionary applications\n"
+#~ "understand different output formats (also known as platforms) and we "
+#~ "offer our\n"
+#~ "dictionaries for as many platforms as possible."
+
+#~ msgid "Dictionary Downloads"
+#~ msgstr "Dictionary Downloads"
 
 #~ msgid ""
 #~ "Development takes mostly place on [GitHub](https://github.com/freedict) "

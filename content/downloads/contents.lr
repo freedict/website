@@ -2,18 +2,18 @@ _template: downloads.html
 ---
 _model: downloads.ini
 ---
-title: Dictionary Downloads
+title: Downloads
 ---
 body:
 
 FreeDict dictionaries are stored in a generic file format which allows
-the conversion into other formats.  Different dictionary applications
-understand different output formats (also known as platforms) and we offer our
-dictionaries for as many platforms as possible.
+to target different dictionary applications, also referred to as platforms.
+The advantage of this approach is that the dictionary data can be used for any
+application and that you can pick what suits you best.
 
 ### Smartphones And Tablets
 
-We provide our dictionaries in the
+For smartphones and tablets, our dictionaries are available in the
 [slob format](https://github.com/itkach/slob/wiki/Dictionaries),
 an advanced format understood by the Aard2 dictionary program for Android. Just
 download
