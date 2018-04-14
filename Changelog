@@ -2,6 +2,12 @@
 # are supported: a new entry starts with date in the format "%Y-%m-%d:", followed
 # by multiple indented lines with no additional formatting.
 # Files with a hash character are ignored.
+2018-04-15:
+  FreeDict.org has been relaunched. After our Hackathon last year and after many
+  more hours of work, the new website is online. Equipped with a fresh design
+  and filled with new content, we hope that you will find exactly the
+  information that you are looking for. If not or if you have other suggestions,
+  let us know.
 2018-03-29:
   Finally, there is a first early draft of the brand-new FreeDict website
   online. It is still bare-bones and not translated. We would appreciate if you

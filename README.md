@@ -27,3 +27,12 @@ this. Building with a network connection, a file databags/news.pickle will be
 created. Subsequent (DEBUG) runs will make use of this file, avoiding 403 by the
 GitHub API.
 
+Extending
+----------
+
+
+All sites are written in markdown. Please only edit the contents.lr files,
+because the contents+LANGCODE.lr files are auto-generated!
+
+Also please do not use "------" for underlining headings, but instead "## TEXT",
+because the plugin won't be able to handle dashed headings correctly.

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 17:45+CET\n"
+"POT-Creation-Date: 2018-04-14 23:27+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,9 +17,7 @@ msgid "Home"
 msgstr "Startseite"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid ""
-"Free Dictionaries, Free Knowledge\n"
-"--------------------------------"
+msgid "## Free Dictionaries, Free Knowledge"
 msgstr "## Freie Wörterbücher, freies Wissen"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
@@ -46,12 +44,8 @@ msgstr ""
 "kontinuierlich. Auch Sie können [ein Teil von Freedict](community) werden."
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid ""
-"Use Wherever You Want\n"
-"--------------------"
-msgstr ""
-"Immer und jederzeit verwendbar\n"
-"--------------------------------"
+msgid "## Use Wherever You Want"
+msgstr "## Immer und jederzeit verwendbar"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid ""
@@ -72,12 +66,8 @@ msgstr ""
 "Summe berechnet. Außerdem sind Sie unabhängig von einer Internetverbindung."
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid ""
-"Use For Any Purpose\n"
-"-----------------"
-msgstr ""
-"Für jeglichen Zweck verwendbar\n"
-"-----------------------------------"
+msgid "## Use For Any Purpose"
+msgstr "## Für jeglichen Zweck verwendbar"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid ""
@@ -89,11 +79,10 @@ msgid ""
 "electronic/paper dictionary or a spell checker."
 msgstr ""
 "Unsere Daten können in einem weiten Anwendungsbereich nützlich sein, was "
-"durch die Nutzung des generischen "
-"[TEI-Formats (XML)](https://de.wikipedia.org/wiki/Text_Encoding_Initiative) "
-"ermöglicht wird. Dies erlaubt uns den Export in ein beliebiges Format oder "
-"für einen beliebigen Zweck, sei es ein elektronisches oder gedrucktes "
-"Wörterbuch oder eine Rechtschreibkorrektur."
+"durch die Nutzung des generischen [TEI-Formats (XML)](https://de.wikipedia."
+"org/wiki/Text_Encoding_Initiative) ermöglicht wird. Dies erlaubt uns den "
+"Export in ein beliebiges Format oder für einen beliebigen Zweck, sei es ein "
+"elektronisches oder gedrucktes Wörterbuch oder eine Rechtschreibkorrektur."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.title)
@@ -766,9 +755,10 @@ msgid ""
 "dictionaries are there."
 msgstr ""
 "Wenn Sie einen Blick auf unsere Quellen werfen möchten, so haben Sie mehrere "
-"Möglichkeiten.\nWir entwickeln unsere Wörterbücher offen auf "
-"[GitHub](https://github.com/freedict/fd-dictionaries). "
-"Die Werkzeuge und die meisten Wörterbücher befinden sich dort."
+"Möglichkeiten.\n"
+"Wir entwickeln unsere Wörterbücher offen auf [GitHub](https://github.com/"
+"freedict/fd-dictionaries). Die Werkzeuge und die meisten Wörterbücher "
+"befinden sich dort."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -787,8 +777,8 @@ msgid ""
 msgstr ""
 "Automatisch importierte Wörterbücher sind nicht in diesen Quellen, da diese "
 "keiner Versionierung bedürfen. Die Importer für diese Wörterbücher befinden "
-"sich im [Tools-Repositorium](https://github.com/freedict/tools), "
-"welches zum Bauen sowieso benötigt wird."
+"sich im [Tools-Repositorium](https://github.com/freedict/tools), welches zum "
+"Bauen sowieso benötigt wird."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -807,9 +797,9 @@ msgid ""
 "This can be helpful for app developers or distributors."
 msgstr ""
 "Mit der API können Kopfdaten über die einzelnen Wörterbücher abgerufen "
-"werden, sowie der direkten Downloadlinks für die Ausgabeformate (auch bekannt "
-"als Plattformen) und deren Quellen.\nDies nützt unter anderem Distributoren "
-"oder Anwendungsentwicklern."
+"werden, sowie der direkten Downloadlinks für die Ausgabeformate (auch "
+"bekannt als Plattformen) und deren Quellen.\n"
+"Dies nützt unter anderem Distributoren oder Anwendungsentwicklern."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_source)
@@ -829,8 +819,8 @@ msgid ""
 "Documentation of the API fields is\n"
 "[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
-"Dokumentation für die API-Felder befindet sich "
-"[auf Englisch im Wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
+"Dokumentation für die API-Felder befindet sich [auf Englisch im Wiki]"
+"(https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 
 #: templates/base.html:19
 msgid "Community"
@@ -1108,3 +1098,5 @@ msgstr "Keine Sprache ausgewählt"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "Version {version} mit {headwords} Einträgen"
+
+

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 17:45+CET\n"
+"POT-Creation-Date: 2018-04-14 23:27+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,9 +17,7 @@ msgid "Home"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid ""
-"Free Dictionaries, Free Knowledge\n"
-"--------------------------------"
+msgid "## Free Dictionaries, Free Knowledge"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
@@ -39,9 +37,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid ""
-"Use Wherever You Want\n"
-"--------------------"
+msgid "## Use Wherever You Want"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
@@ -57,9 +53,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
-msgid ""
-"Use For Any Purpose\n"
-"-----------------"
+msgid "## Use For Any Purpose"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:page.body)
