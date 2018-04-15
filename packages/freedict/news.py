@@ -125,6 +125,8 @@ def format_news(news):
 
 def file_current_enough(path):
     """Check whether the given file has been touched less than a minute ago."""
+    if not os.path.exists(path):
+        return False
     last_modified = datetime.fromtimestamp(os.path.getmtime(path))
     return last_modified  > (datetime.now() - timedelta(minutes=1))
 
@@ -158,10 +160,11 @@ def generate_news_section():
                     if not repo['name'] in news:
                         news[repo['name']] = {}
                     news[repo['name']][type] = recent_changes
-        # load changelog entries from the last year
-        news['changelog'] = {date: entry
+        # load changelog entries from the last year and sort in ascending order
+        news['changelog'] = collections.OrderedDict(sorted(((date, entry)
                 for date, entry in common.load_changelog().items()
-                if (datetime.now() - date) < timedelta(days=365)}
+                if (datetime.now() - date) < timedelta(days=365)),
+                reverse=True))
         if not os.path.exists('databags'):
             os.mkdir('databags')
         with open('databags/news.pickle', 'wb') as f:
