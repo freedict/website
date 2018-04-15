@@ -1,0 +1,39 @@
+#!/bin/sh
+#vim:set expandtab sts=4 ts=4 sw=4 tw=80:
+# This script helps to automate the process of regenerating the static
+# freedict.org web site with the latest dynamic content provided by its plugins.
+# It assumes that it is run on the FreeDict server. There should be a base path
+# for the API files and another for the HTML files. The reason to keep it
+# separate is that lektor clean removes all files in the www directory. This
+# script copies files from to the $API_BASE.
+set -e
+# where freedict-database.* is found
+API_BASE=/var/www
+WWW_BASE=/var/www/html
+
+if ! [ -f $API_BASE/freedict-database.json ]; then
+	  echo "Error, freedict-database.json not found, please make sure that it's in $API_BASE	or adjust the path in this script."
+	  exit 1
+fi
+
+export LC_ALL=en_US.UTF-8
+export PATH=$HOME/.local/bin:$PATH
+
+# change to directory where this script dwells
+SCRIPT_PATH=`readlink -f $0`
+cd `dirname $SCRIPT_PATH`
+
+if [ ! -f freedict-database.json ]; then
+	  ln -s -f $API_BASE/freedict-database.json
+fi
+# drop changes, it's only the latest generation date which changed
+git checkout i18n/contents+*.po
+git pull -r > /dev/null
+lektor clean --yes --output-path $WWW_BASE > /dev/null
+lektor build --output-path $WWW_BASE 2>&1 | (grep -E '^[[:space:]]+E ' || true)
+
+# symlink API files
+cd $WWW_BASE
+cp $API_BASE/freedict-database.json .
+cp $API_BASE/freedict-database.xml .
+exit 0

@@ -29,11 +29,18 @@ This website generator depends on the following:
         <https://freedict.org/freedict-database.json> and place it into the root
         directory of this project (the same as this README lies in).
 
+### Building Locally
+
 Invoking lektor build does require a internet connection to fetch items for the
 "news" section. Setting the environment variable DEBUG (to any value) prevents
 this. Building with a network connection, a file databags/news.pickle will be
 created. Subsequent (DEBUG) runs will make use of this file, avoiding 403 by the
 GitHub API.
+
+### Building On The Server
+
+Please see the head of `update_website` for document on the requirements, but in
+general, it's enough to execute this script.
 
 Extending
 ----------
