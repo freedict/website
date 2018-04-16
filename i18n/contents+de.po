@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-14 23:27+CET\n"
+"POT-Creation-Date: 2018-04-16 10:37+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -165,6 +165,23 @@ msgstr ""
 #: (content/documentation/contents+en.lr:page.body)
 msgid "## Creating And Importing Dictionaries"
 msgstr "## Wörterbücher erstellen und importieren"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The dictionaries are stored in the\n"
+"[TEI XML](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)\n"
+"format, storing semantic information independent from the actual "
+"formatting.\n"
+"This means that it is easily possible to target any dictionary program by\n"
+"writing a conversion utility. It also enables arbitrary re-use."
+msgstr ""
+"Die Wörterbücher werden im [TEI-XML-Format](https://de.wikipedia.org/wiki/"
+"Text_Encoding_Initiative), wodurch semantische Informationen unabhängig von "
+"der endgültigen Formatierung gespeichert werden können.\n"
+"Das bedeutet, dass es ohne Weiteres möglich ist, neue Wörterbuchprogramme zu "
+"unterstützen, indem man einen Konverter schreibt. Außerdem ermöglicht es "
+"beliebige Nachnutzung."
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -782,6 +799,16 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"The Dictionaries are encoded in the TEI format, please see the\n"
+"[documentation](../documentation) for more details."
+msgstr ""
+"Die Wörterbücher sind im TEI-Format verfasst, bitte besuchen Sie dafür die "
+"[Dokumentation](../documentation) für mehr Informationen."
+
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid "The latest release of each dictionaries' source can be retrieved below:"
 msgstr ""
 "Die aktuelle Veröffentlichung der Quellen für jedes Wörterbuch findet sich "
@@ -1098,5 +1125,3 @@ msgstr "Keine Sprache ausgewählt"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "Version {version} mit {headwords} Einträgen"
-
-

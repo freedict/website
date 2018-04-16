@@ -68,6 +68,9 @@ they don't need versioning. The importers for those dictionaries is in the
 [tools](https://github.com/freedict/tools) repository, which is required for
 building anyway.
 
+The Dictionaries are encoded in the TEI format, please see the
+[documentation](../documentation) for more details.
+
 The latest release of each dictionaries' source can be retrieved below:
 
 ---

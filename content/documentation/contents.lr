@@ -32,6 +32,12 @@ its directory and type `make`, so for instance:
 
 ## Creating And Importing Dictionaries
 
+The dictionaries are stored in the
+[TEI XML](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)
+format, storing semantic information independent from the actual formatting.
+This means that it is easily possible to target any dictionary program by
+writing a conversion utility. It also enables arbitrary re-use.
+
 ### Writing Dictionaries By Hand
 
 An in-depth introduction into FreeDict internals, including documentation on how
