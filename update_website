@@ -6,6 +6,9 @@
 # for the API files and another for the HTML files. The reason to keep it
 # separate is that lektor clean removes all files in the www directory. This
 # script copies files from to the $API_BASE.
+# WARNING: this script drops changes in i18n/contents+<langcode>.po, because
+# these are usually only date changes. If you happen to have changes there,
+# commit them first!
 set -e
 # where freedict-database.* is found
 API_BASE=/var/www
@@ -28,7 +31,7 @@ if [ ! -f freedict-database.json ]; then
 fi
 # drop changes, it's only the latest generation date which changed
 git checkout i18n/contents+*.po
-git pull -r > /dev/null
+git pull -r 2>&1 > /dev/null
 lektor clean --yes --output-path $WWW_BASE > /dev/null
 lektor build --output-path $WWW_BASE 2>&1 | (grep -E '^[[:space:]]+E ' || true)
 
