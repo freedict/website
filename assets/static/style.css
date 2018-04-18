@@ -49,6 +49,6 @@ table {
 }
 
 .active {
-    text-decoration: italic;
+    font-style: italic;
     background-color: darkblue;
 }
