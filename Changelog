@@ -2,6 +2,10 @@
 # are supported: a new entry starts with date in the format "%Y-%m-%d:", followed
 # by multiple indented lines with no additional formatting.
 # Files with a hash character are ignored.
+2018-05-01:
+  You can now verify our downloads with a SHA512 checksum. For now, the
+  checksums are only available using the FreeDict API. See our wiki for more
+  details.
 2018-04-15:
   FreeDict.org has been relaunched. After our Hackathon last year and after many
   more hours of work, the new website is online. Equipped with a fresh design
