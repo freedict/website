@@ -2,6 +2,13 @@
 # are supported: a new entry starts with date in the format "%Y-%m-%d:", followed
 # by multiple indented lines with no additional formatting.
 # Files with a hash character are ignored.
+2018-07-23:
+  FreeDict now ships a substantial selection of WikDict dictionaries, therefore
+  we now ship over 140 dictionaries!
+  The WikDict project processes and encodes Wiktionary dictionaries and makes
+  them
+  available in the TEI format. These dictionaries are now regularly imported
+  into FreeDict.
 2018-05-01:
   You can now verify our downloads with a SHA512 checksum. For now, the
   checksums are only available using the FreeDict API. See our wiki for more
