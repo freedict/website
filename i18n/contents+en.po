@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-20 11:00+CET\n"
+"POT-Creation-Date: 2018-08-19 18:51+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -966,6 +966,10 @@ msgstr "No language selected…"
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
+
+#: packages/freedict/lektor_freedict.py:100
+msgid "checksum"
+msgstr ""
 
 #~ msgid "### Use Wherever You Want"
 #~ msgstr "### Use Wherever You Want"

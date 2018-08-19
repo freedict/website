@@ -96,7 +96,8 @@ def mk_dropdown(dictionaries, codes, platform):
                 dictionary['localised_name']))
         page.append(_('version {version} with {headwords} headwords').format(
                 version=dictionary['edition'], headwords=dictionary['headwords']))
-        page.append('</a></li>\n')
+        page.append('</a> <a href="%s.sha512">[SHA512 %s]</a></li>\n' \
+                % (dictionary['url'], _("checksum")))
     page.append('\n</ul></p>\n')
     return ''.join(page)
 
