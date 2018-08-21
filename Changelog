@@ -2,6 +2,12 @@
 # are supported: a new entry starts with date in the format "%Y-%m-%d:", followed
 # by multiple indented lines with no additional formatting.
 # Files with a hash character are ignored.
+2018-08-21:
+  Nearly all of our dictionaries now ship IPA pronunciation transcriptions. The
+  International Pronunciation Alphabet (IPA) is a standardised way to transcribe
+  the pronunciation of a word in any language. Whenever a dictionary gets
+  released, IPA is added, as long as the generator (based on Espeak or
+  Espeak-ng) supports the language.
 2018-07-23:
   FreeDict now ships a substantial selection of WikDict dictionaries, therefore
   we now ship over 140 dictionaries!
