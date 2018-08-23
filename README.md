@@ -21,6 +21,7 @@ This website generator depends on the following:
 -   Python >= 3.4
 -   gettext utilities
 -   pybabel
+-   Pandoc
 -   a fresh version of the FreeDict API
     -   if you happen to have the access rights, have a look at our wiki
         <https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API> how to
