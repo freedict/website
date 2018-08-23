@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-19 20:51+CET\n"
+"POT-Creation-Date: 2018-08-23 22:03+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1079,40 +1079,40 @@ msgstr "Walisisch"
 msgid "Wolof"
 msgstr "Wolof"
 
-#: packages/freedict/news.py:75
+#: packages/freedict/news.py:90
 #, python-brace-format
 msgid "Work in the last {days} days:"
 msgstr "Arbeit der letzten{days} Tage:"
 
-#: packages/freedict/news.py:78
+#: packages/freedict/news.py:93
 #, python-brace-format
 msgid "{num} commits in"
 msgstr "{num} Commits in"
 
-#: packages/freedict/news.py:83
+#: packages/freedict/news.py:98
 #, python-brace-format
 msgid "{num} issues edits"
 msgstr "{num} Issues geändert"
 
-#: packages/freedict/news.py:85
+#: packages/freedict/news.py:100
 #, python-brace-format
 msgid "{num} wiki changes"
 msgstr "{num} Änderungen im Wiki"
 
-#: packages/freedict/news.py:101
+#: packages/freedict/news.py:116
 msgid "What's Happening"
 msgstr "Was tut sich"
 
-#: packages/freedict/news.py:110
+#: packages/freedict/news.py:125
 msgid "One new release:"
 msgstr "Eine neue Veröffentlichung:"
 
-#: packages/freedict/news.py:112
+#: packages/freedict/news.py:127
 #, python-brace-format
 msgid "{num_releases} new releases:"
 msgstr "{num_releases} neue Veröffentlichungen:"
 
-#: packages/freedict/news.py:119
+#: packages/freedict/news.py:134
 msgid "and more"
 msgstr "und weitere"
 

@@ -4,12 +4,27 @@ import itertools
 import json
 import os
 import pickle
+import shutil
+import subprocess
+import sys
 import urllib
 
 import common
 
 NEWS_TIMESPAN = 30 # news from last 30 days
 DB_PICKLED = 'databags/news.pickle'
+
+def pandoc(data):
+    if not shutil.which('pandoc'):
+        raise OSError(("Couldn't find Pandoc on the path, which is required "
+                "for converting the changelog."))
+    proc = subprocess.Popen(['pandoc', '-f', 'markdown', '-t', 'html'],
+            stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    html = proc.communicate(data.encode(sys.getdefaultencoding()))[0] \
+            .decode(sys.getdefaultencoding())
+    if not proc.wait() == 0:
+        raise OSError("Pandoc exited unsuccessfully, aborting.")
+    return html
 
 def get_releases(timespan):
     """Return all releases made in the given timedelta."""
@@ -101,7 +116,7 @@ def format_news(news):
     page = ['<h3>%s</h3>\n\n<dl>' % _("What's Happening")]
     for date, description in news['changelog'].items():
         page.append('<dt><strong>%s</strong></dt>\n<dd><p>%s</p></dd>\n' % (
-                date.strftime('%Y-%m-%d'), description))
+                date.strftime('%Y-%m-%d'), pandoc(description)))
 
     page.append('</dl>\n\n<p><ul>')
     if news['releases']:

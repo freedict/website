@@ -1,13 +1,22 @@
 # This is a changelog file for the website. While it is YAML, only two things
 # are supported: a new entry starts with date in the format "%Y-%m-%d:", followed
-# by multiple indented lines with no additional formatting.
-# Files with a hash character are ignored.
+# by multiple indented lines. The indented lines will be converted using
+# Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
+# a multiline string and to avoid confusion with the formatting.
+# Lines with a hash character are ignored.
+2018-08-24: |
+  **[FreeDict HackFest 2018](https://freedict.github.io) — come and join us!  
+  This is our second community event where we are coming together to work on our
+  tooling and dictionaries. This event is for both newbies and contributors,
+  feel free to [join us](https://freedict.github.io)!
+
 2018-08-21:
   Nearly all of our dictionaries now ship IPA pronunciation transcriptions. The
   International Pronunciation Alphabet (IPA) is a standardised way to transcribe
   the pronunciation of a word in any language. Whenever a dictionary gets
   released, IPA is added, as long as the generator (based on Espeak or
   Espeak-ng) supports the language.
+
 2018-07-23:
   FreeDict now ships a substantial selection of WikDict dictionaries, therefore
   we now ship over 140 dictionaries!
@@ -15,16 +24,19 @@
   them
   available in the TEI format. These dictionaries are now regularly imported
   into FreeDict.
+
 2018-05-01:
   You can now verify our downloads with a SHA512 checksum. For now, the
   checksums are only available using the FreeDict API. See our wiki for more
   details.
+
 2018-04-15:
   FreeDict.org has been relaunched. After our Hackathon last year and after many
   more hours of work, the new website is online. Equipped with a fresh design
   and filled with new content, we hope that you will find exactly the
   information that you are looking for. If not or if you have other suggestions,
   let us know.
+
 2018-03-29:
   Finally, there is a first early draft of the brand-new FreeDict website
   online. It is still bare-bones and not translated. We would appreciate if you
