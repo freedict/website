@@ -5,10 +5,11 @@
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
 2018-08-24: |
-  **[FreeDict HackFest 2018](https://freedict.github.io) — come and join us!  
+  **[FreeDict HackFest 2018](https://freedict.github.io) — come and join us!**  
   This is our second community event where we are coming together to work on our
-  tooling and dictionaries. This event is for both newbies and contributors,
-  feel free to [join us](https://freedict.github.io)!
+  tooling and dictionaries. This event is for both newcomers and regular
+  contributors. It would be great to see you around! More information can be
+  found [here](https://freedict.github.io).
 
 2018-08-21:
   Nearly all of our dictionaries now ship IPA pronunciation transcriptions. The
