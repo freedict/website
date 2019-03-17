@@ -22,7 +22,8 @@ class FreedictPlugin(Plugin):
         table = load_iso_table()
         # dictionaries are named like "lg1-lg2", split strng and query English
         # name
-        dictionaries = (d['name'] for d in load_json_api())
+        dictionaries = (d['name'] for d in load_json_api()
+                if not 'software' in d)
         # compile list of unique ISO codes
         codes = set(code for dummy in (keys.split('-') for keys in dictionaries)
                 for code in dummy)
