@@ -116,7 +116,7 @@ def generate_download_section(target):
     trans_name = lambda n: '%s - %s' % (_(codes[n.split('-')[0]]),
             _(codes[n.split('-')[1]]))
     for dictionary in json_api:
-        if not 'name' in dictionary: # not a dictionary, skip
+        if not 'releases' in dictionary: # not a dictionary, skip
             continue
         try:
             url = next(r for r in dictionary['releases'] if r['platform'] ==

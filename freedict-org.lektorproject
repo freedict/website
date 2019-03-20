@@ -12,6 +12,13 @@ name = English
 primary = yes
 locale = en
 
+################################################################################
+# sort these alphabetically
+[alternatives.da]
+name = Dansk
+url_prefix = /da/
+locale = da
+
 [alternatives.de]
 name = Deutsch
 url_prefix = /de/

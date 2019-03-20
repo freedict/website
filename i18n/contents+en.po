@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-23 22:03+CET\n"
+"POT-Creation-Date: 2019-03-20 22:38+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -698,14 +698,14 @@ msgid "About us"
 msgstr ""
 
 #: templates/base.html:31
-msgid "View this site in in another language:"
-msgstr "View this site in in another language:"
+msgid "View this site in another language:"
+msgstr ""
 
-#: templates/base.html:53
+#: templates/base.html:58
 msgid "Website Translations"
 msgstr ""
 
-#: templates/base.html:54
+#: templates/base.html:59
 msgid "Help translating this website!"
 msgstr ""
 
@@ -954,22 +954,25 @@ msgstr "{num_releases} new releases:"
 msgid "and more"
 msgstr "and more"
 
-#: packages/freedict/lektor_freedict.py:84
+#: packages/freedict/lektor_freedict.py:85
 msgid "Pick a language:"
 msgstr "Pick a language:"
 
-#: packages/freedict/lektor_freedict.py:86
+#: packages/freedict/lektor_freedict.py:87
 msgid "No language selected…"
 msgstr "No language selected…"
 
-#: packages/freedict/lektor_freedict.py:97
+#: packages/freedict/lektor_freedict.py:98
 #, python-brace-format
 msgid "version {version} with {headwords} headwords"
 msgstr "version {version} with {headwords} headwords"
 
-#: packages/freedict/lektor_freedict.py:100
+#: packages/freedict/lektor_freedict.py:101
 msgid "checksum"
 msgstr ""
+
+#~ msgid "View this site in in another language:"
+#~ msgstr "View this site in in another language:"
 
 #~ msgid "### Use Wherever You Want"
 #~ msgstr "### Use Wherever You Want"
