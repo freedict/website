@@ -48,6 +48,22 @@ table {
     width: 100%;
 }
 
+footer ul {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 4px;
+}
+footer ul li a {
+    padding: 4px;
+    background-color: #ededed;
+}
+
+
 .active {
     font-style: italic;
     background-color: darkblue;
