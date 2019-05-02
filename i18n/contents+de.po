@@ -862,7 +862,7 @@ msgstr "Zeige diese Seite in einer anderen Sprache:"
 
 #: templates/base.html:58
 msgid "Website Translations"
-msgstr "Übersetzungen dieser Seite"
+msgstr "Übersetzen der Website"
 
 #: templates/base.html:59
 msgid "Help translating this website!"
