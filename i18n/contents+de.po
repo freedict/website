@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 22:38+CET\n"
+"POT-Creation-Date: 2019-05-04 09:38+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -177,8 +177,8 @@ msgid ""
 "writing a conversion utility. It also enables arbitrary re-use."
 msgstr ""
 "Die Wörterbücher werden im [TEI-XML-Format](https://de.wikipedia.org/wiki/"
-"Text_Encoding_Initiative) geschrieben, wodurch semantische Informationen unabhängig von "
-"der endgültigen Formatierung gespeichert werden können.\n"
+"Text_Encoding_Initiative) geschrieben, wodurch semantische Informationen "
+"unabhängig von der endgültigen Formatierung gespeichert werden können.\n"
 "Das bedeutet, dass es ohne Weiteres möglich ist, neue Wörterbuchprogramme zu "
 "unterstützen, indem man einen Konverter schreibt. Außerdem ermöglicht es "
 "beliebige Nachnutzung."
@@ -278,9 +278,9 @@ msgid ""
 "URLs are"
 msgstr ""
 "Die Kopfdaten der Wörterbücher können über eine CORS-fähige API abgerufen "
-"werden, sowohl im JSON- als auch im XML-Format. Diese können genutzt "
-"werden, um Links zu den Downloads zu extrahieren oder andere Kopfdaten, "
-"damit sie in ein Wörterbuchprogramm eingebettet werden können. Die URLs sind:"
+"werden, sowohl im JSON- als auch im XML-Format. Diese können genutzt werden, "
+"um Links zu den Downloads zu extrahieren oder andere Kopfdaten, damit sie in "
+"ein Wörterbuchprogramm eingebettet werden können. Die URLs sind:"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -314,10 +314,10 @@ msgid ""
 "and ideally we would support them all, one day."
 msgstr ""
 "Wir versuchen immer neue Nutzer zu erreichen, indem wir in weitere "
-"Ausgabeformate exportieren, der begrenzende Faktor ist lediglich die "
-"Anzahl der Beitragenden. Es gibt eine [Liste von Programmen (Englisch)]"
-"(https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients), "
-"welche wir idealerweise eines Tages alle unterstützen."
+"Ausgabeformate exportieren, der begrenzende Faktor ist lediglich die Anzahl "
+"der Beitragenden. Es gibt eine [Liste von Programmen (Englisch)](https://"
+"github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients), welche wir "
+"idealerweise eines Tages alle unterstützen."
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About Us"
@@ -471,11 +471,11 @@ msgid ""
 "    This list is very low traffic and full of people waiting to answer your\n"
 "    questions."
 msgstr ""
-"*  Wenn Sie mehr Nutzer und Mitglieder erreichen möchten, ist es am "
-"besten, wenn Sie sich bei unserer\n"
+"*  Wenn Sie mehr Nutzer und Mitglieder erreichen möchten, ist es am besten, "
+"wenn Sie sich bei unserer\n"
 "    [Mailingliste](https://www.freelists.org/list/freedict) anmelden.   Die "
-"Liste hat ein geringes E-Mail-Aufkommen, ist allerdings voller Leute, die auf "
-"Ihre Fragen warten."
+"Liste hat ein geringes E-Mail-Aufkommen, ist allerdings voller Leute, die "
+"auf Ihre Fragen warten."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -656,8 +656,8 @@ msgstr ""
 "Wörterbücher von FreeDict werden in einem generischen Format gespeichert, "
 "was es erlaubt, verschiedene Wörterbuchanwendungen, auch als Plattform "
 "bezeichnet, zu unterstützen. Der Vorteil dieses Ansatzes ist, dass die "
-"Wörterbuchdaten für jegliche Anwendung verwendet werden können und Sie wählen "
-"können, was Ihnen am besten passt."
+"Wörterbuchdaten für jegliche Anwendung verwendet werden können und Sie "
+"wählen können, was Ihnen am besten passt."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -823,8 +823,8 @@ msgid ""
 "This can be helpful for app developers or distributors."
 msgstr ""
 "Mit der API können Kopfdaten über die einzelnen Wörterbücher abgerufen "
-"werden sowie die direkten Downloadlinks für die Ausgabeformate (auch "
-"bekannt als Plattformen) und deren Quellen.\n"
+"werden sowie die direkten Downloadlinks für die Ausgabeformate (auch bekannt "
+"als Plattformen) und deren Quellen.\n"
 "Dies nützt unter anderem Distributoren oder Anwendungsentwicklern."
 
 #: http://localhost/downloads/
@@ -1079,40 +1079,40 @@ msgstr "Walisisch"
 msgid "Wolof"
 msgstr "Wolof"
 
-#: packages/freedict/news.py:90
+#: packages/freedict/news.py:94
 #, python-brace-format
 msgid "Work in the last {days} days:"
 msgstr "Arbeit der letzten {days} Tage:"
 
-#: packages/freedict/news.py:93
+#: packages/freedict/news.py:97
 #, python-brace-format
 msgid "{num} commits in"
 msgstr "{num} Commits in"
 
-#: packages/freedict/news.py:98
+#: packages/freedict/news.py:102
 #, python-brace-format
 msgid "{num} issues edits"
 msgstr "{num} Issues geändert"
 
-#: packages/freedict/news.py:100
+#: packages/freedict/news.py:104
 #, python-brace-format
 msgid "{num} wiki changes"
 msgstr "{num} Änderungen im Wiki"
 
-#: packages/freedict/news.py:116
+#: packages/freedict/news.py:120
 msgid "What's Happening"
 msgstr "Was tut sich"
 
-#: packages/freedict/news.py:125
+#: packages/freedict/news.py:129
 msgid "One new release:"
 msgstr "Eine neue Veröffentlichung:"
 
-#: packages/freedict/news.py:127
+#: packages/freedict/news.py:131
 #, python-brace-format
 msgid "{num_releases} new releases:"
 msgstr "{num_releases} neue Veröffentlichungen:"
 
-#: packages/freedict/news.py:134
+#: packages/freedict/news.py:138
 msgid "and more"
 msgstr "und weitere"
 
@@ -1132,4 +1132,3 @@ msgstr "Version {version} mit {headwords} Einträgen"
 #: packages/freedict/lektor_freedict.py:101
 msgid "checksum"
 msgstr "Prüfsumme"
-

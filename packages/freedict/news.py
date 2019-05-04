@@ -30,7 +30,9 @@ def get_releases(timespan):
     """Return all releases made in the given timedelta."""
     releases = {}
     now = datetime.now()
-    for dictionary in common.load_json_api():
+    # dictionaries have a name, other entries such as `software` don't
+    dictionaries = [item for item in common.load_json_api() if 'name' in item]
+    for dictionary in dictionaries:
         name = dictionary['name']
         for release in dictionary['releases']:
             date = datetime.strptime(release['date'], '%Y-%m-%d')
@@ -67,7 +69,7 @@ def get_events_for_repo(repo):
             for page in event['payload']['pages']:
                 append(type, (date, page['title'], page['html_url']))
         elif type == 'PushEvent':
-            append(type, (date, len(event['payload']['commits'])))
+            append(type, (date, int(event['payload']['size'])))
         elif type in ('IssueCommentEvent', 'IssuesEvent'):
             append('IssueEvent', date) # only use IssueEvent
         # else: unhandled
@@ -78,9 +80,11 @@ def format_latest_changes(repos):
     python list of string chunks) or an empty list if no changes found."""
     # ignore website
     repos = {k: v for k, v in repos.items() if k != 'website'}
-    commits = {name: len(val['PushEvent']) for name, val in repos.items()
+    commits = {name: val['PushEvent'] for name, val in repos.items()
             if 'PushEvent' in val}
-    commit_sum = sum(v for v in commits.values())
+    # commits maps repo names to a list of push events; each push event consists
+    # of a datetime and the number of commits as 2nd argument
+    commit_sum = sum(sum(c[1] for c in v) for v in commits.values())
     issues = sum(len(val['IssueEvent']) for val in repos.values()
             if 'IssueEvent' in val)
     wiki = sum(len(val['GollumEvent']) for val in repos.values()
@@ -172,9 +176,12 @@ def generate_news_section():
             for type, changes in get_events_for_repo(repo['name']).items():
                 recent_changes = [ch for ch in changes if recent_enough(ch)]
                 if recent_changes:
-                    if not repo['name'] in news:
-                        news[repo['name']] = {}
-                    news[repo['name']][type] = recent_changes
+                    name = repo['name']
+                    if not name in news:
+                        news[name] = {}
+                    if not type in news[name]:
+                        news[name][type] = []
+                    news[name][type].extend(recent_changes)
         # load changelog entries from the last year and sort in ascending order
         news['changelog'] = collections.OrderedDict(sorted(((date, entry)
                 for date, entry in common.load_changelog().items()
