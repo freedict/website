@@ -22,6 +22,7 @@ This website generator depends on the following:
 -   gettext utilities
 -   pybabel
 -   Pandoc
+-   Lektor; on Debian/Ubuntu use `apt install lektor` or `pip3 install lektor`
 -   a fresh version of the FreeDict API
     -   if you happen to have the access rights, have a look at our wiki
         <https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API> how to
