@@ -4,6 +4,10 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
+2019-12-01: |
+  Re-release of all dictionary exports: Due to a bug in the IPA generation, some
+  dictionaries had incorrect IPA transcriptions for headwords. This has been
+  fixed for all dictionaries now.
 2018-08-24: |
   **[FreeDict HackFest 2018](https://freedict.github.io) — come and join us!**  
   This is our second community event where we are coming together to work on our
