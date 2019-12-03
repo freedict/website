@@ -326,7 +326,7 @@ msgid ""
 "------------------"
 msgstr ""
 "Lizenzierung und Nachnutzung\n"
-"----------------------------------"
+"----------------------------"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
