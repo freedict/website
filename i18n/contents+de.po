@@ -322,11 +322,9 @@ msgstr ""
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
-"Licencing and Reuse\n"
-"------------------"
+"## Licencing and Reuse"
 msgstr ""
-"Lizenzierung und Nachnutzung\n"
-"----------------------------"
+"## Lizenzierung und Nachnutzung"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)

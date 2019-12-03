@@ -84,8 +84,7 @@ and our limiting factor is solely the number of contributors. There is a
 [list of clients](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients)
 and ideally we would support them all, one day.
 
-Licencing and Reuse
--------------------
+## Licencing and Reuse
 
 FreeDict provides its dictionaries under free and open source licences that
 allow the users to study, modify, extend and redistribute them, given that the
