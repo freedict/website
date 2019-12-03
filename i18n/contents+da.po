@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freedict\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 09:38+CET\n"
+"POT-Creation-Date: 2019-12-03 20:28+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -326,6 +326,40 @@ msgstr ""
 "bidragydere. Der er en [klientliste](https://github.com/freedict/fd-"
 "dictionaries/wiki/Dictionary-Clients)\n"
 "og ideelt vil vi understøtte dem alle, en dag."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Licencing and Reuse\n"
+"------------------"
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"FreeDict provides its dictionaries under free and open source licences that\n"
+"allow the users to study, modify, extend and redistribute them, given that "
+"the\n"
+"licencing conditions are met. Each dictionary has separate licencing terms\n"
+"which are located in the TEI header at the beginning of each dictionary "
+"file.\n"
+"We advice you to check this out first or to ask on the [mailing list]"
+"(https://www.freelists.org/list/freedict), if\n"
+"unsure."
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The majority of our dictionaries is licenced under [GPL](https://www.gnu.org/"
+"licenses/gpl-3.0.en.html). If you plan to modify, extend or bundle these "
+"dictionaries, you should study the licence terms carefully. To the best of "
+"our knowledge, GPL does permit bundling the dictionary in a commercial "
+"product, but requires you to inform the user about the licence of the data. "
+"Furthermore you need to link the dictionary sources, including all "
+"modifications made. Definite advice can only be given by a lawyer and we "
+"make you hereby aware that we are only representing our understanding here."
+msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About Us"

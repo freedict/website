@@ -84,3 +84,14 @@ and our limiting factor is solely the number of contributors. There is a
 [list of clients](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients)
 and ideally we would support them all, one day.
 
+Licencing and Reuse
+-------------------
+
+FreeDict provides its dictionaries under free and open source licences that
+allow the users to study, modify, extend and redistribute them, given that the
+licencing conditions are met. Each dictionary has separate licencing terms
+which are located in the TEI header at the beginning of each dictionary file.
+We advice you to check this out first or to ask on the [mailing list](https://www.freelists.org/list/freedict), if
+unsure.
+
+The majority of our dictionaries is licenced under [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html). If you plan to modify, extend or bundle these dictionaries, you should study the licence terms carefully. To the best of our knowledge, GPL does permit bundling the dictionary in a commercial product, but requires you to inform the user about the licence of the data. Furthermore you need to link the dictionary sources, including all modifications made. Definite advice can only be given by a lawyer and we make you hereby aware that we are only representing our understanding here.
