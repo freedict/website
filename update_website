@@ -32,11 +32,14 @@ fi
 # drop changes, it's only the latest generation date which changed
 git checkout i18n/contents+*.po
 git pull -r 2>&1 > /dev/null
-lektor clean --yes --output-path $WWW_BASE > /dev/null
-lektor build --output-path $WWW_BASE 2>&1 | (grep -E '^[[:space:]]+E ' || true)
+lektor clean --yes --output-path $WWW_BASE.tmp > /dev/null
+lektor build --output-path $WWW_BASE.tmp 2>&1 | (grep -E '^[[:space:]]+E ' || true)
 
-# symlink API files
-cd $WWW_BASE
+# copy API files
+cd $WWW_BASE.tmp
 cp $API_BASE/freedict-database.json .
 cp $API_BASE/freedict-database.xml .
+cd ..
+rm -rf $WWW_BASE
+mv $WWW_BASE.tmp $WWW_BASE
 exit 0

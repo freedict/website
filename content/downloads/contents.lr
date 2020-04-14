@@ -53,20 +53,19 @@ to unpack this archive format, please download a program like
 ---
 after_desktop:
 
-## Source
+## Sources
 
-If you want to browse through our source, you have several options. We develop
-our dictionaries openly on
-[GitHub](https://github.com/freedict/fd-dictionaries). Our tools and most of our
-dictionaries are there.
+If you want to browse through our source, you have several options. The easiest
+way is to check out the drop-down menu below to select the desired dictionary.
+Another option is our [static API](#api) that allows for programmatic retrieval
+of our dictionaries.
 
-    $ git clone https://github.com/freedict/fd-dictionaries
-
-
-Automatically imported dictionaries are not present in this source tree, since
-they don't need versioning. The importers for those dictionaries is in the
-[tools](https://github.com/freedict/tools) repository, which is required for
-building anyway.
+The dictionary development happens at two places. Some dictionaries are
+maintained and extended manually and are on
+[GitHub](https://github.com/freedict/fd-dictionaries).
+Others are [automatically imported](https://download.freedict.org)
+from other sources and hence their
+[importer scripts](https://github.com/freedict/tools) are version-controlled.
 
 The Dictionaries are encoded in the TEI format, please see the
 [documentation](../documentation) for more details.

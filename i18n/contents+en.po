@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-03 20:45+CET\n"
+"POT-Creation-Date: 2019-12-15 21:48+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -650,34 +650,30 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "## Source"
+msgid "## Sources"
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid ""
-"If you want to browse through our source, you have several options. We "
-"develop\n"
-"our dictionaries openly on\n"
-"[GitHub](https://github.com/freedict/fd-dictionaries). Our tools and most of "
-"our\n"
-"dictionaries are there."
+"If you want to browse through our source, you have several options. The "
+"easiest\n"
+"way is to check out the drop-down menu below to select the desired "
+"dictionary.\n"
+"Another option is our [static API](#api) that allows for programmatic "
+"retrieval\n"
+"of our dictionaries."
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
-msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid ""
-"Automatically imported dictionaries are not present in this source tree, "
-"since\n"
-"they don't need versioning. The importers for those dictionaries is in the\n"
-"[tools](https://github.com/freedict/tools) repository, which is required "
-"for\n"
-"building anyway."
+"The dictionary development happens at two places. Some dictionaries are\n"
+"maintained and extended manually and are on\n"
+"[GitHub](https://github.com/freedict/fd-dictionaries).\n"
+"Others are [automatically imported](https://download.freedict.org)\n"
+"from other sources and hence their\n"
+"[importer scripts](https://github.com/freedict/tools) are version-controlled."
 msgstr ""
 
 #: http://localhost/downloads/
@@ -1002,6 +998,9 @@ msgstr "version {version} with {headwords} headwords"
 #: packages/freedict/lektor_freedict.py:101
 msgid "checksum"
 msgstr ""
+
+#~ msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
+#~ msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
 
 #~ msgid "View this site in in another language:"
 #~ msgstr "View this site in in another language:"

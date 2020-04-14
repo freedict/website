@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-03 20:31+CET\n"
+"POT-Creation-Date: 2019-12-15 21:48+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -321,10 +321,8 @@ msgstr ""
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"## Licencing and Reuse"
-msgstr ""
-"## Lizenzierung und Nachnutzung"
+msgid "## Licencing and Reuse"
+msgstr "## Lizenzierung und Nachnutzung"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -359,15 +357,15 @@ msgid ""
 "modifications made. Definite advice can only be given by a lawyer and we "
 "make you hereby aware that we are only representing our understanding here."
 msgstr ""
-"Die meisten Wörterbücher sind unter der "
-"[GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) "
-"lizenziert. Wenn Sie planen die Wörterbücher zu verändern, zu erweitern oder "
-"auszuliefern, so prüfen Sie die Bedingungen eingehend. Nach unserem "
-"Verständnis erlaubt die GPL das ausliefern in einem kommerziellen Produkt, "
-"sofern der Nutzer über die Lizenz der Daten aufgeklärt wurde. Ferner müssen "
-"Sie auf den Quelltext verweisen, inklusive aller Änderungen. Endgültige "
-"Sicherheit erlangen Sie nur durch die Konsultation eines Anwalts und wir "
-"machen Sie darauf aufmerksam, dass wir lediglich unser Verständnis darstellen."
+"Die meisten Wörterbücher sind unter der [GPL](https://www.gnu.org/licenses/"
+"gpl-3.0.en.html) lizenziert. Wenn Sie planen die Wörterbücher zu verändern, "
+"zu erweitern oder auszuliefern, so prüfen Sie die Bedingungen eingehend. "
+"Nach unserem Verständnis erlaubt die GPL das ausliefern in einem "
+"kommerziellen Produkt, sofern der Nutzer über die Lizenz der Daten "
+"aufgeklärt wurde. Ferner müssen Sie auf den Quelltext verweisen, inklusive "
+"aller Änderungen. Endgültige Sicherheit erlangen Sie nur durch die "
+"Konsultation eines Anwalts und wir machen Sie darauf aufmerksam, dass wir "
+"lediglich unser Verständnis darstellen."
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
 msgid "About Us"
@@ -808,44 +806,31 @@ msgstr "### Wörterbuchdownloads"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "## Source"
-msgstr "## Quellen"
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid ""
-"If you want to browse through our source, you have several options. We "
-"develop\n"
-"our dictionaries openly on\n"
-"[GitHub](https://github.com/freedict/fd-dictionaries). Our tools and most of "
-"our\n"
-"dictionaries are there."
-msgstr ""
-"Wenn Sie einen Blick auf unsere Quellen werfen möchten, so haben Sie mehrere "
-"Möglichkeiten.\n"
-"Wir entwickeln unsere Wörterbücher offen auf [GitHub](https://github.com/"
-"freedict/fd-dictionaries). Die Werkzeuge und die meisten Wörterbücher "
-"befinden sich dort."
-
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.after_desktop)
-msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
+msgid "## Sources"
 msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid ""
-"Automatically imported dictionaries are not present in this source tree, "
-"since\n"
-"they don't need versioning. The importers for those dictionaries is in the\n"
-"[tools](https://github.com/freedict/tools) repository, which is required "
-"for\n"
-"building anyway."
+"If you want to browse through our source, you have several options. The "
+"easiest\n"
+"way is to check out the drop-down menu below to select the desired "
+"dictionary.\n"
+"Another option is our [static API](#api) that allows for programmatic "
+"retrieval\n"
+"of our dictionaries."
 msgstr ""
-"Automatisch importierte Wörterbücher sind nicht in diesen Quellen, da diese "
-"keiner Versionierung bedürfen. Die Importer für diese Wörterbücher befinden "
-"sich im [Tools-Repositorium](https://github.com/freedict/tools), welches zum "
-"Bauen sowieso benötigt wird."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"The dictionary development happens at two places. Some dictionaries are\n"
+"maintained and extended manually and are on\n"
+"[GitHub](https://github.com/freedict/fd-dictionaries).\n"
+"Others are [automatically imported](https://download.freedict.org)\n"
+"from other sources and hence their\n"
+"[importer scripts](https://github.com/freedict/tools) are version-controlled."
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -1182,3 +1167,34 @@ msgstr "Version {version} mit {headwords} Einträgen"
 #: packages/freedict/lektor_freedict.py:101
 msgid "checksum"
 msgstr "Prüfsumme"
+
+#~ msgid "## Source"
+#~ msgstr "## Quellen"
+
+#~ msgid ""
+#~ "If you want to browse through our source, you have several options. We "
+#~ "develop\n"
+#~ "our dictionaries openly on\n"
+#~ "[GitHub](https://github.com/freedict/fd-dictionaries). Our tools and most "
+#~ "of our\n"
+#~ "dictionaries are there."
+#~ msgstr ""
+#~ "Wenn Sie einen Blick auf unsere Quellen werfen möchten, so haben Sie "
+#~ "mehrere Möglichkeiten.\n"
+#~ "Wir entwickeln unsere Wörterbücher offen auf [GitHub](https://github.com/"
+#~ "freedict/fd-dictionaries). Die Werkzeuge und die meisten Wörterbücher "
+#~ "befinden sich dort."
+
+#~ msgid ""
+#~ "Automatically imported dictionaries are not present in this source tree, "
+#~ "since\n"
+#~ "they don't need versioning. The importers for those dictionaries is in "
+#~ "the\n"
+#~ "[tools](https://github.com/freedict/tools) repository, which is required "
+#~ "for\n"
+#~ "building anyway."
+#~ msgstr ""
+#~ "Automatisch importierte Wörterbücher sind nicht in diesen Quellen, da "
+#~ "diese keiner Versionierung bedürfen. Die Importer für diese Wörterbücher "
+#~ "befinden sich im [Tools-Repositorium](https://github.com/freedict/tools), "
+#~ "welches zum Bauen sowieso benötigt wird."
