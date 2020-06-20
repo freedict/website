@@ -23,3 +23,8 @@ locale = da
 name = Deutsch
 url_prefix = /de/
 locale = de
+
+[alternatives.es]
+name = español
+url_prefix = /es/
+locale = es
