@@ -28,3 +28,8 @@ locale = de
 name = español
 url_prefix = /es/
 locale = es
+
+[alternatives.sv]
+name = Svenska
+url_prefix = /sv/
+locale = sv

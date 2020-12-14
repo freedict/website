@@ -1,0 +1,1681 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-13 22:43+CET\n"
+"PO-Revision-Date: 2018-03-18 17:34+CET\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: http://localhost/ (content/contents+en.lr:page.title)
+msgid "Home"
+msgstr "Hemsida"
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid "## Free Dictionaries, Free Knowledge"
+msgstr "## Fria ordböcker, fri kunskap"
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid ""
+"The FreeDict project strives to be the most comprehensive source of truly "
+"free\n"
+"bilingual dictionaries. They are not just free of charge, but they give you "
+"the right\n"
+"to study, change and modify them, as long as you guarantee others these "
+"freedoms,\n"
+"too.\n"
+"[Founded in 2000](about), FreeDict nowadays provides over 140 dictionaries "
+"in\n"
+"about 45 languages and thanks to its members, grows continuously. Learn how "
+"to\n"
+"[become a part of FreeDict](community)."
+msgstr ""
+"FreeDict-projektet strävar efter att vara den mest omfattande och genuint\n"
+"öppna källan av tvåspråkiga ordböcker. De är inte bara gratis, utan ger dig\n"
+"också rättigheten att studera, ändra och modifiera dem så länge du också\n"
+"garanterar att andra tillåts göra detsamma.\n"
+"FreeDict [grundades år 2000](about) och tillhandahåller idag över 140\n"
+"ordböcker på ca. 45 olika språk, vilket växer ständigt tack vare sina\n"
+"medlemmar.\n"
+"Mer info om hur [du blir en del av FreeDict](community)."
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid "## Use Wherever You Want"
+msgstr "## Använd hur du vill"
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid ""
+"FreeDict dictionaries offer you the greatest deal of flexibility possible:\n"
+"you can use them both\n"
+"[on your computer or on your mobile phone](downloads)\n"
+"and all the lookups are offline. This means that\n"
+"you can travel abroad without the fear that your provider will make you pay "
+"a\n"
+"lot just for a few dictionary lookups. You will even be independent from a\n"
+"network connection."
+msgstr ""
+"FreeDicts ordböcker erbjuder dig största möjliga flexibilitet:\n"
+"du kan använda dem både\n"
+"[på din dator eller din mobiltelefon](downloads)\n"
+"och alla uppslag är lokala. Det betyder att du kan resa utomlands utan att\n"
+"vara orolig för att din operatör debiterar dig för enstaka uppslag.\n"
+"Du är till och med helt oberoende av en internetförbindelse."
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid "## Use For Any Purpose"
+msgstr "## Använd till vad som helst"
+
+#: http://localhost/ (content/contents+en.lr:page.body)
+msgid ""
+"Our data is useful for a wide range of applications which is made possible\n"
+"through the use of the generic\n"
+"[TEI XML format](https://en.wikipedia.org/wiki/Text_Encoding_Initiative).\n"
+"This allows us to\n"
+"export our data into any format and for any purpose, be it an\n"
+"electronic/paper dictionary or a spell checker."
+msgstr ""
+"Vår data passar en lång rad applikationer tack vare tillämpningen\n"
+"av det generiska\n"
+"[TEI XML-formatet](https://en.wikipedia.org/wiki/Text_Encoding_Initiative).\n"
+"Detta möjliggör för export av vår data i alla möjliga format och för alla\n"
+"användningsområden, vare sig det gäller en tryckt eller digital ordbok, eller ett\n"
+"stavningskontrollsprogram."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.title)
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Most of the documentation can be found in the\n"
+"[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
+"mostly an\n"
+"overview over the available resources.\n"
+"A good starting point is the section on\n"
+"[frequently asked questions](https://github.com/freedict/fd-dictionaries/"
+"wiki/FreeDict-FAQ)."
+msgstr ""
+"Det mesta av dokumentationen går att finna i"
+"[wikin](https://github.com/freedict/fd-dictionaries/wiki). Denna sida är\n"
+"huvudsakligen en överblick över tillgängliga resurser.\n"
+"En bra startpunkt är avsnittet med\n"
+"[frågor och svar](https://github.com/freedict/fd-dictionaries/"
+"wiki/FreeDict-FAQ)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Our dictionaries, its sources and recommendations for programs to use them "
+"can be\n"
+"found on the\n"
+"[downloads page](../downloads).\n"
+"If you are stuck at any point, you might want to [ask for help](../"
+"community)."
+msgstr ""
+"Våra ordböcker, dess källor samt rekommendationer på program för att använda\n"
+"dem kan finnas på [sidan hämta](../downloads).\n"
+"Skulle du fastna så kan du [fråga om hjälp](../community)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body) http://localhost/community/
+#: (content/community/contents+en.lr:page.body)
+msgid "## Getting Started"
+msgstr "Kom igång"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"All of the sources are hosted on [GitHub](https://github.com/freedict). "
+"Scripts\n"
+"and utilities are contained in the\n"
+"[tools repository](https://github.com/freedict/tools) of which you need a "
+"copy.\n"
+"The FreeDict tools assume a minimal set of software to be installed. The\n"
+"[README of the tools repository](https://github.com/freedict/tools)\n"
+"gives a short introduction on how to set things up."
+msgstr ""
+"Alla källorna går att finna på [GitHub](https://github.com/freedict). Skript"
+"och hjälpprogram ligger i [verktygsarkivet](https://github.com/freedict/tools)\n"
+"vilket du behöver en kopia av.\n"
+"FreeDict-verktygen kräver att ett fåtal mjukvaror är installerade.\n"
+"[README i verktygsarktivet](https://github.com/freedict/tools) ger en kort introduktion\n"
+"till hur man kommer igång."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"As soon as everything is set up, you can build a dictionary by changing to\n"
+"its directory and type `make`, so for instance:"
+msgstr ""
+"Så fort allt är installerat, kan man bygga en ordbok genom att navigera till\n"
+"dess mapp och skriva `make`, till exempel:"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"    cd dan-eng\n"
+"    make"
+msgstr ""
+"    cd eng-swe\n"
+"    make"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "## Creating And Importing Dictionaries"
+msgstr "## Skapa och importera ordböcker"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The dictionaries are stored in the\n"
+"[TEI XML](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)\n"
+"format, storing semantic information independent from the actual "
+"formatting.\n"
+"This means that it is easily possible to target any dictionary program by\n"
+"writing a conversion utility. It also enables arbitrary re-use."
+msgstr ""
+"Ordböckerna är sparade i\n"
+"[TEI XML-format](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)\n,"
+"vilket lagrar semantiskt information oberoende av den faktiska formateringen.\n"
+"Det innebär att det enkelt att koppla samman med vilket ordboksprogram som\n"
+"helst genom att skriva ett konverteringsvektyg. Det gör det också möjligt\n"
+"att återanvända för godtyckligt ändamål."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "### Writing Dictionaries By Hand"
+msgstr "### Skriva ordböcker manuellt"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"An in-depth introduction into FreeDict internals, including documentation on "
+"how\n"
+"to format and process dictionaries can be found in the\n"
+"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+"HOWTO)."
+msgstr ""
+"En grundlig introduktion till FreeDicts interna komponenter, inklusive dokumentation\n"
+"om formatering och behandling av ordböcker, går att finna i\n"
+"[FreeDicts-vägledningen](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+"HOWTO)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"We do not offer a general-purpose way to edit dictionaries.  Sometimes "
+"people use a\n"
+"XML-capable editor and enter all words by hand, others might use some "
+"simplified\n"
+"format and use a transformation to the TEI format. Either way is fine and\n"
+"depends on your preferences and skills. If unsure, it is best to ask on the\n"
+"[mailing list](https://www.freelists.org/list/freedict)."
+msgstr ""
+"Vi erbjuder inget allmänt sätt att redigera ordböcker. Vissa använder sig av\n"
+"textredigerare med XML-funktionalitet och skriver alla ord för hand, medan andra\n"
+"skriver i enklare format för att sedan konvertera det till TEI-formatet.\n"
+"Båda tilvägagångssätten fungerar utmärkt och beror på dina preferenser och förmågor.\n"
+"Ifall du är osäker så fråga på [maillistan](https://www.freelists.org/list/freedict)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "### Importing Dictionaries"
+msgstr "### Importera ordböcker"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Most of the dictionaries have not been written by hand, but where imported "
+"from\n"
+"other free sources. The\n"
+"[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-"
+"Centre)\n"
+"gives an overview about which dictionaries have been imported with which "
+"program\n"
+"and is a good starting point for new importers."
+msgstr ""
+"De flesta ordböcker har inte skrivits manuellt, utan har importerats från andra\n"
+"öppna källor. [Importcentrum](https://github.com/freedict/fd-dictionaries/wiki/Import-Centre)\n"
+"ger en bra överblick över vilka ordböcker som importerats med vilka program, och\n"
+"är en bra utgångspunkt för nya importprogram."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Please note that the\n"
+"[fd-dictionaries](https://github.com/freedict/fd-dictionaries) repository "
+"does\n"
+"not contain all dictionaries. Those automatically imported from another "
+"source\n"
+"are kept outside of the version control system, because it is enough to have "
+"a\n"
+"reproducible importer script."
+msgstr ""
+"Observera att arktivet [fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+"inte innehåller alla ordböcker. De ordböcker som importerats automatiskt från andra\n"
+"källor är exkluderade från versionshantering, eftersom det räcker att ha ett\n"
+"reproducerbart importskript."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body) http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid "## API"
+msgstr "## API"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Meta information about our dictionaries can be retrieved over a CORS-"
+"enabled\n"
+"API, both in XML and JSON format. It can be used to retrieve download links "
+"and\n"
+"other meta information useful for embedding them into a dictionary program. "
+"The\n"
+"URLs are"
+msgstr ""
+"Metadata om våra ordböcker can hämtas över ett CORS-aktiverat API, i både\n"
+"XML- och JSON-format. Det kan användas för att hämta nedladdningslänkar och\n"
+"annan metadata som kan vara användbar att inkorporera i ett ordboksprogram.\n"
+"Adresserna är"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"    https://freedict.org/freedict-database.xml\n"
+"    https://freedict.org/freedict-database.json"
+msgstr ""
+"    https://freedict.org/freedict-database.xml\n"
+"    https://freedict.org/freedict-database.json"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The individual fields are documented\n"
+"[here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
+msgstr ""
+"De individuella fälten är dokumenterade\n"
+"[här](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "## New Dictionary Output Formats"
+msgstr "## Nya ordboksformat"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"We are always trying to reach more users by exporting into more output "
+"formats\n"
+"and our limiting factor is solely the number of contributors. There is a\n"
+"[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients)\n"
+"and ideally we would support them all, one day."
+msgstr ""
+"Vi försöker alltid nå ut till fler användare genom att exportera ordböckerna\n"
+"till flera format och vår begränsande faktor är antalet personer som bidrar.\n"
+"Det finns en [klientlista](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients)\n"
+"och idealt så stödjer vid dem alla en dag."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "## Licencing and Reuse"
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"FreeDict provides its dictionaries under free and open source licences that\n"
+"allow the users to study, modify, extend and redistribute them, given that "
+"the\n"
+"licencing conditions are met. Each dictionary has separate licencing terms\n"
+"which are located in the TEI header at the beginning of each dictionary "
+"file.\n"
+"We advice you to check this out first or to ask on the [mailing list]"
+"(https://www.freelists.org/list/freedict), if\n"
+"unsure."
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The majority of our dictionaries is licenced under [GPL](https://www.gnu.org/"
+"licenses/gpl-3.0.en.html). If you plan to modify, extend or bundle these "
+"dictionaries, you should study the licence terms carefully. To the best of "
+"our knowledge, GPL does permit bundling the dictionary in a commercial "
+"product, but requires you to inform the user about the licence of the data. "
+"Furthermore you need to link the dictionary sources, including all "
+"modifications made. Definite advice can only be given by a lawyer and we "
+"make you hereby aware that we are only representing our understanding here."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.title)
+msgid "About Us"
+msgstr "Om oss"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "FreeDict is a dictionary project with"
+msgstr "FreeDict är ett ordboksprojekt med"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"*   Truly free dictionaries: everybody is able to use, modify and "
+"redistribute\n"
+"    our  dictionaries, given that the licencing terms are met.\n"
+"*   Dictionaries can be exported into a variety of output formats for mobile "
+"and\n"
+"    desktop dictionary programs.\n"
+"*   Dictionaries are independent from a specific format and hence can be "
+"made\n"
+"    available for any purpose, either for end-users or scientific use cases."
+msgstr ""
+"*   Helt öppna ordböcker: alla kan använda, modifiera och distribuera "
+"    våra ordböcker, så länge licensvillkoren är uppfyllda.\n"
+"*   Ordböckerna kan exporteras till en lång rad olika format för mobil- "
+"och\n"
+"    datorprogram.\n"
+"*   Ordböcker är oberoende av ett specifikt format och kan således tillgängliggöras\n"
+"    för alla typer av ändamål, både för slutanvändare eller vetenskapligt bruk."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "### History"
+msgstr "### Historik"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"This project was started in 2000 by Horst Eyermann. The first databases "
+"were\n"
+"derived from a project called Ergane which used to distribute free "
+"dictionaries.\n"
+"When Michael Bunk took over the project in 2004, he opened the project to a\n"
+"broader scope, allowing all kinds of dictionaries in the project and "
+"converted\n"
+"all dictionaries into the TEI format. He both imported new dictionaries and "
+"wrote other dictionaries by hand himself."
+msgstr ""
+"Detta projekt påbörjades år 2000 av Horst Eyermann. De första databaserna\n"
+"härstammar från ett projekt som kallas Ergane, vilket distribuerade gratis"
+"ordböcker.\n"
+"När Michael Bunk tog över projektet år 2004 breddade han projektets räckvidd\n"
+"genom att stödja alla slags ordböcker i projektet, samt konvertera alla ordböcker\n"
+"till TEI-formatet. Han både importerade och manuellt skrivit nya ordböcker."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"Since then, FreeDict has much evolved\n"
+"and now offers both imported and hand-crafted dictionaries in various sizes."
+msgstr ""
+"Sedan dess, FreeDict har utvecklats mycket och erbjuder nu både importerade och\n"
+"manuellt framställda ordböcker i diverse storlekar."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"With the switch to TEI P5 in 2010, the project uses a\n"
+"comprehensive standard to encode human speech. This format also allows for "
+"the\n"
+"usage of the dictionaries in yet unforeseen use case scenario's, because it\n"
+"decouples from the actual output format."
+msgstr ""
+"I och med skiftet till TEI P5 år 2010, använder projektet en allsidig\n"
+"standard för att koda mänskligt tal. Detta format tillåter dessutom\n"
+"ordböckerna att användas inom ännu oförutsedda användningsområden,\n"
+"eftersom de frikopplas från det faktiska output-formatet."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"In 2016, FreeDict moved from SourceForge to [Github](https://github.com/"
+"freedict). This makes the project more visible and eases collaborative "
+"development considerably."
+msgstr ""
+"År 2016 flyttade FreeDict från SourceForge till [Github](https://github.com/"
+"freedict). Detta gör projektet med överskådligt och förenklar kollaborativ/n"
+"utveckling avsevärt."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "### Contact"
+msgstr "### Kontakt"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"We are happy to receive feedback, feature requests and we absolutely love\n"
+"patches. Please have a look at our\n"
+"[community page](../community)\n"
+"for more information."
+msgstr ""
+"Vi tar gladeligen emot feedback, anmodan om nya funktioner och vi fullkomligen\n"
+"älskar patcher. Vänligen besök vår [community-sida](../community)\n"
+"för mer information."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.title)
+msgid "FreeDict Community"
+msgstr "FreeDict-communityn"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"FreeDict is more than a large number of dictionaries, tools and "
+"infrastructure.\n"
+"It consists of a community of enthusiasts with many different skill sets,\n"
+"including linguists, programmers or simply people with an affinity to "
+"languages.\n"
+"The diversity is our strength."
+msgstr ""
+"FreeDict är mer än bara ett stort antal ordböcker, vektyg och infrastruktur./n"
+"Det består av en grupp entusiaster med många olika förmågor, däribland\n"
+"lingvister, programmerare och personer med affinitet till språk./n"
+"Mångfalden är vår styrka."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "Let's get in touch:"
+msgstr "Kom i kontakt:"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"*   The IRC channel\n"
+"    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
+"    on the `OFTC` network lets you get in touch with us in real-time. You "
+"can\n"
+"    ask any questions in any complexity and without logging. If you do not "
+"know\n"
+"    IRC, you\n"
+"    can try the [web chat](https://webchat.oftc.net/?channels=freedict). "
+"This\n"
+"    channel is the right place to ask questions if you are hesitant to post "
+"to a public mailing list."
+msgstr ""
+"*   IRC-kanalen\n"
+"    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
+"    på `OFTC`-nätverket gör att du kan komma i kontakt med oss i realtid.\n "
+"    Du kan fråga oss vad som helst, oavsett hur komplext, helt utan loggning.\n"
+"    Ifall du inte kan IRC, så kan du testa [webb-chatten](https://webchat.oftc.net/?channels=freedict).\n"
+"    Denna kanal är det rätta stället att ställa frågor ifall du tvekar att\n"
+"    kontakta oss via en offentlig maillista."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"*   If you want to reach a broader range of users and developers, it\n"
+"    is best to subscribe to our\n"
+"    [mailing list](https://www.freelists.org/list/freedict).\n"
+"    This list is very low traffic and full of people waiting to answer your\n"
+"    questions."
+msgstr ""
+"*   Ifall du önskar nå ut till en bredare publik av användare och utvecklare\n"
+"    är det bäst att prenumerera på vår\n"
+"    [maillista](https://www.freelists.org/list/freedict).\n"
+"    Denna listan har väldigt lite trafik och är full med personer som är\n"
+"    redo att svara på dina frågor."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"*   If you do not speak English well enough, you may also try to ask in "
+"your\n"
+"    native language on the mailing list, there is a chance that somebody "
+"with\n"
+"    the according knowledge is around. Just be so kind to include\n"
+"    \"Please translate my message from language XYZ\" in the beginning of "
+"your\n"
+"    message, so that we can resort to a translation service, if nobody "
+"speaks\n"
+"    your language."
+msgstr ""
+"*   Ifall din engelsk-nivå inte är tillräckligt hög, kan du också försöka\n"
+"    fråga på ditt modersmål via maillistan, det är möjligt att det finns\n"
+"    någon med relevant kunskap som kan besvara din fråga. Vänligen inkludera\n"
+"    \"Please translate my message from language XYZ\" i början av ditt\n"
+"    meddelande, så att vi kan använda en översättningsservice, om ingen\n"
+"    talar ditt språk."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"You might also want to take a look at our \n"
+"[documentation](documentation)."
+msgstr ""
+"Du vill kanske också ta en titt på vår\n"
+"[dokumentation](documentation)."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "## Development"
+msgstr "## Utveckling"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "### Technical"
+msgstr "### Teknisk"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"Development takes mostly place on [GitHub](https://github.com/freedict) and "
+"is\n"
+"split among several repositories. All the hand-written dictionaries are in "
+"the\n"
+"[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+"repository and the tools are in the\n"
+"[the repository with the same name](https://github.com/freedict/tools)."
+msgstr ""
+"Utveckling sker mestadels på [GitHub](https://github.com/freedict) och är\n"
+"fördelat på flera arkiv. Alla manuellt skrivna ordböcker finns i arkivet\n"
+"[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+"och vektygen finns i [arkivet med samma namn](https://github.com/freedict/tools)."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"Bugs and feature requests regarding dictionaries are managed on our\n"
+"[fd-dictionaries issue tracker](https://github.com/freedict/fd-dictionaries/"
+"issues), including those\n"
+"dictionaries which are *not* in the fd-dictionaries repository. All issues\n"
+"related to the development of tools for building and importing dictionaries\n"
+"should go to the\n"
+"[tools issue tracker](https://github.com/freedict/tools/issues)."
+msgstr ""
+"Buggar och anmodningar om nya funktioner rörande ordböcker hanteras på vår\n"
+"[fd-dictionaries-felrapportering](https://github.com/freedict/fd-dictionaries/"
+"issues), inklusive de\n"
+"ordböcker som *inte* är i fd-dictionaries-arktivet. Alla buggar relaterade\n"
+"till utvecklingen av verktyg för att bygga och importera ordböcker bör sändas\n"
+"till [vektygsfelrapporteringen](https://github.com/freedict/tools/issues)."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "### I'm Not A Developer"
+msgstr "### Jag är inte en utvecklare"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"Great, we cannot wait for your contribution! We are happy to assist with "
+"any\n"
+"technical question you might have and are happy to mentor you in the process "
+"of\n"
+"learning how to work in our project.\\nYou can also make a great difference "
+"if you recommend us to your friends!"
+msgstr ""
+"Perfekt, vi vill ha ditt bidrag! Vi bistår gladeligen med hjälp ifall du skulle\n"
+"ha några tekniska frågor och handleder dig gärna genom processen för hur man\n"
+"arbetar i vårt projekt.\n"
+"Du kan göra en stor skillnad ifall du rekommenderar oss till dina vänner!"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "#### Website Translations"
+msgstr "#### Hemsideöversättningar"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"We are always looking for people  who are able to translate our website. As "
+"a\n"
+"dictionary project, we want to reach as many people as possible, hence our\n"
+"website needs many translations.\n"
+"This is not a lot\n"
+"of work and it doesn't change too often, so please\n"
+"[contact us](https://www.freelists.org/list/freedict)\n"
+"if you would like to help."
+msgstr ""
+"Vi är alltid på jakt efter folk som kan översätta vår hemsida. Som ordboksprojekt\n"
+"vill vi nå ut till så många som möjligt, därför behöver vår hemsida översättnin\n"
+"till många språk."
+"Detta är inte så mycket jobb och det förändras sällan, så vänligen\n"
+"[konakta oss](https://www.freelists.org/list/freedict)\n ifall du vill hjälpa till."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "#### Improving Dictionaries"
+msgstr "#### Förbättra ordböcker"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"It is very helpful if you report errors in our dictionaries to us. You can\n"
+"report them either on\n"
+"[GitHub](https://github.com/freedict/fd-dictionaries) or on our mailing list."
+msgstr ""
+"Det är av stor hjälp om du rapporterar eventuella fel i våra odbböcker till oss.\n"
+"Du kan rapportera dem antingen via\n"
+"[GitHub](https://github.com/freedict/fd-dictionaries) eller via vår maillista."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "#### Artwork"
+msgstr "#### Grafik"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"If you have the rare gift of being able to design a website theme, logos,\n"
+"stickers or whatever comes to mind, then we would be very excited to get to "
+"know\n"
+"you. Please be so kind and write to us on the\n"
+"[mailing list](https://www.freelists.org/list/freedict)."
+msgstr ""
+"Ifall du besitter den sällsynta talangen att kunna designa hemsidor, logotyper,\n"
+"etiketter eller dylikt, så är vi mycket intresserade av att höra från dig.\n"
+"Vänligen skriv till oss via [maillistan](https://www.freelists.org/list/freedict)."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "## Active Dictionary Maintainers"
+msgstr "## Aktiva ordboksbidragare"
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid ""
+"Dictionary maintainers are the hardworking persons behind a dictionary who "
+"keep it up\n"
+"to date and who take care of including the improvements sent in by the\n"
+"community. A more in-depth explanation can be found at the\n"
+"[dedicated wiki page](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Maintainers)."
+msgstr ""
+"Bigragarna är de hårt arbetande personerna bakom en ordbok som håller den\n"
+"uppdaterad och ser till at inkludera förbättringsförslag från communityn.\n"
+"A mer djupgående beskrivning går att finna på den\n"
+"[dedikerade wikin](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Maintainers)."
+
+#: http://localhost/community/ (content/community/contents+en.lr:page.body)
+msgid "Below is a list of the active dictionary maintainers:"
+msgstr "Nedan är en lista över aktiva bidragare"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.title)
+msgid "Downloads"
+msgstr "Ladda ned"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"FreeDict dictionaries are stored in a generic file format which allows\n"
+"to target different dictionary applications, also referred to as platforms.\n"
+"The advantage of this approach is that the dictionary data can be used for "
+"any\n"
+"application and that you can pick what suits you best."
+msgstr ""
+"FreeDict-ordböcker är lagrade i ett generiskt filformat som gör det möjligt\n"
+"att använda i olika ordboksapplikationer, även kallat plattformer.\n"
+"Fördelen med detta tillvägagångssätt är att ordboksdatan kan användas till\n"
+"vilket program som helst, och du kan välja vad som passar dig bäst."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid "## Smartphones And Tablets"
+msgstr "## Mobiltelefon och tablet"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"For smartphones and tablets, our dictionaries are available in the\n"
+"[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
+"an advanced format understood by the Aard2 dictionary program for Android. "
+"Just\n"
+"download\n"
+"[Aard2 from the playstore](https://play.google.com/store/apps/details?"
+"id=itkach.aard2&hl=en)\n"
+"or from\n"
+"[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+"Finally, download one of our dictionaries below to your smartphone."
+msgstr ""
+"Till smartaphones och tablets finns våra ordböcker tillgängliga i\n"
+"[slob-format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
+"ett avancerat format som kan tolkas av Aard2-ordboksprogrammet för Android.\n"
+"Bara ladda ned [Aard2 från playstore](https://play.google.com/store/apps/details?"
+"id=itkach.aard2&hl=en)\n"
+"eller från\n"
+"[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+"Ladda därefter ned en av våra ordböcker till din smartphone."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "## Computers"
+msgstr "## Dator"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"For desktop computers, you are free to choose between a variety of "
+"dictionary\n"
+"programs, a selection of clients can be found on our\n"
+"[wiki page](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-"
+"Clients).\n"
+"The most advanced is probably\n"
+"[GoldenDict](http:goldendict.org). It can read many formats, including the "
+"dictd\n"
+"format. Just download the archive below to your computer, unpack it and "
+"then\n"
+"select `import` from the menu within GoldenDict."
+msgstr ""
+"För datorer kan du välja fritt bland en rad av ordboksprogram,\n"
+"ett urval av klienter går att hitta på vår [wikin](https://github.com/freedict/fd-dictionaries/wiki/Dictionary-"
+"Clients).\n"
+"Den mest avancerade är förmodligen [GoldenDict](http:goldendict.org). Den kan läsa många\n"
+"format, däribland dictd. Bara ladda ned arkivet till din dator, packa upp\n"
+"det välj \"import\" från menyn i GoldenDict."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "### GNU/Linux"
+msgstr "### GNU/Linux"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"If you are running a Debian/Ubuntu derivative or Arch, the FreeDict\n"
+"packages are already available via your package manager.\n"
+"If not, use the downloads below."
+msgstr ""
+"Ifall du använder en Debian/Ubuntu-distribution och Arch så finns FreeDict-\n"
+"paket redan tillgängliga via din pakethanterare.\n"
+"Om inte, använd nedladdningsinstruktionerna nedan."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "### Windows"
+msgstr "### Windows"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid ""
+"The archives are in the `.tar.xz` format. If you are unable\n"
+"to unpack this archive format, please download a program like\n"
+"[7-Zip](https://7-zip.org). After this, you will find the `.index` and\n"
+"`.dict.dz` files required for the import in your favourite dictionary "
+"program."
+msgstr ""
+"Arkiven är i formatet \".tar.xz\". Ifall du inte kan packa upp\n"
+"detta arkivformat så ladda ned program såsom [7-Zip](https://7-zip.org).\n"
+"Efter att ha packat upp arkiven bör du se filerna \".index\" och \".dict\"\n"
+"som krävs för att importera till det ordboksprogram du föredrar."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_mobile)
+msgid "### Dictionary Downloads"
+msgstr "### Hämta ordböcker"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "## Sources"
+msgstr "## Källor"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"If you want to browse through our source, you have several options. The "
+"easiest\n"
+"way is to check out the drop-down menu below to select the desired "
+"dictionary.\n"
+"Another option is our [static API](#api) that allows for programmatic "
+"retrieval\n"
+"of our dictionaries."
+msgstr ""
+"Ifall du vill söka igenom våra källor, så finns flera sätt att gå tillväga.\n"
+"Det enklaste sättet är att genom rullgardinslistan välja ordboken du önskar\n"
+"utforska. Ett annat alternativ är vårt [statiska API](#api) som gör det möjligt\n"
+"att programmatiskt hämta någon av våra ordböcker."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"The dictionary development happens at two places. Some dictionaries are\n"
+"maintained and extended manually and are on\n"
+"[GitHub](https://github.com/freedict/fd-dictionaries).\n"
+"Others are [automatically imported](https://download.freedict.org)\n"
+"from other sources and hence their\n"
+"[importer scripts](https://github.com/freedict/tools) are version-controlled."
+msgstr ""
+"Ordboksutveckling sker på två ställen. Vissa ordböcker hålls uppdaterade\n"
+"och utvidgas manuellt på [GitHub](https://github.com/freedict/fd-dictionaries).\n"
+"Andra [importeras automatiskt](https://download.freedict.org) från andra källor och\n"
+"därför är deras [importskript](https://github.com/freedict/tools) under versionshantering."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid ""
+"The Dictionaries are encoded in the TEI format, please see the\n"
+"[documentation](../documentation) for more details."
+msgstr ""
+"Ordböckerna är kodade i formatet TEI, vänligen se\n"
+"[dokumentationen](../documentation) för mer detaljer."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_desktop)
+msgid "The latest release of each dictionaries' source can be retrieved below:"
+msgstr "Den senaste utgivningen av varje ordbokskälla går att finna nedan:"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid ""
+"The API allows for retrieval of meta information of each dictionary, as well "
+"as\n"
+"direct download links for the target formats (AKA platforms) and their "
+"source.\n"
+"This can be helpful for app developers or distributors."
+msgstr ""
+"API:et gör det möjligt att hämta metadata om varje ordbok, liksom nedladdningslänkar\n"
+"till målformatet (även kallad plattform) och dess källa. Detta kan vara användbart\n"
+"för mjukvaruutvecklare eller distributörer."
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid "The endpoints are"
+msgstr "Ändpunkterna är"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid ""
+"<https://freedict.org/freedict-database.xml>  \n"
+"<https://freedict.org/freedict-database.json>"
+msgstr ""
+"<https://freedict.org/freedict-database.xml>  \n"
+"<https://freedict.org/freedict-database.json>"
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_source)
+msgid ""
+"Documentation of the API fields is\n"
+"[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
+msgstr ""
+"Dokumentation av API-fälten finns\n"
+"[in wikin](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
+
+#: templates/base.html:19
+msgid "Community"
+msgstr "Community"
+
+#: templates/base.html:20
+msgid "About us"
+msgstr "Om oss"
+
+#: templates/base.html:31
+msgid "View this site in another language:"
+msgstr "Denna sida på andra språk"
+
+#: templates/base.html:58
+msgid "Website Translations"
+msgstr "Översättningar av hemsidan"
+
+#: templates/base.html:59
+msgid "Help translating this website!"
+msgstr "Hjälp till att översätta denna hemsidan!"
+
+#: templates/community.html:4 templates/documentation.html:3
+#: templates/downloads.html:35
+msgid "Table Of Contents"
+msgstr "Innehållsförteckning"
+
+#: templates/community.html:20
+msgid "Dictionary Maintainer"
+msgstr "Ordboksbidragare"
+
+#: templates/community.html:21
+msgid "Dictionaries"
+msgstr "Ordböcker"
+
+#: templates/downloads.html:31
+msgid ""
+"This page uses JavaScript to nicely format the list of downloads.  You will "
+"instead see a lengthy list, since your browser has JavaScript disabled or "
+"doesn't include support for it."
+msgstr ""
+"Denna sida använder JavaScript för att formattera nedladdningslistorna.\n"
+"När din browser inte stödjer JavaScript eller har det avaktiverat, så ser\n"
+"du istället en lång lista."
+
+#: iso-639-3.tab (no:lineno)
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Arabic"
+msgstr "Arabiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Asturian"
+msgstr "Asturiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Breton"
+msgstr "Bretonska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Bulgarian"
+msgstr "Bulgariska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Catalan"
+msgstr "Katalanska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Central Kurdish"
+msgstr "Sorani"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Croatian"
+msgstr "Kroatiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Czech"
+msgstr "Tjeckiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Danish"
+msgstr "Danska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Dutch"
+msgstr "Holländska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "English"
+msgstr "Engelska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Finnish"
+msgstr "Finska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "French"
+msgstr "Franska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "German"
+msgstr "Tyska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Hindi"
+msgstr "Hindi"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Hungarian"
+msgstr "Ungerska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Icelandic"
+msgstr "Isländska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Indonesian"
+msgstr "Indonesiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Irish"
+msgstr "Irisk"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Italian"
+msgstr "Italienska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Japanese"
+msgstr "Japanska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Khasi"
+msgstr "Khasi"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Kurdish"
+msgstr "Kurdiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Latin"
+msgstr "Latin"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Lithuanian"
+msgstr "Litauiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Macedonian"
+msgstr "Makedonska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Modern Greek"
+msgstr "Modern grekiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Northern Kurdish"
+msgstr "Kurmanji"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Norwegian"
+msgstr "Norska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Norwegian Bokmål"
+msgstr "Bokmål"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Norwegian Nynorsk"
+msgstr "Nynorska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Occitan"
+msgstr "Occitanska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Polish"
+msgstr "Polska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Portuguese"
+msgstr "Portugisiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Romany"
+msgstr "Romani"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Russian"
+msgstr "Ryska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Sanskrit"
+msgstr "Sanskrit"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Scottish Gaelic"
+msgstr "Skotsk gäliska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Serbian"
+msgstr "Serbiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Slovak"
+msgstr "Slovakiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Spanish"
+msgstr "Spanska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Swahili"
+msgstr "Swahili"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Swedish"
+msgstr "Svenska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Turkish"
+msgstr "Turkiska"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Welsh"
+msgstr "Welsh"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Wolof"
+msgstr "Wolof"
+
+#: packages/freedict/news.py:94
+#, python-brace-format
+msgid "Work in the last {days} days:"
+msgstr "Arbete de senaste {days} dagarna:"
+
+#: packages/freedict/news.py:97
+#, python-brace-format
+msgid "{num} commits in"
+msgstr "{num} uppdateringar"
+
+#: packages/freedict/news.py:102
+#, python-brace-format
+msgid "{num} issues edits"
+msgstr "{num} redigerade felrapporter"
+
+#: packages/freedict/news.py:104
+#, python-brace-format
+msgid "{num} wiki changes"
+msgstr "{num} wiki-ändringar"
+
+#: packages/freedict/news.py:120
+msgid "What's Happening"
+msgstr "Vad händer"
+
+#: packages/freedict/news.py:129
+msgid "One new release:"
+msgstr "En ny utgivelse:"
+
+#: packages/freedict/news.py:131
+#, python-brace-format
+msgid "{num_releases} new releases:"
+msgstr "{num_releases} nya utgivelser:"
+
+#: packages/freedict/news.py:138
+msgid "and more"
+msgstr "med mera"
+
+#: packages/freedict/lektor_freedict.py:85
+msgid "Pick a language:"
+msgstr "Välj ett språk:"
+
+#: packages/freedict/lektor_freedict.py:87
+msgid "No language selected…"
+msgstr "Inget språk valt…"
+
+#: packages/freedict/lektor_freedict.py:98
+#, python-brace-format
+msgid "version {version} with {headwords} headwords"
+msgstr "version {version} med {headwords} huvudord"
+
+#: packages/freedict/lektor_freedict.py:101
+msgid "checksum"
+msgstr "checksumma"
+
+#~ msgid "    $ git clone https://github.com/freedict/fd-dictionaries"
+#~ msgstr "    $ git clone https://github.com/freedict/fd-dictionaries"
+
+#~ msgid "View this site in in another language:"
+#~ msgstr "View this site in in another language:"
+
+#~ msgid "### Use Wherever You Want"
+#~ msgstr "### Use Wherever You Want"
+
+#~ msgid "### Getting Started"
+#~ msgstr "### Getting Started"
+
+#~ msgid "### Creating And Importing Dictionaries"
+#~ msgstr "### Creating And Importing Dictionaries"
+
+#~ msgid "### API"
+#~ msgstr "### API"
+
+#~ msgid "### New Dictionary Output Formats"
+#~ msgstr "### New Dictionary Output Formats"
+
+#~ msgid "About FreeDict"
+#~ msgstr "About FreeDict"
+
+#~ msgid "### About FreeDict"
+#~ msgstr "### About FreeDict"
+
+#~ msgid "#### History"
+#~ msgstr "#### History"
+
+#~ msgid "#### Contact"
+#~ msgstr "#### Contact"
+
+#~ msgid "### Development"
+#~ msgstr "### Development"
+
+#~ msgid "#### Technical"
+#~ msgstr "#### Technical"
+
+#~ msgid "#### I'm Not A Developer"
+#~ msgstr "#### I'm Not A Developer"
+
+#~ msgid "FreeDict"
+#~ msgstr "FreeDict"
+
+#~ msgid ""
+#~ "We are always trying to reach more users by exporting into more output "
+#~ "formats\n"
+#~ "and our limiting factor is solely the number of contributors. There is a\n"
+#~ "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "Dictionary-Clients)\n"
+#~ "and ideally we would support them all, one day.\n"
+#~ msgstr ""
+#~ "We are always trying to reach more users by exporting into more output "
+#~ "formats\n"
+#~ "and our limiting factor is solely the number of contributors. There is a\n"
+#~ "[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "Dictionary-Clients)\n"
+#~ "and ideally we would support them all, one day.\n"
+
+#~ msgid ""
+#~ "We provide our dictionaries in the\n"
+#~ "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
+#~ "an advanced format understood by the Aard2 dictionary program for "
+#~ "Android. Just\n"
+#~ "download\n"
+#~ "[Aard2 from the playstore](https://play.google.com/store/apps/details?"
+#~ "id=itkach.aard2&hl=en)\n"
+#~ "or from\n"
+#~ "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+#~ "Finally, download one of our dictionaries below to your smartphone.\n"
+#~ msgstr ""
+#~ "We provide our dictionaries in the\n"
+#~ "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
+#~ "an advanced format understood by the Aard2 dictionary program for "
+#~ "Android. Just\n"
+#~ "download\n"
+#~ "[Aard2 from the playstore](https://play.google.com/store/apps/details?"
+#~ "id=itkach.aard2&hl=en)\n"
+#~ "or from\n"
+#~ "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
+#~ "Finally, download one of our dictionaries below to your smartphone.\n"
+
+#~ msgid ""
+#~ "FreeDict dictionaries are stored in a generic file format which allows\n"
+#~ "the conversion into other formats.  Different dictionary applications\n"
+#~ "understand different output formats (also known as platforms) and we "
+#~ "offer our\n"
+#~ "dictionaries for as many platforms as possible."
+#~ msgstr ""
+#~ "FreeDict dictionaries are stored in a generic file format which allows\n"
+#~ "the conversion into other formats.  Different dictionary applications\n"
+#~ "understand different output formats (also known as platforms) and we "
+#~ "offer our\n"
+#~ "dictionaries for as many platforms as possible."
+
+#~ msgid "Dictionary Downloads"
+#~ msgstr "Dictionary Downloads"
+
+#~ msgid ""
+#~ "Development takes mostly place on [GitHub](https://github.com/freedict) "
+#~ "and is\n"
+#~ "split among several repositories. All the hand-written dictionaries are "
+#~ "in the\n"
+#~ "[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+#~ "repository, the tools are in the\n"
+#~ "[the repository with the same name](https://github.com/freedict/tools).\n"
+#~ "Any bugs or feature requests regarding dictionaries are managed on our"
+#~ msgstr ""
+#~ "Development takes mostly place on [GitHub](https://github.com/freedict) "
+#~ "and is\n"
+#~ "split among several repositories. All the hand-written dictionaries are "
+#~ "in the\n"
+#~ "[fd-dictionaries](https://github.com/freedict/fd-dictionaries)\n"
+#~ "repository, the tools are in the\n"
+#~ "[the repository with the same name](https://github.com/freedict/tools).\n"
+#~ "Any bugs or feature requests regarding dictionaries are managed on our"
+
+#~ msgid ""
+#~ "[fd-dictionaries issue tracker](https://github.com/freedict/fd-"
+#~ "dictionaries/issues), including those\n"
+#~ "dictionaries which are *not* in the fd-dictionaries repository. All "
+#~ "issues\n"
+#~ "related to the development of tools for building and importing "
+#~ "dictionaries\n"
+#~ "should go to the\n"
+#~ "[tools issue tracker](https://github.com/freedict/tools/issues)."
+#~ msgstr ""
+#~ "[fd-dictionaries issue tracker](https://github.com/freedict/fd-"
+#~ "dictionaries/issues), including those\n"
+#~ "dictionaries which are *not* in the fd-dictionaries repository. All "
+#~ "issues\n"
+#~ "related to the development of tools for building and importing "
+#~ "dictionaries\n"
+#~ "should go to the\n"
+#~ "[tools issue tracker](https://github.com/freedict/tools/issues)."
+
+#~ msgid ""
+#~ "Great, we cannot wait for your contribution!\n"
+#~ "We are always looking for people with a different mothertongue than "
+#~ "English. Our\n"
+#~ "web site needs translation into as many languages as possible. This is "
+#~ "not a lot\n"
+#~ "of work and it doesn't change too often, so please\n"
+#~ "[contact us](https://www.freelists.org/list/freedict)\n"
+#~ "if you would like to help."
+#~ msgstr ""
+#~ "Great, we cannot wait for your contribution!\n"
+#~ "We are always looking for people with a different mothertongue than "
+#~ "English. Our\n"
+#~ "web site needs translation into as many languages as possible. This is "
+#~ "not a lot\n"
+#~ "of work and it doesn't change too often, so please\n"
+#~ "[contact us](https://www.freelists.org/list/freedict)\n"
+#~ "if you would like to help."
+
+#~ msgid ""
+#~ "If you are new to our project, the following community resources are "
+#~ "available:"
+#~ msgstr ""
+#~ "If you are new to our project, the following community resources are "
+#~ "available:"
+
+#~ msgid ""
+#~ "*   The IRC channel\n"
+#~ "    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
+#~ "    on the `OFTC` network is there to answer your questions in with any\n"
+#~ "    complexity and without logging. If you do not know IRC, you\n"
+#~ "    can try the [web chat](https://webchat.oftc.net/?channels=freedict). "
+#~ "It is\n"
+#~ "    the right place to ask questions if you don't want to post to a "
+#~ "mailing\n"
+#~ "    list."
+#~ msgstr ""
+#~ "*   The IRC channel\n"
+#~ "    [`#freedict`](https://webchat.oftc.net/?channels=freedict)\n"
+#~ "    on the `OFTC` network is there to answer your questions in with any\n"
+#~ "    complexity and without logging. If you do not know IRC, you\n"
+#~ "    can try the [web chat](https://webchat.oftc.net/?channels=freedict). "
+#~ "It is\n"
+#~ "    the right place to ask questions if you don't want to post to a "
+#~ "mailing\n"
+#~ "    list."
+
+#~ msgid ""
+#~ "We are happy to receive feedback, feature requests and we absolutely "
+#~ "love\n"
+#~ "patches, Please have a look at our\n"
+#~ "[community page](../community)\n"
+#~ "for more information."
+#~ msgstr ""
+#~ "We are happy to receive feedback, feature requests and we absolutely "
+#~ "love\n"
+#~ "patches, Please have a look at our\n"
+#~ "[community page](../community)\n"
+#~ "for more information."
+
+#~ msgid ""
+#~ "The large number of dictionaries and the infrastructure around are only a "
+#~ "part\n"
+#~ "of FreeDict's story. Behind these, FreeDict is developed and run by "
+#~ "enthusiasts\n"
+#~ "with many different skill sets, including linguists, programmers or "
+#~ "simply\n"
+#~ "people with an affinity to languages.  The diversity is our strength."
+#~ msgstr ""
+#~ "The large number of dictionaries and the infrastructure around are only a "
+#~ "part\n"
+#~ "of FreeDict's story. Behind these, FreeDict is developed and run by "
+#~ "enthusiasts\n"
+#~ "with many different skill sets, including linguists, programmers or "
+#~ "simply\n"
+#~ "people with an affinity to languages.  The diversity is our strength."
+
+#~ msgid ""
+#~ "**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
+#~ "unable\n"
+#~ "to unpack this archive format, please download a program like\n"
+#~ "[7-Zip](https://7-zip.org).\n"
+#~ msgstr ""
+#~ "**Hint on windows:** The archives are in the `.tar.xz` format. If you are "
+#~ "unable\n"
+#~ "to unpack this archive format, please download a program like\n"
+#~ "[7-Zip](https://7-zip.org).\n"
+
+#~ msgid ""
+#~ "For desktop computers, you are free to choose between a variety of "
+#~ "dictionary\n"
+#~ "programs. The most popular and advanced is probably\n"
+#~ "[GoldenDict](http:goldendict.org). It can read many formats, including "
+#~ "the dictd\n"
+#~ "format. Just download the archive below to your computer, unpack it and "
+#~ "then\n"
+#~ "select `import` from the menu within GoldenDict."
+#~ msgstr ""
+#~ "For desktop computers, you are free to choose between a variety of "
+#~ "dictionary\n"
+#~ "programs. The most popular and advanced is probably\n"
+#~ "[GoldenDict](http:goldendict.org). It can read many formats, including "
+#~ "the dictd\n"
+#~ "format. Just download the archive below to your computer, unpack it and "
+#~ "then\n"
+#~ "select `import` from the menu within GoldenDict."
+
+#~ msgid "### Source and API"
+#~ msgstr "### Source and API"
+
+#~ msgid ""
+#~ "If you want to browse through our source, you have several options. We "
+#~ "develop\n"
+#~ "our dictionaries openly on\n"
+#~ "[GitHub](https://github.com/freedict/fd-dictionaries). You can get a "
+#~ "fresh copy\n"
+#~ "with"
+#~ msgstr ""
+#~ "If you want to browse through our source, you have several options. We "
+#~ "develop\n"
+#~ "our dictionaries openly on\n"
+#~ "[GitHub](https://github.com/freedict/fd-dictionaries). You can get a "
+#~ "fresh copy\n"
+#~ "with"
+
+#~ msgid ""
+#~ "Automatically imported dictionaries are not present in this source tree, "
+#~ "since\n"
+#~ "they don't need versioning. The importers for those dictionaries is in "
+#~ "the\n"
+#~ "[tools](https://github.com/freedict/tools) repository, which is required "
+#~ "for\n"
+#~ "building anyway:"
+#~ msgstr ""
+#~ "Automatically imported dictionaries are not present in this source tree, "
+#~ "since\n"
+#~ "they don't need versioning. The importers for those dictionaries is in "
+#~ "the\n"
+#~ "[tools](https://github.com/freedict/tools) repository, which is required "
+#~ "for\n"
+#~ "building anyway:"
+
+#~ msgid "    $ git clone https://github.com/freedict/tools"
+#~ msgstr "    $ git clone https://github.com/freedict/tools"
+
+#~ msgid ""
+#~ "Have a look at the\n"
+#~ "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "FreeDict-HOWTO)."
+#~ msgstr ""
+#~ "Have a look at the\n"
+#~ "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "FreeDict-HOWTO)."
+
+#~ msgid ""
+#~ "Static information about our dictionaries can be retrieved over a CORS-"
+#~ "enabled\n"
+#~ "API, both in XML and JSON format. It can be used to retrieve download "
+#~ "links and\n"
+#~ "other meta information useful for embedding them into a dictionary "
+#~ "program. The\n"
+#~ "URLs are\n"
+#~ "    http://freedict.org/freedict-database.xml\n"
+#~ "    http://freedict.org/freedict-database.json"
+#~ msgstr ""
+#~ "Static information about our dictionaries can be retrieved over a CORS-"
+#~ "enabled\n"
+#~ "API, both in XML and JSON format. It can be used to retrieve download "
+#~ "links and\n"
+#~ "other meta information useful for embedding them into a dictionary "
+#~ "program. The\n"
+#~ "URLs are\n"
+#~ "    http://freedict.org/freedict-database.xml\n"
+#~ "    http://freedict.org/freedict-database.json"
+
+#~ msgid ""
+#~ "Most of the dictionaries have not been written by hand, but where "
+#~ "important from\n"
+#~ "other free sources. The\n"
+#~ "[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-"
+#~ "Centre)\n"
+#~ "gives an overview about which dictionaries have been imported with which "
+#~ "program\n"
+#~ "and is a good starting point for new importers."
+#~ msgstr ""
+#~ "Most of the dictionaries have not been written by hand, but where "
+#~ "important from\n"
+#~ "other free sources. The\n"
+#~ "[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-"
+#~ "Centre)\n"
+#~ "gives an overview about which dictionaries have been imported with which "
+#~ "program\n"
+#~ "and is a good starting point for new importers."
+
+#~ msgid ""
+#~ "A lengthy introduction into FreeDict internals, including documentation "
+#~ "on how\n"
+#~ "to format and process dictionaries can be found in the\n"
+#~ "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "FreeDict-HOWTO)."
+#~ msgstr ""
+#~ "A lengthy introduction into FreeDict internals, including documentation "
+#~ "on how\n"
+#~ "to format and process dictionaries can be found in the\n"
+#~ "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/"
+#~ "FreeDict-HOWTO)."
+
+#~ msgid ""
+#~ "**Our dictionaries are flexible:** you can use them both\n"
+#~ "[on your computer or on your mobile phone](downloads)\n"
+#~ "and all the lookups are offline. This means that\n"
+#~ "you can travel abroad without the fear that your provider will make you "
+#~ "pay a\n"
+#~ "lot just for a few dictionary lookups and with the certainty that you "
+#~ "can\n"
+#~ "translate whatever you want without a network connection.\n"
+#~ msgstr ""
+#~ "**Our dictionaries are flexible:** you can use them both\n"
+#~ "[on your computer or on your mobile phone](downloads)\n"
+#~ "and all the lookups are offline. This means that\n"
+#~ "you can travel abroad without the fear that your provider will make you "
+#~ "pay a\n"
+#~ "lot just for a few dictionary lookups and with the certainty that you "
+#~ "can\n"
+#~ "translate whatever you want without a network connection.\n"
+
+#~ msgid ""
+#~ "If you are interested in the source files of *all* dictionaries, you can "
+#~ "use the\n"
+#~ "[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+#~ "API)\n"
+#~ "to retrieve information about _all_ source releases.\n"
+#~ msgstr ""
+#~ "If you are interested in the source files of *all* dictionaries, you can "
+#~ "use the\n"
+#~ "[FreeDict API](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+#~ "API)\n"
+#~ "to retrieve information about _all_ source releases.\n"
+
+#~ msgid ""
+#~ "Recommending free and open dictionaries from the web is also very helpful "
+#~ "to our\n"
+#~ "project, because we simply can't now them all. If in doubt, have a look "
+#~ "at the\n"
+#~ "[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/"
+#~ "issues).\n"
+#~ msgstr ""
+#~ "Recommending free and open dictionaries from the web is also very helpful "
+#~ "to our\n"
+#~ "project, because we simply can't now them all. If in doubt, have a look "
+#~ "at the\n"
+#~ "[GitHub issue tracker](https://github.com/freedict/fd-dictionaries/"
+#~ "issues).\n"
+
+#~ msgid "Active Dictionary Maintainers"
+#~ msgstr "Active Dictionary Maintainers"
+
+#~ msgid ""
+#~ "Most of the documentation can be found in the\n"
+#~ "[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
+#~ "mostly an\n"
+#~ "overview over the available resources.\n"
+#~ "A good starting point is the section on [frequently asked questions]"
+#~ "(FreeDict-FAQ.md).\n"
+#~ "If you only need help on installing a program to use our dictionaries, "
+#~ "the\n"
+#~ "[downloads page](downloads) should help you getting started. If you are "
+#~ "stuck at\n"
+#~ "any point, you might want to [ask for help](community)."
+#~ msgstr ""
+#~ "Most of the documentation can be found in the\n"
+#~ "[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
+#~ "mostly an\n"
+#~ "overview over the available resources.\n"
+#~ "A good starting point is the section on [frequently asked questions]"
+#~ "(FreeDict-FAQ.md).\n"
+#~ "If you only need help on installing a program to use our dictionaries, "
+#~ "the\n"
+#~ "[downloads page](downloads) should help you getting started. If you are "
+#~ "stuck at\n"
+#~ "any point, you might want to [ask for help](community)."
+
+#~ msgid "### Building dictionaries"
+#~ msgstr "### Building dictionaries"
+
+#~ msgid ""
+#~ "To develop an importer or to build a dictionary from source, it is "
+#~ "necessary\n"
+#~ "that you get a fresh copy of the\n"
+#~ "[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:"
+#~ msgstr ""
+#~ "To develop an importer or to build a dictionary from source, it is "
+#~ "necessary\n"
+#~ "that you get a fresh copy of the\n"
+#~ "[FreeDict tools](https://github.com/freedict/tools), e.g. with Git:"
+
+#~ msgid ""
+#~ "The README details the installation in more detail and the building  "
+#~ "process is\n"
+#~ "detailled in the\n"
+#~ "[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-"
+#~ "%E2%80%93-FreeDict-Build-System).\n"
+#~ "In summary you need\n"
+#~ "Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the "
+#~ "output\n"
+#~ "format). If you are on windows, we do advise that you take\n"
+#~ "a look at the [Msys2 project](https://www.msys2.org/)."
+#~ msgstr ""
+#~ "The README details the installation in more detail and the building  "
+#~ "process is\n"
+#~ "detailled in the\n"
+#~ "[HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO-"
+#~ "%E2%80%93-FreeDict-Build-System).\n"
+#~ "In summary you need\n"
+#~ "Python >= 3.4 and (GNU) make and xsltproc or tei2slob (depending on the "
+#~ "output\n"
+#~ "format). If you are on windows, we do advise that you take\n"
+#~ "a look at the [Msys2 project](https://www.msys2.org/)."
+
+#~ msgid ""
+#~ "Once the tools directory is in place, you should set the environment "
+#~ "variable\n"
+#~ "`FREEDICT_TOOLS` to its absolute path.\\n**Note:** Due to limitations in "
+#~ "Make, we do not support paths with whitespace."
+#~ msgstr ""
+#~ "Once the tools directory is in place, you should set the environment "
+#~ "variable\n"
+#~ "`FREEDICT_TOOLS` to its absolute path.\\n**Note:** Due to limitations in "
+#~ "Make, we do not support paths with whitespace."
+
+#~ msgid ""
+#~ "As son as all this has been set up, you can build a dictionary by "
+#~ "changing to\n"
+#~ "its directory and type `make`."
+#~ msgstr ""
+#~ "As son as all this has been set up, you can build a dictionary by "
+#~ "changing to\n"
+#~ "its directory and type `make`."
+
+#~ msgid ""
+#~ "The FreeDict project strives to be the most comprehensive source of truly "
+#~ "free\n"
+#~ "dictionaries. They are not just free of charge, instead they give you the "
+#~ "right\n"
+#~ "to study, change and modify them, given you guarantee others these "
+#~ "freedoms,\n"
+#~ "too.\n"
+#~ "[Founded in 2000](about), freedict nowadays provides over 93 dictionaries "
+#~ "in\n"
+#~ "about 45 languages and thanks to its members, grows continuously. Learn "
+#~ "how to\n"
+#~ "[become a part of FreeDict](community)."
+#~ msgstr ""
+#~ "The FreeDict project strives to be the most comprehensive source of truly "
+#~ "free\n"
+#~ "dictionaries. They are not just free of charge, instead they give you the "
+#~ "right\n"
+#~ "to study, change and modify them, given you guarantee others these "
+#~ "freedoms,\n"
+#~ "too.\n"
+#~ "[Founded in 2000](about), freedict nowadays provides over 93 dictionaries "
+#~ "in\n"
+#~ "about 45 languages and thanks to its members, grows continuously. Learn "
+#~ "how to\n"
+#~ "[become a part of FreeDict](community)."
+
+#~ msgid ""
+#~ "You might also find help on our\n"
+#~ "[FAQ site](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-FAQ)."
+#~ msgstr ""
+#~ "You might also find help on our\n"
+#~ "[FAQ site](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-FAQ)."
+
+#~ msgid ""
+#~ "Work in the last {days} days:\n"
+#~ "<ul>\n"
+#~ msgstr ""
+#~ "Work in the last {days} days:\n"
+#~ "<ul>\n"
+
+#~ msgid "### FreeDictionaries, Free Knowledge"
+#~ msgstr "### FreeDictionaries, Free Knowledge"
