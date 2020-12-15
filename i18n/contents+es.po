@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: freedict at freelists dot org\n"
-"POT-Creation-Date: 2020-06-20 08:14+CET\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-15 07:51+CET\n"
 "PO-Revision-Date: 2020-07-15 19:15-0500\n"
 "Last-Translator: Carlos Luna <caralu74 at pm dot me>\n"
 "Language-Team: none\n"
@@ -1194,6 +1194,10 @@ msgstr "Serbio"
 #: iso-639-3.tab (no:lineno)
 msgid "Slovak"
 msgstr "Eslovaco"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Slovenian"
+msgstr "Esloveno"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Spanish"

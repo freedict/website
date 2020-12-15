@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-13 22:43+CET\n"
+"POT-Creation-Date: 2020-12-15 07:51+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1093,6 +1093,10 @@ msgstr "Serbisch"
 #: iso-639-3.tab (no:lineno)
 msgid "Slovak"
 msgstr "Slowakisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Slovenian"
+msgstr "Slowenisch"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Spanish"
