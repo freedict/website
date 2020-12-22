@@ -4,9 +4,12 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
+2020-12-22: |
+  Our web site can be now viewed in Mandarin Chinese (China), thanks to HÉ Pèiwén
+  for contributing the translation.
 2020-12-14: |
   Edin Dagasan contributed a Swedish translation of our web site,thanks!
-2020-12-12:
+2020-12-12: |
   The initial version of slv-eng has been released. This dictionary is
   hand-written by Gorazd Gorup, a great effort!
 2020-07-13: |
