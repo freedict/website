@@ -33,3 +33,10 @@ locale = es
 name = Svenska
 url_prefix = /sv/
 locale = sv
+
+# I am aware that the translation below is zh-CN, but I was unable to convince
+# the gettext plugin to pick it up
+[alternatives.zh-cn]
+name = 官話
+url_prefix = /zh_cn/
+locale = zh
