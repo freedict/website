@@ -57,6 +57,8 @@ and updates are minor. There are two ways to approach this:
 3.  Use a tool like [Poedit](https://poedit.net/download) that will aid in the
     translation process.
 
+4.  A few strings don't need to be translated. Among these are the publications
+    and code snippets.
 Building
 --------
 
