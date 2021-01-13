@@ -1005,8 +1005,7 @@ msgid ""
 "============"
 msgstr ""
 "Präsentationen\n"
-"============Präsentationen\n"
-"============="
+"============"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
