@@ -59,7 +59,6 @@ def setup_gettext():
     work."""
     ctx = get_ctx()
     try:
-        print("ctx locale",ctx.locale)
         translator = gettext.translation("contents",
             os.path.join('i18n', '_compiled'), languages=[ctx.locale], fallback = True)
         translator.install()

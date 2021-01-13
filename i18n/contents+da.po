@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: freedict\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-15 07:51+CET\n"
+"POT-Creation-Date: 2021-01-13 07:27+CET\n"
 "PO-Revision-Date: 2018-03-18 17:34+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -387,6 +387,13 @@ msgstr ""
 "*   Ordbøgerne er uafhængige af et specifikt format og kan gøres\n"
 "    tilgængelige for ethvert formål, enten for slutbrugere eller "
 "videnskabelig brug."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"The dictionaries are compiled, imported and maintained by enthusiasts in "
+"their\n"
+"spare time. [Learn how to become a part of our community](../community)."
+msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "### History"
@@ -890,23 +897,166 @@ msgstr ""
 "Dokumentation af API-felterne er\n"
 "[i wikien](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.title)
+msgid "Publications"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"FreeDict members have promoted the project in various ways, including\n"
+"presentations, publications and meetups. This page gives a summary of them."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"Meetups\n"
+"======="
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"*   2018: FreeDict HackFest\n"
+"    -   Meetup with project members to collaboratively develop and discuss\n"
+"        ideas, as well as to implement them."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"Publications\n"
+"============"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Leichtfuß, Einhard. 2020. [Translating the Ding dictionary to FreeDict TEI]"
+"(https://raw.githubusercontent.com/freedict/tools/master/importers/ding2tei/"
+"doc/thesis.pdf). Bachelor’s Thesis. Christian-Albrecht University of Kiel, \n"
+"Programming Languages and Compiler Construction Group. Advised by: Priv.-"
+"Doz. Dr. Frank Huch. 2020-10-14"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   [project report] Humenda, Sebastian. 2017. [Automated Thesaurus\n"
+"    Generation Using Word2vec](https://crustulus.de/downloads/Automated-"
+"Thesaurus-Generation-Using-Word2vec.pdf).\n"
+"    University project (Großer Beleg, eq. Bachelor's Thesis), technische\n"
+"    Universität Dresden."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- [seminar] Piotr Bański, \"XML for Linguists\" and \"XML for Lexicographers"
+"\" -- a two-part seminar taught at the Institute for Interdisciplinary "
+"Studies “Artes Liberales” (IBI AL) at the University of Warsaw, in November/"
+"December 2010."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   Bański, Piotr and Beata Wójtowicz. 2009. [A Repository of Free Lexical "
+"Resources for African Languages: The Project and the Method](http://aflat."
+"org/?q=node/317). *Proceedings of the First Workshop on Language "
+"Technologies for African Languages (AfLaT 2009)*, Association for "
+"Computational Linguistics, Athens, Greece: 89–95."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"Presentations\n"
+"============"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr, 2010. “[TEI header modifications for linguistic resources]"
+"()”. Presentation given at the 2010 Conference and Members’ Meeting of the "
+"Text Encoding Initiative Consortium “TEI Applied: Digital Texts and Language "
+"Resources” in Zadar, Croatia"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   Bański, Piotr. 2010. [Setting data free – on two open-content, data-"
+"sharing, TEI-related projects](http://octc.sourceforge.net/papers/Banski-"
+"CLARIN-2010.pdf). Proceedings of the [CLARIN LRT standards](http://www."
+"clarin.eu/events/lrt-standards-workshop) workshop, part of LREC-2010."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   De Pauw, Guy, de Schryver, Gilles-Maurice and Peter W. Wagacha. 2010. [A "
+"Corpus-based Survey of Four Electronic Swahili–English Bilingual "
+"Dictionaries](http://tshwanedje.com/publications/SwaEDs.pdf). *Lexikos 19*: "
+"340–352."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr and Beata Wójtowicz. 2009. “Swahili-English xFried/FreeDict "
+"Dictionary”. Presentation given at Practical Applications in Language and "
+"Computers (PALC-09), Łódź, Poland"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr and Beata Wójtowicz. 2009. “Free Bilingual Dictionaries, "
+"with a Focus on Swahili: The State of Affairs and the Prospects for the "
+"Future”. Presentation given at the 4th Annual International Conference of "
+"the African Association for Lexicography\n"
+"(AFRILEX), Cape Town."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Wójtowicz, Beata and Piotr Bański. 2009. “Swahili Lexicography in Poland: "
+"its history and immediate future”. Presentation given at the 6th World "
+"Congress of African Linguistics (WOCAL6), Köln."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr and Beata Wójtowicz. 2009. “[Freedict: an Open Source "
+"repository of TEI-encoded bilingual dictionaries](https://tei-c.org/Vault/"
+"MembersMeetings/2009/files/Banski+Wojtowicz-TEIMM-presentation.pdf)”. "
+"Presentation given at the 2009 Conference and Members’ Meeting of the TEI "
+"Consortium, Ann Arbor, MI."
+msgstr ""
+
 #: templates/base.html:19
 msgid "Community"
 msgstr "Fællesskab"
 
-#: templates/base.html:20
+#: templates/base.html:21
 msgid "About us"
 msgstr "Om os"
 
-#: templates/base.html:31
+#: templates/base.html:32
 msgid "View this site in another language:"
 msgstr "Denne side på et andet sprog:"
 
-#: templates/base.html:58
+#: templates/base.html:59
 msgid "Website Translations"
 msgstr "Hjemmesideoversættelser"
 
-#: templates/base.html:59
+#: templates/base.html:60
 msgid "Help translating this website!"
 msgstr "Hjælp med at oversætte denne hjemmeside!"
 

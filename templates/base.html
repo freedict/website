@@ -17,6 +17,7 @@
                   ['/documentation', _('Documentation')],
                   ['/downloads', _('Downloads')],
                   ['/community', _('Community')],
+                  ['/publications', _('Publications')],
                   ['/about', _('About us')] ] -%}
             <li{% if this.is_child_of(href) %} class="active"{% endif -%}>
               <a href="{{ href|url }}">{{ title }}</a></li>
