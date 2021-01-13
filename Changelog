@@ -4,7 +4,7 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
-2021-01-21: |
+2021-01-13: |
   The web site now has an area to list meetups, presentations and publications
   related to FreeDict.
 2021-01-02: |
