@@ -2,7 +2,7 @@
 name = freedict-org
 
 [packages]
-#lektor-i18n = 0.2
+lektor-i18n = 0.4
 lektor-markdown-header-anchors = 0.2
 
 # Please always use the speaker-locale name of a language, since this field is
