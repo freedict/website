@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-13 07:27+CET\n"
+"POT-Creation-Date: 2021-03-24 15:35+CET\n"
 "PO-Revision-Date: 2020-12-22 22:43+CET\n"
 "Last-Translator: HÉ Pèiwén -  verdastelo9604 *at provider* gmail\n"
 "Language-Team: none\n"
@@ -35,12 +35,11 @@ msgid ""
 "to\n"
 "[become a part of FreeDict](community)."
 msgstr ""
-"自由词典项目旨在成为最全面的纯粹免费双语词典合集。\n"
-"这些词典不仅是免费的，而且您有学习、修改及复制它们的权利，只要您也给予他人同"
-"样权利。\n"
-"该项目成立于 [2000 年](about)，现在提供超过 45 种语言的 140 多种词典，并且基"
-"于其成员的支持不断增长。\n"
-"您也可以[加入自由词典计划](community)。"
+"自由词典项目旨在成为最全面的完全免费双语词典合集。"
+"不仅词典是免费的，而且您有学习、修改它们的权利，只要您也给予他人同样权利。"
+"该项目成立于 [2000 年](about)，现在提供超过 45 种语言的 140 多种词典，而且此数目基"
+"于其成员的支持在不断增长。"
+"您也可以[加入自由词典项目](community)。"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid "## Use Wherever You Want"
@@ -58,8 +57,8 @@ msgid ""
 "network connection."
 msgstr ""
 "自由词典为您提供了最大的灵活性：您可以[在计算机或手机上使用](downloads)，所有"
-"查询都在线下进行。\n"
-"您可以在出国旅行时不必为少量查询支付高昂资费。\n"
+"查询都在线下进行。"
+"您可以在出国旅行时不必为少量查询支付高昂资费。"
 "无需网络连接。"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
@@ -75,9 +74,9 @@ msgid ""
 "export our data into any format and for any purpose, be it an\n"
 "electronic/paper dictionary or a spell checker."
 msgstr ""
-"数据采用通用的 [TEI XML 格式](https://zh.wikipedia.org/zh-cn/文本編碼規範)，"
-"可广泛用于各种应用程序。\n"
-"可以出于任何目的将数据导出到任何格式，无论是电子/纸质词典还是拼写检查器。"
+"数据格式为通用的 [TEI XML](https://zh.wikipedia.org/zh-cn/文本編碼規範)，"
+"可广泛用于各种应用程序。"
+"您可以出于任何目的将数据导出为任何格式，无论是用于电子/纸质词典还是拼写检查器。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.title)
@@ -95,9 +94,9 @@ msgid ""
 "[frequently asked questions](https://github.com/freedict/fd-dictionaries/"
 "wiki/FreeDict-FAQ)."
 msgstr ""
-"大多数文档位于[维基](https://github.com/freedict/fd-dictionaries/wiki)。\n"
-"此页面主要是对可用资源的概述。\n"
-"请先读[常见问题](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+"文档资料大部分在[维基页面](https://github.com/freedict/fd-dictionaries/wiki)上。"
+"此页面主要是对可用资源的概述。"
+"您可以考虑首先阅读[“常见问题”页面](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
 "FAQ)。"
 
 #: http://localhost/documentation/
@@ -110,8 +109,8 @@ msgid ""
 "If you are stuck at any point, you might want to [ask for help](../"
 "community)."
 msgstr ""
-"我们的词典、其来源以及程序使用建议在[下载页面](../downloads)。\n"
-"如果您遇到问题，可以[寻求帮助](../community)。"
+"我们的词典、其源码以及程序使用建议在[下载页面](../downloads)上。\n"
+"如果遇到问题，您可以[寻求帮助](../community)。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body) http://localhost/community/
@@ -131,18 +130,17 @@ msgid ""
 "[README of the tools repository](https://github.com/freedict/tools)\n"
 "gives a short introduction on how to set things up."
 msgstr ""
-"所有资源都托管在 [GitHub](https://github.com/freedict) 上。\n"
-"脚本和实用程序在[工具仓库](https://github.com/freedict/tools)中，可获取副"
-"本。\n"
-"自由词典工具尽量使所需软件减到最少。\n"
-"[工具库的自述文件](https://github.com/freedict/tools)简要介绍了如何进行设置。"
+"所有源码都托管在 [GitHub](https://github.com/freedict) 上。"
+"脚本和实用程序在 [tools 存储库](https://github.com/freedict/tools)中。"
+"自由词典工具尽量使所需软件减到最少。"
+"[tools 存储库](https://github.com/freedict/tools)的自述文件简要介绍了如何进行设置。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid ""
 "As soon as everything is set up, you can build a dictionary by changing to\n"
 "its directory and type `make`, so for instance:"
-msgstr "设置完成后，您可以通过更改其目录并键入`make`来构建字典，例如："
+msgstr "设置完成后，您可以转到词典目录并输入 `make` 以编译词典，例如："
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -167,14 +165,13 @@ msgid ""
 "writing a conversion utility. It also enables arbitrary re-use."
 msgstr ""
 "词典以 [TEI XML](https://zh.wikipedia.org/zh-cn/文本編碼規範) 格式存储，存储"
-"的语义信息与实际格式无关。\n"
-"可以很容易地为任何词典程序编写转换程序。\n"
-"它还可以任意复用。"
+"的语义信息与实际格式无关。"
+"您可以很容易地为任何词典程序编写转换程序，还可以将其任意复用。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid "### Writing Dictionaries By Hand"
-msgstr "### 手工编写字典"
+msgstr "### 手工编写词典"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -185,8 +182,8 @@ msgid ""
 "[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
 "HOWTO)."
 msgstr ""
-"在[如何去做](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO)"
-"中有自由词典内部构造的深入介绍，包括有关如何转换格式和处理词典的文档。"
+"在[“如何去做”页面](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-HOWTO)"
+"上有自由词典内部构造的深入介绍，包括有关如何转换词典格式与处理词典的文档。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -199,11 +196,11 @@ msgid ""
 "depends on your preferences and skills. If unsure, it is best to ask on the\n"
 "[mailing list](https://www.freelists.org/list/freedict)."
 msgstr ""
-"我们不提供通用的编辑字典的方法。\n"
-"可以使用具有 XML 功能的编辑器并手动输入所有单词，也可以使用一些简化的格式并使"
-"用对 TEI 格式的转换。\n"
-"两种方法都可用，取决于您的偏好和技能。\n"
-"如果您不确定，请在[邮件列表](https://www.freelists.org/list/freedict)上提问。"
+"我们不提供通用的编辑词典的方法。"
+"您可以使用具有 XML 功能的编辑器并手动输入所有单词，也可以使用一些简化的格式并转换成"
+" TEI 格式。"
+"两种方法都可用，您可以根据自己的偏好和技能做出选择。"
+"您如果不确定，请在[邮件列表](https://www.freelists.org/list/freedict)上提问。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -222,9 +219,9 @@ msgid ""
 "program\n"
 "and is a good starting point for new importers."
 msgstr ""
-"大多数字典不是手写的，而是从其他免费来源导入的。\n"
-"[导入中心](https://github.com/freedict/fd-dictionaries/wiki/Import-Centre)概"
-"述了哪些程序用于导入了哪些词典，适合于新到的导入工作者。"
+"大多数词典不是手写的，而是从其他免费来源导入的。"
+"[”导入中心”页面](https://github.com/freedict/fd-dictionaries/wiki/Import-Centre)"
+"概述了哪些程序用于导入了哪些词典，适合新参与的导入工作者阅读。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -238,9 +235,9 @@ msgid ""
 "a\n"
 "reproducible importer script."
 msgstr ""
-"请注意，[自由词典词典](https://github.com/freedict/fd-dictionaries)存储库并不"
-"包含所有词典。\n"
-"从其他来源自动导入的词典将保留在版本控制系统之外，因为有可复制的导入脚本。"
+"请注意，[fd-dictionaries 存储库](https://github.com/freedict/fd-dictionaries)并不"
+"包含全部词典。"
+"从其他来源自动导入的词典不在版本控制系统之内，因为有可复用的导入器脚本。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body) http://localhost/downloads/
@@ -259,8 +256,8 @@ msgid ""
 "The\n"
 "URLs are"
 msgstr ""
-"关于字典的元信息可以通过启用了 CORS 的 API 检索，格式为 XML 和 JSON 。\n"
-"可用于检索下载链接和其他将其嵌入字典程序的有用的元信息。\n"
+"与词典有关的元信息可以通过启用了 CORS 的 API 检索，格式为 XML 和 JSON。"
+"此元信息可用于检索下载链接和用于嵌入词典程序的其他元信息。"
 "URL 为"
 
 #: http://localhost/documentation/
@@ -276,13 +273,12 @@ msgid ""
 "The individual fields are documented\n"
 "[here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
-"在[此处](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)有各字"
-"段的信息。"
+"关于各字段的说明在[此处](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
 msgid "## New Dictionary Output Formats"
-msgstr "## 新的字典输出格式"
+msgstr "## 新的词典输出格式"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -294,10 +290,10 @@ msgid ""
 "Dictionary-Clients)\n"
 "and ideally we would support them all, one day."
 msgstr ""
-"我们一直希望通过导出更多的输出格式来吸引更多的用户，而我们的限制因素仅仅是贡"
-"献者的数量。\n"
-"有一个[客户端列表](https://github.com/freedict/fd-dictionaries/wiki/"
-"Dictionary-Clients)，理想情况下，我们将会为其全部提供支持。"
+"我们一直希望通过更多的输出格式来吸引更多的用户，而我们的限制因素仅仅是贡献者的数量。"
+"我们有一个[客户端列表](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients)。"
+"在理想情况下，我们会为其全部提供支持。"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -318,9 +314,9 @@ msgid ""
 "unsure."
 msgstr ""
 "自由词典根据免费和开放源代码许可提供其词典，允许用户在满足许可条件的情况下学"
-"习、修改、扩展和再发布其词典。\n"
-"每个词典都有单独的许可条款，这些条款位于每个字典文件开始处的 TEI 标题。\n"
-"如果不确定，建议您先检查一下，或在[邮件列表](https://www.freelists.org/list/"
+"习、修改、扩展以及再发布其词典。"
+"每个词典都有单独的许可证，其位于每个词典 TEI 文件开始处的标题。"
+"我们建议您先检查一下。如果不确定，您可以在[邮件列表](https://www.freelists.org/list/"
 "freedict)上询问。"
 
 #: http://localhost/documentation/
@@ -335,11 +331,11 @@ msgid ""
 "modifications made. Definite advice can only be given by a lawyer and we "
 "make you hereby aware that we are only representing our understanding here."
 msgstr ""
-"我们的大多数词典是根据[GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)许可"
-"的。\n"
-"如果您想修改、扩展或捆绑这些词典，则应研究其许可条款。\n"
-"据我们所知，GPL确实允许将词典捆绑在商业产品中，但要求您将数据的许可告知用户，"
-"此外，您还需要链接词典源，包括所有所做的修改。\n"
+"我们的大多数词典是根据 [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) 许可"
+"的。"
+"您如果想修改、扩展或捆绑这些词典，则务必研究其许可条款。"
+"据我们所知，GPL 确实允许将词典捆绑在商业产品中，但要求将数据的许可证告知用户，"
+"还需要提供词典来源的链接并说明所有所做的修改。"
 "明确的建议须由律师提供，我们特此使您知悉：我们仅是表达我们的理解。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.title)
@@ -362,9 +358,8 @@ msgid ""
 "made\n"
 "    available for any purpose, either for end-users or scientific use cases."
 msgstr ""
-"*  真正免费的词典：只要符合许可条款，人人都可以使用、修改和再发布我们的词"
-"典。\n"
-"*  词典可以导出为移动和桌面词典程序的各种输出格式。\n"
+"*  真正免费的词典：只要符合许可条款，人人都可以使用、修改和再发布我们的词典。"
+"*  词典可以导出为移动和桌面词典程序的各种输出格式。"
 "*  词典与特定格式无关，因此可以以最终用户或科学研究等任何目的使用。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
@@ -373,6 +368,8 @@ msgid ""
 "their\n"
 "spare time. [Learn how to become a part of our community](../community)."
 msgstr ""
+"词典由热心成员在闲暇时间编制、导入并维护。"
+"[您可以了解如何成为社区一员](../community)。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "### History"
@@ -390,18 +387,18 @@ msgid ""
 "all dictionaries into the TEI format. He both imported new dictionaries and "
 "wrote other dictionaries by hand himself."
 msgstr ""
-"该项目由 霍斯特·埃耶曼（Horst Eyermann） 于2000年启动。\n"
-"第一个数据库来自名为埃尔加尼（Ergane）的项目，该项目用于发布免费词典。\n"
-"当迈克尔·邦克（Michael Bunk）在2004年接手该项目时，他扩展了项目的范围，在项目"
-"中添加了各种词典，并将所有词典转换为 TEI 格式。\n"
-"他既导入了新词典，又亲自编写了其他词典。"
+"该项目由霍斯特·埃尔曼（Horst Eyermann）于2000年启动。"
+"第一个数据库来自名为埃尔加尼（Ergane）的发布免费词典的项目。"
+"迈克尔·邦克（Michael Bunk）于2004年接手该项目，扩展了项目的范围，添加了各种词典，"
+"并将所有词典转换为 TEI 格式。"
+"他既导入了新词典，又亲自手工编写了其他词典。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
 "Since then, FreeDict has much evolved\n"
 "and now offers both imported and hand-crafted dictionaries in various sizes."
 msgstr ""
-"从那时起，自由词典有了长足发展，现在提供各种大小的导入和手工制作的字典。"
+"自由词典从此有了长足发展，现在提供各种大小的导入和手工制作的词典。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
@@ -411,8 +408,8 @@ msgid ""
 "usage of the dictionaries in yet unforeseen use case scenario's, because it\n"
 "decouples from the actual output format."
 msgstr ""
-"该项目从 2010 年改用 TEI P5，使用了一种全面的标准对人类语音进行编码。\n"
-"由于这种格式与实际的输出格式脱钩，可以在尚未预见的用例场景中使用词典。"
+"本项目自 2010 年起改用 TEI P5，以一种全面的标准对人类语言进行编码。\n"
+"由于此格式与实际的输出格式脱钩，所以词典可以在尚未预见的情况中使用。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid ""
@@ -422,7 +419,7 @@ msgid ""
 msgstr ""
 "2016 年，自由词典从 SourceForge 移至 [Github](https://github.com/"
 "freedict)。\n"
-"这使该项目有了更高的可见度，并大大简化了协作开发。"
+"这使本项目有了更高的可见度，并大大简化了协作开发的流程。"
 
 #: http://localhost/about/ (content/about/contents+en.lr:page.body)
 msgid "### Contact"
@@ -435,8 +432,8 @@ msgid ""
 "[community page](../community)\n"
 "for more information."
 msgstr ""
-"我们很高兴收到反馈、功能请求、并且我们绝对喜欢打补丁。\n"
-"请查看我们的[社区页面](../community)了解更多信息。"
+"我们很高兴收到反馈、功能请求，而且我们热爱打补丁。"
+"请查看我们的[社区页面](../community)以了解更多信息。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.title)
 msgid "FreeDict Community"
@@ -451,14 +448,14 @@ msgid ""
 "languages.\n"
 "The diversity is our strength."
 msgstr ""
-"自由词典不仅仅是大量的词典、工具和基础架构。\n"
-"它由具有各种各样技能的爱好者的社区组成，包括语言学家、程序员或单纯对语言有亲"
-"和力的人。\n"
-"多样性是我们的优势。"
+"自由词典不仅仅是大量的词典、工具和基础架构，"
+"它还由具有各种技能的爱好者的社区组成。"
+"这个社区里有语言学家、程序员和单纯对语言有亲和力的人。"
+"这种多样性是我们的优势。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "Let's get in touch:"
-msgstr "让我们保持联系："
+msgstr "联系我们吧："
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -474,12 +471,12 @@ msgid ""
 "    channel is the right place to ask questions if you are hesitant to post "
 "to a public mailing list."
 msgstr ""
-"*   您可以通过`OFTC`网络上的 IRC 频道[`＃freedict`](https://webchat.oftc."
-"net/?channels=freedict)随时与我们联系。\n"
-"您可以无需登录问任何复杂程度的问题。\n"
-"如果您不知道 IRC，则可以尝试[网络聊天](https://webchat.oftc.net/?"
-"channels=freedict)。\n"
-"如果您不愿意将其发布到公共邮件列表，则可以在此渠道提问。"
+"*   您可以通过 `OFTC` 网络上的 IRC 频道 [`＃freedict`](https://webchat.oftc."
+"net/?channels=freedict) 随时与我们联系。"
+"您可以无需登录提出任何复杂程度的问题。"
+"您如果不知道 IRC，那么可以尝试[网络聊天](https://webchat.oftc.net/?"
+"channels=freedict)。"
+"您如果不愿向公共邮件列表发信息，则可以通过此频道提问。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -489,8 +486,8 @@ msgid ""
 "    This list is very low traffic and full of people waiting to answer your\n"
 "    questions."
 msgstr ""
-"*   如果您想吸引更多的用户和开发人员，请订阅我们的[邮件列表](https://www."
-"freelists.org/list/freedict)。\n"
+"*   如果您想接触更多用户和开发人员，那么请订阅我们的[邮件列表](https://www."
+"freelists.org/list/freedict)。"
 "此列表的访问量很低，有很多人在等待回答您的问题。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -506,16 +503,16 @@ msgid ""
 "speaks\n"
 "    your language."
 msgstr ""
-"*  如果您的英语不够好，您也可以尝试在邮寄清单上用您的母语询问，可能会有人具有"
-"相应的知识。\n"
+"*  您如果英语不够好，也可以尝试在邮寄清单上用您的母语询问。那里可能会有人具有"
+"相应的语言知识。"
 "在您的消息开头添加\"Please translate my message from language XYZ\"，以便在没"
-"有人说您语言的情况下，我们可以求助于翻译服务。"
+"有人懂您的语言的情况下，我们可以求助于翻译服务。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
 "You might also want to take a look at our \n"
 "[documentation](documentation)."
-msgstr "您可能还想看看我们的[说明文档](documentation)。"
+msgstr "您可能还想看看我们的[文档资料](documentation)。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "## Development"
@@ -535,10 +532,10 @@ msgid ""
 "repository and the tools are in the\n"
 "[the repository with the same name](https://github.com/freedict/tools)."
 msgstr ""
-"开发大部分在 [GitHub](https://github.com/freedict) 上进行，并分为多个存储"
-"库。\n"
-"所有手写的词典都在[自由词典词典](https://github.com/freedict/fd-dictionaries)"
-"存储库中，而这些工具都在[同名存储库](https://github.com/freedict/tools)。"
+"开发工作大部分在 [GitHub](https://github.com/freedict) 上进行，分布在多个存储"
+"库中。"
+"手写词典都在 [fd-dictionaries 存储库](https://github.com/freedict/fd-dictionaries)"
+"，工具都在 [tools 存储库](https://github.com/freedict/tools)。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -550,11 +547,11 @@ msgid ""
 "should go to the\n"
 "[tools issue tracker](https://github.com/freedict/tools/issues)."
 msgstr ""
-"关于字典的错误和功能请求在我们的[自由词典词典问题跟踪器](https://github.com/"
-"freedict/fd-dictionaries/issues)上进行管理，包括在自由词典词典存储库*之外*的"
+"关于词典的错误和功能请求在我们的 [fd-dictionaries 问题跟踪器](https://github.com/"
+"freedict/fd-dictionaries/issues)上进行处理，包括在 fd-dictionaries 存储库*之外*的"
 "词典。\n"
-"与构建和导入字典的工具的开发有关的所有问题都应在[工具问题跟踪器](https://"
-"github.com/freedict/tools/issues)提出。"
+"与编译和导入词典的工具的开发有关的问题都务必在 [tools 问题跟踪器](https://"
+"github.com/freedict/tools/issues)上提出。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "### I'm Not A Developer"
@@ -569,9 +566,8 @@ msgid ""
 "learning how to work in our project.\\nYou can also make a great difference "
 "if you recommend us to your friends!"
 msgstr ""
-"真是太棒了，我们迫切期待您的贡献！\n"
-"我们很乐意为您解决任何技术问题，并乐于在您学习如何工作的过程中为您提供指"
-"导。\n"
+"真是太棒了，我们迫切期待您的贡献！"
+"我们很乐意为您解决任何技术问题，并乐于在您学习如何工作的过程中为您提供指导。"
 "推荐给您的朋友也是帮忙！"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
@@ -590,13 +586,13 @@ msgid ""
 "if you would like to help."
 msgstr ""
 "我们一直在寻找能够翻译我们网站的人。\n"
-"对于词典项目，我们希望尽可能地吸引更多人，因此我们的网站需要各种翻译。\n"
-"工作不多，而且不会经常更改，因此如果您想提供帮助，请[联系我们](https://www."
+"从词典项目的角度看，我们希望尽可能地吸引更多人，因此我们的网站需要各种翻译。\n"
+"工作不多，而且文本不会经常更改，因此您如果想提供帮助，请[联系我们](https://www."
 "freelists.org/list/freedict)。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "#### Improving Dictionaries"
-msgstr "#### 改进字典"
+msgstr "#### 改进词典"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid ""
@@ -604,9 +600,9 @@ msgid ""
 "report them either on\n"
 "[GitHub](https://github.com/freedict/fd-dictionaries) or on our mailing list."
 msgstr ""
-"向我们报告字典中的错误是很大的帮助。\n"
+"向我们报告词典中的错误是很大的帮助。\n"
 "您可以在 [GitHub](https://github.com/freedict/fd-dictionaries) 或我们的邮件列"
-"表中报告错误。"
+"表上报告错误。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "#### Artwork"
@@ -620,9 +616,8 @@ msgid ""
 "you. Please be so kind and write to us on the\n"
 "[mailing list](https://www.freelists.org/list/freedict)."
 msgstr ""
-"如果您有网站主题、徽标、贴纸或其他想法的设计才能，那我们将非常高兴认识您。\n"
-"请保持友好，并在[邮件列表](https://www.freelists.org/list/freedict)上给我们写"
-"信。"
+"如果您有网站主题、徽标、贴纸或其他物什的设计才能，那我们将非常高兴认识您。\n"
+"我们希望您施展本领，在[邮件列表](https://www.freelists.org/list/freedict)上来信。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "## Active Dictionary Maintainers"
@@ -637,10 +632,10 @@ msgid ""
 "[dedicated wiki page](https://github.com/freedict/fd-dictionaries/wiki/"
 "Dictionary-Maintainers)."
 msgstr ""
-"词典维护者是词典背后的勤奋工作的人，他们不断更新词典，并处理包括社区改进意见"
-"在内的多种事务。\n"
-"可以在[专用维基页面](https://github.com/freedict/fd-dictionaries/wiki/"
-"Dictionary-Maintainers)找到。"
+"词典维护人员是在词典背后勤奋工作的人。"
+"他们不断更新词典，并处理包括社区改进意见在内的多种事务。"
+"您可以在[专用维基页面](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Maintainers)找到他们。"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "Below is a list of the active dictionary maintainers:"
@@ -660,9 +655,9 @@ msgid ""
 "any\n"
 "application and that you can pick what suits you best."
 msgstr ""
-"自由词典的词典以通用文件格式存储，此格式适用于不同的字典应用程序（或称平"
-"台）。\n"
-"此格式的优点是字典数据可用于各种应用程序，使您可以选择最适合的程序。"
+"自由词典的词典文档以通用格式存储。"
+"此格式适用于不同的词典应用程序（或称作“平台”），"
+"其优点是词典数据可用于各种应用程序，使您对可用程序有所选择。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -683,17 +678,17 @@ msgid ""
 "[F-Droid](https://f-droid.org/wiki/page/itkach.aard2).\n"
 "Finally, download one of our dictionaries below to your smartphone."
 msgstr ""
-"对于智能手机和平板电脑，我们的词典以 [slob 格式](https://github.com/itkach/"
-"slob/wiki/Dictionaries)使用，这是安卓的 Aard2 词典程序可以读取的高级格式。\n"
-"只需从 [Play Store](https://play.google.com/store/apps/details?id=itkach."
-"aard2&hl=zh-CN)或从 [F-Droid](https://f-droid.org/wiki/page/itkach.aard2)下"
-"载 Aard2。\n"
-"最后，下载下列部分词典到您的智能手机。"
+"在智能手机和平板电脑上，我们的词典格式为 [slob](https://github.com/itkach/"
+"slob/wiki/Dictionaries)，这是安卓的 Aard2 词典程序可以读取的高级格式。"
+"您只需从 [Play Store](https://play.google.com/store/apps/details?id=itkach."
+"aard2&hl=zh-CN) 或从 [F-Droid](https://f-droid.org/wiki/page/itkach.aard2) 下"
+"载 Aard2。"
+"最后一步：下载下列部分词典到您的智能手机。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
 msgid "## Computers"
-msgstr "## Rechner"
+msgstr "## 电脑"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -710,13 +705,12 @@ msgid ""
 "then\n"
 "select `import` from the menu within GoldenDict."
 msgstr ""
-"对于台式计算机，您可以在各种词典程序之间自由选择，可以在我们的[维基页面]"
-"(https://github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients)上找到一"
-"些客户端。\n"
-"最先进的可能是 [GoldenDict](http：goldendict.org)。\n"
-"它可以读取许多格式，包括 dictd 格式。\n"
-"只需将下面的存文档下载到您的计算机，解压缩，然后从 GoldenDict 的菜单中选择“导"
-"入”即可。"
+"在台式计算机上，您可以在多种词典程序中做出选择。"
+"在我们的[维基页面](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients)上有一些客户端，"
+"其中功能最完善的可能是 [GoldenDict](http：goldendict.org)。"
+"它可以读取包括 dictd 在内的许多格式。"
+"只需将下方的文档下载到您的计算机，解压缩，然后从 GoldenDict 的菜单中选择`导入`即可。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -730,9 +724,9 @@ msgid ""
 "packages are already available via your package manager.\n"
 "If not, use the downloads below."
 msgstr ""
-"如果您正在运行 Debian / Ubuntu 衍生版或 Arch ，则 FreeDict 软件包已经可以通过"
-"软件包管理器使用。\n"
-"如果没有，请使用下面的下载。"
+"您如果在使用 Debian / Ubuntu 衍生版或 Arch，那么 FreeDict 软件包可以通过"
+"软件包管理器获得。"
+"如果管理器没有此软件包，请在下方下载。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -748,9 +742,9 @@ msgid ""
 "`.dict.dz` files required for the import in your favourite dictionary "
 "program."
 msgstr ""
-"档案格式为`.tar.xz`。\n"
-"如果您无法解压缩此存档格式，请下载 [7-Zip](https://7-zip.org)之类的程序。\n"
-"然后，您能在词典程序中找到导入所需的 .index 和 .dict.dz 文件。"
+"文档格式为 `.tar.xz`。"
+"您如果无法解压缩此文档格式，请下载 [7-Zip](https://7-zip.org) 之类的程序。"
+"您随后可以在词典程序中找到导入所需的 `.index` 和 `.dict.dz` 文件。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -760,7 +754,7 @@ msgstr "### 词典下载"
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid "## Sources"
-msgstr "## 资源"
+msgstr "## 源码"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -773,9 +767,9 @@ msgid ""
 "retrieval\n"
 "of our dictionaries."
 msgstr ""
-"浏览我们的资源有不止一种选择。\n"
-"最简单的方法是查看下面的下拉列表以选择所需的词典。\n"
-"另一个选择是我们的[静态 API](＃api)，以编程方式检索我们的词典。"
+"您如果想查看我们的源码，那么有多种选择。"
+"最简单的是查看下方的下拉列表并选择所需的词典。"
+"另一种是使用[静态 API](＃api)，以编程方式检索词典。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
@@ -787,10 +781,10 @@ msgid ""
 "from other sources and hence their\n"
 "[importer scripts](https://github.com/freedict/tools) are version-controlled."
 msgstr ""
-"字典的开发在两处进行。\n"
-"一些字典是手动维护和扩展的，位于 [GitHub](https://github.com/freedict/fd-"
-"dictionaries)。\n"
-"其他的是从其他来源[自动导入](https://download.freedict.org)的，因此[导入者脚"
+"词典的开发在两处进行。"
+"一些词典是手动维护和扩展的，位于 [GitHub](https://github.com/freedict/fd-"
+"dictionaries)。"
+"其他词典是从其他来源[自动导入](https://download.freedict.org)的，因此其[导入器脚"
 "本](https://github.com/freedict/tools)是受版本控制的。"
 
 #: http://localhost/downloads/
@@ -798,12 +792,12 @@ msgstr ""
 msgid ""
 "The Dictionaries are encoded in the TEI format, please see the\n"
 "[documentation](../documentation) for more details."
-msgstr "字典以 TEI 格式编码，请参阅[文档](../ documentation)了解更多详细信息。"
+msgstr "词典以 TEI 格式编码，请参阅[文档资料](../documentation)了解更多详细信息。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_desktop)
 msgid "The latest release of each dictionaries' source can be retrieved below:"
-msgstr "每个字典来源的最新版本在下方："
+msgstr "各个词典的最新版源码在下方："
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_source)
@@ -814,14 +808,13 @@ msgid ""
 "source.\n"
 "This can be helpful for app developers or distributors."
 msgstr ""
-"该 API 允许检索每个词典的元信息，以及目标格式（或称为平台）及其来源的直接下载"
-"链接。\n"
-"这对应用程序开发人员或发行人员可能有帮助。"
+"此 API 允许检索各个词典的元信息以及目标格式（或称作“平台”）及其源码的直接下载链接。"
+"这对应用程序开发人员或发行人员会有帮助。"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_source)
 msgid "The endpoints are"
-msgstr "端点是"
+msgstr "端点为"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_source)
@@ -836,13 +829,14 @@ msgid ""
 "Documentation of the API fields is\n"
 "[in the wiki](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 msgstr ""
-"API 字段的文档在[维基](https://github.com/freedict/fd-dictionaries/wiki/"
-"FreeDict-API)中。"
+"关于 API 字段的文档资料在[维基页面](https://github.com/freedict/fd-dictionaries/wiki/"
+"FreeDict-API)上。"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.title)
 msgid "Publications"
 msgstr ""
+"出版物"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
@@ -850,6 +844,7 @@ msgid ""
 "FreeDict members have promoted the project in various ways, including\n"
 "presentations, publications and meetups. This page gives a summary of them."
 msgstr ""
+"自由词典成员通过多种方式推广本项目，包括报告、出版和会面。本页面对此进行概述。"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
@@ -857,6 +852,8 @@ msgid ""
 "Meetups\n"
 "======="
 msgstr ""
+"会面"
+"======="
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
@@ -865,6 +862,8 @@ msgid ""
 "    -   Meetup with project members to collaboratively develop and discuss\n"
 "        ideas, as well as to implement them."
 msgstr ""
+"*   2018年：自由词典 HackFest"
+"    -   项目成员关于共同开发、讨论想法与其实现方法的会面。"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
@@ -872,6 +871,8 @@ msgid ""
 "Publications\n"
 "============"
 msgstr ""
+"出版物"
+"============"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
@@ -918,6 +919,8 @@ msgid ""
 "Presentations\n"
 "============"
 msgstr ""
+"报告"
+"============"
 
 #: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
@@ -1000,7 +1003,7 @@ msgstr "网站翻译"
 
 #: templates/base.html:60
 msgid "Help translating this website!"
-msgstr "帮助翻译此网站！"
+msgstr "帮助翻译本网站！"
 
 #: templates/community.html:4 templates/documentation.html:3
 #: templates/downloads.html:35
@@ -1009,7 +1012,7 @@ msgstr "目录"
 
 #: templates/community.html:20
 msgid "Dictionary Maintainer"
-msgstr "词典维护者"
+msgstr "词典维护人员"
 
 #: templates/community.html:21
 msgid "Dictionaries"
@@ -1021,8 +1024,8 @@ msgid ""
 "instead see a lengthy list, since your browser has JavaScript disabled or "
 "doesn't include support for it."
 msgstr ""
-"此页面使用 JavaScript 漂亮地转化了下载列表的格式。\n"
-"如果您的浏览器已禁用式不支持 JavaScript，您会得到一张长表。"
+"此页面使用 JavaScript 以美观的方式呈现下载列表。"
+"如果您的浏览器已禁用或不支持 JavaScript，您会得到一张长表。"
 
 #: iso-639-3.tab (no:lineno)
 msgid "Afrikaans"
@@ -1238,7 +1241,7 @@ msgstr "{num} 次问题编辑"
 #: packages/freedict/news.py:104
 #, python-brace-format
 msgid "{num} wiki changes"
-msgstr "{num} 次维基修改"
+msgstr "{num} 次维基页面修改"
 
 #: packages/freedict/news.py:120
 msgid "What's Happening"
@@ -1255,7 +1258,7 @@ msgstr "{num_releases} 个新版本："
 
 #: packages/freedict/news.py:138
 msgid "and more"
-msgstr "还有"
+msgstr "还有更多"
 
 #: packages/freedict/lektor_freedict.py:85
 msgid "Pick a language:"
@@ -1285,8 +1288,8 @@ msgstr "校验和"
 #~ "of our\n"
 #~ "dictionaries are there."
 #~ msgstr ""
-#~ "如果您想看我们的源码，您有几种选择。\n"
-#~ "我们公开地开发词典 [GitHub](https://github.com/freedict/fd-dictionaries)。"
+#~ "您如果想查看我们的源码，那么有多种选择。"
+#~ "我们在 [GitHub](https://github.com/freedict/fd-dictionaries) 上公开地开发词典。"
 #~ "工具和大多数词典都在那里。"
 
 #~ msgid ""
@@ -1298,6 +1301,6 @@ msgstr "校验和"
 #~ "for\n"
 #~ "building anyway."
 #~ msgstr ""
-#~ "自动导入的词典不在此源码树中，因为它们不需要版本控制。\n"
-#~ "这些词典的导入程序位于[工具](https://github.com/freedict/tools)存储库中，"
-#~ "是编译所必需的。"
+#~ "自动导入的词典不在此源码树中，因为它们不需要版本控制。"
+#~ "这些词典的导入程序在 [tools 存储库](https://github.com/freedict/tools)中，"
+#~ "是编译所必需的工具。"
