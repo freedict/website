@@ -15,7 +15,7 @@ locale = en
 ################################################################################
 # sort these alphabetically
 [alternatives.da]
-name = Dansk
+name = dansk
 url_prefix = /da/
 locale = da
 
@@ -30,11 +30,11 @@ url_prefix = /es/
 locale = es
 
 [alternatives.sv]
-name = Svenska
+name = svenska
 url_prefix = /sv/
 locale = sv
 
 [alternatives.zh-cn]
-name = 官話
+name = 官话
 url_prefix = /zh_cn/
 locale = zh_CN
