@@ -25,7 +25,7 @@ url_prefix = /de/
 locale = de
 
 [alternatives.es]
-name = español
+name = Español
 url_prefix = /es/
 locale = es
 
@@ -35,6 +35,6 @@ url_prefix = /sv/
 locale = sv
 
 [alternatives.zh-cn]
-name = 官話
+name = 官话
 url_prefix = /zh_cn/
 locale = zh_CN
