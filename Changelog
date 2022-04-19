@@ -4,6 +4,10 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
+2022-04-19: |
+  Einhard Leichtfuß has updated the Ding2tei importer to parse the new Ding
+  deu-eng / eng-deu dictionary in version 1.9. It now features more than 500,000
+  entries and more supported dictionary elements.
 2021-01-13: |
   The web site now has an area to list meetups, presentations and publications
   related to FreeDict.
