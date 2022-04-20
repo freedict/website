@@ -8,6 +8,10 @@
   Einhard Leichtfuß has updated the Ding2tei importer to parse the new Ding
   deu-eng / eng-deu dictionary in version 1.9. It now features more than 500,000
   entries and more supported dictionary elements.
+2022-04-06: |
+  Thanks to Karl Bartel, we have imported 101 dictionaries from WikDict,
+  including almost a dozen new dictionaries formerly not present in the FreeDict
+  collection.
 2021-01-13: |
   The web site now has an area to list meetups, presentations and publications
   related to FreeDict.
