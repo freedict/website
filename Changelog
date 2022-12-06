@@ -5,6 +5,9 @@
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
 2022-04-19: |
+  We have imported 108 dictionaries from WikDict, a ever growing collection of
+  dictionaries made available by Karl Bartel.
+2022-04-19: |
   Einhard Leichtfuß has updated the Ding2tei importer to parse the new Ding
   deu-eng / eng-deu dictionary in version 1.9. It now features more than 500,000
   entries and more supported dictionary elements.
