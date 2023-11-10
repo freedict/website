@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-29 22:48+CET\n"
+"POT-Creation-Date: 2023-11-10 08:55+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -83,6 +83,114 @@ msgstr ""
 "org/wiki/Text_Encoding_Initiative) ermöglicht wird. Dies erlaubt uns den "
 "Export in ein beliebiges Format oder für einen beliebigen Zweck, sei es ein "
 "elektronisches oder gedrucktes Wörterbuch oder eine Rechtschreibkorrektur."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.title)
+msgid "About Us"
+msgstr "Über uns"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "FreeDict is a dictionary project with"
+msgstr "FreeDict ist ein Wörterbuchprojekt mit"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"*   Truly free dictionaries: everybody is able to use, modify and "
+"redistribute\n"
+"    our  dictionaries, given that the licencing terms are met.\n"
+"*   Dictionaries can be exported into a variety of output formats for mobile "
+"and\n"
+"    desktop dictionary programs.\n"
+"*   Dictionaries are independent from a specific format and hence can be "
+"made\n"
+"    available for any purpose, either for end-users or scientific use cases."
+msgstr ""
+"*  Wirklich freie Wörterbücher: jeder darf unsere Wörterbücher nutzen, "
+"ändern oder weiterverbreiten, solange die Lizenzbestimmungen eingehalten "
+"werden.\n"
+"*  Die Wörterbücher können in eine Reihe von Ausgabeformaten für Mobil- und "
+"Desktopanwendungen exportiert werden.\n"
+"*  Die Wörterbücher sind von einem spezifischen Format unabhängig, daher "
+"können sie zu wissenschaftlichen Zwecken oder von Endnutzern verwendet "
+"werden."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"The dictionaries are compiled, imported and maintained by enthusiasts in "
+"their\n"
+"spare time. [Learn how to become a part of our community](../community)."
+msgstr ""
+"Die Wörterbücher werden von Freiwilligen in Ihrer Freizeit zusammengestellt, "
+"importiert und gewartet. [Finden Sie heraus, wie sie Teil der Gemeinschaft "
+"werden können](../community)."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "### History"
+msgstr "### Geschichte"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"This project was started in 2000 by Horst Eyermann. The first databases "
+"were\n"
+"derived from a project called Ergane which used to distribute free "
+"dictionaries.\n"
+"When Michael Bunk took over the project in 2004, he opened the project to a\n"
+"broader scope, allowing all kinds of dictionaries in the project and "
+"converted\n"
+"all dictionaries into the TEI format. He both imported new dictionaries and "
+"wrote other dictionaries by hand himself."
+msgstr ""
+"Dieses Projekt wurde im Jahr 2000 von Horst Eiermann gegründet. Die ersten "
+"Wörterbücher wurden von einem Wörterbuchprojekt namens Ergane abgeleitet, "
+"welches damals freie Wörterbücher zur Verfügung stellte.\n"
+"Als Michael Bunk das Projekt 2004 übernahm, erweiterte er den Rahmen des "
+"Projektes für verschiedenste Wörterbücher und konvertierte diese in das TEI-"
+"Format. Er importierte neue Wörterbücher und schrieb weitere von Hand."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"Since then, FreeDict has much evolved\n"
+"and now offers both imported and hand-crafted dictionaries in various sizes."
+msgstr ""
+"Seitdem ist FreeDict sehr gewachsen und bietet nun sowohl handgeschriebene "
+"als auch importierte Wörterbücher in verschiedenen Größen."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"With the switch to TEI P5 in 2010, the project uses a\n"
+"comprehensive standard to encode human speech. This format also allows for "
+"the\n"
+"usage of the dictionaries in yet unforeseen use case scenario's, because it\n"
+"decouples from the actual output format."
+msgstr ""
+"Im Jahr 2010 wechselte das Projekt auf TEI P5, womit es einen umfassenden "
+"Standard zur Kodierung menschlicher Sprache nutzt. Das Format erlaubt ferner "
+"die Nachnutzung in bisher ungeahnten Anwendungen, da es vom tatsächlichen "
+"Ausgabeformat entkoppelt."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"In 2016, FreeDict moved from SourceForge to [Github](https://github.com/"
+"freedict). This makes the project more visible and eases collaborative "
+"development considerably."
+msgstr ""
+"2016 zog das Projekt von SourceForge nach [GitHub](https://github.com/"
+"freedict) um. Dadurch ist das Projekt deutlich sichtbarer und das "
+"gemeinschaftliche Entwickeln gestaltet sich viel leichter."
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid "### Contact"
+msgstr "### Kontakt"
+
+#: http://localhost/about/ (content/about/contents+en.lr:page.body)
+msgid ""
+"We are happy to receive feedback, feature requests and we absolutely love\n"
+"patches. Please have a look at our\n"
+"[community page](../community)\n"
+"for more information."
+msgstr ""
+"Wir freuen uns über Ihre Rückmeldung oder Ihre Verbesserungsvorschläge und "
+"wir lieben Patches! Bitte werfen Sie einen Blick auf unsere [Community-Seite]"
+"(../community) für weitere Informationen."
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.title)
@@ -298,6 +406,451 @@ msgstr ""
 "Dokumentation für die API-Felder befindet sich [auf Englisch im Wiki]"
 "(https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.title)
+msgid "Publications"
+msgstr "Veröffentlichungen"
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"This page provides a list of Freedict-related events, publications, and "
+"presentations. If you know of anything not listed here, please let us know."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"Events\n"
+"======="
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"*   2018: FreeDict HackFest\n"
+"    -   Meetup with project members to collaboratively develop and discuss\n"
+"        ideas, as well as to implement them. Organized by Sebastian Humenda\n"
+"*   2010: \"XML for Linguists\" and \"XML for Lexicographers\" -- a two-part "
+"seminar \n"
+"\ttaught by Piotr Bański at the Institute for Interdisciplinary Studies "
+"“Artes Liberales” \n"
+"\t(IBI AL) at the University of Warsaw, in November/December 2010"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"Publications\n"
+"============"
+msgstr ""
+"Veröffentlichungen\n"
+"============"
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Leichtfuß, Einhard. 2020. [Translating the Ding dictionary to FreeDict TEI]"
+"(https://raw.githubusercontent.com/freedict/tools/master/importers/ding2tei/"
+"doc/thesis.pdf). Bachelor’s Thesis. Christian-Albrecht University of Kiel, \n"
+"Programming Languages and Compiler Construction Group. Advised by: Priv.-"
+"Doz. Dr. Frank Huch. 2020-10-14"
+msgstr ""
+"- Leichtfuß, Einhard. 2020. [Translating the Ding dictionary to FreeDict TEI]"
+"(https://raw.githubusercontent.com/freedict/tools/master/importers/ding2tei/"
+"doc/thesis.pdf). Bachelor-Arbeit. Christian-Albrecht University zu Kiel, \n"
+"AG Programmiersprachen und Übersetzerkonstruktion. Betreut durch: Priv.-Doz. "
+"Dr. Frank Huch. 2020-10-14"
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   [project report] Humenda, Sebastian. 2017. [Automated Thesaurus\n"
+"    Generation Using Word2vec](https://crustulus.de/downloads/Automated-"
+"Thesaurus-Generation-Using-Word2vec.pdf).\n"
+"    University project (Großer Beleg, eq. Bachelor's Thesis), technische\n"
+"    Universität Dresden."
+msgstr ""
+"-   [Projektbericht] Humenda, Sebastian. 2017. [Automated Thesaurus\n"
+"    Generation Using Word2vec](https://crustulus.de/downloads/Automated-"
+"Thesaurus-Generation-Using-Word2vec.pdf).\n"
+"    Universitätsprojekt (Großer Beleg, entspricht Bachelor), technische\n"
+"    Universität Dresden."
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   De Pauw, Guy, de Schryver, Gilles-Maurice and Peter W. Wagacha. 2010. [A "
+"Corpus-based Survey of Four Electronic Swahili–English Bilingual "
+"Dictionaries](http://tshwanedje.com/publications/SwaEDs.pdf). *Lexikos 19*: "
+"340–352."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   Bański, Piotr. 2010. [Setting data free – on two open-content, data-"
+"sharing, TEI-related projects](http://octc.sourceforge.net/papers/Banski-"
+"CLARIN-2010.pdf). Proceedings of the [CLARIN LRT standards](http://www."
+"clarin.eu/events/lrt-standards-workshop) workshop, part of LREC-2010. [Full "
+"proceedings volume](http://www.lrec-conf.org/proceedings/lrec2010/workshops/"
+"W4.pdf)"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"-   Bański, Piotr and Beata Wójtowicz. 2009. [A Repository of Free Lexical "
+"Resources for African Languages: The Project and the Method](http://aflat."
+"org/?q=node/317). *Proceedings of the First Workshop on Language "
+"Technologies for African Languages (AfLaT 2009)*, Association for "
+"Computational Linguistics, Athens, Greece: 89–95."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"Presentations\n"
+"============"
+msgstr ""
+"Präsentationen\n"
+"============"
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Wójtowicz, Beata. 2010. \"[Digital research infrastructures at the "
+"University of Warsaw – still to come? Against the background of "
+"(computational) linguistics.](https://sourceforge.net/projects/octc/files/"
+"Documents/Wojtowicz-2010-ESF.pdf)\" Strategic workshop on research "
+"communities and research infrastructures in the Humanities, European Science "
+"Foundation, Strasbourg, France."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr, 2010. “[TEI header modifications for linguistic resources]"
+"(https://sourceforge.net/projects/octc/files/Documents/"
+"Banski_TEIMM-2010_presentation.pdf)”. Presentation given at the 2010 "
+"Conference and Members’ Meeting of the Text Encoding Initiative Consortium "
+"“TEI Applied: Digital Texts and Language Resources” in Zadar, Croatia"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr and Beata Wójtowicz. 2009. “Swahili-English xFried/FreeDict "
+"Dictionary”. Presentation given at Practical Applications in Language and "
+"Computers (PALC-09), Łódź, Poland"
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr and Beata Wójtowicz. 2009. “Free Bilingual Dictionaries, "
+"with a Focus on Swahili: The State of Affairs and the Prospects for the "
+"Future”. Presentation given at the 4th Annual International Conference of "
+"the African Association for Lexicography (AFRILEX), Cape Town."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Wójtowicz, Beata and Piotr Bański. 2009. “[Swahili Lexicography in Poland: "
+"its history and immediate future](http://www.uni-koeln.de/phil-fak/"
+"afrikanistik/wocal/schedule/"
+"abstracts/2-1-4%20Beata%20Wojtowicz%20&%20Piotr%20Banski.pdf)”. Presentation "
+"given at the 6th World Congress of African Linguistics (WOCAL6), Köln."
+msgstr ""
+
+#: http://localhost/publications/
+#: (content/publications/contents+en.lr:page.body)
+msgid ""
+"- Bański, Piotr and Beata Wójtowicz. 2009. “[Freedict: an Open Source "
+"repository of TEI-encoded bilingual dictionaries](https://tei-c.org/Vault/"
+"MembersMeetings/2009/files/Banski+Wojtowicz-TEIMM-presentation.pdf)”. "
+"Presentation given at the 2009 Conference and Members’ Meeting of the TEI "
+"Consortium, Ann Arbor, MI."
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.title)
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Most of the documentation can be found in the\n"
+"[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
+"mostly an\n"
+"overview over the available resources.\n"
+"A good starting point is the section on\n"
+"[frequently asked questions](https://github.com/freedict/fd-dictionaries/"
+"wiki/FreeDict-FAQ)."
+msgstr ""
+"Ein Großteil der Dokumentation befindet sich im [Wiki (Englisch)](https://"
+"github.com/freedict/fd-dictionaries/wiki). Diese Seite dient vorrangig als "
+"Übersicht über verfügbare Ressourcen. Ein guter Ausgangspunkt ist unsere "
+"[englische Liste häufig gestellter Fragen](https://github.com/freedict/fd-"
+"dictionaries/wiki/FreeDict-FAQ)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Our dictionaries, its sources and recommendations for programs to use them "
+"can be\n"
+"found on the\n"
+"[downloads page](../downloads).\n"
+"If you are stuck at any point, you might want to [ask for help](../"
+"community)."
+msgstr ""
+"Unsere Wörterbücher, deren Quellen und Empfehlungen für Wörterbuchprogramme "
+"finden Sie auf der [Downloadseite](downloads).\n"
+"Falls Sie an einem Punkt nicht weiterwissen, können Sie einfach [bei uns "
+"nachfragen](../community)."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body) http://localhost/community/
+#: (content/community/contents+en.lr:page.body)
+msgid "## Getting Started"
+msgstr "## Einführung"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"All of the sources are hosted on [GitHub](https://github.com/freedict). "
+"Scripts\n"
+"and utilities are contained in the\n"
+"[tools repository](https://github.com/freedict/tools) of which you need a "
+"copy.\n"
+"The FreeDict tools assume a minimal set of software to be installed. The\n"
+"[README of the tools repository](https://github.com/freedict/tools)\n"
+"gives a short introduction on how to set things up."
+msgstr ""
+"Alle Quellen werden auf [GitHub](https://github.com/freedict) gehostet. Alle "
+"Werkzeuge befinden sich im [Tools-Repositorium](https://github.com/freedict/"
+"tools), von dem Sie eine Kopie benötigen. Die Werkzeuge setzen einige "
+"Software voraus, die [englische README-Datei des Repositoriums](https://"
+"github.com/freedict/tools) gibt eine kurze Einführung zur Einrichtung."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"As soon as everything is set up, you can build a dictionary by changing to\n"
+"its directory and type `make`, so for instance:"
+msgstr ""
+"Sobald alles installiert ist, können Sie ein Wörterbuch bauen, indem Sie in "
+"dessen Verzeichnis wechseln, beispielsweise:"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"    cd dan-eng\n"
+"    make"
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "## Creating And Importing Dictionaries"
+msgstr "## Wörterbücher erstellen und importieren"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The dictionaries are stored in the\n"
+"[TEI XML](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)\n"
+"format, storing semantic information independent from the actual "
+"formatting.\n"
+"This means that it is easily possible to target any dictionary program by\n"
+"writing a conversion utility. It also enables arbitrary re-use."
+msgstr ""
+"Die Wörterbücher werden im [TEI-XML-Format](https://de.wikipedia.org/wiki/"
+"Text_Encoding_Initiative) geschrieben, wodurch semantische Informationen "
+"unabhängig von der endgültigen Formatierung gespeichert werden können.\n"
+"Das bedeutet, dass es ohne Weiteres möglich ist, neue Wörterbuchprogramme zu "
+"unterstützen, indem man einen Konverter schreibt. Außerdem ermöglicht es "
+"beliebige Nachnutzung."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "### Writing Dictionaries By Hand"
+msgstr "### Wörterbücher manuell schreiben"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"An in-depth introduction into FreeDict internals, including documentation on "
+"how\n"
+"to format and process dictionaries can be found in the\n"
+"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
+"HOWTO)."
+msgstr ""
+"Eine sehr ausführliche Einführung in das Innenleben von FreeDict, inklusive "
+"Informationen über die Konvertierung und Verarbeitung von Wörterbüchern, "
+"kann im [FreeDict HOWTO (Englisch)](https://github.com/freedict/fd-"
+"dictionaries/wiki/FreeDict-HOWTO) gefunden werden."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"We do not offer a general-purpose way to edit dictionaries.  Sometimes "
+"people use a\n"
+"XML-capable editor and enter all words by hand, others might use some "
+"simplified\n"
+"format and use a transformation to the TEI format. Either way is fine and\n"
+"depends on your preferences and skills. If unsure, it is best to ask on the\n"
+"[mailing list](https://www.freelists.org/list/freedict)."
+msgstr ""
+"Wir bieten keine allgemeingültige Methode, um Wörterbücher zu bearbeiten. "
+"Einige Mitglieder nutzen einen XML-fähigen Editor und geben die Wörter per "
+"Hand ein. Andere nutzen ein vereinfachtes Format, welches dann in das TEI-"
+"Format übersetzt wird. Jeder der Ansätze führt zum Ziel und hängt von Ihren "
+"Fähigkeiten und Erfahrungen ab. Wenn Sie sich unsicher sind, fragen Sie "
+"einfach auf der [Mailingliste](https://www.freelists.org/list/freedict) nach."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "### Importing Dictionaries"
+msgstr "### Wörterbücher importieren"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Most of the dictionaries have not been written by hand but were imported "
+"from\n"
+"other free sources. The\n"
+"[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-"
+"Centre)\n"
+"gives an overview about which dictionaries have been imported with which "
+"program\n"
+"and is a good starting point for new importers."
+msgstr ""
+"Die meisten Wörterbücher wurden nicht von Hand geschrieben, sondern aus "
+"anderen freien Quellen importiert. Das [Import Centre (English)](https://"
+"github.com/freedict/fd-dictionaries/wiki/Import-Centre) gibt einen Überblick "
+"über die importierten Wörterbücher und deren Importer und ist ein guter "
+"Ausgangspunkt für neue Importer."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Please note that the\n"
+"[fd-dictionaries](https://github.com/freedict/fd-dictionaries) repository "
+"does\n"
+"not contain all dictionaries. Those automatically imported from another "
+"source\n"
+"are kept outside of the version control system, because it is enough to have "
+"a\n"
+"reproducible importer script."
+msgstr ""
+"Bitte beachten Sie, dass das [fd-dictionaries-Repositorium](https://github."
+"com/freedict/fd-dictionaries) nicht alle verfügbaren Wörterbücher enthält. "
+"Automatisch importierte Wörterbücher werden außerhalb der Versionskontrolle "
+"abgelegt, da ein reproduzierbares Importerskript ausreicht."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"Meta information about our dictionaries can be retrieved over a CORS-"
+"enabled\n"
+"API, both in XML and JSON format. It can be used to retrieve download links "
+"and\n"
+"other meta information useful for embedding them into a dictionary program. "
+"The\n"
+"URLs are"
+msgstr ""
+"Die Kopfdaten der Wörterbücher können über eine CORS-fähige API abgerufen "
+"werden, sowohl im JSON- als auch im XML-Format. Diese können genutzt werden, "
+"um Links zu den Downloads zu extrahieren oder andere Kopfdaten, damit sie in "
+"ein Wörterbuchprogramm eingebettet werden können. Die URLs sind:"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"    https://freedict.org/freedict-database.xml\n"
+"    https://freedict.org/freedict-database.json"
+msgstr ""
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The individual fields are documented\n"
+"[here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
+msgstr ""
+"Die jeweiligen Felder werden [hier (in Englisch)]((https://github.com/"
+"freedict/fd-dictionaries/wiki/FreeDict-API) dokumentiert."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "## New Dictionary Output Formats"
+msgstr "## Neue Ausgabeformate"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"We are always trying to reach more users by exporting into more output "
+"formats\n"
+"and our limiting factor is solely the number of contributors. There is a\n"
+"[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
+"Dictionary-Clients)\n"
+"and ideally we would support them all, one day."
+msgstr ""
+"Wir versuchen immer neue Nutzer zu erreichen, indem wir in weitere "
+"Ausgabeformate exportieren, der begrenzende Faktor ist lediglich die Anzahl "
+"der Beitragenden. Es gibt eine [Liste von Programmen (Englisch)](https://"
+"github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients), welche wir "
+"idealerweise eines Tages alle unterstützen."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid "## Licencing and Reuse"
+msgstr "## Lizenzierung und Nachnutzung"
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"FreeDict provides its dictionaries under free and open source licences that\n"
+"allow the users to study, modify, extend and redistribute them, given that "
+"the\n"
+"licencing conditions are met. Each dictionary has separate licencing terms\n"
+"which are located in the TEI header at the beginning of each dictionary "
+"file.\n"
+"We advice you to check this out first or to ask on the [mailing list]"
+"(https://www.freelists.org/list/freedict), if\n"
+"unsure."
+msgstr ""
+"FreeDict bietet Wörterbücher unter freien und offenen Lizenzen an, welche es "
+"dem Nutzern ermöglichen, die Daten zu studieren, zu verändern, zu erweitern "
+"und weiterzuverteilen, solange die Lizenzbedingungen eingehalten werden. "
+"Jedes Wörterbuch hat eine eigene Lizenz, die in den Meta-Daten am Anfang der "
+"TEI-Quelldateien zu finden sind. Es wird daher geraten zuerst die "
+"Bedingungen dort zu prüfen, oder bei Unklarheit auf der [Mailingliste]"
+"(https://www.freelists.org/list/freedict) nachzufragen."
+
+#: http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.body)
+msgid ""
+"The majority of our dictionaries is licenced under [GPL](https://www.gnu.org/"
+"licenses/gpl-3.0.en.html). If you plan to modify, extend or bundle these "
+"dictionaries, you should study the licence terms carefully. To the best of "
+"our knowledge, GPL does permit bundling the dictionary in a commercial "
+"product, but requires you to inform the user about the licence of the data. "
+"Furthermore you need to link the dictionary sources, including all "
+"modifications made. Definite advice can only be given by a lawyer and we "
+"make you hereby aware that we are only representing our understanding here."
+msgstr ""
+"Die meisten Wörterbücher sind unter der [GPL](https://www.gnu.org/licenses/"
+"gpl-3.0.en.html) lizenziert. Wenn Sie planen die Wörterbücher zu verändern, "
+"zu erweitern oder auszuliefern, so prüfen Sie die Bedingungen eingehend. "
+"Nach unserem Verständnis erlaubt die GPL das ausliefern in einem "
+"kommerziellen Produkt, sofern der Nutzer über die Lizenz der Daten "
+"aufgeklärt wurde. Ferner müssen Sie auf den Quelltext verweisen, inklusive "
+"aller Änderungen. Endgültige Sicherheit erlangen Sie nur durch die "
+"Konsultation eines Anwalts und wir machen Sie darauf aufmerksam, dass wir "
+"lediglich unser Verständnis darstellen."
+
 #: http://localhost/community/ (content/community/contents+en.lr:page.title)
 msgid "FreeDict Community"
 msgstr "FreeDict Community"
@@ -316,12 +869,6 @@ msgstr ""
 "verschiedensten Fähigkeiten, unter anderem Linguisten, Programmierern oder "
 "schlichtweg aus Menschen mit einer Affinität für Sprachen. Die "
 "Unterschiedlichkeit ist unsere Stärke."
-
-#: http://localhost/community/ (content/community/contents+en.lr:page.body)
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "## Getting Started"
-msgstr "## Einführung"
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "Let's get in touch:"
@@ -525,555 +1072,6 @@ msgstr ""
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "Below is a list of the active dictionary maintainers:"
 msgstr "Nachfolgend eine Liste aller aktiven Wörterbuchbetreuer:"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.title)
-msgid "Documentation"
-msgstr "Dokumentation"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"Most of the documentation can be found in the\n"
-"[wiki](https://github.com/freedict/fd-dictionaries/wiki). This page is "
-"mostly an\n"
-"overview over the available resources.\n"
-"A good starting point is the section on\n"
-"[frequently asked questions](https://github.com/freedict/fd-dictionaries/"
-"wiki/FreeDict-FAQ)."
-msgstr ""
-"Ein Großteil der Dokumentation befindet sich im [Wiki (Englisch)](https://"
-"github.com/freedict/fd-dictionaries/wiki). Diese Seite dient vorrangig als "
-"Übersicht über verfügbare Ressourcen. Ein guter Ausgangspunkt ist unsere "
-"[englische Liste häufig gestellter Fragen](https://github.com/freedict/fd-"
-"dictionaries/wiki/FreeDict-FAQ)."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"Our dictionaries, its sources and recommendations for programs to use them "
-"can be\n"
-"found on the\n"
-"[downloads page](../downloads).\n"
-"If you are stuck at any point, you might want to [ask for help](../"
-"community)."
-msgstr ""
-"Unsere Wörterbücher, deren Quellen und Empfehlungen für Wörterbuchprogramme "
-"finden Sie auf der [Downloadseite](downloads).\n"
-"Falls Sie an einem Punkt nicht weiterwissen, können Sie einfach [bei uns "
-"nachfragen](../community)."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"All of the sources are hosted on [GitHub](https://github.com/freedict). "
-"Scripts\n"
-"and utilities are contained in the\n"
-"[tools repository](https://github.com/freedict/tools) of which you need a "
-"copy.\n"
-"The FreeDict tools assume a minimal set of software to be installed. The\n"
-"[README of the tools repository](https://github.com/freedict/tools)\n"
-"gives a short introduction on how to set things up."
-msgstr ""
-"Alle Quellen werden auf [GitHub](https://github.com/freedict) gehostet. Alle "
-"Werkzeuge befinden sich im [Tools-Repositorium](https://github.com/freedict/"
-"tools), von dem Sie eine Kopie benötigen. Die Werkzeuge setzen einige "
-"Software voraus, die [englische README-Datei des Repositoriums](https://"
-"github.com/freedict/tools) gibt eine kurze Einführung zur Einrichtung."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"As soon as everything is set up, you can build a dictionary by changing to\n"
-"its directory and type `make`, so for instance:"
-msgstr ""
-"Sobald alles installiert ist, können Sie ein Wörterbuch bauen, indem Sie in "
-"dessen Verzeichnis wechseln, beispielsweise:"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"    cd dan-eng\n"
-"    make"
-msgstr ""
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "## Creating And Importing Dictionaries"
-msgstr "## Wörterbücher erstellen und importieren"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"The dictionaries are stored in the\n"
-"[TEI XML](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)\n"
-"format, storing semantic information independent from the actual "
-"formatting.\n"
-"This means that it is easily possible to target any dictionary program by\n"
-"writing a conversion utility. It also enables arbitrary re-use."
-msgstr ""
-"Die Wörterbücher werden im [TEI-XML-Format](https://de.wikipedia.org/wiki/"
-"Text_Encoding_Initiative) geschrieben, wodurch semantische Informationen "
-"unabhängig von der endgültigen Formatierung gespeichert werden können.\n"
-"Das bedeutet, dass es ohne Weiteres möglich ist, neue Wörterbuchprogramme zu "
-"unterstützen, indem man einen Konverter schreibt. Außerdem ermöglicht es "
-"beliebige Nachnutzung."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "### Writing Dictionaries By Hand"
-msgstr "### Wörterbücher manuell schreiben"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"An in-depth introduction into FreeDict internals, including documentation on "
-"how\n"
-"to format and process dictionaries can be found in the\n"
-"[FreeDict HOWTO](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-"
-"HOWTO)."
-msgstr ""
-"Eine sehr ausführliche Einführung in das Innenleben von FreeDict, inklusive "
-"Informationen über die Konvertierung und Verarbeitung von Wörterbüchern, "
-"kann im [FreeDict HOWTO (Englisch)](https://github.com/freedict/fd-"
-"dictionaries/wiki/FreeDict-HOWTO) gefunden werden."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"We do not offer a general-purpose way to edit dictionaries.  Sometimes "
-"people use a\n"
-"XML-capable editor and enter all words by hand, others might use some "
-"simplified\n"
-"format and use a transformation to the TEI format. Either way is fine and\n"
-"depends on your preferences and skills. If unsure, it is best to ask on the\n"
-"[mailing list](https://www.freelists.org/list/freedict)."
-msgstr ""
-"Wir bieten keine allgemeingültige Methode, um Wörterbücher zu bearbeiten. "
-"Einige Mitglieder nutzen einen XML-fähigen Editor und geben die Wörter per "
-"Hand ein. Andere nutzen ein vereinfachtes Format, welches dann in das TEI-"
-"Format übersetzt wird. Jeder der Ansätze führt zum Ziel und hängt von Ihren "
-"Fähigkeiten und Erfahrungen ab. Wenn Sie sich unsicher sind, fragen Sie "
-"einfach auf der [Mailingliste](https://www.freelists.org/list/freedict) nach."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "### Importing Dictionaries"
-msgstr "### Wörterbücher importieren"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"Most of the dictionaries have not been written by hand but were imported "
-"from\n"
-"other free sources. The\n"
-"[import centre](https://github.com/freedict/fd-dictionaries/wiki/Import-"
-"Centre)\n"
-"gives an overview about which dictionaries have been imported with which "
-"program\n"
-"and is a good starting point for new importers."
-msgstr ""
-msgstr ""
-"Die meisten Wörterbücher wurden nicht von Hand geschrieben, sondern aus "
-"anderen freien Quellen importiert. Das [Import Centre (English)](https://"
-"github.com/freedict/fd-dictionaries/wiki/Import-Centre) gibt einen "
-"Überblick über die importierten Wörterbücher und deren Importer und ist "
-"ein guter Ausgangspunkt für neue Importer."
-
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"Please note that the\n"
-"[fd-dictionaries](https://github.com/freedict/fd-dictionaries) repository "
-"does\n"
-"not contain all dictionaries. Those automatically imported from another "
-"source\n"
-"are kept outside of the version control system, because it is enough to have "
-"a\n"
-"reproducible importer script."
-msgstr ""
-"Bitte beachten Sie, dass das [fd-dictionaries-Repositorium](https://github."
-"com/freedict/fd-dictionaries) nicht alle verfügbaren Wörterbücher enthält. "
-"Automatisch importierte Wörterbücher werden außerhalb der Versionskontrolle "
-"abgelegt, da ein reproduzierbares Importerskript ausreicht."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"Meta information about our dictionaries can be retrieved over a CORS-"
-"enabled\n"
-"API, both in XML and JSON format. It can be used to retrieve download links "
-"and\n"
-"other meta information useful for embedding them into a dictionary program. "
-"The\n"
-"URLs are"
-msgstr ""
-"Die Kopfdaten der Wörterbücher können über eine CORS-fähige API abgerufen "
-"werden, sowohl im JSON- als auch im XML-Format. Diese können genutzt werden, "
-"um Links zu den Downloads zu extrahieren oder andere Kopfdaten, damit sie in "
-"ein Wörterbuchprogramm eingebettet werden können. Die URLs sind:"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"    https://freedict.org/freedict-database.xml\n"
-"    https://freedict.org/freedict-database.json"
-msgstr ""
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"The individual fields are documented\n"
-"[here](https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
-msgstr ""
-"Die jeweiligen Felder werden [hier (in Englisch)]((https://github.com/"
-"freedict/fd-dictionaries/wiki/FreeDict-API) dokumentiert."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "## New Dictionary Output Formats"
-msgstr "## Neue Ausgabeformate"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"We are always trying to reach more users by exporting into more output "
-"formats\n"
-"and our limiting factor is solely the number of contributors. There is a\n"
-"[list of clients](https://github.com/freedict/fd-dictionaries/wiki/"
-"Dictionary-Clients)\n"
-"and ideally we would support them all, one day."
-msgstr ""
-"Wir versuchen immer neue Nutzer zu erreichen, indem wir in weitere "
-"Ausgabeformate exportieren, der begrenzende Faktor ist lediglich die Anzahl "
-"der Beitragenden. Es gibt eine [Liste von Programmen (Englisch)](https://"
-"github.com/freedict/fd-dictionaries/wiki/Dictionary-Clients), welche wir "
-"idealerweise eines Tages alle unterstützen."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid "## Licencing and Reuse"
-msgstr "## Lizenzierung und Nachnutzung"
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"FreeDict provides its dictionaries under free and open source licences that\n"
-"allow the users to study, modify, extend and redistribute them, given that "
-"the\n"
-"licencing conditions are met. Each dictionary has separate licencing terms\n"
-"which are located in the TEI header at the beginning of each dictionary "
-"file.\n"
-"We advice you to check this out first or to ask on the [mailing list]"
-"(https://www.freelists.org/list/freedict), if\n"
-"unsure."
-msgstr ""
-"FreeDict bietet Wörterbücher unter freien und offenen Lizenzen an, welche es "
-"dem Nutzern ermöglichen, die Daten zu studieren, zu verändern, zu erweitern "
-"und weiterzuverteilen, solange die Lizenzbedingungen eingehalten werden. "
-"Jedes Wörterbuch hat eine eigene Lizenz, die in den Meta-Daten am Anfang der "
-"TEI-Quelldateien zu finden sind. Es wird daher geraten zuerst die "
-"Bedingungen dort zu prüfen, oder bei Unklarheit auf der [Mailingliste]"
-"(https://www.freelists.org/list/freedict) nachzufragen."
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.body)
-msgid ""
-"The majority of our dictionaries is licenced under [GPL](https://www.gnu.org/"
-"licenses/gpl-3.0.en.html). If you plan to modify, extend or bundle these "
-"dictionaries, you should study the licence terms carefully. To the best of "
-"our knowledge, GPL does permit bundling the dictionary in a commercial "
-"product, but requires you to inform the user about the licence of the data. "
-"Furthermore you need to link the dictionary sources, including all "
-"modifications made. Definite advice can only be given by a lawyer and we "
-"make you hereby aware that we are only representing our understanding here."
-msgstr ""
-"Die meisten Wörterbücher sind unter der [GPL](https://www.gnu.org/licenses/"
-"gpl-3.0.en.html) lizenziert. Wenn Sie planen die Wörterbücher zu verändern, "
-"zu erweitern oder auszuliefern, so prüfen Sie die Bedingungen eingehend. "
-"Nach unserem Verständnis erlaubt die GPL das ausliefern in einem "
-"kommerziellen Produkt, sofern der Nutzer über die Lizenz der Daten "
-"aufgeklärt wurde. Ferner müssen Sie auf den Quelltext verweisen, inklusive "
-"aller Änderungen. Endgültige Sicherheit erlangen Sie nur durch die "
-"Konsultation eines Anwalts und wir machen Sie darauf aufmerksam, dass wir "
-"lediglich unser Verständnis darstellen."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.title)
-msgid "About Us"
-msgstr "Über uns"
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "FreeDict is a dictionary project with"
-msgstr "FreeDict ist ein Wörterbuchprojekt mit"
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"*   Truly free dictionaries: everybody is able to use, modify and "
-"redistribute\n"
-"    our  dictionaries, given that the licencing terms are met.\n"
-"*   Dictionaries can be exported into a variety of output formats for mobile "
-"and\n"
-"    desktop dictionary programs.\n"
-"*   Dictionaries are independent from a specific format and hence can be "
-"made\n"
-"    available for any purpose, either for end-users or scientific use cases."
-msgstr ""
-"*  Wirklich freie Wörterbücher: jeder darf unsere Wörterbücher nutzen, "
-"ändern oder weiterverbreiten, solange die Lizenzbestimmungen eingehalten "
-"werden.\n"
-"*  Die Wörterbücher können in eine Reihe von Ausgabeformaten für Mobil- und "
-"Desktopanwendungen exportiert werden.\n"
-"*  Die Wörterbücher sind von einem spezifischen Format unabhängig, daher "
-"können sie zu wissenschaftlichen Zwecken oder von Endnutzern verwendet "
-"werden."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"The dictionaries are compiled, imported and maintained by enthusiasts in "
-"their\n"
-"spare time. [Learn how to become a part of our community](../community)."
-msgstr ""
-"Die Wörterbücher werden von Freiwilligen in Ihrer Freizeit zusammengestellt, "
-"importiert und gewartet. [Finden Sie heraus, wie sie Teil der Gemeinschaft "
-"werden können](../community)."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "### History"
-msgstr "### Geschichte"
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"This project was started in 2000 by Horst Eyermann. The first databases "
-"were\n"
-"derived from a project called Ergane which used to distribute free "
-"dictionaries.\n"
-"When Michael Bunk took over the project in 2004, he opened the project to a\n"
-"broader scope, allowing all kinds of dictionaries in the project and "
-"converted\n"
-"all dictionaries into the TEI format. He both imported new dictionaries and "
-"wrote other dictionaries by hand himself."
-msgstr ""
-"Dieses Projekt wurde im Jahr 2000 von Horst Eiermann gegründet. Die ersten "
-"Wörterbücher wurden von einem Wörterbuchprojekt namens Ergane abgeleitet, "
-"welches damals freie Wörterbücher zur Verfügung stellte.\n"
-"Als Michael Bunk das Projekt 2004 übernahm, erweiterte er den Rahmen des "
-"Projektes für verschiedenste Wörterbücher und konvertierte diese in das TEI-"
-"Format. Er importierte neue Wörterbücher und schrieb weitere von Hand."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"Since then, FreeDict has much evolved\n"
-"and now offers both imported and hand-crafted dictionaries in various sizes."
-msgstr ""
-"Seitdem ist FreeDict sehr gewachsen und bietet nun sowohl handgeschriebene "
-"als auch importierte Wörterbücher in verschiedenen Größen."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"With the switch to TEI P5 in 2010, the project uses a\n"
-"comprehensive standard to encode human speech. This format also allows for "
-"the\n"
-"usage of the dictionaries in yet unforeseen use case scenario's, because it\n"
-"decouples from the actual output format."
-msgstr ""
-"Im Jahr 2010 wechselte das Projekt auf TEI P5, womit es einen umfassenden "
-"Standard zur Kodierung menschlicher Sprache nutzt. Das Format erlaubt ferner "
-"die Nachnutzung in bisher ungeahnten Anwendungen, da es vom tatsächlichen "
-"Ausgabeformat entkoppelt."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"In 2016, FreeDict moved from SourceForge to [Github](https://github.com/"
-"freedict). This makes the project more visible and eases collaborative "
-"development considerably."
-msgstr ""
-"2016 zog das Projekt von SourceForge nach [GitHub](https://github.com/"
-"freedict) um. Dadurch ist das Projekt deutlich sichtbarer und das "
-"gemeinschaftliche Entwickeln gestaltet sich viel leichter."
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid "### Contact"
-msgstr "### Kontakt"
-
-#: http://localhost/about/ (content/about/contents+en.lr:page.body)
-msgid ""
-"We are happy to receive feedback, feature requests and we absolutely love\n"
-"patches. Please have a look at our\n"
-"[community page](../community)\n"
-"for more information."
-msgstr ""
-"Wir freuen uns über Ihre Rückmeldung oder Ihre Verbesserungsvorschläge und "
-"wir lieben Patches! Bitte werfen Sie einen Blick auf unsere [Community-Seite]"
-"(../community) für weitere Informationen."
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.title)
-msgid "Publications"
-msgstr "Veröffentlichungen"
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"This page provides a list of Freedict-related events, publications, and "
-"presentations. If you know of anything not listed here, please let us know."
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"Events\n"
-"======="
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"*   2018: FreeDict HackFest\n"
-"    -   Meetup with project members to collaboratively develop and discuss\n"
-"        ideas, as well as to implement them. Organized by Sebastian Humenda\n"
-"*   2010: \"XML for Linguists\" and \"XML for Lexicographers\" -- a two-part "
-"seminar \n"
-"\ttaught by Piotr Bański at the Institute for Interdisciplinary Studies "
-"“Artes Liberales” \n"
-"\t(IBI AL) at the University of Warsaw, in November/December 2010"
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"Publications\n"
-"============"
-msgstr ""
-"Veröffentlichungen\n"
-"============"
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Leichtfuß, Einhard. 2020. [Translating the Ding dictionary to FreeDict TEI]"
-"(https://raw.githubusercontent.com/freedict/tools/master/importers/ding2tei/"
-"doc/thesis.pdf). Bachelor’s Thesis. Christian-Albrecht University of Kiel, \n"
-"Programming Languages and Compiler Construction Group. Advised by: Priv.-"
-"Doz. Dr. Frank Huch. 2020-10-14"
-msgstr ""
-"- Leichtfuß, Einhard. 2020. [Translating the Ding dictionary to FreeDict TEI]"
-"(https://raw.githubusercontent.com/freedict/tools/master/importers/ding2tei/"
-"doc/thesis.pdf). Bachelor-Arbeit. Christian-Albrecht University zu Kiel, \n"
-"AG Programmiersprachen und Übersetzerkonstruktion. Betreut durch: Priv.-Doz. "
-"Dr. Frank Huch. 2020-10-14"
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"-   [project report] Humenda, Sebastian. 2017. [Automated Thesaurus\n"
-"    Generation Using Word2vec](https://crustulus.de/downloads/Automated-"
-"Thesaurus-Generation-Using-Word2vec.pdf).\n"
-"    University project (Großer Beleg, eq. Bachelor's Thesis), technische\n"
-"    Universität Dresden."
-msgstr ""
-"-   [Projektbericht] Humenda, Sebastian. 2017. [Automated Thesaurus\n"
-"    Generation Using Word2vec](https://crustulus.de/downloads/Automated-"
-"Thesaurus-Generation-Using-Word2vec.pdf).\n"
-"    Universitätsprojekt (Großer Beleg, entspricht Bachelor), technische\n"
-"    Universität Dresden."
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"-   De Pauw, Guy, de Schryver, Gilles-Maurice and Peter W. Wagacha. 2010. [A "
-"Corpus-based Survey of Four Electronic Swahili–English Bilingual "
-"Dictionaries](http://tshwanedje.com/publications/SwaEDs.pdf). *Lexikos 19*: "
-"340–352."
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"-   Bański, Piotr. 2010. [Setting data free – on two open-content, data-"
-"sharing, TEI-related projects](http://octc.sourceforge.net/papers/Banski-"
-"CLARIN-2010.pdf). Proceedings of the [CLARIN LRT standards](http://www."
-"clarin.eu/events/lrt-standards-workshop) workshop, part of LREC-2010. [Full "
-"proceedings volume](http://www.lrec-conf.org/proceedings/lrec2010/workshops/"
-"W4.pdf)"
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"-   Bański, Piotr and Beata Wójtowicz. 2009. [A Repository of Free Lexical "
-"Resources for African Languages: The Project and the Method](http://aflat."
-"org/?q=node/317). *Proceedings of the First Workshop on Language "
-"Technologies for African Languages (AfLaT 2009)*, Association for "
-"Computational Linguistics, Athens, Greece: 89–95."
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"Presentations\n"
-"============"
-msgstr ""
-"Präsentationen\n"
-"============"
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Wójtowicz, Beata. 2010. \"[Digital research infrastructures at the "
-"University of Warsaw – still to come? Against the background of "
-"(computational) linguistics.](https://sourceforge.net/projects/octc/files/"
-"Documents/Wojtowicz-2010-ESF.pdf)\" Strategic workshop on research "
-"communities and research infrastructures in the Humanities, European Science "
-"Foundation, Strasbourg, France."
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Bański, Piotr, 2010. “[TEI header modifications for linguistic resources]"
-"(https://sourceforge.net/projects/octc/files/Documents/"
-"Banski_TEIMM-2010_presentation.pdf)”. Presentation given at the 2010 "
-"Conference and Members’ Meeting of the Text Encoding Initiative Consortium "
-"“TEI Applied: Digital Texts and Language Resources” in Zadar, Croatia"
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Bański, Piotr and Beata Wójtowicz. 2009. “Swahili-English xFried/FreeDict "
-"Dictionary”. Presentation given at Practical Applications in Language and "
-"Computers (PALC-09), Łódź, Poland"
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Bański, Piotr and Beata Wójtowicz. 2009. “Free Bilingual Dictionaries, "
-"with a Focus on Swahili: The State of Affairs and the Prospects for the "
-"Future”. Presentation given at the 4th Annual International Conference of "
-"the African Association for Lexicography (AFRILEX), Cape Town."
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Wójtowicz, Beata and Piotr Bański. 2009. “[Swahili Lexicography in Poland: "
-"its history and immediate future](http://www.uni-koeln.de/phil-fak/"
-"afrikanistik/wocal/schedule/abstracts/2-1-4%20Beata%20Wojtowicz%20&%20Piotr"
-"%20Banski.pdf)”. Presentation given at the 6th World Congress of African "
-"Linguistics (WOCAL6), Köln."
-msgstr ""
-
-#: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.body)
-msgid ""
-"- Bański, Piotr and Beata Wójtowicz. 2009. “[Freedict: an Open Source "
-"repository of TEI-encoded bilingual dictionaries](https://tei-c.org/Vault/"
-"MembersMeetings/2009/files/Banski+Wojtowicz-TEIMM-presentation.pdf)”. "
-"Presentation given at the 2009 Conference and Members’ Meeting of the TEI "
-"Consortium, Ann Arbor, MI."
-msgstr ""
 
 #: templates/base.html:19
 msgid "Community"
@@ -1314,6 +1312,23 @@ msgstr "Walisisch"
 msgid "Wolof"
 msgstr "Wolof"
 
+#: packages/freedict/lektor_freedict.py:85
+msgid "Pick a language:"
+msgstr "Wählen Sie eine Sprache:"
+
+#: packages/freedict/lektor_freedict.py:87
+msgid "No language selected…"
+msgstr "Keine Sprache ausgewählt"
+
+#: packages/freedict/lektor_freedict.py:98
+#, python-brace-format
+msgid "version {version} with {headwords} headwords"
+msgstr "Version {version} mit {headwords} Einträgen"
+
+#: packages/freedict/lektor_freedict.py:101
+msgid "checksum"
+msgstr "Prüfsumme"
+
 #: packages/freedict/news.py:94
 #, python-brace-format
 msgid "Work in the last {days} days:"
@@ -1350,23 +1365,6 @@ msgstr "{num_releases} neue Veröffentlichungen:"
 #: packages/freedict/news.py:138
 msgid "and more"
 msgstr "und weitere"
-
-#: packages/freedict/lektor_freedict.py:85
-msgid "Pick a language:"
-msgstr "Wählen Sie eine Sprache:"
-
-#: packages/freedict/lektor_freedict.py:87
-msgid "No language selected…"
-msgstr "Keine Sprache ausgewählt"
-
-#: packages/freedict/lektor_freedict.py:98
-#, python-brace-format
-msgid "version {version} with {headwords} headwords"
-msgstr "Version {version} mit {headwords} Einträgen"
-
-#: packages/freedict/lektor_freedict.py:101
-msgid "checksum"
-msgstr "Prüfsumme"
 
 #~ msgid ""
 #~ "FreeDict members have promoted the project in various ways, including\n"
