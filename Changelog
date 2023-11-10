@@ -4,6 +4,10 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
+2023-11-10: |
+  FreeDict.org was unavailable for serveral hours. This was due to a breakage
+  after upgrading internal software components, which required additional fixes
+  to the website backend. We apologise for any inconvenience.
 2022-04-19: |
   We have imported 108 dictionaries from WikDict, a ever growing collection of
   dictionaries made available by Karl Bartel.
