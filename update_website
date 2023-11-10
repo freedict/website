@@ -20,20 +20,28 @@ if ! [ -f $API_BASE/freedict-database.json ]; then
 fi
 
 export LC_ALL=en_US.UTF-8
-export PATH=$HOME/.local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 # change to directory where this script dwells
-SCRIPT_PATH=`readlink -f $0`
-cd `dirname $SCRIPT_PATH`
+SCRIPT_PATH=$(readlink -f "$0")
+cd $(dirname "$SCRIPT_PATH")
 
 if [ ! -f freedict-database.json ]; then
 	  ln -s -f $API_BASE/freedict-database.json
 fi
 # drop changes, it's only the latest generation date which changed
 git checkout i18n/contents+*.po
-git pull -r 2>&1 > /dev/null
-lektor clean --yes --output-path $WWW_BASE.tmp > /dev/null
-lektor build --output-path $WWW_BASE.tmp 2>&1 | (grep -E '^[[:space:]]+E ' || true)
+git pull -r > /dev/null 2>&1
+lektor clean --yes --output-path $WWW_BASE.tmp > /dev/null || true
+
+LEKTOR_LOG=/tmp/lektor_build.log
+lektor build --output-path $WWW_BASE.tmp > $LEKTOR_LOG 2>&1
+RET=$?
+if [ $RET -ne 0 ] || grep -E '^[[:space:]]+E ' < $LEKTOR_LOG > /dev/null; then
+    cat $LEKTOR_LOG
+    exit $RET
+fi
+
 
 # copy API files
 cd $WWW_BASE.tmp
