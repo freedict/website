@@ -5,6 +5,13 @@
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
 2023-11-10: |
+  For English-Swedish (eng-swe) users: we have had a
+  [bug report](https://github.com/freedict/tools/issues/38)
+  about errorneous pronunciation. It turned out that the dictionary contained
+  incorrectly generated phonemes and that the dictionary was very outdated in
+  the first place. We hence chose to replace it with the WikDict version and
+  auto-generated the phonemes with our tooling. Ha det så roligt!
+2023-11-09: |
   FreeDict.org was unavailable for several hours. This was due to a breakage
   after upgrading internal software components, which required additional fixes
   to the website backend. We apologise for any inconvenience.
