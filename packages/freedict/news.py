@@ -149,6 +149,24 @@ def file_current_enough(path):
     last_modified = datetime.fromtimestamp(os.path.getmtime(path))
     return last_modified  > (datetime.now() - timedelta(minutes=1))
 
+def load_news_from_github(news, timespan):
+    """Load news from GitHub and add them to the news dictionary, as used in
+    generate_news_section (see its format there)."""
+    get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
+    recent_enough = lambda x: get_date(x) > (datetime.now() - timespan)
+    # load github events
+    for repo in github_request('/orgs/freedict/repos'):
+        for t_pe, changes in get_events_for_repo(repo['name']).items():
+            recent_changes = [ch for ch in changes if recent_enough(ch)]
+            if recent_changes:
+                name = repo['name']
+                if not name in news:
+                    news[name] = {}
+                if not t_pe in news[name]:
+                    news[name][t_pe] = []
+                news[name][t_pe].extend(recent_changes)
+
+
 def generate_news_section():
     """Retrieve news from multiple sources and generate a news section. If the
     environment variable DEBUG, databags/news.pickle is loaded, if it exists.
@@ -166,22 +184,15 @@ def generate_news_section():
         with open('databags/news.pickle', 'rb') as goodname:
             news = pickle.load(goodname)
     else: # load fresh data
-        get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
         timespan = timedelta(days=NEWS_TIMESPAN)
-        recent_enough = lambda x: get_date(x) > (datetime.now() - timespan)
 
         news = {'releases': get_releases(timespan)}
-        # load github events
-        for repo in github_request('/orgs/freedict/repos'):
-            for type, changes in get_events_for_repo(repo['name']).items():
-                recent_changes = [ch for ch in changes if recent_enough(ch)]
-                if recent_changes:
-                    name = repo['name']
-                    if not name in news:
-                        news[name] = {}
-                    if not type in news[name]:
-                        news[name][type] = []
-                    news[name][type].extend(recent_changes)
+        try: # attempt to load news from GitHub, unless they block us
+            load_news_from_github(news, timespan)
+        except urllib.error.HTTPError as e:
+            if e.code == '404':
+                raise ValueError("FreeDict plugin uses on outdated GitHub API") from e
+            # ignore GitHub errors otherwise
         # load changelog entries from the last year and sort in ascending order
         news['changelog'] = collections.OrderedDict(sorted(((date, entry)
                 for date, entry in common.load_changelog().items()
