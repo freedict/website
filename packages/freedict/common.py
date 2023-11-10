@@ -50,8 +50,9 @@ def load_changelog():
     with open('Changelog') as f:
         # order entries, convert datetime.date to datetime.datetime
         d2d = lambda d: datetime.datetime(year=d.year, month=d.month, day=d.day)
+        loaded_yaml = yaml.load(f, Loader=yaml.Loader)
         return collections.OrderedDict(sorted(((d2d(k), v)
-            for k,v in yaml.load(f).items()), reverse=True))
+            for k,v in loaded_yaml.items()), reverse=True))
 
 
 def setup_gettext():
