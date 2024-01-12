@@ -4,10 +4,10 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
-2024-01-10: |
-  Thanks to the work of Saeed Rasooli, we now officially support StarDict. The
-  tooling has been updated to convert to stardict as an additional format. All
-  our dictionaries can now be downloaded as StarDict files.
+#2024-01-10: |
+#  Thanks to the work of Saeed Rasooli, we now officially support StarDict. The
+#  tooling has been updated to convert to stardict as an additional format. All
+#  our dictionaries can now be downloaded as StarDict files.
 2023-11-10: |
   For English-Swedish (eng-swe) users: we have had a
   [bug report](https://github.com/freedict/tools/issues/38)
