@@ -11,5 +11,8 @@ setup(
         'lektor.plugins': [
             'freedict = lektor_freedict:FreedictPlugin',
         ]
-    }
+    },
+    install_requires=[
+        'pyyaml',
+    ],
 )
