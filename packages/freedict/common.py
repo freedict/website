@@ -38,6 +38,8 @@ def load_iso_table():
         codes = collections.OrderedDict()
         strip_paren = lambda x: re.sub(r'(.*?)\s*\(.*\)$', r'\1', x).strip()
         for line in f.read().split('\n'):
+            if not line:
+                continue
             codes[line.split('\t')[0]] = strip_paren(line.split('\t')[-2])
         return codes
 
