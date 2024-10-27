@@ -43,9 +43,13 @@ function showDictionaries(e, platform) {
 
   {{ super() }}
 
+{{ generate_download_section('stardict') }}
+
+{% block after_stardict %} {{ this.after_stardict }} {% endblock %}
+
 {{ generate_download_section('slob') }}
 
-{{ this.after_mobile }}
+{% block after_mobile %} {{ this.after_mobile }} {% endblock %}
 
 {{ generate_download_section('dictd') }}
 
