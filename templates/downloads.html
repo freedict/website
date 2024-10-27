@@ -43,15 +43,15 @@ function showDictionaries(e, platform) {
 
   {{ super() }}
 
-{{ generate_download_section('mobile') }}
+{{ generate_download_section('slob') }}
 
 {{ this.after_mobile }}
 
-{{ generate_download_section('desktop') }}
+{{ generate_download_section('dictd') }}
 
 {% block after_desktop %} {{ this.after_desktop }} {% endblock %}
 
-{{ generate_download_section('source') }}
+{{ generate_download_section('src') }}
 
 {% block after_source %} {{ this.after_source }} {% endblock %}
 <script>
