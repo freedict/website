@@ -11,7 +11,7 @@ to target different dictionary applications, also referred to as platforms.
 The advantage of this approach is that the dictionary data can be used for any
 application and that you can pick what suits you best.
 
-## Smartphones And Tablets
+## Slob: Smartphones And Tablets
 
 For smartphones and tablets, our dictionaries are available in the
 [slob format](https://github.com/itkach/slob/wiki/Dictionaries),
@@ -25,7 +25,7 @@ Finally, download one of our dictionaries below to your smartphone.
 ---
 after_mobile:
 
-## Computers
+## Dictd: Computers
 
 For desktop computers, you are free to choose between a variety of dictionary
 programs, a selection of clients can be found on our
