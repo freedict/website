@@ -4,10 +4,15 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
-#2024-01-10: |
-#  Thanks to the work of Saeed Rasooli, we now officially support StarDict. The
-#  tooling has been updated to convert to stardict as an additional format. All
-#  our dictionaries can now be downloaded as StarDict files.
+2024-10-31: |
+  Thanks to the work of multiple members, we now support StarDict as output
+  format. Thanks to Saeed Rasooli for maintaining the conversion aand providing
+  the integration into the FreeDict tooling, Karl Bartel for updating the
+  Website and Sebastian Humenda for helping out on various build system and
+  API-related issues.
+
+  If you can, please help us update
+  [the Website translations](community/index.html#website-translations)!
 2024-10-12: |
   Thanks to Karl Bartel from the WikDict project, we were able to import 162 new
   WikDict dictionaries, available in all of our formats.
