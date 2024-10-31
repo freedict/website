@@ -6,7 +6,7 @@
 # Lines with a hash character are ignored.
 2024-10-31: |
   Thanks to the work of multiple members, we now support StarDict as output
-  format. Thanks to Saeed Rasooli for maintaining the conversion aand providing
+  format. Thanks to Saeed Rasooli for maintaining the conversion and providing
   the integration into the FreeDict tooling, Karl Bartel for updating the
   Website and Sebastian Humenda for helping out on various build system and
   API-related issues.
