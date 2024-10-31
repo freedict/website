@@ -15,7 +15,7 @@
   [the Website translations](community/index.html#website-translations)!
 2024-10-12: |
   Thanks to Karl Bartel from the WikDict project, we were able to import 162 new
-  WikDict dictionaries, available in all of our formats.
+  WikDict dictionaries, [available in all of our formats](downloads).
 2024-10-11: |
   English-Polish is one of our more complex dictionary, regarding the TEI XML
   markup. This has led to many tools giving up on its include references. Now
