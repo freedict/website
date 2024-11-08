@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 08:55+CET\n"
+"POT-Creation-Date: 2024-11-08 10:12+CET\n"
 "PO-Revision-Date: 2018-03-11 22:43+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,9 +12,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: http://localhost/ (content/contents+en.lr:page.title)
+#: (dynamic) http://localhost/ (content/contents+en.lr:page.title)
 msgid "Home"
 msgstr "Startseite"
+
+#: (dynamic) http://localhost/documentation/
+#: (content/documentation/contents+en.lr:page.title)
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: (dynamic) http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.title)
+msgid "Downloads"
+msgstr "Downloads"
+
+#: (dynamic)
+msgid "Community"
+msgstr "Community"
+
+#: (dynamic) http://localhost/publications/
+#: (content/publications/contents+en.lr:page.title)
+msgid "Publications"
+msgstr "Veröffentlichungen"
+
+#: (dynamic)
+msgid "About us"
+msgstr "Über uns"
+
+#: (dynamic)
+msgid "View this site in another language:"
+msgstr "Zeige diese Seite in einer anderen Sprache:"
+
+#: (dynamic)
+msgid "Website Translations"
+msgstr "Übersetzen der Website"
+
+#: (dynamic)
+msgid "Help translating this website!"
+msgstr "Helfen Sie bei der Übersetzung dieser Seite!"
 
 #: http://localhost/ (content/contents+en.lr:page.body)
 msgid "## Free Dictionaries, Free Knowledge"
@@ -192,10 +227,19 @@ msgstr ""
 "wir lieben Patches! Bitte werfen Sie einen Blick auf unsere [Community-Seite]"
 "(../community) für weitere Informationen."
 
-#: http://localhost/downloads/
-#: (content/downloads/contents+en.lr:downloads.title)
-msgid "Downloads"
-msgstr "Downloads"
+#: (dynamic)
+msgid ""
+"This page uses JavaScript to nicely format the list of downloads.  You will "
+"instead see a lengthy list, since your browser has JavaScript disabled or "
+"doesn't include support for it."
+msgstr ""
+"Diese Seite nutzt JavaScript um die Downloads ansprechend zu formatieren. "
+"Sie werden daher eine überlange Liste sehen, da ihr Browser JavaScript "
+"deaktiviert hat oder kein JavaScript unterstützt."
+
+#: (dynamic)
+msgid "Table Of Contents"
+msgstr "Inhaltsverzeichnis"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
@@ -214,11 +258,36 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
-msgid "## Smartphones And Tablets"
-msgstr "## Smartphones und Tablets"
+msgid "## StarDict: Common Choice for Most Devices"
+msgstr "## StarDict: geeignet für die meisten Geräte"
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"The dictionaries in StarDict format can be used with a wide variety of "
+"different dictionary applications, e.g.:"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.body)
+msgid ""
+"* [GoldenDict](http://goldendict.org/) for Linux, Windows\n"
+"* [GoldenDict mobile](http://goldendict.mobi/) for Android (non-free)\n"
+"* [WordMateX](https://play.google.com/store/apps/details?id=org.d1scw0rld."
+"wordmatex&hl=en) for Android (non-free)\n"
+"* [Dictionary Universal](https://apps.apple.com/us/app/dictionary-universal/"
+"id312088272) for iOS (non-free)\n"
+"* [KOReader](https://github.com/koreader/koreader) for a variety of e-"
+"readers and Android devices"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_stardict)
+msgid "## Slob: Smartphones And Tablets"
+msgstr ""
+
+#: http://localhost/downloads/
+#: (content/downloads/contents+en.lr:downloads.after_stardict)
 msgid ""
 "For smartphones and tablets, our dictionaries are available in the\n"
 "[slob format](https://github.com/itkach/slob/wiki/Dictionaries),\n"
@@ -242,8 +311,8 @@ msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
-msgid "## Computers"
-msgstr "## Rechner"
+msgid "## Dictd: Computers"
+msgstr ""
 
 #: http://localhost/downloads/
 #: (content/downloads/contents+en.lr:downloads.after_mobile)
@@ -407,11 +476,6 @@ msgstr ""
 "(https://github.com/freedict/fd-dictionaries/wiki/FreeDict-API)."
 
 #: http://localhost/publications/
-#: (content/publications/contents+en.lr:page.title)
-msgid "Publications"
-msgstr "Veröffentlichungen"
-
-#: http://localhost/publications/
 #: (content/publications/contents+en.lr:page.body)
 msgid ""
 "This page provides a list of Freedict-related events, publications, and "
@@ -573,11 +637,6 @@ msgid ""
 "Presentation given at the 2009 Conference and Members’ Meeting of the TEI "
 "Consortium, Ann Arbor, MI."
 msgstr ""
-
-#: http://localhost/documentation/
-#: (content/documentation/contents+en.lr:page.title)
-msgid "Documentation"
-msgstr "Dokumentation"
 
 #: http://localhost/documentation/
 #: (content/documentation/contents+en.lr:page.body)
@@ -851,6 +910,14 @@ msgstr ""
 "Konsultation eines Anwalts und wir machen Sie darauf aufmerksam, dass wir "
 "lediglich unser Verständnis darstellen."
 
+#: (dynamic)
+msgid "Dictionary Maintainer"
+msgstr "Wörterbuchbetreuer"
+
+#: (dynamic)
+msgid "Dictionaries"
+msgstr "Wörterbücher"
+
 #: http://localhost/community/ (content/community/contents+en.lr:page.title)
 msgid "FreeDict Community"
 msgstr "FreeDict Community"
@@ -989,13 +1056,9 @@ msgid ""
 "any\n"
 "technical question you might have and are happy to mentor you in the process "
 "of\n"
-"learning how to work in our project.\\nYou can also make a great difference "
-"if you recommend us to your friends!"
+"learning how to work in our project.\\\n"
+"You can also make a great difference if you recommend us to your friends!"
 msgstr ""
-"Wunderbar, wir können Ihren Beitrag kaum erwarten! Selbstverständlich helfen "
-"wir Ihnen mit jeglichen technischen Fragen und bieten Ihnen auch "
-"Unterstützung im Prozess an.\\nSie helfen uns auch sehr, wenn Sie uns "
-"einfach weiterempfehlen."
 
 #: http://localhost/community/ (content/community/contents+en.lr:page.body)
 msgid "#### Website Translations"
@@ -1073,49 +1136,6 @@ msgstr ""
 msgid "Below is a list of the active dictionary maintainers:"
 msgstr "Nachfolgend eine Liste aller aktiven Wörterbuchbetreuer:"
 
-#: templates/base.html:19
-msgid "Community"
-msgstr "Community"
-
-#: templates/base.html:21
-msgid "About us"
-msgstr "Über uns"
-
-#: templates/base.html:32
-msgid "View this site in another language:"
-msgstr "Zeige diese Seite in einer anderen Sprache:"
-
-#: templates/base.html:59
-msgid "Website Translations"
-msgstr "Übersetzen der Website"
-
-#: templates/base.html:60
-msgid "Help translating this website!"
-msgstr "Helfen Sie bei der Übersetzung dieser Seite!"
-
-#: templates/community.html:4 templates/documentation.html:3
-#: templates/downloads.html:35
-msgid "Table Of Contents"
-msgstr "Inhaltsverzeichnis"
-
-#: templates/community.html:20
-msgid "Dictionary Maintainer"
-msgstr "Wörterbuchbetreuer"
-
-#: templates/community.html:21
-msgid "Dictionaries"
-msgstr "Wörterbücher"
-
-#: templates/downloads.html:31
-msgid ""
-"This page uses JavaScript to nicely format the list of downloads.  You will "
-"instead see a lengthy list, since your browser has JavaScript disabled or "
-"doesn't include support for it."
-msgstr ""
-"Diese Seite nutzt JavaScript um die Downloads ansprechend zu formatieren. "
-"Sie werden daher eine überlange Liste sehen, da ihr Browser JavaScript "
-"deaktiviert hat oder kein JavaScript unterstützt."
-
 #: iso-639-3.tab (no:lineno)
 msgid "Afrikaans"
 msgstr "Afrikaans (Kapholländisch)"
@@ -1143,6 +1163,10 @@ msgstr "Katalanisch"
 #: iso-639-3.tab (no:lineno)
 msgid "Central Kurdish"
 msgstr "Zentralkurdisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Chinese"
+msgstr ""
 
 #: iso-639-3.tab (no:lineno)
 msgid "Croatian"
@@ -1227,6 +1251,10 @@ msgstr "Litauisch"
 #: iso-639-3.tab (no:lineno)
 msgid "Macedonian"
 msgstr "Mazedonisch"
+
+#: iso-639-3.tab (no:lineno)
+msgid "Malagasy"
+msgstr ""
 
 #: iso-639-3.tab (no:lineno)
 msgid "Modern Greek"
@@ -1365,6 +1393,25 @@ msgstr "{num_releases} neue Veröffentlichungen:"
 #: packages/freedict/news.py:138
 msgid "and more"
 msgstr "und weitere"
+
+#~ msgid "## Smartphones And Tablets"
+#~ msgstr "## Smartphones und Tablets"
+
+#~ msgid "## Computers"
+#~ msgstr "## Rechner"
+
+#~ msgid ""
+#~ "Great, we cannot wait for your contribution! We are happy to assist with "
+#~ "any\n"
+#~ "technical question you might have and are happy to mentor you in the "
+#~ "process of\n"
+#~ "learning how to work in our project.\\nYou can also make a great "
+#~ "difference if you recommend us to your friends!"
+#~ msgstr ""
+#~ "Wunderbar, wir können Ihren Beitrag kaum erwarten! Selbstverständlich "
+#~ "helfen wir Ihnen mit jeglichen technischen Fragen und bieten Ihnen auch "
+#~ "Unterstützung im Prozess an.\\nSie helfen uns auch sehr, wenn Sie uns "
+#~ "einfach weiterempfehlen."
 
 #~ msgid ""
 #~ "FreeDict members have promoted the project in various ways, including\n"
