@@ -30,7 +30,7 @@ if [ ! -f freedict-database.json ]; then
 	  ln -s -f $API_BASE/freedict-database.json
 fi
 # drop changes, it's only the latest generation date which changed
-git checkout i18n/contents+*.po
+git checkout i18n/contents+*.po 2>&1 | grep -v -E -i 'updated.*path'
 git pull -r > /dev/null 2>&1
 lektor clean --yes --output-path $WWW_BASE.tmp > /dev/null || true
 
