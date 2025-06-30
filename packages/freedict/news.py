@@ -75,37 +75,6 @@ def get_events_for_repo(repo):
         # else: unhandled
     return events
 
-def format_latest_changes(repos):
-    """Format latest changes from the GitHub API in a HTML list (returned as a
-    python list of string chunks) or an empty list if no changes found."""
-    # ignore website
-    repos = {k: v for k, v in repos.items() if k != 'website'}
-    commits = {name: val['PushEvent'] for name, val in repos.items()
-            if 'PushEvent' in val}
-    # commits maps repo names to a list of push events; each push event consists
-    # of a datetime and the number of commits as 2nd argument
-    commit_sum = sum(sum(c[1] for c in v) for v in commits.values())
-    issues = sum(len(val['IssueEvent']) for val in repos.values()
-            if 'IssueEvent' in val)
-    wiki = sum(len(val['GollumEvent']) for val in repos.values()
-            if 'GollumEvent' in val)
-    if all(x == 0 for x in (wiki, issues, commit_sum)):
-        return []
-    chunks = ['<li>', _('Work in the last {days} days:') \
-            .format(days=NEWS_TIMESPAN), '\n<ul>\n\n']
-    if commit_sum:
-        chunks += ['<li>', _('{num} commits in').format(num=commit_sum), ' ',
-                ', '.join('<a href="https://github.com/freedict/%s">%s</a>' \
-                        % (n, n) for n in sorted(commits.keys())),
-                '</li>\n']
-        if issues:
-            chunks += ['<li>', _('{num} issues edits').format(num=issues), '</li>\n']
-        if wiki:
-            chunks += ['<li>', _('{num} wiki changes').format(num=wiki),
-                    '</li>\n']
-        chunks.append('</ul>\n</li>\n')
-    return chunks
-
 def format_news(news):
     """Format the entries gathered in the generate_news_section function."""
     if len(news) == 2 and not news['releases']:
@@ -137,8 +106,6 @@ def format_news(news):
         if len(news['releases']) > 4:
             page.append(' %s…' % _("and more"))
         page.append('</a></li>\n')
-    page.extend(format_latest_changes({k: v
-            for k,v in news.items() if k not in ('releases', 'changelog')}))
     page.append('\n</ul>\n</p>\n')
     return common.HTML(''.join(page))
 
@@ -148,24 +115,6 @@ def file_current_enough(path):
         return False
     last_modified = datetime.fromtimestamp(os.path.getmtime(path))
     return last_modified  > (datetime.now() - timedelta(minutes=1))
-
-def load_news_from_github(news, timespan):
-    """Load news from GitHub and add them to the news dictionary, as used in
-    generate_news_section (see its format there)."""
-    get_date = lambda x: x[0] if isinstance(x, (list, tuple)) else x
-    recent_enough = lambda x: get_date(x) > (datetime.now() - timespan)
-    # load github events
-    for repo in github_request('/orgs/freedict/repos'):
-        for t_pe, changes in get_events_for_repo(repo['name']).items():
-            recent_changes = [ch for ch in changes if recent_enough(ch)]
-            if recent_changes:
-                name = repo['name']
-                if not name in news:
-                    news[name] = {}
-                if not t_pe in news[name]:
-                    news[name][t_pe] = []
-                news[name][t_pe].extend(recent_changes)
-
 
 def generate_news_section():
     """Retrieve news from multiple sources and generate a news section. If the
@@ -187,12 +136,6 @@ def generate_news_section():
         timespan = timedelta(days=NEWS_TIMESPAN)
 
         news = {'releases': get_releases(timespan)}
-        try: # attempt to load news from GitHub, unless they block us
-            load_news_from_github(news, timespan)
-        except urllib.error.HTTPError as e:
-            if e.code == '404':
-                raise ValueError("FreeDict plugin uses on outdated GitHub API") from e
-            # ignore GitHub errors otherwise
         # load changelog entries from the last year and sort in ascending order
         news['changelog'] = collections.OrderedDict(sorted(((date, entry)
                 for date, entry in common.load_changelog().items()
