@@ -4,6 +4,11 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
+2025-06-30: |
+  Drop eng-ita and ita-eng from Ergane. These dictionaries were unusable and too
+  small. They have been replaced with WikDict dictionaries. Thanks to Matteo
+  Bini for reporting this in
+  [#75](https://github.com/freedict/fd-dictionaries/issues/75).
 2024-11-08: |
   A few days ago, we have released version 0.7 of the
   [FreeDict tools](https://github.com/freedict/tools/releases/tag/0.7.0),
