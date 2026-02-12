@@ -4,6 +4,10 @@
 # Pandoc's Markdown dialect. Just add a | at the end of the date line to make it
 # a multiline string and to avoid confusion with the formatting.
 # Lines with a hash character are ignored.
+2026-02-12: |
+  We have updated all 101 WikDict dictionaries. In addition to larger, improved
+  versions, these are the first ones shipped with StarDict support. Dictionaries
+  not from WikDict, are yet to be released again.
 2025-06-30: |
   Drop eng-ita and ita-eng from Ergane. These dictionaries were unusable and too
   small. They have been replaced with WikDict dictionaries. Thanks to Matteo
