@@ -9,7 +9,7 @@ import subprocess
 import sys
 import urllib
 
-import common
+from . import common
 
 NEWS_TIMESPAN = 30 # news from last 30 days
 DB_PICKLED = 'databags/news.pickle'
