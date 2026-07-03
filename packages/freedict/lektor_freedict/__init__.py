@@ -8,7 +8,7 @@ import time
 from lektor.pluginsystem import Plugin
 from lektor.utils import portable_popen, slugify
 
-import . import news
+from . import news
 from .common import HTML, load_json_api, load_iso_table, setup_gettext
 
 #pylint: disable=too-few-public-methods
